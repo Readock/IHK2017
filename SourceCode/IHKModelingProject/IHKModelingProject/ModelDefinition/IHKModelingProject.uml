@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="fe2b4855-8ac9-4717-99ad-48d6a983a49e"
+  name="IHKModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="2ba48f98-369b-4801-b739-86d94944cf92">
+      <body>Einlesen</body>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="3d7c4902-2719-43c1-aeca-504c6cb6f6e4"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="58e1764f-80f1-4bd1-9269-e7d0e300a49d">
+          <propertyInstance
+            Id="a81bcad5-ab15-4ebc-b221-846e22af0ff2"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="314e2351-09a9-44a6-b272-9b5d431972f8">
+          <propertyInstance
+            Id="55e76e5e-8396-4c88-b588-a6ddbddcd281"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="a8eb26f7-7569-4182-90e0-ee2111e34d81">
+          <propertyInstance
+            Id="16870b99-57a3-4679-8b83-830ba9f017c7"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="5e9cb25f-04a5-42e4-925a-0431590d9aa6"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="788f3d28-fa89-4050-a818-950e749116c2">
+          <propertyInstance
+            Id="a8f52035-b81f-47bf-b045-8d9d27289f4c"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="b3f392d8-04bc-42c5-b0ba-4c3005bbc6c6">
+          <propertyInstance
+            Id="a2ad4b8d-b974-4c1e-88f8-570ca29a6c66"
+            name="TemplateFilePath"
+            value="ClassTemplate=D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="cf931beb-934f-4cdb-bf03-fd92da16b7ce">
+          <propertyInstance
+            Id="32ee2129-5105-447a-a4e9-87b94acf578b"
+            name="ProjectPath"
+            value="ClassTemplate=..\IHKModelingProjectLib\IHKModelingProjectLib.csproj|EnumTemplate=..\IHKModelingProjectLib\IHKModelingProjectLib.csproj|InterfaceTemplate=..\IHKModelingProjectLib\IHKModelingProjectLib.csproj|StructTemplate=..\IHKModelingProjectLib\IHKModelingProjectLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="1027f163-8449-408e-9384-2bc88a9aab35">
+          <propertyInstance
+            Id="970d7fb3-be9a-4986-8827-eedff77070d2"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="27973b3e-5bc3-414d-8d56-d76945f053d8">
+          <propertyInstance
+            Id="de71a9a8-e76f-433e-bbb9-4eb2afd21058"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="878d8d16-25c9-4b9f-87d5-b0ebe3352436">
+          <propertyInstance
+            Id="47a0020c-7ea8-48ac-b7c6-b831f9e19b97"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="d7b95ae4-c0e2-4609-bfbb-4d848a818e12">
+          <propertyInstance
+            Id="a24a0620-5ec7-463a-8a28-8adfcaf90c86"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="762d587a-3d69-4ee1-8289-604635a2ad5a">
+      <profileInstance
+        Id="4e879232-7daf-4dcb-84cc-443673b5439f"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="150a3028-1f98-4aef-960b-cc6f484bfe14">
+      <profileInstance
+        Id="874b48e5-87c8-42b0-a0f9-6abb0d58fd1c"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="edd7d6f8-f10f-4561-a54c-f973b291a1be"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="932f6001-4687-44a7-9d70-97fc97c5849a"
+        name="OutputData" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e230901b-a95f-432f-b9b7-698e2468f4fc"
+        LastKnownName="IO"
+        LastKnownLocation="Package_0949.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3dd932cb-86b8-478b-8e20-4ca12edc567a"
+        LastKnownName="ErrorHandling"
+        LastKnownLocation="Package1_0949.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="9fa77b74-5013-4420-bcd1-dd9d4953efe1"
+        name="IOActivityDiagram"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="286a9619-e003-4f22-87f0-9fd151408eea"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bd633f77-0adc-404c-b024-00869f767cbf"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="715592bb-998e-44eb-9ced-00439080e428"
+                  LastKnownName="Lese Zeile ein"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="b64c7283-80cd-4090-b0a4-7d7a9f214ea5"
+            name="Lese Zeile ein"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ae39a1e8-858f-46f3-a7a9-8774aa81b386"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="c4ef7a7a-5482-4423-a606-12a7b54f0813"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="9ef4ec97-03a3-45e9-b659-621fb42539a4"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4e0f6115-32b3-4046-94ed-cd813c044b24"
+                guard="erstesZeichen ist &quot;;&quot;"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0ac123f6-784b-4a3b-a586-e23b3ed73311"
+                  LastKnownName="ignoriere zeile"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="d954c603-77ad-4ea9-87b9-5235f2d9da6a"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="9a1c9b75-0d15-43fe-a662-c658e3f8bd85"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="0ac123f6-784b-4a3b-a586-e23b3ed73311"
+            name="ignoriere zeile"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1fab9926-afd4-4c8b-9322-b776767b2abf"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b64c7283-80cd-4090-b0a4-7d7a9f214ea5"
+                  LastKnownName="Lese Zeile ein"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="4b276fba-1abb-4f5c-964c-6323a047b65b"
+            name="Merke Wort"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ad70c18a-9a60-49ba-98d7-f13131e80a3e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b64c7283-80cd-4090-b0a4-7d7a9f214ea5"
+                  LastKnownName="Lese Zeile ein"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="715592bb-998e-44eb-9ced-00439080e428"
+            name="Lese Zeile ein"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="022a7b9b-b5f0-46c2-a165-46f64dd68ed4"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="a18461bd-14fb-42c6-bc97-216b0f984d6f"
+                  LastKnownName="Decision11"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="5b8bdcb2-c93a-48f6-a845-df5242ea5e90"
+            name="Merke Kommentar"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="15892581-40c8-4df0-b765-1fc3c9a03366"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="715592bb-998e-44eb-9ced-00439080e428"
+                  LastKnownName="Lese Zeile ein"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="a18461bd-14fb-42c6-bc97-216b0f984d6f"
+            name="Decision11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b068231d-4762-40a4-8b11-2bfb8e64e4f0"
+                guard="erstesZeichen ist &quot;;&quot;"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5b8bdcb2-c93a-48f6-a845-df5242ea5e90"
+                  LastKnownName="Merke Kommentar"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="96f7777b-c9c9-47cc-8a1c-ead22e0d80db"
+                guard="sonst"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b64c7283-80cd-4090-b0a4-7d7a9f214ea5"
+                  LastKnownName="Lese Zeile ein"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="9a1c9b75-0d15-43fe-a662-c658e3f8bd85"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dffbd0c8-2157-466b-83fe-81896d50b85f"
+                guard="gültiges wort"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4b276fba-1abb-4f5c-964c-6323a047b65b"
+                  LastKnownName="Merke Wort"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="5d57c99f-6eb4-4bb1-bb38-0427b9b3a2bd"
+                guard="sonst"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b64c7283-80cd-4090-b0a4-7d7a9f214ea5"
+                  LastKnownName="Lese Zeile ein"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="c4ef7a7a-5482-4423-a606-12a7b54f0813"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="fe7c5477-95f5-4272-ad38-fcb2fdccd4b1"
+                guard="Zeile null"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="90aeb55f-d610-4722-b2b7-96ac2c9f3123"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="df5bf7c6-4da4-463a-9860-16cd76b9a30b"
+                guard="sonst"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="9ef4ec97-03a3-45e9-b659-621fb42539a4"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="IHKModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode
+            Id="90aeb55f-d610-4722-b2b7-96ac2c9f3123"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

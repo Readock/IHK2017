@@ -1,0 +1,6 @@
+================= 	
+ErrorLog			
+=================	
+13.05.2017 - 14:10:11,92 	
+					
+ERROR: Start the program with 2 parameters [in-file] [out-file]

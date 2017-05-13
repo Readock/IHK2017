@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/PROGRAMME/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="ProjectPath = ..\IHKModelingProjectLib\IHKModelingProjectLib.csproj" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="TemplateFilePath = D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Medium" Text="IHKModelingProject's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'IHKModelingProject::IO::FileInputReader' -  (Class), 'IHKModelingProject::IO::FileOutputWriter' -  (Class), 'IHKModelingProject::IO::InputData' -  (Class), 'IHKModelingProject::IO::OutputData' -  (Class), 'IHKModelingProject::ErrorHandling::IHKException' -  (Class) " />
+  <Message Timestamp="2017-04-20T11:13:27" Importance="Medium" Text="'IHKModelingProject::IO::FileInputReader' -  (Class) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\IO\FileInputReader.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="'IHKModelingProject::IO::FileOutputWriter' -  (Class) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\IO\FileOutputWriter.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="'IHKModelingProject::IO::InputData' -  (Class) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\IO\InputData.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="'IHKModelingProject::IO::OutputData' -  (Class) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\IO\OutputData.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="'IHKModelingProject::ErrorHandling::IHKException' -  (Class) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\ErrorHandling\IHKException.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="ProjectPath = ..\IHKModelingProjectLib\IHKModelingProjectLib.csproj" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="TemplateFilePath = D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="IHKModelingProject's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'IHKModelingProject::IO::IReader' -  (Interface), 'IHKModelingProject::IO::IWriter' -  (Interface) " />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="'IHKModelingProject::IO::IReader' -  (Interface) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\IO\IReader.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="'IHKModelingProject::IO::IWriter' -  (Interface) : success (file replaced) - D:\Documents\GroPro\SourceCode\IHKModelingProject\IHKModelingProjectLib\GeneratedCode\IO\IWriter.cs" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="ProjectPath = ..\IHKModelingProjectLib\IHKModelingProjectLib.csproj" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="TemplateFilePath = D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\PROGRAMME\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Medium" Text="IHKModelingProject's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'IHKModelingProject::IO::FileInputReader' -  (Class), 'IHKModelingProject::IO::FileOutputWriter' -  (Class), 'IHKModelingProject::IO::InputData' -  (Class), 'IHKModelingProject::IO::OutputData' -  (Class), 'IHKModelingProject::ErrorHandling::IHKException' -  (Class) " />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO::FileInputReader' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO::FileOutputWriter' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO::InputData' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO::OutputData' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::ErrorHandling::IHKException' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="The selection included 4 elements which were not bound to a template." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::IO' -  (Package): no bound template." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="Diagnostic" Text="'IHKModelingProject::ErrorHandling' -  (Package): no bound template." />
+  <Message Timestamp="2017-04-20T11:13:28" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
