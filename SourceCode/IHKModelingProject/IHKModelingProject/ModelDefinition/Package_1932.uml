@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="62b2f3ec-a993-4dc3-ad07-2aacba57007c"
+  name="Program" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <importedPackagesInternal>
+    <packageImport
+      Id="96dc9592-6606-4991-b08b-d56d4de73054"
+      visibility="Public">
+      <packageMoniker
+        Id="e230901b-a95f-432f-b9b7-698e2468f4fc"
+        LastKnownName="EingabeAusgabe"
+        LastKnownLocation="Package_0949.uml" />
+    </packageImport>
+    <packageImport
+      Id="745bafc8-72cc-43f1-8553-896cade211c4"
+      visibility="Public">
+      <packageMoniker
+        Id="b27a260e-0ef2-4323-b68d-ac1988b1808a"
+        LastKnownName="Verarbeitung"
+        LastKnownLocation="Package_1915.uml" />
+    </packageImport>
+    <packageImport
+      Id="cd69d1ae-4b5e-4dc0-9222-809a49d8b6ca"
+      visibility="Public">
+      <packageMoniker
+        Id="3dd932cb-86b8-478b-8e20-4ca12edc567a"
+        LastKnownName="ErrorHandling"
+        LastKnownLocation="Package1_0949.uml" />
+    </packageImport>
+  </importedPackagesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d19160e1-c66c-4779-8bd5-5543af51ccc8"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="46c34d04-7075-4de9-b4c3-4ccf9b5650dd"
+            name="Main"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a1026b7a-7b86-4f61-a716-05e9c212b83c"
+                  name="args"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="da8c8f32-fedd-4544-afc7-fe1cd7446e55"
+                      LastKnownName="string[]"
+                      LastKnownLocation="Package_1932.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="da8c8f32-fedd-4544-afc7-fe1cd7446e55"
+        name="string[]" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

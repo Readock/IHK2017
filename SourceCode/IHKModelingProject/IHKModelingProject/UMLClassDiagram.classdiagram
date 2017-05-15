@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="29702cda-8836-47a3-81d6-7473820cf5be" name="UMLClassDiagram" linkedPackageId="778dcc50-edbb-4509-b4e6-24ec3cf442b4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="29702cda-8836-47a3-81d6-7473820cf5be" name="UMLClassDiagram" linkedPackageId="778dcc50-edbb-4509-b4e6-24ec3cf442b4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <appliedStereotypesInternal>
     <stereotypeInstance Id="ffb71122-8ae7-4c47-8bae-de75c95b0fee" name="namespace" profile="CSharpProfile">
       <elementDefinition Id="3d7c4902-2719-43c1-aeca-504c6cb6f6e4" />
@@ -79,16 +79,22 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" name="InputData" isAbstract="false" isLeaf="false" cachedFullName="IHKModelingProject::IO::InputData">
+      <referencedType Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" name="EingabeDaten" isAbstract="false" isLeaf="false" cachedFullName="IHKModelingProject::IO::EingabeDaten">
         <elementDefinition Id="b33a4aaf-93b8-49a0-86cc-0d64f36f9382" />
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasPackages>
-      <package Id="db66ef7a-d5a7-4a3f-b0fc-09da84fec156" name="IO">
+      <package Id="db66ef7a-d5a7-4a3f-b0fc-09da84fec156" name="EingabeAusgabe">
         <elementDefinition Id="e230901b-a95f-432f-b9b7-698e2468f4fc" />
+        <importedPackagesInternal>
+          <packageImport Id="cb30f340-1af3-4daa-a3af-8c39dbb9e0a3" visibility="Public">
+            <packageMoniker Id="3e87d7e6-caa0-4f56-8516-7ab5baa10c3e" LastKnownName="ErrorHandling" />
+            <elementDefinition Id="c1368c81-9f6a-41b5-967d-41594b65a194" />
+          </packageImport>
+        </importedPackagesInternal>
         <packagedElements>
           <packageHasNamedElement>
-            <class Id="463a97be-b79b-4bea-a784-4d0c83bce7fb" name="FileInputReader" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="463a97be-b79b-4bea-a784-4d0c83bce7fb" name="DateiEinlesen" isAbstract="false" isLeaf="false" isActiveClass="false">
               <appliedStereotypesInternal>
                 <stereotypeInstance Id="c5d6928d-992f-486d-b345-0896f99c270a" name="class" profile="CSharpProfile">
                   <elementDefinition Id="7f4a7602-4bcc-468e-8ee4-d4692af3b057" />
@@ -129,12 +135,12 @@
               <elementDefinition Id="7513f9dc-4332-4039-9499-3b07f26d8c2d" />
               <suppliersInternal>
                 <interfaceRealization Id="eb8d7a1d-af56-4db6-8b3b-0c6276b5676a">
-                  <interfaceMoniker Id="5a1a6ab6-3a95-4145-92a7-b8e6a93c6a46" LastKnownName="IReader" />
+                  <interfaceMoniker Id="5a1a6ab6-3a95-4145-92a7-b8e6a93c6a46" LastKnownName="ILeser" />
                   <elementDefinition Id="e94238f4-bd39-4b07-b209-d9141d801754" />
                 </interfaceRealization>
               </suppliersInternal>
               <ownedAttributesInternal>
-                <property Id="f1a52ea5-6bec-4457-bb30-c3b1ae9319ee" name="FilePath" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <property Id="f1a52ea5-6bec-4457-bb30-c3b1ae9319ee" name="Dateipfad" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="a38af459-0daf-4de0-b968-ad2e769772bc" name="property" profile="CSharpProfile">
                       <elementDefinition Id="86c4e9d1-1460-4e56-a9b4-509b535c4c10" />
@@ -186,12 +192,12 @@
                   </appliedStereotypesInternal>
                   <elementDefinition Id="2430e750-880c-4d04-98d2-04f5a3856b26" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
+                    <referencedTypeMoniker Id="436d1b1d-de6f-468c-9b69-457d302ddb49" LastKnownName="string" />
                   </type_NamedElement>
                 </property>
               </ownedAttributesInternal>
               <ownedOperationsInternal>
-                <operation Id="0e22c36b-c9da-4e27-832e-cc320dd70d44" name="InputReader" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                <operation Id="0e22c36b-c9da-4e27-832e-cc320dd70d44" name="DateiEinlesen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="0429d2a1-d24b-4b03-988d-9de67db40d3e" name="method" profile="CSharpProfile">
                       <elementDefinition Id="2a1e5a42-ce9a-4cc5-b36f-03e2af82080e" />
@@ -238,8 +244,8 @@
                   <elementDefinition Id="d4033913-fedc-4ccf-b3c4-60c664cba108" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="8514b817-95c0-482d-8aa2-44035bb181e3" name="path" direction="In" isUnique="false">
-                        <elementDefinition Id="442d1c21-b787-4854-8bd4-0fa133c53746" />
+                      <parameter Id="f731980e-cb5f-4ade-964c-c31795933296" name="path" direction="In" isUnique="false">
+                        <elementDefinition Id="5333a048-b344-4b19-9133-f6eb328dc861" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
                         </type_NamedElement>
@@ -247,7 +253,7 @@
                     </operationHasOwnedParameters>
                   </ownedParameters>
                 </operation>
-                <operation Id="62841f77-ea35-466c-ab4d-6225d56a6cf7" name="Read" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                <operation Id="62841f77-ea35-466c-ab4d-6225d56a6cf7" name="Lesen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="5901249d-6c08-4828-8929-37e6e469189f" name="method" profile="CSharpProfile">
                       <elementDefinition Id="87818ac4-8f42-450f-8555-04553f7a5c42" />
@@ -297,13 +303,13 @@
                       <parameter Id="1a3b4d39-df59-4d15-ac9e-a5aea4b87da5" direction="Return" isUnique="false">
                         <elementDefinition Id="4652e9c2-28d2-4d31-9993-0669027c4e9f" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="InputData" />
+                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="EingabeDaten" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                   </ownedParameters>
                 </operation>
-                <operation Id="de4f2e82-785f-4142-b10f-4f7812914d58" name="CeateInputData" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                <operation Id="de4f2e82-785f-4142-b10f-4f7812914d58" name="GetPolynom" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="6762b2fc-35ae-46bd-a9eb-206d0112a8dc" name="method" profile="CSharpProfile">
                       <elementDefinition Id="8dcd7088-a27c-4e99-b395-eda5e954f108" />
@@ -350,18 +356,18 @@
                   <elementDefinition Id="b2fc9b78-1d1c-4452-9f35-1a4c4f7f814b" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="0b75a2fb-e091-4f63-a800-a28d9d3d5f9b" name="lines" direction="In" isUnique="false">
-                        <elementDefinition Id="4ccdcfce-0992-4c6a-974c-c1eeba7a53c9" />
+                      <parameter Id="8fa96141-20ed-4f26-890a-ebc06e8396a7" name="str" direction="In" isUnique="false">
+                        <elementDefinition Id="1385179f-fa2e-4c96-bbe1-b9be8f48c5a2" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="ae8f217d-d651-4754-8c99-61d846345e1d" LastKnownName="List&lt;string&gt;" />
+                          <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="9a9cc3ac-c843-4fdb-ab13-db902fd8938e" direction="Return" isUnique="false">
-                        <elementDefinition Id="f13386ab-6496-4e2c-ba27-6a684db7266d" />
+                      <parameter Id="f47f70a7-8e00-4c2e-ac5e-6c63ae5f89c8" direction="Return" isUnique="false">
+                        <elementDefinition Id="5f89cbd4-b368-4b11-8e46-7892eb4ae5c1" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="InputData" />
+                          <referencedTypeMoniker Id="17c2356d-abb2-4778-9ed4-aaebc7aab804" LastKnownName="Polynom" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -371,7 +377,7 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <Interface Id="5a1a6ab6-3a95-4145-92a7-b8e6a93c6a46" name="IReader" isAbstract="false" isLeaf="false">
+            <Interface Id="5a1a6ab6-3a95-4145-92a7-b8e6a93c6a46" name="ILeser" isAbstract="false" isLeaf="false">
               <appliedStereotypesInternal>
                 <stereotypeInstance Id="10c84826-8965-4717-bdeb-31fbc5dc3804" name="interface" profile="CSharpProfile">
                   <elementDefinition Id="df96ea0f-0392-49f5-9207-37e6ae915ee4" />
@@ -405,7 +411,7 @@
               </appliedStereotypesInternal>
               <elementDefinition Id="e566c838-b45c-4947-b3a5-18bca2cf393d" />
               <ownedOperations>
-                <operation Id="d2d7e8a2-79f3-4d39-aaf8-b7845d2c86c8" name="Read" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+                <operation Id="d2d7e8a2-79f3-4d39-aaf8-b7845d2c86c8" name="Lesen" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="d466faa8-3287-4b30-a722-7f8d684a6923" name="method" profile="CSharpProfile">
                       <elementDefinition Id="18aea65a-2ad7-44a5-b418-cf3404c6efd1" />
@@ -455,7 +461,7 @@
                       <parameter Id="55a0d48c-077a-483f-8917-56747a8a8f2e" direction="Return" isUnique="false">
                         <elementDefinition Id="f69d04fb-32ca-4301-a609-7611994aa30c" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="InputData" />
+                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="EingabeDaten" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -465,7 +471,7 @@
             </Interface>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <Interface Id="bd8ba581-2bb3-4d95-8aa8-e02095b97a0f" name="IWriter" isAbstract="false" isLeaf="false">
+            <Interface Id="bd8ba581-2bb3-4d95-8aa8-e02095b97a0f" name="ISchreiber" isAbstract="false" isLeaf="false">
               <appliedStereotypesInternal>
                 <stereotypeInstance Id="4a6b11f9-53c2-4835-890b-ca70c4ede2cb" name="interface" profile="CSharpProfile">
                   <elementDefinition Id="5c6b9a91-4565-49fa-a36a-1f6deb92834a" />
@@ -499,7 +505,7 @@
               </appliedStereotypesInternal>
               <elementDefinition Id="13b54aee-d98b-46f8-9cff-18443d39b305" />
               <ownedOperations>
-                <operation Id="fe3422f1-ff2e-4e9f-9e4b-68e08fa9348c" name="Write" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+                <operation Id="fe3422f1-ff2e-4e9f-9e4b-68e08fa9348c" name="Schreiben" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="b4f7c669-d086-4842-a7d4-2f111a7ac8ae" name="method" profile="CSharpProfile">
                       <elementDefinition Id="77271b69-aaee-4f54-9f7b-dd66a66ca7e1" />
@@ -546,10 +552,10 @@
                   <elementDefinition Id="d9538423-7899-4667-980b-394dfc95fff0" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="af09f45b-ea98-4cdb-be86-0b1b418f6783" name="data" direction="In" isUnique="false">
-                        <elementDefinition Id="a530a10d-7356-4365-aad0-c94af50b975d" />
+                      <parameter Id="7651b429-837c-4532-bb60-9861cfcbded1" name="data" direction="In" isUnique="false">
+                        <elementDefinition Id="1588951c-648a-43ff-83c2-9abc61ec6539" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" LastKnownName="OutputData" />
+                          <referencedTypeMoniker Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" LastKnownName="AusgabeDaten" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -559,7 +565,7 @@
             </Interface>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="652baf14-4f4a-413f-9a37-ed0fe94343f0" name="FileOutputWriter" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="652baf14-4f4a-413f-9a37-ed0fe94343f0" name="DateiSchreiben" isAbstract="false" isLeaf="false" isActiveClass="false">
               <appliedStereotypesInternal>
                 <stereotypeInstance Id="c8dac3cc-ef70-42f2-a83a-1ad979faddad" name="class" profile="CSharpProfile">
                   <elementDefinition Id="59cbb47c-1787-4b13-a735-dd0a6a336676" />
@@ -600,12 +606,12 @@
               <elementDefinition Id="658c6683-5f7d-4ba9-b4e8-9f942580aaee" />
               <suppliersInternal>
                 <interfaceRealization Id="ed0493e4-0eb3-42f5-866c-57235b304156">
-                  <interfaceMoniker Id="bd8ba581-2bb3-4d95-8aa8-e02095b97a0f" LastKnownName="IWriter" />
+                  <interfaceMoniker Id="bd8ba581-2bb3-4d95-8aa8-e02095b97a0f" LastKnownName="ISchreiber" />
                   <elementDefinition Id="971a62bf-79cf-4cf3-a77b-b83bb7a7025e" />
                 </interfaceRealization>
               </suppliersInternal>
               <ownedAttributesInternal>
-                <property Id="0e84ac63-9d29-4d82-ae3e-14d9a67ce754" name="FilePath" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <property Id="0e84ac63-9d29-4d82-ae3e-14d9a67ce754" name="DateiPfad" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="55beea90-aad7-4c40-a2e6-1eb44cff71eb" name="property" profile="CSharpProfile">
                       <elementDefinition Id="e7e112b8-21cd-4c02-8d52-0d539580ddd9" />
@@ -657,12 +663,12 @@
                   </appliedStereotypesInternal>
                   <elementDefinition Id="562f7ddd-1b80-4b50-9c4b-529403baebe6" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
+                    <referencedTypeMoniker Id="78615506-5ae1-4b46-a16d-2a7e83bd5b36" LastKnownName="string" />
                   </type_NamedElement>
                 </property>
               </ownedAttributesInternal>
               <ownedOperationsInternal>
-                <operation Id="b5d881a1-ef14-47c9-96d9-da9a1b74f0bd" name="OutputWriter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                <operation Id="b5d881a1-ef14-47c9-96d9-da9a1b74f0bd" name="DateiSchreiben" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="c180625a-4a24-4ff9-bdef-5be5c28da6a3" name="method" profile="CSharpProfile">
                       <elementDefinition Id="8ae5dfbf-ad53-4354-8547-bbe7fe48f97e" />
@@ -709,8 +715,8 @@
                   <elementDefinition Id="16446f49-d9cc-4ee7-b013-ed73a9794e73" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="5b8a2863-b40b-4430-803a-97a45af35711" name="path" direction="In" isUnique="false">
-                        <elementDefinition Id="b6078122-c6ad-4106-abfe-7e7da7755d04" />
+                      <parameter Id="d115fec2-b6fa-4690-b62d-0556fc258174" name="path" direction="In" isUnique="false">
+                        <elementDefinition Id="244a13ec-b20d-42bb-8331-938e94e83a1f" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
                         </type_NamedElement>
@@ -718,7 +724,7 @@
                     </operationHasOwnedParameters>
                   </ownedParameters>
                 </operation>
-                <operation Id="250b1983-a1e9-46ad-acd0-95fc7080587e" name="Write" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                <operation Id="250b1983-a1e9-46ad-acd0-95fc7080587e" name="Schreiben" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="16416f92-3374-4b7c-8490-0900e8a627e4" name="method" profile="CSharpProfile">
                       <elementDefinition Id="53f4007b-4199-4bbc-8b50-2288c4f472fd" />
@@ -768,71 +774,7 @@
                       <parameter Id="170b6d70-3457-439d-9e2e-13d83cd0f4c2" name="data" direction="In" isUnique="false">
                         <elementDefinition Id="124b48e8-b8fc-44a5-be2b-964190530c0f" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" LastKnownName="OutputData" />
-                        </type_NamedElement>
-                      </parameter>
-                    </operationHasOwnedParameters>
-                  </ownedParameters>
-                </operation>
-                <operation Id="69a37582-5a59-4874-9615-312c412a534b" name="GenerateText" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-                  <appliedStereotypesInternal>
-                    <stereotypeInstance Id="9c32b0d3-4135-43e8-8c95-b1d1e7f4d831" name="method" profile="CSharpProfile">
-                      <elementDefinition Id="3fc333f4-0ce1-446e-a943-ab2f57543641" />
-                      <propertyInstances>
-                        <stereotypeInstanceHasPropertyInstances Id="3c311869-f626-46ce-bdbe-f99b6dd5e7af">
-                          <propertyInstance Id="ebd1d486-e266-4d81-b9a5-bbd663cbc5af" name="ClrAttributes">
-                            <elementDefinition Id="f19a4ee1-dde7-4c62-95cd-bcce2fceb37b" />
-                          </propertyInstance>
-                          <elementDefinition Id="1f0caea7-4ea2-46e2-a6b6-1991a640a5e4" />
-                        </stereotypeInstanceHasPropertyInstances>
-                        <stereotypeInstanceHasPropertyInstances Id="deea9b24-37c9-4c39-a02f-835d3c0a5829">
-                          <propertyInstance Id="24fc350b-2a9a-4457-9de6-0156d0232d71" name="IsPartial" value="false">
-                            <elementDefinition Id="330fec83-043b-4c9b-80fa-c2c96d101e72" />
-                          </propertyInstance>
-                          <elementDefinition Id="5e7f95ec-ddcc-4b21-93e6-f26dc2ad2df1" />
-                        </stereotypeInstanceHasPropertyInstances>
-                        <stereotypeInstanceHasPropertyInstances Id="8192186c-7344-425b-872a-0ce16d0e08f3">
-                          <propertyInstance Id="6dca7963-5d74-44ec-aa83-92698cc9c402" name="IsUnsafe" value="false">
-                            <elementDefinition Id="47adff5f-07d8-4bc8-b806-eff2f5b1b913" />
-                          </propertyInstance>
-                          <elementDefinition Id="eab9b283-95ba-4a47-b9c7-2919faaf0d05" />
-                        </stereotypeInstanceHasPropertyInstances>
-                        <stereotypeInstanceHasPropertyInstances Id="21d9fa66-4a95-453c-b381-dcf88e110bcb">
-                          <propertyInstance Id="fc2fd608-84b9-44a2-9e0f-aa73481895dc" name="Inheritance" value="none">
-                            <elementDefinition Id="bfdef521-24ec-4855-93f2-d7d3fe6d328e" />
-                          </propertyInstance>
-                          <elementDefinition Id="08a644d6-4d11-40a0-b5a8-4e2d853d02af" />
-                        </stereotypeInstanceHasPropertyInstances>
-                        <stereotypeInstanceHasPropertyInstances Id="356fd211-14a3-40c0-be66-ec1f700d2b92">
-                          <propertyInstance Id="7731deee-b00c-4b11-8da2-1b4d756348b4" name="PackageVisibility" value="internal">
-                            <elementDefinition Id="ec88dbde-0cdb-43c3-8436-92e789d6b39d" />
-                          </propertyInstance>
-                          <elementDefinition Id="04bf65d4-2bca-483f-bcfe-8015f7957621" />
-                        </stereotypeInstanceHasPropertyInstances>
-                        <stereotypeInstanceHasPropertyInstances Id="33a1e61e-6ec3-4e4d-9a59-10bed1b8ff85">
-                          <propertyInstance Id="a5e26760-8415-472c-a86c-19e8de417ec2" name="params" value="false">
-                            <elementDefinition Id="e7a59268-762d-45f1-9492-a4c6033d08d2" />
-                          </propertyInstance>
-                          <elementDefinition Id="8c3e67f3-3a11-46b1-b04b-2be955980c2a" />
-                        </stereotypeInstanceHasPropertyInstances>
-                      </propertyInstances>
-                    </stereotypeInstance>
-                  </appliedStereotypesInternal>
-                  <elementDefinition Id="d71b3672-be6a-43e7-b3e5-551064b5b3e9" />
-                  <ownedParameters>
-                    <operationHasOwnedParameters>
-                      <parameter Id="58edfcee-b1a6-4bd2-9f7a-7e5db852cc37" name="data" direction="In" isUnique="false">
-                        <elementDefinition Id="701448c8-2e74-479a-9d44-83daf3d65de6" />
-                        <type_NamedElement>
-                          <referencedTypeMoniker Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" LastKnownName="OutputData" />
-                        </type_NamedElement>
-                      </parameter>
-                    </operationHasOwnedParameters>
-                    <operationHasOwnedParameters>
-                      <parameter Id="ac65ce48-3aa1-4eee-8538-4c95a5ad7ea5" direction="Return" isUnique="false">
-                        <elementDefinition Id="39e0b734-8b1c-430b-b2cd-1df3e5ca69c0" />
-                        <type_NamedElement>
-                          <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
+                          <referencedTypeMoniker Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" LastKnownName="AusgabeDaten" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -842,7 +784,7 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="441d825d-5562-4689-8ce1-4d559e4a4905" name="InputData" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="441d825d-5562-4689-8ce1-4d559e4a4905" name="EingabeDaten" isAbstract="false" isLeaf="false" isActiveClass="false">
               <appliedStereotypesInternal>
                 <stereotypeInstance Id="6a6c0b34-9782-4638-8edf-fdf886f2d8a9" name="class" profile="CSharpProfile">
                   <elementDefinition Id="728a4f62-91a6-4f4f-8ecd-f19b6dc02f18" />
@@ -881,10 +823,65 @@
                 </stereotypeInstance>
               </appliedStereotypesInternal>
               <elementDefinition Id="b33a4aaf-93b8-49a0-86cc-0d64f36f9382" />
+              <ownedAttributesInternal>
+                <property Id="8ac10140-690b-491f-96b0-1ab1d3265e89" name="M" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6972de8a-895d-48ef-94c3-4dc1b517b9d7" />
+                </property>
+                <property Id="d9c907cf-77c4-4a1a-9072-c76e3b6b6c54" name="AngebotVerteilung" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="32d0a2b8-8837-4ae8-9a5f-c5a4d5472235" name="Lower" value=",">
+                      <elementDefinition Id="09421124-38dd-45e2-9790-2a0702f8a4b2" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="d3bb730d-63e1-4fa8-842c-e4bf4655a411" name="Upper" value=",">
+                      <elementDefinition Id="6f13484d-8d5c-4cdf-a40b-972a872c8a04" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="af959502-a1f5-43b6-842d-e8ee81b0949f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="17c2356d-abb2-4778-9ed4-aaebc7aab804" LastKnownName="Polynom" />
+                  </type_NamedElement>
+                </property>
+                <property Id="28fc2527-a069-426d-bd62-2977ff469e8e" name="NachfrageVerteilung" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="052ddee3-7530-46bb-9fdd-d1f2320586bb" name="Lower" value=",">
+                      <elementDefinition Id="dcbd0934-e5ae-4e82-8e08-c2a7d0d43bc0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="39695cf2-3392-4dd8-be77-ab10ec39da43" name="Upper" value=",">
+                      <elementDefinition Id="07bc9e25-2dd8-424f-9893-a4c3d405208b" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="e263f7ca-bbb4-4888-ab5e-6b938543e34a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="17c2356d-abb2-4778-9ed4-aaebc7aab804" LastKnownName="Polynom" />
+                  </type_NamedElement>
+                </property>
+                <property Id="224b3431-6e92-4257-a015-2ad9f1d28b51" name="Kopfzeile" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="750bd281-303e-4510-b67a-156d1bca3f2b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="51e32206-3c94-4bc1-838c-a3e80f3f42f1" name="EingabeDaten" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="e26bd10f-e5bc-48b9-ad69-2d74995f764e" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="471a1367-c072-45f3-bac4-ca5018b62358" name="int" direction="In" isUnique="false">
+                        <elementDefinition Id="0d569b00-9257-4a95-9246-f608bce1e42c" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="739198cf-aa6c-4a74-a077-b5c8e5faebd3" name="OutputData" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="739198cf-aa6c-4a74-a077-b5c8e5faebd3" name="AusgabeDaten" isAbstract="false" isLeaf="false" isActiveClass="false">
               <appliedStereotypesInternal>
                 <stereotypeInstance Id="29e740c6-3cfe-4229-b05a-22df18d102b7" name="class" profile="CSharpProfile">
                   <elementDefinition Id="8ad7c027-172e-4d05-bf1e-6cfedca8dede" />
@@ -976,12 +973,50 @@
                   </appliedStereotypesInternal>
                   <elementDefinition Id="3a160e98-e3fd-44bc-a65f-5c0c221f7c69" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="InputData" />
+                    <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="EingabeDaten" />
+                  </type_NamedElement>
+                </property>
+                <property Id="fd8fff28-09ca-4892-8a26-a03624db04a7" name="Simulationsverlauf" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0217ed88-4545-4507-835a-65766e666af6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="00ab9d07-5d53-44d5-ae35-f0d0dd624613" LastKnownName="List&lt;string&gt;" />
+                  </type_NamedElement>
+                </property>
+                <property Id="656497dd-9d19-461b-b5a1-45cf8cbe8e23" name="Endzustand" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="aadf2c35-7ac6-42e8-9b16-8681c5bd0cfc" name="Lower" value=",">
+                      <elementDefinition Id="7d19e186-877b-4922-bb97-81d41f015718" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="4e795d63-bf68-418c-817b-90b294eb0cc2" name="Upper" value=",">
+                      <elementDefinition Id="85f0672e-e4ca-4e10-8073-bcb960c3ab42" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="dd8c9f6d-f8fe-4907-b315-3e21ca6bd13e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="effe4350-d2e4-4282-8d3c-c2cd28965510" name="Maximalbedarf" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="a7b0142b-2780-45d6-a826-d1add03a0b3f" name="Lower" value=",">
+                      <elementDefinition Id="56063c55-a128-44ce-92c1-4533fcc87377" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="bb92a6b3-9b04-435d-8fbd-b2c6541615d0" name="Upper" value=",">
+                      <elementDefinition Id="570453cc-5b95-4adf-8562-c67608c182f9" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="5ba6b45d-26a8-4832-92d7-896739e49873" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
                   </type_NamedElement>
                 </property>
               </ownedAttributesInternal>
               <ownedOperationsInternal>
-                <operation Id="7baf4272-8c20-4ddf-a9f4-cf2e145ddb84" name="OutputData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                <operation Id="7baf4272-8c20-4ddf-a9f4-cf2e145ddb84" name="AusgabeDaten" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="128bc4a3-dcb1-4535-8b13-4e2436281fcd" name="method" profile="CSharpProfile">
                       <elementDefinition Id="a2af6e16-5c4d-4ec4-bb70-de7a3e55abb2" />
@@ -1028,10 +1063,23 @@
                   <elementDefinition Id="414b14da-91d7-4ca5-819d-247ca9bf1ab5" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="e48faa4c-6055-427b-af88-a8cfb61902b1" name="inputData" direction="In" isUnique="false">
-                        <elementDefinition Id="e37f1197-1f6d-47c2-b318-82b397e0b4ef" />
+                      <parameter Id="30832066-5f34-4f86-b830-a359800ed6f8" name="inputData" direction="In" isUnique="false">
+                        <elementDefinition Id="6e55d8c6-6e78-473d-9b69-817b941e8de5" />
                         <type_NamedElement>
-                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="InputData" />
+                          <referencedTypeMoniker Id="24935492-74c6-4f52-a4a2-1ce28b9bee5c" LastKnownName="EingabeDaten" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="d7e6cded-2de6-4733-b4f6-4523769d2580" name="GeneriereText" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="821836dc-32b6-49d4-9239-9973ca362e0f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e53a2b9c-da9f-4164-83ed-1ef0217123b3" direction="Return" isUnique="false">
+                        <elementDefinition Id="691c2187-015c-4d71-9179-565ecc188187" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -1156,13 +1204,526 @@
       </package>
     </logicalClassDesignerModelHasPackages>
     <packageHasNamedElement>
-      <referencedType Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" name="OutputData" isAbstract="false" isLeaf="false" cachedFullName="IHKModelingProject::IO::OutputData">
+      <referencedType Id="2a5dd705-983d-497f-87c8-78a825c4b7bf" name="AusgabeDaten" isAbstract="false" isLeaf="false" cachedFullName="IHKModelingProject::IO::AusgabeDaten">
         <elementDefinition Id="dca7cbb1-c76e-4ed5-96b0-0f96bb85a7f2" />
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="ae8f217d-d651-4754-8c99-61d846345e1d" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+      <referencedType Id="436d1b1d-de6f-468c-9b69-457d302ddb49" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="edd7d6f8-f10f-4561-a54c-f973b291a1be" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="78615506-5ae1-4b46-a16d-2a7e83bd5b36" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="edd7d6f8-f10f-4561-a54c-f973b291a1be" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="17c2356d-abb2-4778-9ed4-aaebc7aab804" name="Polynom" isAbstract="false" isLeaf="false" cachedFullName="Polynom">
+        <elementDefinition Id="58c95216-5a83-440c-9a64-15955937bf85" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="d566c291-ad04-4649-97ca-3f457062d454" name="Verarbeitung">
+        <elementDefinition Id="b27a260e-0ef2-4323-b68d-ac1988b1808a" />
+        <importedPackagesInternal>
+          <packageImport Id="b73a3c5b-9fe6-4014-9abb-140a67352be8" visibility="Public">
+            <packageMoniker Id="db66ef7a-d5a7-4a3f-b0fc-09da84fec156" LastKnownName="EingabeAusgabe" />
+            <elementDefinition Id="1056b41a-98a3-4b2e-9c17-335b081338d7" />
+          </packageImport>
+          <packageImport Id="722f9c8d-fbf5-411c-9dcf-b8ed4c77c9c9" visibility="Public">
+            <packageMoniker Id="3e87d7e6-caa0-4f56-8516-7ab5baa10c3e" LastKnownName="ErrorHandling" />
+            <elementDefinition Id="5ad09573-59e0-4867-8f4a-3c22515509e6" />
+          </packageImport>
+        </importedPackagesInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="5d742bca-558f-4518-bd53-859d431e6132" name="Polynom" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="48f4149d-7066-49b3-91e1-c00103a56f35" />
+              <ownedAttributesInternal>
+                <property Id="bc85f141-74ee-4c91-8350-ad1dfea27f80" name="Vorfaktoren" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d56f5b89-dfe3-4111-b87e-85a702d84301" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="089b0e5a-d147-41d9-9ab9-8aa029c1bbab" LastKnownName="double[]" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="96294f2a-2437-40ad-9597-c421b17cf33d" name="Polynom" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="3443d13b-8968-474e-a355-3d52d618a67a" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d475d172-77a4-4096-be19-9507ad29fbc9" name="double[]" direction="In" isUnique="false">
+                        <elementDefinition Id="230c4f5e-09b1-47af-96f5-40a33117f8e5" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="59dc873f-bdcf-455f-a6d2-1263959c9256" name="Get" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="468920a7-50a8-4ad9-80e8-807cf7d8e629" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="c7e568bf-e3cc-4e8c-aa71-fe61cc652964" name="x" direction="In" isUnique="false">
+                        <elementDefinition Id="a1e09ce7-344c-4330-a0e0-a6bdbaa0de9a" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="eae23e9a-2931-46d2-b8da-87cc2068daa8" direction="Return" isUnique="false">
+                        <elementDefinition Id="86eec2a5-af4a-4d55-8d0a-fcd0f28287dc" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="ec151651-3be8-49b3-b2ce-cc4b4dd69313" name="GetIntegration" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="3c7e0dbb-33d4-4155-a0d4-d1947dc18f41" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="91c5d61a-5883-473b-af86-db905a19b90b" direction="Return" isUnique="false">
+                        <elementDefinition Id="9ea7baaf-ec34-47d8-92c6-db15b38b152c" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="356d39c1-0077-4a75-bb30-6c814818ed79" name="Aenderung" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="4adb9446-faae-4dca-b0d1-697869d4b06b" />
+              <ownedAttributesInternal>
+                <property Id="d196c92d-da09-425d-b168-b5d26dabb6c2" name="Polynom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="09acd2b2-f3a6-41a3-b326-46ebe295b772" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
+                  </type_NamedElement>
+                </property>
+                <property Id="cee0cded-7a83-4799-81b8-3fd911e437e8" name="IsNachfrage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b29a9115-5831-4cb9-9a0e-79d16a8a8bff" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b7b9d380-7952-4a30-9ba1-beb911a8a0e3" LastKnownName="bool" />
+                  </type_NamedElement>
+                </property>
+                <property Id="cafc8643-612d-43e2-8fb2-e75b425d5dbe" name="Wert" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="69ff0415-dfae-4307-8925-b12c5497d6f4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="50353ef8-4eb5-43ee-972b-6dcbbbb3f18e" name="Zeitpunkt" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="437feff1-bfad-4134-b064-255235601778" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="9d075e71-1719-48c6-8ad4-3f622dadcc10" name="Aenderung" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="769d0b97-73ba-491f-95d6-d5bb549bbb8d" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d7af7634-05e9-4f56-bf05-5ebb263eae8e" name="Polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="c47317c9-ad4e-4f14-85c7-4b39843aa1b6" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="c0c3ca95-d3ad-4d13-aaac-c5aa5166debd" name="bool" direction="In" isUnique="false">
+                        <elementDefinition Id="fc4de921-351d-4f63-a3ef-7885d62b6b7c" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="a510a2a1-58bc-4392-aacb-f8a70e0e8322" name="int" direction="In" isUnique="false">
+                        <elementDefinition Id="98f3524a-703b-4627-b56c-8b547c3ad823" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="0bedc002-c674-4beb-a890-65f33573f9d6" name="double" direction="In" isUnique="false">
+                        <elementDefinition Id="d6d2a0d0-68d5-4c10-81c4-e927fbea8bd2" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="cbc4a8b8-9b5f-49f4-bada-a3d3e03ac8e9" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="e31b0583-0ff6-43cc-8ab4-e722d3068844" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="bb9ec35f-698c-4680-9971-5960d255a094" direction="Return" isUnique="false">
+                        <elementDefinition Id="82bd5591-3f63-4658-9202-e4a2fd911c46" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="ac538756-4520-44cf-9266-78801ede5cbf" LastKnownName="string" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="007db24b-56ab-4a0a-899c-d5662b1e778d" name="Bedarf" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="7f98c210-0391-4f26-8636-65a694682bbb" />
+              <ownedAttributesInternal>
+                <property Id="200765f3-17cf-4644-a709-7df2799b7c9c" name="Daten" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="225f14a6-8742-497a-bc89-ffc54eb46d10" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="dfc64e34-c6c4-4d20-90bc-8b1f831db232" LastKnownName="List&lt;Aenderung&gt;" />
+                  </type_NamedElement>
+                </property>
+                <property Id="10eb7a06-8ae5-4dfc-b722-6675f4ec5fbd" name="Angebot" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="536c43bd-6941-4eb0-88c2-9adc0239de18" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
+                  </type_NamedElement>
+                </property>
+                <property Id="bf31cc31-f20c-48a6-bf44-b67b63a130ea" name="Nachfrage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4bc09f6d-c0ec-47eb-bc79-46047287e5dc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="007459db-7ac9-45ad-a72a-9ddac4fd034c" name="Bedarf" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="b46c8f83-a803-4928-b2e8-482c5d1b48e9" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="642fbfc0-c73e-44ac-801d-67a54dd27ae1" name="Polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="46dc3189-ca48-4834-95e2-4da5db92314f" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="87e971d2-cfd3-4d38-beb8-4d2ff0d70fd1" name="Poilynom" direction="In" isUnique="false">
+                        <elementDefinition Id="11254503-ae3b-4681-ba20-3a915bee77c5" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="4f0e790f-a3c4-493e-b213-52cfdecded63" name="genauigkeit" direction="In" isUnique="false">
+                        <elementDefinition Id="0b94da84-6a0b-4d71-80cd-53c38ef47716" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="47eeb39c-5e54-4b0f-b834-a11dc45bea41" name="FindeNST" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="5d009141-9bcb-4623-a4a3-73f871ba5e5e" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="710bb0b7-a398-4316-8ddb-70856a04e76b" direction="Return" isUnique="false">
+                        <elementDefinition Id="cb9a099d-8218-49d9-b880-82e3a8633c24" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="ed7a74cb-254b-4414-8dad-fb5932ccc5e4" LastKnownName="Nullable&lt;double&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="65d7476a-b3d5-464a-a6ff-b9ba59398ecb" name="Polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="ffa61ed4-2db1-412b-8504-9ffe66356cfb" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="4e075024-5207-406e-b662-c9b07820c447" name="genauigkeit" direction="In" isUnique="false">
+                        <elementDefinition Id="9593705d-28a6-475d-a927-24d5886ff489" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="b16dc1b1-66e3-430c-a807-7f451a5e9be2" name="Bisektion" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="e3f27dbe-3394-4f49-b43a-7c9c77f0c263" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="525fcace-8444-4116-98a0-ad94ccdfca7d" direction="Return" isUnique="false">
+                        <elementDefinition Id="467c4eff-f694-4802-bbc8-141ce5052547" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="ed7a74cb-254b-4414-8dad-fb5932ccc5e4" LastKnownName="Nullable&lt;double&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="ebc78553-6b4c-4542-8f32-3de0d71a0f91" name="double" direction="In" isUnique="false">
+                        <elementDefinition Id="283a4455-430e-4ef7-a598-2a9a0cc192bb" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="c898aec6-9aea-42fb-96e5-5457d92894f7" name="double" direction="In" isUnique="false">
+                        <elementDefinition Id="aaf214da-1bce-4907-819b-960c7e52b914" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="65aea507-6504-47c5-bb05-fed2a85fba70" name="Polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="bf743bb2-8c02-4efb-977f-16cd92db181f" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="017f3f81-cfaa-46d1-a148-8d299069d7cc" name="BeraechneMaxBedarf" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="ba6dbd72-38eb-49eb-986b-e39d3c658c55" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="64a7d43c-8a82-420b-b352-53a64c6c7015" direction="Return" isUnique="false">
+                        <elementDefinition Id="edfee34f-0f63-4560-8acc-15f8939a59aa" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="808d1afb-ec83-4a0b-8830-6cc931acfd57" name="BeraechneDaten" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="5fff1e9c-02ba-4802-a0fb-39d08b4b144a" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="4497120b-bb3e-4667-b1ce-f1bfb9ca6d2c" name="Polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="f216411f-2e7d-4244-ade3-e661fb717aba" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="ba1fb526-e0a6-44f7-ad0c-498dffc1cfcd" name="bool)(" direction="In" isUnique="false">
+                        <elementDefinition Id="e7f814bf-15cd-4a36-9ee5-920beb14865f" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="fb665ab0-83e9-4c61-a80d-0de9c8212afd" name="Get" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="d4f3182b-705d-4df3-9810-de9a549780bb" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d75fd30e-930c-4ab2-90b2-4a1b4f54b907" name="x" direction="In" isUnique="false">
+                        <elementDefinition Id="54ca8b1b-a87d-4cc6-a11e-a103253e8c94" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="885fa873-9e8a-4f2d-9f2f-ce7a8ee57550" direction="Return" isUnique="false">
+                        <elementDefinition Id="81294027-c545-438a-87fa-aed5ccda568a" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="79129660-69f2-42a1-9ca2-34a10f315321" name="Simulation" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="227f31d1-fb6e-48b2-9630-314bd1d70efc" />
+              <ownedAttributesInternal>
+                <property Id="20e66e7d-db1e-456e-bac9-876c9cf1020e" name="EingabeDaten" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4237cf2d-d854-42ae-9bec-65fb5ab13728" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d7fc9bb1-cb24-43cd-ba09-e34b86fb0630" LastKnownName="EingabeDaten" />
+                  </type_NamedElement>
+                </property>
+                <property Id="b28924a5-1157-4456-b4f1-8f82f417ca46" name="Bedarf" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="8f1097d6-3289-442f-8a9d-1d74bdf3ed7a" name="Lower" value=",">
+                      <elementDefinition Id="bb7a17a8-2c6a-4b92-99af-637f6c9bb5f8" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="33ddb9c8-e226-4cc4-9397-ed2e22554cba" name="Upper" value=",">
+                      <elementDefinition Id="9204b1ff-aa8b-47c1-9ec7-efb832d50f97" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0d0f2bbe-e73c-42ee-8ee1-cc419f05cae9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="aacdbcd6-cb3f-4e37-9986-b5ff42092921" LastKnownName="Bedarf" />
+                  </type_NamedElement>
+                </property>
+                <property Id="968e7095-d8a5-451f-9207-ae51bf996755" name="Genauigkeit" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c16c7d5f-0bc0-456e-a853-2eb9e0149ce7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="bafc8a22-5ddc-4337-851e-07a67050d5bf" name="Simulation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="918e3a71-e510-4efc-93da-9a700e4fe7ce" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="7b3148a8-d6a4-4706-b3d4-80efff609e4a" name="EingabeDaten" direction="In" isUnique="false">
+                        <elementDefinition Id="5e31e32a-dcaa-487f-bdfa-9f964dc87804" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d68adf47-75a7-441e-80e2-7d33ba3813ef" name="genauigkeit" direction="In" isUnique="false">
+                        <elementDefinition Id="d8b1c88e-bbd9-458a-9418-f64ad1fa616d" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="3fa845be-07bf-4cdc-9a23-b9715810ab0a" name="BeraechneBedarf" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="0e629ca4-6e45-41a5-81dc-fd0df0fbd4c1" />
+                </operation>
+                <operation Id="03010b36-6903-4bca-a7f9-6237d688fb26" name="BeraechneEndzustand" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="d0d43f0c-6cf7-4493-b0aa-f60a51ec2db4" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="aae6d376-1fc2-42f6-8dfc-71da5e45404c" direction="Return" isUnique="false">
+                        <lowerValueInternal>
+                          <literalString Id="26664dab-5966-457e-a316-38e255b696ba" name="Lower" value=",">
+                            <elementDefinition Id="91485fcd-3016-46dc-982c-0a7b73a04e93" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="b2a2bef7-a24f-4ddf-98e7-d20dc7de2543" name="Upper" value=",">
+                            <elementDefinition Id="c91566a2-94b4-497a-bf66-39a518dfd9f1" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="3b525494-09da-4dde-90ad-aed689aa35af" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="03ff31f9-9e74-437c-b3b4-b6071d9b34ce" name="BeraechneMaxBedarf" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="1b5b43a3-dd27-4d45-98c4-3e6ce0a1bc4b" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="bae0aa19-68d6-4ec1-8441-bc575f85654f" direction="Return" isUnique="false">
+                        <lowerValueInternal>
+                          <literalString Id="5a0d5f1b-b8e5-4d13-8697-b232455c373e" name="Lower" value=",">
+                            <elementDefinition Id="0f239e61-e739-4ecc-b582-e62a0193e375" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="ea7f42d5-bbd5-4987-ae4a-c6a47e7ad8bc" name="Upper" value=",">
+                            <elementDefinition Id="7d7d6d53-d9f6-47fc-ad3a-d6e37060141f" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="d692a0da-a729-45a3-bfe7-10a2883e7485" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="da67c722-58c3-422a-ab4e-07e9ab9c789f" name="+ GeneriereAusgabe();AusgabeDaten" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="93346882-6a14-48a8-a483-4b34ed40904d" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="00ab9d07-5d53-44d5-ae35-f0d0dd624613" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
         <elementDefinition Id="fc35461a-acde-4135-8ff1-6b71e88aa169" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8b6d74c7-456d-4155-8315-1ded043fbbee" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="fec5a8c6-d36d-417f-9225-e7579de98636" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="089b0e5a-d147-41d9-9ab9-8aa029c1bbab" name="double[]" isAbstract="false" isLeaf="false" cachedFullName="double[]">
+        <elementDefinition Id="f27e16ab-b2b6-4f2a-b293-88f7fd174a66" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" name="double" isAbstract="false" isLeaf="false" cachedFullName="double">
+        <elementDefinition Id="52e3ea33-eef2-4484-9c76-c920c2997a92" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" name="Polynom" isAbstract="false" isLeaf="false" cachedFullName="IHKModelingProject::Verarbeitung::Polynom">
+        <elementDefinition Id="48f4149d-7066-49b3-91e1-c00103a56f35" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b7b9d380-7952-4a30-9ba1-beb911a8a0e3" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="29269118-fa23-43c5-ad2a-124ffb08e0ff" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dfc64e34-c6c4-4d20-90bc-8b1f831db232" name="List&lt;Aenderung&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Aenderung&gt;">
+        <elementDefinition Id="fae78d86-2bac-4420-974b-014480f36311" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ed7a74cb-254b-4414-8dad-fb5932ccc5e4" name="Nullable&lt;double&gt;" isAbstract="false" isLeaf="false" cachedFullName="Nullable&lt;double&gt;">
+        <elementDefinition Id="3d28d312-8a77-4d16-a749-6ea234fc0120" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d7fc9bb1-cb24-43cd-ba09-e34b86fb0630" name="EingabeDaten" isAbstract="false" isLeaf="false" cachedFullName="EingabeDaten">
+        <elementDefinition Id="9c5e3293-75ba-4188-b21f-07cccb2ea549" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="aacdbcd6-cb3f-4e37-9986-b5ff42092921" name="Bedarf" isAbstract="false" isLeaf="false" cachedFullName="IHKModelingProject::Verarbeitung::Bedarf">
+        <elementDefinition Id="7f98c210-0391-4f26-8636-65a694682bbb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="452fa84e-2e3b-4dfb-b5ad-1396481cdaf2" name="Program">
+        <elementDefinition Id="62b2f3ec-a993-4dc3-ad07-2aacba57007c" />
+        <importedPackagesInternal>
+          <packageImport Id="7d6cf954-4695-472b-a811-3ab12da63693" visibility="Public">
+            <packageMoniker Id="db66ef7a-d5a7-4a3f-b0fc-09da84fec156" LastKnownName="EingabeAusgabe" />
+            <elementDefinition Id="96dc9592-6606-4991-b08b-d56d4de73054" />
+          </packageImport>
+          <packageImport Id="2526b5f5-16f0-4a52-a99f-17e34b1ab8a5" visibility="Public">
+            <packageMoniker Id="d566c291-ad04-4649-97ca-3f457062d454" LastKnownName="Verarbeitung" />
+            <elementDefinition Id="745bafc8-72cc-43f1-8553-896cade211c4" />
+          </packageImport>
+          <packageImport Id="9d7d6036-32ca-47a0-9e49-7f8fa67c57dd" visibility="Public">
+            <packageMoniker Id="3e87d7e6-caa0-4f56-8516-7ab5baa10c3e" LastKnownName="ErrorHandling" />
+            <elementDefinition Id="cd69d1ae-4b5e-4dc0-9222-809a49d8b6ca" />
+          </packageImport>
+        </importedPackagesInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="993d9d84-1d4f-48a1-8f2f-a8a7bfe9baf6" name="Program" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d19160e1-c66c-4779-8bd5-5543af51ccc8" />
+              <ownedOperationsInternal>
+                <operation Id="d25272c8-7e50-4612-bc1b-41d8a52391dd" name="Main" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="46c34d04-7075-4de9-b4c3-4ccf9b5650dd" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="779c4aca-672e-4d7e-a4b6-963da8c94194" name="args" direction="In" isUnique="false">
+                        <elementDefinition Id="a1026b7a-7b86-4f61-a716-05e9c212b83c" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="831f6953-4ebf-4a17-a69a-e45bbb6c5be1" LastKnownName="string[]" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="831f6953-4ebf-4a17-a69a-e45bbb6c5be1" name="string[]" isAbstract="false" isLeaf="false" cachedFullName="string[]">
+        <elementDefinition Id="da8c8f32-fedd-4544-afc7-fe1cd7446e55" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

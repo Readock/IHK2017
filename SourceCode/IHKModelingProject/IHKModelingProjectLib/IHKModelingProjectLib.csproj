@@ -40,16 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\ErrorHandling\IHKException.cs" />
-    <Compile Include="GeneratedCode\IO\FileInputReader.cs" />
-    <Compile Include="GeneratedCode\IO\FileOutputWriter.cs" />
-    <Compile Include="GeneratedCode\IO\InputData.cs" />
-    <Compile Include="GeneratedCode\IO\InputReader.cs" />
-    <Compile Include="GeneratedCode\IO\IReader.cs" />
-    <Compile Include="GeneratedCode\IO\IWriter.cs" />
-    <Compile Include="GeneratedCode\IO\OutputData.cs" />
-    <Compile Include="GeneratedCode\IO\OutputWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GeneratedCode\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
