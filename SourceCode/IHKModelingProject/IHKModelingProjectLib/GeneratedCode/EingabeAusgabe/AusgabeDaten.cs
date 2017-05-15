@@ -6,7 +6,7 @@
 //------------------------------------------------------------------------------
 namespace EingabeAusgabe
 {
-	using ErrorHandling;
+	using Fehlerbehandung;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;

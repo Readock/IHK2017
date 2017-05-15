@@ -7,7 +7,7 @@
 namespace Verarbeitung
 {
 	using EingabeAusgabe;
-	using ErrorHandling;
+	using Fehlerbehandung;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -18,19 +18,19 @@ namespace Verarbeitung
 		public virtual EingabeDaten EingabeDaten
 		{
 			get;
-			set;
+			private set;
 		}
 
 		public virtual Bedarf Bedarf
 		{
 			get;
-			set;
+			private set;
 		}
 
 		public virtual double Genauigkeit
 		{
 			get;
-			set;
+			private set;
 		}
 
 		public Simulation(EingabeDaten daten, double genauigkeit)

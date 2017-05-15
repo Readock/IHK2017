@@ -6,7 +6,7 @@
 //------------------------------------------------------------------------------
 namespace EingabeAusgabe
 {
-	using ErrorHandling;
+	using Fehlerbehandung;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -15,7 +15,7 @@ namespace EingabeAusgabe
 
 	public class DateiEinlesen : ILeser
 	{
-		public virtual string Dateipfad
+		private string Dateipfad
 		{
 			get;
 			set;

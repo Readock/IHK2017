@@ -46,7 +46,7 @@
     <Compile Include="GeneratedCode\EingabeAusgabe\EingabeDaten.cs" />
     <Compile Include="GeneratedCode\EingabeAusgabe\ILeser.cs" />
     <Compile Include="GeneratedCode\EingabeAusgabe\ISchreiber.cs" />
-    <Compile Include="GeneratedCode\ErrorHandling\IHKException.cs" />
+    <Compile Include="GeneratedCode\Fehlerbehandung\IHKException.cs" />
     <Compile Include="GeneratedCode\Program\Program.cs" />
     <Compile Include="GeneratedCode\Verarbeitung\Aenderung.cs" />
     <Compile Include="GeneratedCode\Verarbeitung\Bedarf.cs" />

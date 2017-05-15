@@ -6,7 +6,7 @@
 //------------------------------------------------------------------------------
 namespace EingabeAusgabe
 {
-	using ErrorHandling;
+	using Fehlerbehandung;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -15,7 +15,7 @@ namespace EingabeAusgabe
 
 	public class DateiSchreiben : ISchreiber
 	{
-		public virtual string DateiPfad
+		private string DateiPfad
 		{
 			get;
 			set;

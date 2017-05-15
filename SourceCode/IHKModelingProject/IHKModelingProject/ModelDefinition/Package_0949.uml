@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
   dslVersion="1.0.0.0"
   Id="e230901b-a95f-432f-b9b7-698e2468f4fc"
   name="EingabeAusgabe" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="4d9f5a17-887f-4722-8f1a-f0b1c745430f">
+      <body>Alle Attribute hier sind Propertys mit public Get und public Set</body>
+    </comment>
+    <comment
+      Id="d0923799-c8c7-4641-be49-c7189ebcd08c">
+      <body>Alle Attribute hier sind Propertys mit public Get und public Set</body>
+    </comment>
+  </ownedCommentsInternal>
   <importedPackagesInternal>
     <packageImport
       Id="c1368c81-9f6a-41b5-967d-41594b65a194"
       visibility="Public">
       <packageMoniker
         Id="3dd932cb-86b8-478b-8e20-4ca12edc567a"
-        LastKnownName="ErrorHandling"
+        LastKnownName="Fehlerbehandung"
         LastKnownLocation="Package1_0949.uml" />
     </packageImport>
     <packageImport
@@ -85,6 +95,7 @@
           <property
             Id="2430e750-880c-4d04-98d2-04f5a3856b26"
             name="Dateipfad"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -704,6 +715,7 @@
           <property
             Id="562f7ddd-1b80-4b50-9c4b-529403baebe6"
             name="DateiPfad"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

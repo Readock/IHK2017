@@ -1,8 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
   dslVersion="1.0.0.0"
   Id="b27a260e-0ef2-4323-b68d-ac1988b1808a"
   name="Verarbeitung" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="ca4bc06a-0abd-4bb1-a5ce-cca22b3215ca">
+      <body>Alle Attribute hier sind Propertys mit public Get und private Set</body>
+    </comment>
+    <comment
+      Id="b3d705c2-5086-48f9-aae9-65aad3647987">
+      <body>Alle Attribute hier sind Propertys mit public Get und private Set</body>
+    </comment>
+    <comment
+      Id="e1af057f-3c20-42af-b17a-138c739b44b3">
+      <body>Alle Attribute hier sind Propertys mit public Get und public Set</body>
+    </comment>
+  </ownedCommentsInternal>
   <importedPackagesInternal>
     <packageImport
       Id="1056b41a-98a3-4b2e-9c17-335b081338d7"
@@ -17,7 +31,7 @@
       visibility="Public">
       <packageMoniker
         Id="3dd932cb-86b8-478b-8e20-4ca12edc567a"
-        LastKnownName="ErrorHandling"
+        LastKnownName="Fehlerbehandung"
         LastKnownLocation="Package1_0949.uml" />
     </packageImport>
   </importedPackagesInternal>
@@ -76,6 +90,7 @@
           <property
             Id="d56f5b89-dfe3-4111-b87e-85a702d84301"
             name="Vorfaktoren"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1031,7 +1046,7 @@
                     <propertyInstance
                       Id="754ab952-d321-44c2-aaad-1409e92c91b6"
                       name="Get"
-                      value="none" />
+                      value="public" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="856019b2-3bd7-43fd-bceb-918b142b8b0b">
@@ -1066,7 +1081,7 @@
                     <propertyInstance
                       Id="eb3f8c71-c763-4290-9be3-910d0d95e88f"
                       name="Set"
-                      value="none" />
+                      value="private" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
@@ -1106,7 +1121,7 @@
                     <propertyInstance
                       Id="a4bbdc4c-3d88-439f-a108-c8a1b942a6e7"
                       name="Get"
-                      value="none" />
+                      value="public" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="cbb9eeb7-d622-46c8-ae33-f30ab352e64d">
@@ -1141,7 +1156,7 @@
                     <propertyInstance
                       Id="e63b7319-9bad-411c-9fd7-b0e39c0aa15e"
                       name="Set"
-                      value="none" />
+                      value="private" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
@@ -1181,7 +1196,7 @@
                     <propertyInstance
                       Id="c4774dcb-e449-4787-addf-2eb021b3a0af"
                       name="Get"
-                      value="none" />
+                      value="public" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="965a1e87-fbb6-4366-8be9-f4ca560ca129">
@@ -1216,7 +1231,7 @@
                     <propertyInstance
                       Id="b4740e44-b80d-4566-abae-b91556d7b1cd"
                       name="Set"
-                      value="none" />
+                      value="private" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
@@ -1897,7 +1912,7 @@
                     <propertyInstance
                       Id="f75d955e-f476-4cd7-96a2-945465a10ad9"
                       name="Get"
-                      value="none" />
+                      value="public" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="35f871e3-1c3b-4a65-870c-b2e3fd6251cf">
@@ -1932,7 +1947,7 @@
                     <propertyInstance
                       Id="7947812d-5174-43e7-a54c-0f9a14be9676"
                       name="Set"
-                      value="none" />
+                      value="private" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
@@ -1972,7 +1987,7 @@
                     <propertyInstance
                       Id="8e2d0cf0-d4f8-4bc6-bf34-3c523f8ac88e"
                       name="Get"
-                      value="none" />
+                      value="public" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="f3e3190b-3c25-4834-bf7d-3d4b013f03d8">
@@ -2007,7 +2022,7 @@
                     <propertyInstance
                       Id="c8bf4750-d86c-4395-9974-d8d4489a88e3"
                       name="Set"
-                      value="none" />
+                      value="private" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
@@ -2059,7 +2074,7 @@
                     <propertyInstance
                       Id="7fab4618-5060-4dba-9fc2-f80e03077e86"
                       name="Get"
-                      value="none" />
+                      value="public" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="3c7b0586-fa7a-4f71-975b-19d1bbef2803">
@@ -2094,7 +2109,7 @@
                     <propertyInstance
                       Id="ec1b6a0e-5e43-4a5b-89cc-ecfba57b5b80"
                       name="Set"
-                      value="none" />
+                      value="private" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>

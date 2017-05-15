@@ -4,7 +4,7 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace ErrorHandling
+namespace Fehlerbehandung
 {
 	using System;
 	using System.Collections.Generic;

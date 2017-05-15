@@ -7,7 +7,7 @@
 namespace Verarbeitung
 {
 	using EingabeAusgabe;
-	using ErrorHandling;
+	using Fehlerbehandung;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -15,7 +15,7 @@ namespace Verarbeitung
 
 	public class Polynom
 	{
-		public virtual double[] Vorfaktoren
+		private double[] Vorfaktoren
 		{
 			get;
 			set;

@@ -7,7 +7,7 @@
 namespace Verarbeitung
 {
 	using EingabeAusgabe;
-	using ErrorHandling;
+	using Fehlerbehandung;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -18,19 +18,19 @@ namespace Verarbeitung
 		public virtual List<Aenderung> Daten
 		{
 			get;
-			set;
+			private set;
 		}
 
 		public virtual Polynom Angebot
 		{
 			get;
-			set;
+			private set;
 		}
 
 		public virtual Polynom Nachfrage
 		{
 			get;
-			set;
+			private set;
 		}
 
 		public Bedarf(Polynom angebot, Polynom nachfrage, double genauigkeit)
