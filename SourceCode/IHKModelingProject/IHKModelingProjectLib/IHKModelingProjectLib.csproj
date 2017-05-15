@@ -40,11 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneratedCode\EingabeAusgabe\AusgabeDaten.cs" />
+    <Compile Include="GeneratedCode\EingabeAusgabe\DateiEinlesen.cs" />
+    <Compile Include="GeneratedCode\EingabeAusgabe\DateiSchreiben.cs" />
+    <Compile Include="GeneratedCode\EingabeAusgabe\EingabeDaten.cs" />
+    <Compile Include="GeneratedCode\EingabeAusgabe\ILeser.cs" />
+    <Compile Include="GeneratedCode\EingabeAusgabe\ISchreiber.cs" />
+    <Compile Include="GeneratedCode\ErrorHandling\IHKException.cs" />
+    <Compile Include="GeneratedCode\Program\Program.cs" />
+    <Compile Include="GeneratedCode\Verarbeitung\Aenderung.cs" />
+    <Compile Include="GeneratedCode\Verarbeitung\Bedarf.cs" />
+    <Compile Include="GeneratedCode\Verarbeitung\Polynom.cs" />
+    <Compile Include="GeneratedCode\Verarbeitung\Simulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GeneratedCode\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
