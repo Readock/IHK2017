@@ -16,6 +16,10 @@
       Id="e1af057f-3c20-42af-b17a-138c739b44b3">
       <body>Alle Attribute hier sind Propertys mit public Get und public Set</body>
     </comment>
+    <comment
+      Id="eb7769f6-91c0-4ecd-8087-a258858562b8">
+      <body>Vorfaktoren ist ein Property mit public Get und Set</body>
+    </comment>
   </ownedCommentsInternal>
   <importedPackagesInternal>
     <packageImport
@@ -90,7 +94,6 @@
           <property
             Id="d56f5b89-dfe3-4111-b87e-85a702d84301"
             name="Vorfaktoren"
-            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -841,6 +844,42 @@
                 LastKnownLocation="Package_1915.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="ae6f4674-1650-41a8-984b-dffa8da4b4ad"
+            name="PosX"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                LastKnownName="int"
+                LastKnownLocation="Package_0949.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="704668c1-ff96-414e-b4ac-643c5a532030"
+            name="PosY"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                LastKnownName="int"
+                LastKnownLocation="Package_0949.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
@@ -904,7 +943,7 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="ec9e2874-379a-4481-b80b-ce928a4da40d"
+                  Id="1be27a62-fed6-48ee-bf29-290e73ffeb93"
                   name="polynom"
                   direction="In"
                   isUnique="false">
@@ -918,7 +957,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="c7f2843c-12cf-44cc-ac86-42b8504d73b3"
+                  Id="f74ebdc8-8def-43c2-83e5-0a66f423b1a0"
                   name="isNachfrage"
                   direction="In"
                   isUnique="false">
@@ -932,7 +971,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="0e006033-0c59-48c6-ac33-3da7273a7491"
+                  Id="fb9ff4b3-aff2-4ba8-84ec-c03695c21543"
                   name="wert"
                   direction="In"
                   isUnique="false">
@@ -946,7 +985,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="833361cc-78e7-4369-a51f-faf4e537985d"
+                  Id="2f3527e5-9ee8-414c-baf7-e61177c4bc55"
                   name="zeitpunkt"
                   direction="In"
                   isUnique="false">
@@ -955,6 +994,34 @@
                       Id="52e3ea33-eef2-4484-9c76-c920c2997a92"
                       LastKnownName="double"
                       LastKnownLocation="Package_1915.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18032665-fff4-4e52-8e65-c41ecdf9c163"
+                  name="posX"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ac63010-0a38-4ea3-8949-684a85f1c553"
+                  name="posY"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -1346,6 +1413,42 @@
                 LastKnownLocation="Package_1915.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="f5162f29-1bae-4ac7-9486-b288a2fa5822"
+            name="PosX"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                LastKnownName="int"
+                LastKnownLocation="Package_0949.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2a3eff60-69e2-48a6-9431-feaf0b36a030"
+            name="PosY"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                LastKnownName="int"
+                LastKnownLocation="Package_0949.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
@@ -1409,7 +1512,7 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="0e594bed-9088-45d4-9b18-e553f6a20e83"
+                  Id="8fe7ab9d-a4d5-4b99-b29d-6c2ac64dd97f"
                   name="angebot"
                   direction="In"
                   isUnique="false">
@@ -1423,7 +1526,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="faa76c1f-bf18-4fe5-9d8b-7aaed239c6d2"
+                  Id="ca6f0c46-25ec-4e09-ada6-10a594b41f76"
                   name="nachfrage"
                   direction="In"
                   isUnique="false">
@@ -1437,7 +1540,35 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="37753407-169f-481c-a4f7-a54a8e1e0938"
+                  Id="5176f7b0-4f2a-4d45-9797-aa87652ac075"
+                  name="posX"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="daf07db0-585b-47fa-ae08-4dd774930cc1"
+                  name="posY"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="32371efd-b85d-4b5a-a28e-94732ffeb5b4"
                   name="genauigkeit"
                   direction="In"
                   isUnique="false">
@@ -1629,7 +1760,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="893ba57e-9936-4240-b725-2ad286fda4ae"
+                  Id="cc6d6ca0-3c00-4c58-8c15-2a24fbaae7a8"
                   name="a"
                   direction="In"
                   isUnique="false">
@@ -1643,7 +1774,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="79b495ef-3330-459f-9852-cd82768a4bb3"
+                  Id="7473bab0-ee76-42ec-9690-61eff43fafbe"
                   name="b"
                   direction="In"
                   isUnique="false">
@@ -1657,7 +1788,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="f8efd967-80f2-4aa7-b20d-95d9e9a9e1a2"
+                  Id="06b35d35-032a-497c-958b-0614acfa32a3"
                   name="polynom"
                   direction="In"
                   isUnique="false">
@@ -1666,6 +1797,20 @@
                       Id="48f4149d-7066-49b3-91e1-c00103a56f35"
                       LastKnownName="Polynom"
                       LastKnownLocation="Package_1915.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0cae841f-c5bb-432f-8b69-51094c4f8078"
+                  name="anzahlIterationen"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>

@@ -50,11 +50,11 @@ namespace EingabeAusgabe {
             };
             // NachfrageVerteilungen einlesen
             for (int i = 0; i < m * m; i++) {
-                data.NachfrageVerteilung[i % m, i / m] = GetPolynom(zeilen[i]);
+                data.NachfrageVerteilung[i / m,i % m] = GetPolynom(zeilen[i]);
             }
             // AngebotsVerteilungen einlesen
             for (int i = 0; i < m * m; i++) {
-                data.AngebotVerteilung[i % m, i / m] = GetPolynom(zeilen[m*m+i]);
+                data.AngebotVerteilung[i / m, i % m] = GetPolynom(zeilen[m*m+i]);
             }
             return data;
         }

@@ -4,3 +4,5 @@ UML:
 - Aenderung ToString mit positionsparameter
 - Bedarf::FindeNST kein double genauigkeit
 - Bedarf benötigt neues Property Genauigkeit
+- Bedarf benötigt Position
+- Aenderung benötigt Position

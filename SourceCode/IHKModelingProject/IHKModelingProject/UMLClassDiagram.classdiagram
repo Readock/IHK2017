@@ -1680,6 +1680,10 @@
             <elementDefinition Id="e1af057f-3c20-42af-b17a-138c739b44b3" />
             <body>Alle Attribute hier sind Propertys mit public Get und public Set</body>
           </comment>
+          <comment Id="d139d4ab-31d3-4f38-a8e0-12f5f78edcb2">
+            <elementDefinition Id="eb7769f6-91c0-4ecd-8087-a258858562b8" />
+            <body>Vorfaktoren ist ein Property mit public Get und Set</body>
+          </comment>
         </ownedCommentsInternal>
         <elementDefinition Id="b27a260e-0ef2-4323-b68d-ac1988b1808a" />
         <importedPackagesInternal>
@@ -1734,7 +1738,7 @@
               </appliedStereotypesInternal>
               <elementDefinition Id="48f4149d-7066-49b3-91e1-c00103a56f35" />
               <ownedAttributesInternal>
-                <property Id="bc85f141-74ee-4c91-8350-ad1dfea27f80" name="Vorfaktoren" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <property Id="bc85f141-74ee-4c91-8350-ad1dfea27f80" name="Vorfaktoren" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <appliedStereotypesInternal>
                     <stereotypeInstance Id="dbb6e072-cd58-4b17-96e3-3214738704e4" name="property" profile="CSharpProfile">
                       <elementDefinition Id="7415e7a2-78b3-4673-bc07-88fbfe4aabc4" />
@@ -1786,7 +1790,7 @@
                   </appliedStereotypesInternal>
                   <elementDefinition Id="d56f5b89-dfe3-4111-b87e-85a702d84301" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="de36f85f-2ebe-4ac8-8f52-39828b38b005" LastKnownName="double[]" />
+                    <referencedTypeMoniker Id="2ee29f21-c850-4b6d-93a9-6c1fc8d38003" LastKnownName="double[]" />
                   </type_NamedElement>
                 </property>
               </ownedAttributesInternal>
@@ -2286,6 +2290,18 @@
                     <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
                   </type_NamedElement>
                 </property>
+                <property Id="956ae36d-72fb-4476-8f65-6fab5483dfb6" name="PosX" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ae6f4674-1650-41a8-984b-dffa8da4b4ad" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="81ad44d6-3f7d-4a45-9978-4c7bb2724d29" name="PosY" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="704668c1-ff96-414e-b4ac-643c5a532030" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
               </ownedAttributesInternal>
               <ownedOperationsInternal>
                 <operation Id="9d075e71-1719-48c6-8ad4-3f622dadcc10" name="Aenderung" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -2335,34 +2351,50 @@
                   <elementDefinition Id="769d0b97-73ba-491f-95d6-d5bb549bbb8d" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="cb20fcda-7293-4bfb-9db9-4bee4ede381b" name="polynom" direction="In" isUnique="false">
-                        <elementDefinition Id="ec9e2874-379a-4481-b80b-ce928a4da40d" />
+                      <parameter Id="7d336283-3cd8-4e97-b5a3-2c0520eb883b" name="polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="1be27a62-fed6-48ee-bf29-290e73ffeb93" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="7c708a5c-4015-424c-b081-46bf2b40b10e" name="isNachfrage" direction="In" isUnique="false">
-                        <elementDefinition Id="c7f2843c-12cf-44cc-ac86-42b8504d73b3" />
+                      <parameter Id="4424757e-facf-470f-8cdf-3382df828153" name="isNachfrage" direction="In" isUnique="false">
+                        <elementDefinition Id="f74ebdc8-8def-43c2-83e5-0a66f423b1a0" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="b7b9d380-7952-4a30-9ba1-beb911a8a0e3" LastKnownName="bool" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="2ff54bf0-33f6-4b61-9ca7-3744fe19f2bf" name="wert" direction="In" isUnique="false">
-                        <elementDefinition Id="0e006033-0c59-48c6-ac33-3da7273a7491" />
+                      <parameter Id="04cc34cc-2a7e-4ed3-93e3-227ae1d81cce" name="wert" direction="In" isUnique="false">
+                        <elementDefinition Id="fb9ff4b3-aff2-4ba8-84ec-c03695c21543" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="c7768f99-ce30-482c-855d-4f4fea1aa33b" name="zeitpunkt" direction="In" isUnique="false">
-                        <elementDefinition Id="833361cc-78e7-4369-a51f-faf4e537985d" />
+                      <parameter Id="22108183-2d65-41b7-8284-8ea4ec67bffb" name="zeitpunkt" direction="In" isUnique="false">
+                        <elementDefinition Id="2f3527e5-9ee8-414c-baf7-e61177c4bc55" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="114d5dcb-8610-4ed8-a6a9-28231bb25718" name="posX" direction="In" isUnique="false">
+                        <elementDefinition Id="18032665-fff4-4e52-8e65-c41ecdf9c163" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="ee6b81f4-33d2-414f-9e54-0c1ca8e3fbef" name="posY" direction="In" isUnique="false">
+                        <elementDefinition Id="4ac63010-0a38-4ea3-8949-684a85f1c553" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -2649,6 +2681,18 @@
                     <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
                   </type_NamedElement>
                 </property>
+                <property Id="325101b1-0776-404b-8162-b8ab2104f401" name="PosX" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f5162f29-1bae-4ac7-9486-b288a2fa5822" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="8a96044f-2c59-4db5-ae97-b246618bdddf" name="PosY" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2a3eff60-69e2-48a6-9431-feaf0b36a030" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
               </ownedAttributesInternal>
               <ownedOperationsInternal>
                 <operation Id="007459db-7ac9-45ad-a72a-9ddac4fd034c" name="Bedarf" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -2698,24 +2742,40 @@
                   <elementDefinition Id="b46c8f83-a803-4928-b2e8-482c5d1b48e9" />
                   <ownedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="1955760a-9777-4286-9c74-d2920d414801" name="angebot" direction="In" isUnique="false">
-                        <elementDefinition Id="0e594bed-9088-45d4-9b18-e553f6a20e83" />
+                      <parameter Id="a0a7e1d4-6343-4f36-85dd-fdb5a6ccc6ff" name="angebot" direction="In" isUnique="false">
+                        <elementDefinition Id="8fe7ab9d-a4d5-4b99-b29d-6c2ac64dd97f" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="e353ce9c-e080-4a7d-a63c-aaaa84e06989" name="nachfrage" direction="In" isUnique="false">
-                        <elementDefinition Id="faa76c1f-bf18-4fe5-9d8b-7aaed239c6d2" />
+                      <parameter Id="cd4f38ed-976b-4147-8684-3fbb49066fbf" name="nachfrage" direction="In" isUnique="false">
+                        <elementDefinition Id="ca6f0c46-25ec-4e09-ada6-10a594b41f76" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="d43e4e8a-f5ba-4a9f-9d49-5cc4d0a98bb4" name="genauigkeit" direction="In" isUnique="false">
-                        <elementDefinition Id="37753407-169f-481c-a4f7-a54a8e1e0938" />
+                      <parameter Id="38a84763-5062-479e-8686-45d05f17ecf8" name="posX" direction="In" isUnique="false">
+                        <elementDefinition Id="5176f7b0-4f2a-4d45-9797-aa87652ac075" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="9226e92a-a763-45c6-86b3-13283c0dd7b1" name="posY" direction="In" isUnique="false">
+                        <elementDefinition Id="daf07db0-585b-47fa-ae08-4dd774930cc1" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="187f75f2-df0d-4425-aa9a-e50d3366b12d" name="genauigkeit" direction="In" isUnique="false">
+                        <elementDefinition Id="32371efd-b85d-4b5a-a28e-94732ffeb5b4" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
                         </type_NamedElement>
@@ -2850,26 +2910,34 @@
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="46daf5dd-8fc7-4b75-b679-988e5462d3a8" name="a" direction="In" isUnique="false">
-                        <elementDefinition Id="893ba57e-9936-4240-b725-2ad286fda4ae" />
+                      <parameter Id="789de04d-6523-423c-846a-49518ae00385" name="a" direction="In" isUnique="false">
+                        <elementDefinition Id="cc6d6ca0-3c00-4c58-8c15-2a24fbaae7a8" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="60b44c06-a7f7-42bc-883f-82d06c08bcd8" name="b" direction="In" isUnique="false">
-                        <elementDefinition Id="79b495ef-3330-459f-9852-cd82768a4bb3" />
+                      <parameter Id="f3434a35-83ca-4edb-9eab-32a3064e3147" name="b" direction="In" isUnique="false">
+                        <elementDefinition Id="7473bab0-ee76-42ec-9690-61eff43fafbe" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="c7c2c6af-fccd-4877-a262-8127df1bfda9" LastKnownName="double" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
                     <operationHasOwnedParameters>
-                      <parameter Id="5b7ca588-9564-4cc9-8fd2-d5443ea07dcb" name="polynom" direction="In" isUnique="false">
-                        <elementDefinition Id="f8efd967-80f2-4aa7-b20d-95d9e9a9e1a2" />
+                      <parameter Id="8e921989-510f-4c39-a69d-53ffac1ed060" name="polynom" direction="In" isUnique="false">
+                        <elementDefinition Id="06b35d35-032a-497c-958b-0614acfa32a3" />
                         <type_NamedElement>
                           <referencedTypeMoniker Id="29955c96-4ff2-4737-825d-bb7e924ccd5e" LastKnownName="Polynom" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="c4f6f50b-4edf-471b-ba51-725be1c0bb03" name="anzahlIterationen" direction="In" isUnique="false">
+                        <elementDefinition Id="0cae841f-c5bb-432f-8b69-51094c4f8078" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8b6d74c7-456d-4155-8315-1ded043fbbee" LastKnownName="int" />
                         </type_NamedElement>
                       </parameter>
                     </operationHasOwnedParameters>
@@ -3776,7 +3844,7 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="de36f85f-2ebe-4ac8-8f52-39828b38b005" name="double[]" isAbstract="false" isLeaf="false" cachedFullName="double[]">
+      <referencedType Id="2ee29f21-c850-4b6d-93a9-6c1fc8d38003" name="double[]" isAbstract="false" isLeaf="false" cachedFullName="double[]">
         <elementDefinition Id="f27e16ab-b2b6-4f2a-b293-88f7fd174a66" />
       </referencedType>
     </packageHasNamedElement>

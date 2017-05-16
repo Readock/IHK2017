@@ -9,6 +9,7 @@ namespace Program {
     using Fehlerbehandung;
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics;
     using System.Globalization;
     using System.Linq;
     using System.Text;
@@ -19,8 +20,8 @@ namespace Program {
         public static void Main(string[] args) {
             if (args.Count() == 0) {
                 args = new string[] { // nur zum Debuggen
-                    @"..\..\..\..\..\Input\1.in",
-                    @"..\..\..\..\..\Output\1.out",
+                    @"..\..\..\..\..\Input\sortierproblem.in",
+                    @"..\..\..\..\..\Output\sortierproblem.out",
                     "0.0001",
                 };
             }
@@ -40,6 +41,8 @@ namespace Program {
             // Ausgabe Schreiben
             var schreiber = new DateiSchreiben(args[1]);
             schreiber.Schreiben(ausgabeDaten);
+            Console.WriteLine("done");
+            Process.Start("notepad.exe", args[1]);
         }
     }
 }

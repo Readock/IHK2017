@@ -50,14 +50,14 @@ namespace EingabeAusgabe {
             text += "# Endzustand des Tages:" + Environment.NewLine;
             for (int i = 0; i < Endzustand.GetLength(1); i++) {
                 for (int j = 0; j < Endzustand.GetLength(0); j++) 
-                    text += Endzustand[j, i] + " ";                
+                    text += Endzustand[i, j] + " ";                
                 text += Environment.NewLine;
             }
             // Maximalbedarf
             text += "# Maximaler Bedarf:" + Environment.NewLine;
             for (int i = 0; i < Maximalbedarf.GetLength(1); i++) {
                 for (int j = 0; j < Maximalbedarf.GetLength(0); j++) 
-                    text += Maximalbedarf[j, i] + " ";                
+                    text += Maximalbedarf[i, j] + " ";                
                 text += Environment.NewLine;
             }
             return text;

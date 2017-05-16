@@ -17,36 +17,39 @@ namespace Verarbeitung {
             get;
             set;
         }
-
         public virtual bool IsNachfrage {
             get;
             set;
         }
-
         public virtual int Wert {
             get;
             set;
         }
-
         public virtual double Zeitpunkt {
             get;
             set;
         }
+        public virtual int PosX {
+            get;
+            private set;
+        }
+        public virtual int PosY {
+            get;
+            private set;
+        }
 
-        public Aenderung(Polynom polynom, bool isNachfrage, int wert, double zeitpunkt) {
+        public Aenderung(Polynom polynom, bool isNachfrage, int wert, double zeitpunkt, int posX, int posY) {
+            PosX = posX;
+            PosY = posY;
             Polynom = polynom;
             IsNachfrage = isNachfrage;
             Wert = wert;
             Zeitpunkt = zeitpunkt;
         }
-
-        public virtual string ToString(int x, int y) {
-            var aktion = IsNachfrage ? "Nachfrage" : "Abstellung";
-            return $"{aktion} in Q_{x}{y} zu t={Zeitpunkt}";
-        }
+        
         public override string ToString() {
             var aktion = IsNachfrage ? "Nachfrage" : "Abstellung";
-            return $"{aktion} in Q_?? zu t={Zeitpunkt}";
+            return $"{aktion} in Q_{PosX+1}{PosY+1} zu t={Math.Round(Zeitpunkt,2)}";
         }
 
     }

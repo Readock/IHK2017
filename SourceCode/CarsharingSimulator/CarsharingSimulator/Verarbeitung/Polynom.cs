@@ -13,7 +13,7 @@ namespace Verarbeitung {
     using System.Text;
 
     public class Polynom {
-        private double[] Vorfaktoren {
+        public double[] Vorfaktoren {
             get;
             set;
         }
@@ -33,10 +33,9 @@ namespace Verarbeitung {
             double[] vorfaktoren = new double[Vorfaktoren.Count()+1];
             vorfaktoren[0] = 0;
             for (int i = 0; i < Vorfaktoren.Count(); i++)
-                vorfaktoren[i + 1] = Vorfaktoren[i] * 1.0 / i;
+                vorfaktoren[i + 1] = Vorfaktoren[i] * (1 / (i+1.0));
             return new Polynom(vorfaktoren);
         }
-
     }
 }
 
