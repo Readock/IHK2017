@@ -1,0 +1,3 @@
+UML:
+- Exception hinzugefügt
+- GetPolynom(string):Polynom muss zu DateiEinlesen
