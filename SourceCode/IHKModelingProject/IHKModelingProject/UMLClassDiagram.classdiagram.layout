@@ -89,7 +89,7 @@
         </classShape>
       </nestedChildShapes>
     </packageShape>
-    <packageImportConnector edgePoints="[(3.0625 : 5.25); (3.0625 : 6.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <packageImportConnector edgePoints="[(3.0625 : 5.25); (3.0625 : 6.125)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="cb30f340-1af3-4daa-a3af-8c39dbb9e0a3" />
       <relativeChildShapes />
       <nodes>
@@ -107,11 +107,11 @@
             <OperationElementListCompartment Id="e98a5eb4-f9a0-44c2-b032-208af24c73fb" absoluteBounds="2.2649999999999997, 11.261663751900196, 2.2199999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
           </nestedChildShapes>
         </classShape>
-        <classShape Id="38280cc2-7c30-4093-9e89-3355ee321289" absoluteBounds="1.25, 12.75, 4.5, 1.9886168446143469" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+        <classShape Id="38280cc2-7c30-4093-9e89-3355ee321289" absoluteBounds="1.25, 12.75, 4.5, 2.1487730896472925" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
           <classMoniker Id="356d39c1-0077-4a75-bb30-6c814818ed79" LastKnownName="Aenderung" />
           <nestedChildShapes>
-            <AttributeElementListCompartment Id="74171fbf-c417-40f1-aa68-75583e6859d6" absoluteBounds="1.265, 13.265335639317831, 4.4700000000000006, 0.84179684768120444" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-            <OperationElementListCompartment Id="a815857a-9e16-446d-ac73-eb19d6410ea2" absoluteBounds="1.265, 14.117132486999035, 4.4700000000000006, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+            <AttributeElementListCompartment Id="74171fbf-c417-40f1-aa68-75583e6859d6" absoluteBounds="1.265, 13.265335639317831, 4.4700000000000006, 1.0019530927141507" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+            <OperationElementListCompartment Id="a815857a-9e16-446d-ac73-eb19d6410ea2" absoluteBounds="1.265, 14.27728873203198, 4.4700000000000006, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
           </nestedChildShapes>
         </classShape>
         <classShape Id="d614d4ee-7138-4d0c-a0d0-cf744c1fd3a2" absoluteBounds="7.125, 10, 4.375, 2.4690855797131857" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
@@ -136,13 +136,13 @@
           <commentMoniker Id="88b04a82-d1dc-43d7-b6fa-dcca7fece237" />
           <relativeChildShapes />
         </commentShape>
-        <commentShape Id="ac776f95-554c-4acf-a3a2-5f33e84a287f" absoluteBounds="3.625, 13.5, 1.5, 0.5" customColor="251, 247, 200">
+        <commentShape Id="ac776f95-554c-4acf-a3a2-5f33e84a287f" absoluteBounds="3.625, 13.625, 1.5, 0.5" customColor="251, 247, 200">
           <commentMoniker Id="bd4c53c6-a6d4-48bd-9a86-d53fbb923e9a" />
           <relativeChildShapes />
         </commentShape>
       </nestedChildShapes>
     </packageShape>
-    <packageImportConnector edgePoints="[(6.22967529296875 : 9.25); (6.22967529296875 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <packageImportConnector edgePoints="[(6.22967529296875 : 9.25); (6.22967529296875 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="b73a3c5b-9fe6-4014-9abb-140a67352be8" />
       <relativeChildShapes />
       <moveableDecoratorHostShapes>
@@ -153,7 +153,7 @@
         <packageShapeMoniker Id="0c491634-e23e-43b9-98c5-a18f00131a45" />
       </nodes>
     </packageImportConnector>
-    <packageImportConnector edgePoints="[(3.0625 : 9.25); (3.0625 : 8.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <packageImportConnector edgePoints="[(3.0625 : 9.25); (3.0625 : 8.5)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="722f9c8d-fbf5-411c-9dcf-b8ed4c77c9c9" />
       <relativeChildShapes />
       <nodes>
@@ -161,7 +161,7 @@
         <packageShapeMoniker Id="6b480839-6ffe-4f2a-b089-8fde0e7f8426" />
       </nodes>
     </packageImportConnector>
-    <packageImportConnector edgePoints="[(7.27108764648438 : 5.25); (7.27108764648438 : 9.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <packageImportConnector edgePoints="[(7.27108764648438 : 5.25); (7.27108764648438 : 9.25)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="a6aff3b1-997a-4255-b510-d04ede6c9338" />
       <relativeChildShapes />
       <nodes>
@@ -181,7 +181,7 @@
         </classShape>
       </nestedChildShapes>
     </packageShape>
-    <packageImportConnector edgePoints="[(10.625 : 6.125); (10.625 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <packageImportConnector edgePoints="[(10.625 : 6.125); (10.625 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="7d6cf954-4695-472b-a811-3ab12da63693" />
       <relativeChildShapes />
       <nodes>
@@ -189,7 +189,7 @@
         <packageShapeMoniker Id="0c491634-e23e-43b9-98c5-a18f00131a45" />
       </nodes>
     </packageImportConnector>
-    <packageImportConnector edgePoints="[(10.625 : 8.5); (10.625 : 9.51800346374512)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <packageImportConnector edgePoints="[(10.625 : 8.5); (10.625 : 9.51800346374512)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="2526b5f5-16f0-4a52-a99f-17e34b1ab8a5" />
       <relativeChildShapes />
       <nodes>
@@ -197,7 +197,7 @@
         <packageShapeMoniker Id="2e6c278e-3328-408b-a461-5ccbadb18889" />
       </nodes>
     </packageImportConnector>
-    <packageImportConnector edgePoints="[(8.25 : 7.83380305869937); (7.35442097981771 : 7.83380305869937 : JumpStart); (7.18775431315104 : 7.83380305869937 : JumpEnd); (6.31300862630208 : 7.83380305869937 : JumpStart); (6.14634195963542 : 7.83380305869937 : JumpEnd); (5.25 : 7.83380305869937)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
+    <packageImportConnector edgePoints="[(8.25 : 7.83380305869937); (7.35442097981771 : 7.83380305869937 : JumpStart); (7.18775431315105 : 7.83380305869937 : JumpEnd); (5.25 : 7.83380305869937)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <packageImportMoniker Id="9d7d6036-32ca-47a0-9e49-7f8fa67c57dd" />
       <relativeChildShapes />
       <moveableDecoratorHostShapes>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
   dslVersion="1.0.0.0"
   Id="b27a260e-0ef2-4323-b68d-ac1988b1808a"
   name="Verarbeitung" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -766,6 +766,81 @@
                 LastKnownLocation="Package_1915.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="20a59a78-3dc8-4990-bf30-d5d54ed7b7f7"
+            name="Genauigkeit"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2e6541e3-6288-46cb-9d14-976b616d9ba4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef47718b-fdce-4ad3-ad39-9bbf22cf15d8">
+                    <propertyInstance
+                      Id="d60d17f4-812c-4c91-966c-1a74f35a7c67"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a948166b-e008-4657-a2cf-134abbd8e1be">
+                    <propertyInstance
+                      Id="253edfcd-1e96-4e36-a37a-a7e9436cb47c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca167961-8d40-43bb-9080-c42cf5398142">
+                    <propertyInstance
+                      Id="508f1546-471f-4a27-be46-78174b6cebd5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="425df6bb-4e2d-4c7b-886e-417592e85bc5">
+                    <propertyInstance
+                      Id="d2ba3102-cfdc-4cee-b88c-811ca13f0076"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7578605b-a95b-496b-a572-787e4955aa67">
+                    <propertyInstance
+                      Id="e17bd66a-1bed-4809-98f7-7a57dea985e4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38999c3b-765f-4af8-bd55-2be0bf89ca40">
+                    <propertyInstance
+                      Id="eec920a0-9f11-4b9d-b290-3d3bf0d73017"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b6eca89-c65f-4500-ad9c-92d6d2877409">
+                    <propertyInstance
+                      Id="651d2cae-42ec-45a3-b8cc-4e5503239ed9"
+                      name="Set"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="52e3ea33-eef2-4484-9c76-c920c2997a92"
+                LastKnownName="double"
+                LastKnownLocation="Package_1915.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
@@ -829,7 +904,7 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="ba44ee62-e406-4eb1-bfe7-beb65f6571ae"
+                  Id="ec9e2874-379a-4481-b80b-ce928a4da40d"
                   name="polynom"
                   direction="In"
                   isUnique="false">
@@ -843,7 +918,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="17e6b5d6-79b9-4303-af43-7aa59214bd76"
+                  Id="c7f2843c-12cf-44cc-ac86-42b8504d73b3"
                   name="isNachfrage"
                   direction="In"
                   isUnique="false">
@@ -857,8 +932,8 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="5fe43d91-0f76-4a89-9ebb-2f1a16ac0924"
-                  name="wer"
+                  Id="0e006033-0c59-48c6-ac33-3da7273a7491"
+                  name="wert"
                   direction="In"
                   isUnique="false">
                   <type_NamedElement>
@@ -871,7 +946,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="d3dd4629-3177-4c09-958d-562b35669dbc"
+                  Id="833361cc-78e7-4369-a51f-faf4e537985d"
                   name="zeitpunkt"
                   direction="In"
                   isUnique="false">
@@ -954,6 +1029,34 @@
                       Id="edd7d6f8-f10f-4561-a54c-f973b291a1be"
                       LastKnownName="string"
                       LastKnownLocation="IHKModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ea7dcd8-9dee-4d90-91fb-8b8126cb6ebb"
+                  name="x"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2b461b0a-cecc-49a5-a697-15456315a91c"
+                  name="y"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="fec5a8c6-d36d-417f-9225-e7579de98636"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0949.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>

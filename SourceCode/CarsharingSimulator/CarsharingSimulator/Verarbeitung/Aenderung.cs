@@ -33,11 +33,20 @@ namespace Verarbeitung {
             set;
         }
 
-        public Aenderung(Polynom polynom, bool isNachfrage, int wer, double zeitpunkt) {
+        public Aenderung(Polynom polynom, bool isNachfrage, int wert, double zeitpunkt) {
+            Polynom = polynom;
+            IsNachfrage = isNachfrage;
+            Wert = wert;
+            Zeitpunkt = zeitpunkt;
         }
 
-        public virtual string ToString() {
-            throw new System.NotImplementedException();
+        public virtual string ToString(int x, int y) {
+            var aktion = IsNachfrage ? "Nachfrage" : "Abstellung";
+            return $"{aktion} in Q_{x}{y} zu t={Zeitpunkt}";
+        }
+        public override string ToString() {
+            var aktion = IsNachfrage ? "Nachfrage" : "Abstellung";
+            return $"{aktion} in Q_?? zu t={Zeitpunkt}";
         }
 
     }

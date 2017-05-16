@@ -27,8 +27,18 @@ namespace Verarbeitung {
             get;
             private set;
         }
+        public virtual double Genauigkeit {
+            get;
+            private set;
+        }
 
         public Bedarf(Polynom angebot, Polynom nachfrage, double genauigkeit) {
+            Daten = new List<Aenderung>();
+            angebot = Angebot;
+            nachfrage = Nachfrage;
+            Genauigkeit = genauigkeit;
+            BeraechneDaten(angebot, false);
+            BeraechneDaten(nachfrage, true);
         }
 
         private Nullable<double> FindeNST(Polynom polynom, double genauigkeit) {

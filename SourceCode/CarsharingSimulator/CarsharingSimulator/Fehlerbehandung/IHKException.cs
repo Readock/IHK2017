@@ -12,8 +12,9 @@ namespace Fehlerbehandung {
 
     public class IHKException : System.Exception {
         public IHKException(string message) {
+            Console.WriteLine($"ERROR: {message}");
+            Environment.Exit(1);
         }
-
     }
 }
 

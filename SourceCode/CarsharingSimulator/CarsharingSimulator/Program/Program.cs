@@ -9,8 +9,10 @@ namespace Program {
     using Fehlerbehandung;
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
     using System.Linq;
     using System.Text;
+    using System.Text.RegularExpressions;
     using Verarbeitung;
 
     public class Program {
@@ -22,20 +24,23 @@ namespace Program {
                     "0.0001",
                 };
             }
+            double genauigkeit = 0.0001;
+            // ggf. Genauigkeit einlesen
+            if (args.Count() == 3) {
+                if (!Regex.IsMatch(args[2], @"[0-9]*\.?[0-9]*"))
+                    throw new IHKException("Der 3. Uebergebene Paramteter ist keine positive Gleitkommazahl");
+                genauigkeit = double.Parse(args[2], NumberStyles.Any, CultureInfo.GetCultureInfo("en-US"));
+            }
+            // Daten einlesen
             var leser = new DateiEinlesen(args[0]);
-            var daten = leser.Lesen();
-
-            var ausgabe = new AusgabeDaten(daten);
-            ausgabe.Simulationsverlauf.Add("Abstellung in Q_11 zu t=2,30");
-            ausgabe.Simulationsverlauf.Add("Nachfrage in Q_11 zu t=3,76");
-            ausgabe.Maximalbedarf[0, 0] = 1;
-            ausgabe.Endzustand[0, 0] = 0;
+            var eingabeDaten = leser.Lesen();
+            // Simulation berrechnen
+            var simulation = new Simulation(eingabeDaten, genauigkeit);
+            var ausgabeDaten = simulation.GeneriereAusgabe();
+            // Ausgabe Schreiben
             var schreiber = new DateiSchreiben(args[1]);
-            schreiber.Schreiben(ausgabe);
-
-            Console.ReadKey();
+            schreiber.Schreiben(ausgabeDaten);
         }
-
     }
 }
 

@@ -1,3 +1,6 @@
 UML:
 - Exception hinzugefügt
 - GetPolynom(string):Polynom muss zu DateiEinlesen
+- Aenderung ToString mit positionsparameter
+- Bedarf::FindeNST kein double genauigkeit
+- Bedarf benötigt neues Property Genauigkeit
