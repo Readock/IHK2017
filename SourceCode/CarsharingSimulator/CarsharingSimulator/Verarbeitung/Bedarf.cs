@@ -12,29 +12,49 @@ namespace Verarbeitung {
     using System.Linq;
     using System.Text;
 
+    /// <summary>
+    /// Bedarfsfunktion welche den Bedarf an Autos auf eine Position beschreibt
+    /// </summary>
     public class Bedarf {
+        /// <summary>
+        /// Aenderungen also zu welchen Zeiten ein Auto zurueckgegeben oder nachgefragt wird
+        /// </summary>
         public virtual List<Aenderung> Daten {
             get;
             private set;
         }
 
+        /// <summary>
+        /// Die Angebotsfunktion in form eines Polynoms
+        /// </summary>
         public virtual Polynom Angebot {
             get;
             private set;
         }
-
+        /// <summary>
+        /// Die Nachfragesfunktion in form eines Polynoms
+        /// </summary>
         public virtual Polynom Nachfrage {
             get;
             private set;
         }
+        /// <summary>
+        /// Die Genauigkeit mit der die Zeitpunkte der Aenderungen bestimmt werden sollen
+        /// </summary>
         public virtual double Genauigkeit {
             get;
             private set;
         }
+        /// <summary>
+        /// X Position des Bedarfs
+        /// </summary>
         public virtual int PosX {
             get;
             private set;
         }
+        /// <summary>
+        /// Y Position des Bedarfs
+        /// </summary>
         public virtual int PosY {
             get;
             private set;
@@ -51,6 +71,11 @@ namespace Verarbeitung {
             BeraechneDaten(nachfrage.GetIntegration(), true);
         }
 
+        /// <summary>
+        /// Findet die Nullstelle (NST) vom angegebenen Polynom
+        /// </summary>
+        /// <param name="polynom">Funktion</param>
+        /// <returns>Nullstellte</returns>
         private Nullable<double> FindeNST(Polynom polynom) {
             int anzahlIterationen = (int)Math.Ceiling(Math.Log(24 / Genauigkeit) / Math.Log(2));
             return Bisektion(0, 24, polynom, anzahlIterationen);
@@ -63,7 +88,7 @@ namespace Verarbeitung {
         /// <param name="b">Intervall ende (es muss gelten a<b)</param>
         /// <param name="polynom">Die Funktion zu der eine NST gefunden werden soll</param>
         /// <param name="anzahlIterationen">Anzahl der Iterationen</param>
-        /// <returns></returns>
+        /// <returns>Nullstelle</returns>
         private Nullable<double> Bisektion(double a, double b, Polynom polynom, int anzahlIterationen) {
             // mitte m ermitteln
             double m = a + (b - a)/2;
@@ -86,6 +111,10 @@ namespace Verarbeitung {
             return Bisektion(newA, newB, polynom, anzahlIterationen - 1);
         }
 
+        /// <summary>
+        /// Ermittelt den Maximalen Bedarf im verlaufe der Zeit
+        /// </summary>
+        /// <returns>Maximaler Bedarf</returns>
         public virtual int BeraechneMaxBedarf() {
             int max = 0; // da 0 startwert ist kann das max nie unter 0 fallen
             // sortiere Daten nach Zeitpunkt 
@@ -108,6 +137,11 @@ namespace Verarbeitung {
             return max;
         }
 
+        /// <summary>
+        /// Beraechnet die Aenderungen der Bedarfsfunktion
+        /// </summary>
+        /// <param name="polynom">Funktion</param>
+        /// <param name="isNachfrage">Art der Funktion</param>
         private void BeraechneDaten(Polynom polynom, bool isNachfrage) {
             for (int i = 1; true; i++) {
                 double[] neueVorfaktoren = (double[]) polynom.Vorfaktoren.Clone();
@@ -120,6 +154,11 @@ namespace Verarbeitung {
             }
         }
 
+        /// <summary>
+        /// Ermittelt den Funktionswert der Bedarfsfunktion zum Zeitpunkt x
+        /// </summary>
+        /// <param name="x">Zeitpunkt</param>
+        /// <returns>Funktionswert</returns>
         public virtual int Get(double x) {
             return Daten.Sum((item) => {
                 if (item.Zeitpunkt > x)

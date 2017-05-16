@@ -12,22 +12,37 @@ namespace EingabeAusgabe {
     using System.Text;
     using Verarbeitung;
 
+    /// <summary>
+    /// Klasse welche daten Enthaelt die fuer eine Simulation benoetigt werden
+    /// </summary>
     public class EingabeDaten {
+        /// <summary>
+        /// Dimension der Simulierten Quadrate (insgesamt M*M Quadrate)
+        /// </summary>
         public virtual int M {
             get;
             set;
         }
 
+        /// <summary>
+        /// Angebotsverteilungen fuer jedes Quadrat
+        /// </summary>
         public virtual Polynom[,] AngebotVerteilung {
             get;
             set;
         }
 
+        /// <summary>
+        /// NachfrageVerteilungen fuer jedes Quadrat
+        /// </summary>
         public virtual Polynom[,] NachfrageVerteilung {
             get;
             set;
         }
 
+        /// <summary>
+        /// Kopfzeile
+        /// </summary>
         public virtual string Kopfzeile {
             get;
             set;

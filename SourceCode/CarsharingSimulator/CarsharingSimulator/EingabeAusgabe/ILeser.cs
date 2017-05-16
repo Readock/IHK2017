@@ -12,7 +12,14 @@ namespace EingabeAusgabe {
     using System.Text;
     using Verarbeitung;
 
+    /// <summary>
+    /// Interface fuer das Lesen von Daten
+    /// </summary>
     public interface ILeser {
+        /// <summary>
+        /// Liest Daten ein
+        /// </summary>
+        /// <returns>Daten</returns>
         EingabeDaten Lesen();
     }
 }

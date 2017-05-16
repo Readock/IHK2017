@@ -13,16 +13,27 @@ namespace EingabeAusgabe {
     using System.Text;
     using Verarbeitung;
 
+    /// <summary>
+    /// Klasse welche das schreiben von AusgabeDaten in eine Datei ermoeglicht
+    /// </summary>
     public class DateiSchreiben : ISchreiber {
+        /// <summary>
+        /// Der Pfad zur Datei welche erzeugt werden soll
+        /// </summary>
         private string DateiPfad {
             get;
             set;
         }
 
+
         public DateiSchreiben(string path) {
             DateiPfad = path;
         }
 
+        /// <summary>
+        /// Schreibt die Daten in eine Datei
+        /// </summary>
+        /// <param name="data">Daten</param>
         public virtual void Schreiben(AusgabeDaten data) {
             string text = data.GeneriereText();
             File.WriteAllText(DateiPfad, text);

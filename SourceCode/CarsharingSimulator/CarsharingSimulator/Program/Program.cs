@@ -16,12 +16,20 @@ namespace Program {
     using System.Text.RegularExpressions;
     using Verarbeitung;
 
+    /// <summary>
+    /// Klasse welche die Main Methode beinhaltet
+    /// </summary>
     public class Program {
+
+        /// <summary>
+        /// Main Methode die das Programm steuert
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args) {
             if (args.Count() == 0) {
                 args = new string[] { // nur zum Debuggen
-                    @"..\..\..\..\..\Input\sortierproblem.in",
-                    @"..\..\..\..\..\Output\sortierproblem.out",
+                    @"..\..\..\..\..\Input\Sonderfall-GrosseZahlen2.in",
+                    @"..\..\..\..\..\Output\Sonderfall-GrosseZahlen2.out",
                     "0.0001",
                 };
             }
@@ -33,15 +41,14 @@ namespace Program {
                 genauigkeit = double.Parse(args[2], NumberStyles.Any, CultureInfo.GetCultureInfo("en-US"));
             }
             // Daten einlesen
-            var leser = new DateiEinlesen(args[0]);
+            ILeser leser = new DateiEinlesen(args[0]);
             var eingabeDaten = leser.Lesen();
             // Simulation berrechnen
             var simulation = new Simulation(eingabeDaten, genauigkeit);
             var ausgabeDaten = simulation.GeneriereAusgabe();
             // Ausgabe Schreiben
-            var schreiber = new DateiSchreiben(args[1]);
+            ISchreiber schreiber = new DateiSchreiben(args[1]);
             schreiber.Schreiben(ausgabeDaten);
-            Console.WriteLine("done");
             Process.Start("notepad.exe", args[1]);
         }
     }

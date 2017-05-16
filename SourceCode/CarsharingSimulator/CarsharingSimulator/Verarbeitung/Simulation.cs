@@ -12,17 +12,29 @@ namespace Verarbeitung {
     using System.Linq;
     using System.Text;
 
+    /// <summary>
+    /// Klasse welche die Simulation ausfuert
+    /// </summary>
     public class Simulation {
+        /// <summary>
+        /// Eingabe Daten
+        /// </summary>
         public virtual EingabeDaten EingabeDaten {
             get;
             private set;
         }
 
+        /// <summary>
+        /// Die Bedarfsfunktionen fuer alle Positionen
+        /// </summary>
         public virtual Bedarf[,] Bedarf {
             get;
             private set;
         }
 
+        /// <summary>
+        /// Die Genauigkeit mit der simuliert wird
+        /// </summary>
         public virtual double Genauigkeit {
             get;
             private set;
@@ -35,6 +47,9 @@ namespace Verarbeitung {
             BeraechneBedarf();
         }
 
+        /// <summary>
+        /// Initialisiert Alle Bedarfsfunktionen
+        /// </summary>
         private void BeraechneBedarf() {
             for (int y = 0; y < EingabeDaten.M; y++) {
                 for (int x = 0; x < EingabeDaten.M; x++) {
@@ -46,6 +61,10 @@ namespace Verarbeitung {
             }
         }
 
+        /// <summary>
+        /// Ermittelt den Endzustand der Simulation
+        /// </summary>
+        /// <returns>Endzustand</returns>
         public virtual int[,] BeraechneEndzustand() {
             var endzustand = new int[EingabeDaten.M, EingabeDaten.M];
             for (int y = 0; y < EingabeDaten.M; y++) {
@@ -55,7 +74,10 @@ namespace Verarbeitung {
             }
             return endzustand;
         }
-
+        /// <summary>
+        /// Ermittelt den Maximalen Bedarf fuer alle Positionen
+        /// </summary>
+        /// <returns>Maximaler Bedarf</returns>
         public virtual int[,] BeraechneMaxBedarf() {
             var max = new int[EingabeDaten.M, EingabeDaten.M];
             for (int y = 0; y < EingabeDaten.M; y++) {
@@ -66,6 +88,10 @@ namespace Verarbeitung {
             return max;
         }
 
+        /// <summary>
+        /// Generiert AusgabeDaten der Simulation
+        /// </summary>
+        /// <returns>AusgabeDaten</returns>
         public virtual AusgabeDaten GeneriereAusgabe() {
             // TODO add Endzustand und MaxBedarf
             var daten = new AusgabeDaten(EingabeDaten);
@@ -85,7 +111,6 @@ namespace Verarbeitung {
             daten.Maximalbedarf = BeraechneMaxBedarf();
             return daten;
         }
-
     }
 }
 

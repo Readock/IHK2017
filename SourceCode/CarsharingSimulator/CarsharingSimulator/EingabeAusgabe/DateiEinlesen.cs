@@ -15,7 +15,13 @@ namespace EingabeAusgabe {
     using System.Text.RegularExpressions;
     using Verarbeitung;
 
+    /// <summary>
+    /// Klasse welche das Einlesen von EingabeDaten aus einer Datei ermoeglicht
+    /// </summary>
     public class DateiEinlesen : ILeser {
+        /// <summary>
+        /// Der Pfad zur Datei welche eingelesen werden soll
+        /// </summary>
         private string Dateipfad {
             get;
             set;
@@ -25,6 +31,10 @@ namespace EingabeAusgabe {
             Dateipfad = pfad;
         }
 
+        /// <summary>
+        /// Liest die EingabeDaten aus der angegebenen Datei ein
+        /// </summary>
+        /// <returns>Daten</returns>
         public virtual EingabeDaten Lesen() {
             // Prüfen ob Dateipfad existiert (ggf. Exception)
             if (!File.Exists(Dateipfad))
@@ -59,6 +69,11 @@ namespace EingabeAusgabe {
             return data;
         }
 
+        /// <summary>
+        /// Erzeugt ein neues Polynom aus einem string
+        /// </summary>
+        /// <param name="str">Text</param>
+        /// <returns>Funktion</returns>
         private Polynom GetPolynom(string str) {
             // Ueberprueft ob 5 Fließkommazahlen vorliegen
             // https://regex101.com/r/4cAArX/2
