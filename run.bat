@@ -1,46 +1,48 @@
 @echo off
 
-echo =================
-echo IHKSS2017
-echo =================
+echo ==================================
+echo IHK2017 CarsharingSimulator
+echo ==================================
 
-:: count *.in files in Input folder
+:: Zaelen der *.in Dateien im Eingabeverzeichnis
 set cnt=0
 for %%A in (Input/*.in) do set /a cnt+=1
 
 if not %cnt% == 0 echo %cnt% file(s) found & echo.
 if %cnt% == 0 (
 	echo.
-	echo There are no input files in the "Input" folder ! 
-	echo Please insert your input files and restart.
-	echo Make shure you use "*.in" as filename [eg. test.in]
+	echo Es sind keine Eingabe Dateien im Verzeichnis "Input" ! 
+	echo Fuege bitte Eingabe Dateien hinzu und stelle sicher,
+	echo dass diese die Endung "*.in" Besitzen [zB. test.in]
 	echo. 
 	goto abort
 )
 
-:: clear and reinit ErrorLog
+:: Neu Initializierung des ErrorLogs
 echo ================= 	> ErrorLog.txt
 echo ErrorLog			>> ErrorLog.txt
 echo =================	>> ErrorLog.txt
 echo %date% - %time% 	>> ErrorLog.txt
 echo.					>> ErrorLog.txt
 
-::run programm with each *.in file as parameter
+:: Starte Programm fuer jede Eingabedatei
 for %%f IN (Input/*.in) DO (
-	echo Executing "%%f" ...
-	SourceCode\IHKTempleteProject\IHKTempleteProject\bin\Debug\IHKTempleteProject.exe Input/%%f Output/%%~nf.out >> ErrorLog.txt
-	echo "%%f" was executed!
+	echo "%%f" wird ausgefuehrt ...
+	echo Fehlermeldungen zu "%%f" >> ErrorLog.txt
+	C:\Users\Readock\Documents\Git\IHK2017\SourceCode\CarsharingSimulator\CarsharingSimulator\bin\Debug\CarsharingSimulator.exe Input/%%f Output/%%~nf.out >> ErrorLog.txt
+	echo. >> ErrorLog.txt
+	echo Programm wurde beendet
 	echo.
 )
 
 echo -----------------
-echo Done.
+echo Fertig!
 echo.
 goto end
 
 :abort
 echo -----------------
-echo Aborted.
+echo Abbruch!
 echo.
 goto end
 

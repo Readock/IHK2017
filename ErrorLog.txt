@@ -1,6 +1,35 @@
 ================= 	
 ErrorLog			
 =================	
-13.05.2017 - 14:10:11,92 	
+17.05.2017 - 13:20:33,94 	
 					
-ERROR: Start the program with 2 parameters [in-file] [out-file]
+Fehlermeldungen zu "EigenerTestfall-1.in" 
+ 
+Fehlermeldungen zu "EigenerTestfall-2.in" 
+ 
+Fehlermeldungen zu "Fehlerfall-GleitkommazahlM.in" 
+ERROR: m="1.5" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
+ 
+Fehlermeldungen zu "Fehlerfall-M=0.in" 
+ERROR: m="0" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
+ 
+Fehlermeldungen zu "Fehlerfall-NegativesM.in" 
+ERROR: m="-1" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
+ 
+Fehlermeldungen zu "Fehlerfall-PolynomFalschesFormat.in" 
+ERROR: Die Angabe des Polynoms "0.2    0.5 0 0  0.22  " liegt im falschen Format vor
+ 
+Fehlermeldungen zu "Fehlerfall-ZuVilePolynome.in" 
+ERROR: Es sind nicht genuegend Polynome angegeben worden (2 erwartet und 4 gegeben)
+ 
+Fehlermeldungen zu "Fehlerfall-ZuWenigPolynome.in" 
+ERROR: Es sind nicht genuegend Polynome angegeben worden (18 erwartet und 2 gegeben)
+ 
+Fehlermeldungen zu "IHKBeispiel-1.in" 
+ 
+Fehlermeldungen zu "IHKBeispiel-2.in" 
+ 
+Fehlermeldungen zu "Sonderfall-GrosseZahlen1.in" 
+ 
+Fehlermeldungen zu "Sonderfall-LeerZeilen.in" 
+ 

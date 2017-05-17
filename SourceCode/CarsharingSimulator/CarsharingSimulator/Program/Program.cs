@@ -48,7 +48,7 @@ namespace Program {
             // AusgabeDaten in eine Datei schreiben
             ISchreiber schreiber = new DateiSchreiben(args[1]);
             schreiber.Schreiben(ausgabeDaten);
-            Process.Start("notepad.exe", args[1]);
+            //Process.Start("notepad.exe", args[1]);
         }
     }
 }

@@ -16,8 +16,8 @@ Nachfrage in Q_21 zu t=20,35
 Abstellung in Q_21 zu t=21
 Nachfrage in Q_12 zu t=24
 # Endzustand des Tages:
-0 0 
-0 0 
+0 1 
+0 -1 
 # Maximaler Bedarf:
-0 0 
-0 0 
+0 1 
+1 0 

@@ -17,7 +17,7 @@ namespace Fehlerbehandung {
         /// <param name="message">Fehlernachricht</param>
         public IHKException(string message) {
             Console.WriteLine($"ERROR: {message}");
-            //Environment.Exit(1);
+            Environment.Exit(1);
         }
     }
 }
