@@ -64,13 +64,11 @@ namespace EingabeAusgabe {
             var data = new EingabeDaten(m) {
                 Kopfzeile = kommentarzeile,
             };
-            // NachfrageVerteilungen einlesen
+            // Iteriere über übrige Zeilen
             for (int i = 0; i < m * m; i++) {
+                // Polynome Erzeugen und speichern
                 data.NachfrageVerteilung[i / m,i % m] = GetPolynom(zeilen[i]);
-            }
-            // AngebotsVerteilungen einlesen
-            for (int i = 0; i < m * m; i++) {
-                data.AngebotVerteilung[i / m, i % m] = GetPolynom(zeilen[m*m+i]);
+                data.AngebotVerteilung[i / m, i % m] = GetPolynom(zeilen[m * m + i]);
             }
             return data;
         }

@@ -38,14 +38,14 @@ namespace Program {
                 if (genauigkeit > 1)
                     throw new IHKException("Die Genauigkeit sollte nicht ueber 1 sein (also z. B. 0.0001)");
             }
-            // Daten einlesen
+            // EingabeDaten Einlesen mit DateiEinlesen
             ILeser leser = new DateiEinlesen(args[0]);
             var eingabeDaten = leser.Lesen();
             // Neue Simulation anlegen
             var simulation = new Simulation(eingabeDaten, genauigkeit);
             // AusgabeDaten erzeugen
             var ausgabeDaten = simulation.GeneriereAusgabe();
-            // AusgabeDaten in eine Datei schreiben
+            // AusgabeDaten mit DateiSchreiben in eine Datei schreiben
             ISchreiber schreiber = new DateiSchreiben(args[1]);
             schreiber.Schreiben(ausgabeDaten);
             //Process.Start("notepad.exe", args[1]);

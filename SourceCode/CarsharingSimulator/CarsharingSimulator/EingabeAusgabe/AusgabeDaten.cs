@@ -64,13 +64,13 @@ namespace EingabeAusgabe {
             foreach (var item in Simulationsverlauf)
                 text += item + Environment.NewLine;
             // Füge Endzustand und Maximalbedarf in Textform hinzu
-            text += "# Endzustand des Tages:" + Environment.NewLine;
+            text += "Endzustand des Tages:" + Environment.NewLine;
             for (int i = 0; i < Endzustand.GetLength(1); i++) {
                 for (int j = 0; j < Endzustand.GetLength(0); j++) 
                     text += Endzustand[i, j] + " ";                
                 text += Environment.NewLine;
             }
-            text += "# Maximaler Bedarf:" + Environment.NewLine;
+            text += "Maximaler Bedarf:" + Environment.NewLine;
             for (int i = 0; i < Maximalbedarf.GetLength(1); i++) {
                 for (int j = 0; j < Maximalbedarf.GetLength(0); j++) 
                     text += Maximalbedarf[i, j] + " ";                

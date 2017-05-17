@@ -1,7 +1,7 @@
 ================= 	
 ErrorLog			
 =================	
-17.05.2017 - 13:20:33,94 	
+17.05.2017 - 16:21:48,99 	
 					
 Fehlermeldungen zu "EigenerTestfall-1.in" 
  
@@ -9,6 +9,9 @@ Fehlermeldungen zu "EigenerTestfall-2.in"
  
 Fehlermeldungen zu "Fehlerfall-GleitkommazahlM.in" 
 ERROR: m="1.5" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
+ 
+Fehlermeldungen zu "Fehlerfall-LeereDatei.in" 
+ERROR: Die Eingabedatei ist leer
  
 Fehlermeldungen zu "Fehlerfall-M=0.in" 
 ERROR: m="0" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
