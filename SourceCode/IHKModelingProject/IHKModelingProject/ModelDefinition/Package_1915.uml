@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
   dslVersion="1.0.0.0"
   Id="b27a260e-0ef2-4323-b68d-ac1988b1808a"
   name="Verarbeitung" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -1892,7 +1892,7 @@
           </operation>
           <operation
             Id="5fff1e9c-02ba-4802-a0fb-39d08b4b144a"
-            name="BeraechneDaten"
+            name="BerechneDaten"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -1952,7 +1952,7 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="60f76cdf-c82a-49a4-8d82-163f9ec632a0"
+                  Id="1c0c836b-5ced-4f31-b46a-7d163a358dc3"
                   name="polynom"
                   direction="In"
                   isUnique="false">
@@ -1966,7 +1966,7 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="f9b88ab6-6f13-4cb2-abfc-7afa53ebc4ab"
+                  Id="d02f0600-dbee-4098-a3e0-ee5e2d2caef6"
                   name="isNachfrage"
                   direction="In"
                   isUnique="false">
@@ -2462,7 +2462,7 @@
           </operation>
           <operation
             Id="0e629ca4-6e45-41a5-81dc-fd0df0fbd4c1"
-            name="BeraechneBedarf"
+            name="BerechneBedarf"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -2522,7 +2522,7 @@
           </operation>
           <operation
             Id="d0d43f0c-6cf7-4493-b0aa-f60a51ec2db4"
-            name="BeraechneEndzustand"
+            name="BerechneEndzustand"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -2608,7 +2608,7 @@
           </operation>
           <operation
             Id="1b5b43a3-dd27-4d45-98c4-3e6ce0a1bc4b"
-            name="BeraechneMaxBedarf"
+            name="BerechneMaxBedarf"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"

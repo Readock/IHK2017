@@ -35,7 +35,9 @@ namespace EingabeAusgabe {
         /// </summary>
         /// <param name="data">Daten</param>
         public virtual void Schreiben(AusgabeDaten data) {
+            // Textausgabe Generieren
             string text = data.GeneriereText();
+            // Text in Datei Schreiben
             File.WriteAllText(DateiPfad, text);
         }
 

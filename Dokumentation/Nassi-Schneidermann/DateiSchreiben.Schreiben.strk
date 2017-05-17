@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struktogramm fontfamily="83;101;114;105;102;" fontstyle="0" fontsize="15">
+  <strelem typ="0" zx="0" zy="0" textcolor="-16777216" bgcolor="-1">
+    <text>84;101;120;116;97;117;115;103;97;98;101;32;71;101;110;101;114;105;101;114;101;110;</text>
+  </strelem>
+  <strelem typ="0" zx="0" zy="0" textcolor="-16777216" bgcolor="-1">
+    <text>84;101;120;116;32;105;110;32;68;97;116;101;105;32;83;99;104;114;101;105;98;101;110;</text>
+  </strelem>
+</struktogramm>
+

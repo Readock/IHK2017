@@ -20,7 +20,6 @@ namespace EingabeAusgabe {
             get;
             set;
         }
-
         /// <summary>
         /// Angebotsverteilungen fuer jedes Quadrat
         /// </summary>
@@ -28,7 +27,6 @@ namespace EingabeAusgabe {
             get;
             set;
         }
-
         /// <summary>
         /// NachfrageVerteilungen fuer jedes Quadrat
         /// </summary>
@@ -36,7 +34,6 @@ namespace EingabeAusgabe {
             get;
             set;
         }
-
         /// <summary>
         /// Kopfzeile
         /// </summary>
@@ -44,6 +41,7 @@ namespace EingabeAusgabe {
             get;
             set;
         }
+
         /// <summary>
         /// Konstruktor
         /// </summary>

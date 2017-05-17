@@ -82,7 +82,6 @@ namespace Verarbeitung {
             var aktion = IsNachfrage ? "Nachfrage" : "Abstellung";
             return $"{aktion} in Q_{PosX+1}{PosY+1} zu t={Math.Round(Zeitpunkt,2)}";
         }
-
     }
 }
 

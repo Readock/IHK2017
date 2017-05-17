@@ -36,6 +36,7 @@ namespace Verarbeitung {
         /// <returns>Funktionswert</returns>
         public virtual double Get(double x) {
             double wert = 0;
+            // Iteriere über alle Aenderungs Daten solange bis Zeitpunkt > x
             for (int i = 0; i < Vorfaktoren.Count(); i++)
                 wert += Vorfaktoren[i] * Math.Pow(x, i);
             return wert;
@@ -46,10 +47,16 @@ namespace Verarbeitung {
         /// </summary>
         /// <returns>Integration</returns>
         public virtual Polynom GetIntegration() {
+            // Erzeuge neues Feld für Vorfaktoren
             double[] vorfaktoren = new double[Vorfaktoren.Count()+1];
+            // Erstes Element auf 0 setzen
             vorfaktoren[0] = 0;
+            // Iteriere über Vorfaktoren mit Laufvariable i
             for (int i = 0; i < Vorfaktoren.Count(); i++)
+                // Füge dem Feld an der Stelle i den Vorfaktor an der Stelle i-1 hinzu
+                // Multipliziere Stelle des Feldes mit 1/i
                 vorfaktoren[i + 1] = Vorfaktoren[i] * (1 / (i+1.0));
+            // Erzeuge neues Polynom aus dem Feld und gebe es zurück
             return new Polynom(vorfaktoren);
         }
     }
