@@ -80,7 +80,7 @@ namespace Verarbeitung {
         /// <returns>String</returns>
         public override string ToString() {
             var aktion = IsNachfrage ? "Nachfrage" : "Abstellung";
-            return $"{aktion} in Q_{PosX+1}{PosY+1} zu t={Math.Round(Zeitpunkt,2)}";
+            return $"{aktion} in Q_{PosX + 1}{PosY + 1} zu t={String.Format("{0:0.00}", Math.Round(Zeitpunkt, 2))}";
         }
     }
 }

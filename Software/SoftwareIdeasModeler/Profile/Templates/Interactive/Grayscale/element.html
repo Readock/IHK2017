@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="expires" content="now" />
+		<meta http-equiv="pragma" content="no-cache" />
+    <meta name="description" content="" />
+		<meta name="keywords" content="" />
+    <meta itemprop="image" content="" />      
+    <title>
+      <%==SIM:Element.Name==%> :: <%==SIM:Project.Name==%>
+    </title>
+    <link rel="stylesheet" type="text/css" href="../resources/default.css" />        
+  </head>
+  <body>
+    <h1><a class="project-name" href="../index.html"> <%==SIM:Project.Name==%>:</a> <%==SIM:Element.Name==%></h1>
+    <div class="element-description">
+      <%==SIM:Element.HtmlDocumentation==%>
+    </div>
+
+    <div class="element-image">
+      <img src="../images/<%==SIM:Element.Uid==%>.png" alt="<%==SIM:Element.Name==%>" />
+    </div>
+    
+    <div class="element-content">
+      <div class="diagram-group">
+        <%==SIM:If:Element.HasStereotypes==%>
+        <h2>Stereotypes</h2>
+        <%==SIM:ForEach:Element.Stereotypes==%>
+            <span><%==SIM:Stereotype==%></span>
+        <%==SIM:EndFor==%>
+        <%==SIM:EndIf==%>
+
+        <%==SIM:If:Element.HasTaggedValues==%>
+        <h2>Tagged Values</h2>
+        <table class="standard-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <%==SIM:ForEach:Element.TaggedValues==%>
+            <tr>
+              <td><%==SIM:TaggedValue.Name==%></td>
+              <td><%==SIM:TaggedValue.Value==%></td>              
+            </tr>
+            <%==SIM:EndFor==%>
+          </tbody>
+        </table>
+        <%==SIM:EndIf==%>
+
+      </div>
+      
+    </div>    
+  </body>
+</html>

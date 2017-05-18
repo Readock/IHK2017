@@ -1,0 +1,38 @@
+﻿<types name="XSD" description="" prefix="" language="XSD" version="1.0">
+  <type id="Xs.Byte" tid="" name="byte" description="A signed 8-bit integer" nullable="false" />
+  <type id="Xs.Decimal" tid="" name="decimal" description="A decimal value" nullable="false" />
+  <type id="Xs.Int" tid="" name="int" description="A signed 32-bit integer" nullable="false" />
+  <type id="Xs.Integer" tid="" name="integer" description="An integer value" nullable="false" />
+  <type id="Xs.Long" tid="" name="long" description="A signed 64-bit integer" nullable="false" />
+  <type id="Xs.NegativeInteger" tid="" name="negativeInteger" description="An integer containing only negative values" nullable="false" />
+  <type id="Xs.NonNegativeInteger" tid="" name="nonNegativeInteger" description="An integer containing only non-negative values" nullable="false" />
+  <type id="Xs.NonPositiveInteger" tid="" name="nonPositiveInteger" description="An integer containing only non-positive values" nullable="false" />
+  <type id="Xs.PositiveInteger" tid="" name="positiveInteger" description="An integer containing only positive values" nullable="false" />
+  <type id="Xs.Short" tid="" name="short" description="A signed 16-bit integer" nullable="false" />
+  <type id="Xs.UnsignedLong" tid="" name="unsignedLong" description="An unsigned 64-bit integer" nullable="false" />
+  <type id="Xs.UnsignedInt" tid="" name="unsignedInt" description="An unsigned 32-bit integer" nullable="false" />
+  <type id="Xs.UnsignedShort" tid="" name="unsignedShort" description="An unsigned 16-bit integer" nullable="false" />
+  <type id="Xs.UnsignedByte" tid="" name="unsignedByte" description="An unsigned 8-bit integer" nullable="false" />
+  <type id="Xs.String" tid="" name="string" description="" nullable="false" />
+  <type id="Xs.Token" tid="" name="token" description="A string that does not contain line feeds, carriage returns, tabs, leading or trailing spaces, or multiple spaces" nullable="false" />
+  <type id="Xs.NormalizedString" tid="" name="normalizedString" description="A  string that does not contain line feeds, carriage returns, or tabs" nullable="false" />
+  <type id="Xs.Date" tid="" name="date" description="A date value" nullable="false" />
+  <type id="Xs.DateTime" tid="" name="dateTime" description="A date and time value" nullable="false" />
+  <type id="Xs.Duration" tid="" name="duration" description="A time interval" nullable="false" />
+  <type id="Xs.GDay" tid="" name="gDay" description="A part of a date - the day" nullable="false" />
+  <type id="Xs.GMonth" tid="" name="gMonth" description="A part of a date - the month" nullable="false" />
+  <type id="Xs.GMonthDay" tid="" name="gMonthDay" description="A part of a date - the month and day" nullable="false" />
+  <type id="Xs.GYear" tid="" name="gYear" description="A part of a date - the year" nullable="false" />
+  <type id="Xs.Time" tid="" name="time" description="A time value" nullable="false" />
+  <type id="Xs.AnyURI" tid="" name="anyURI" description="" nullable="false" />
+  <type id="Xs.Base64Binary" tid="" name="base64Binary" description="" nullable="false" />
+  <type id="Xs.Boolean" tid="" name="boolean" description="" nullable="false" />
+  <type id="Xs.Double" tid="" name="double" description="" nullable="false" />
+  <type id="Xs.Float" tid="" name="float" description="" nullable="false" />
+  <type id="Xs.HexBinary" tid="" name="hexBinary" description="" nullable="false" />
+  <type id="Xs.ID" tid="" name="ID" description="A string that represents the ID attribute in XML " nullable="false" />
+  <type id="Xs.IDREF" tid="" name="IDREF" description="" nullable="false" />
+  <type id="Xs.NMTOKEN" tid="" name="NMTOKEN" description="A string that represents the NMTOKEN attribute in XML" nullable="false" />
+  <type id="Xs.Name" tid="" name="Name" description="A string that contains a valid XML name" nullable="false" />
+  <type id="Xs.Language" tid="" name="language" description="A string that contains a valid language id" nullable="false" />
+</types>

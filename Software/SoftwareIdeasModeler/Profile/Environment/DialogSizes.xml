@@ -1,0 +1,17 @@
+﻿<dialog-sizes>
+  <dialog name="ItemPropertiesForm" size="528,557" />
+  <dialog name="SoftwareIdeas.Controls.CommonDialogs.OptionalMessageBoxForm" size="453,213" />
+  <dialog name="UmlAttributeEditorForm" size="495,520" />
+  <dialog name="ClassifierForm" size="401,336" />
+  <dialog name="UmlOperationEditorForm" size="574,531" />
+  <dialog name="OperationParameterEditor" size="456,421" />
+  <dialog name="SourceCodeGenerationSettingsForm" size="629,472" />
+  <dialog name="SourceCodeTemplateEditor" size="1631,889" />
+  <dialog name="SoftwareIdeas.Controls.ProgressForm.ProgressForm" size="517,114" />
+  <dialog name="SourceCodeImport" size="529,460" />
+  <dialog name="UseConfirmationForm" size="483,302" />
+  <dialog name="LicenseInfo" size="328,400" />
+  <dialog name="NotAvailableFeatureForm" size="460,310" />
+  <dialog name="SoftwareIdeasModeler.ErrorHandling.ErrorForm" size="516,184" />
+  <dialog name="BatchExportForm" size="635,575" />
+</dialog-sizes>

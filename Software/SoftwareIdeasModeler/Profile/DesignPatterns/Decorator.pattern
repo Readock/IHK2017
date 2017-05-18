@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<design-pattern name="Decorator" catalog-name="Design Patterns">
+  <description>The decorator pattern is a design pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.</description>
+  <roles>
+    <role name="Component" default-name="Component" minimal-occurance="1" maximal-occurance="1" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di153207508693700503" cid="C011" type="class" name="Component" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" creation-date="03/31/2013 16:41:52">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Calibri" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oe71cc9cd2b8242f4bd5a843e01b01608681" name="operation" type="" type-id="" visibility="public" abstract="true" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di153207508693700503" iid="66f3f68093b44457a9a1d91f0e59f84c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:41:52" order-index="0" type="entity">
+          <layout ax="380" ay="70" awidth="140" aheight="140" x="380" y="70" width="0" height="140" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+    <role name="ConcreteComponent" default-name="ConcreteComponent" minimal-occurance="1" maximal-occurance="100" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di263494708802931958" cid="C012" type="class" name="ConcreteComponent" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:41:59">
+            <stereotypes />
+            <tagged-values />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="obf2a57597c4643d093a38888e919375c950" name="operation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di263494708802931958" iid="a7af996a0ce9444c96bccbeb8d546f8d" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:41:59" order-index="1" type="entity">
+          <layout ax="240" ay="340" awidth="140" aheight="140" x="240" y="340" width="0" height="140" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+    <role name="Decorator" default-name="Decorator" minimal-occurance="1" maximal-occurance="1" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di804908875681077696" cid="C013" type="class" name="Decorator" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" creation-date="03/31/2013 16:42:03">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Calibri" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a8f4627b9b5c543b39c7ca52d71db09e2685" name="component" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="oc5e348392b6c4da79ae35bb72531f921818" name="operation" type="" type-id="" visibility="public" abstract="true" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di804908875681077696" iid="e991231aecdc4c5abe03736fd8850dec" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:42:03" order-index="2" type="entity">
+          <layout ax="520" ay="340" awidth="140" aheight="140" x="520" y="340" width="140" height="140" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+    <role name="ConcreteDecorator" default-name="ConcreteDecorator" minimal-occurance="1" maximal-occurance="100" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di448601990876790148" cid="C014" type="class" name="ConcreteDecorator" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:44:40">
+            <stereotypes />
+            <tagged-values />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o2c8d88ee05c74961a2ddcde48b1edfb9275" name="operation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di448601990876790148" iid="02b8246cc3a74eed839b5a70819f3344" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:44:40" order-index="6" type="entity">
+          <layout ax="520" ay="560" awidth="140" aheight="140" x="520" y="560" width="0" height="140" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+  </roles>
+  <additional-items>
+    <model>
+      <item id="di326233498683328522" cid="GNR006" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:42:11">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+      </item>
+      <item id="di349564195626492510" cid="GNR007" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:42:13">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+      </item>
+      <item id="di378058908734649335" cid="REL004" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:43:32">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+        <relation from="di153207508693700503" to="di804908875681077696">
+          <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+          <end-role id="" name="" multiplicity="" navigability="" association-type="aggregation" visibility="private" />
+        </relation>
+      </item>
+      <item id="di106051608402094027" cid="GNR008" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:44:40">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+      </item>
+    </model>
+    <item id="di326233498683328522" iid="a14d3a2ba641442db4320f8ec019bf96" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:42:11" order-index="3" type="relation">
+      <layout line-style="oblique" lock-start-point="true" lock-end-point="true" name-position="10,-10" x1="310" y1="340" x2="450" y2="210" start-border-pos="0.125" end-border-pos="0.625">
+        <points>
+          <point x="310" y="340" />
+          <point x="310" y="280" />
+          <point x="450" y="280" />
+          <point x="450" y="210" />
+        </points>
+      </layout>
+      <relation from="di263494708802931958" from-iid="a7af996a0ce9444c96bccbeb8d546f8d" to="di153207508693700503" to-iid="66f3f68093b44457a9a1d91f0e59f84c" />
+    </item>
+    <item id="di349564195626492510" iid="8a74c92c7e3745c78975ce1151f36179" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:42:13" order-index="4" type="relation">
+      <layout line-style="oblique" lock-start-point="true" lock-end-point="true" name-position="10,-10" x1="590" y1="340" x2="450" y2="210" start-border-pos="0.125" end-border-pos="0.625">
+        <points>
+          <point x="590" y="340" />
+          <point x="590" y="280" />
+          <point x="450" y="280" />
+          <point x="450" y="210" />
+        </points>
+      </layout>
+      <relation from="di804908875681077696" from-iid="e991231aecdc4c5abe03736fd8850dec" to="di153207508693700503" to-iid="66f3f68093b44457a9a1d91f0e59f84c" />
+    </item>
+    <item id="di378058908734649335" iid="e0c76deca3984aff81f2a0b6f9fef18d" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:43:32" order-index="5" type="relation">
+      <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" name-position="20,-10" x1="520" y1="120" x2="660" y2="390" start-border-pos="0.339285714285714" end-border-pos="0.339285714285714">
+        <points>
+          <point x="520" y="120" />
+          <point x="780" y="120" />
+          <point x="780" y="390" />
+          <point x="660" y="390" />
+        </points>
+      </layout>
+      <relation from="di153207508693700503" from-iid="66f3f68093b44457a9a1d91f0e59f84c" to="di804908875681077696" to-iid="e991231aecdc4c5abe03736fd8850dec" />
+      <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+    </item>
+    <item id="di106051608402094027" iid="b588fb65c8a946e6944c721ffa41a35a" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:44:40" order-index="7" type="relation">
+      <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="590" y1="560" x2="590" y2="480" start-border-pos="0.125" end-border-pos="0.625">
+        <points>
+          <point x="590" y="560" />
+          <point x="590" y="480" />
+        </points>
+      </layout>
+      <relation from="di448601990876790148" from-iid="02b8246cc3a74eed839b5a70819f3344" to="di804908875681077696" to-iid="e991231aecdc4c5abe03736fd8850dec" />
+    </item>
+  </additional-items>
+</design-pattern>

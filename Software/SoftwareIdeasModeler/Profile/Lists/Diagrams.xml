@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diagrams>
+  <group name="UML">
+    <diagram id="uml-activity" name="UML Activity Diagram">
+    </diagram>    
+    <diagram id="uml-class" name="UML Class Diagram">
+    </diagram>
+    <diagram id="uml-communication" name="UML Communication Diagram">
+    </diagram>
+    <diagram id="uml-component" name="UML Component Diagram">
+    </diagram>    
+    <diagram id="uml-composite-structure" name="UML Composite Structure Diagram">
+    </diagram>
+    <diagram id="uml-deployment" name="UML Deployment Diagram">
+    </diagram>    
+    <diagram id="uml-interaction-overview" name="UML Interaction Overview Diagram">
+    </diagram>    
+    <diagram id="uml-object" name="UML Object Diagram">
+    </diagram>    
+    <diagram id="uml-package" name="UML Package Diagram">
+    </diagram>   
+    <diagram id="uml-profile" name="UML Profile Diagram">
+    </diagram>    
+    <diagram id="uml-sequence" name="UML Sequence Diagram">
+    </diagram>    
+    <diagram id="uml-statechart" name="UML State Machine Diagram">
+    </diagram>    
+    <diagram id="uml-timing" name="UML Timing Diagram">
+    </diagram>    
+    <diagram id="uml-usecase" name="UML Use Case Diagram">
+    </diagram>    
+  </group>
+  <group name="Others">
+    <diagram id="uml-mixed" name="UML Mixed Diagram">
+    </diagram>
+    <diagram id="crc-cards" name="CRC Cards Diagram">
+    </diagram>
+    <diagram id="data-flow" name="Data Flow Diagram">
+    </diagram>    
+    <diagram id="flowchart" name="Flowchart Diagram">
+    </diagram>
+    <diagram id="robustness" name="Robustness Diagram">
+    </diagram>
+    <diagram id="user-interface" name="User Interface Diagram">
+    </diagram>
+    <diagram id="ssadm-entity-life-history" name="Entity Life History Diagram">
+    </diagram>
+    <diagram id="hierarchical-task-analysis" name="Hierarchical Task Analysis Diagram">
+    </diagram>
+    <diagram id="mind-map" name="Mind Map">
+    </diagram>
+    <diagram id="gane-sarson-data-flow" name="Data Flow Diagram (Gane &amp; Sarson)">
+    </diagram>
+    <diagram id="concurrency" name="Concurrency Diagram">
+    </diagram>
+    <diagram id="matrix" name="Matrix">
+    </diagram>
+    <diagram id="venn" name="Venn Diagram">
+    </diagram>    
+    <diagram id="requirements" name="Requirement Diagram">
+    </diagram>
+    <diagram id="behavior-tree" name="Behavior Tree">
+    </diagram>
+    <diagram id="structure-chart" name="Structure Chart">
+    </diagram>
+    <diagram id="grafcet" name="Grafcet">
+    </diagram>
+    <diagram id="roadmap" name="Roadmap">
+    </diagram>
+    <diagram id="user-story-map" name="User Story Map">
+    </diagram>
+  </group>
+  <group name="JSD">
+    <diagram id="jsd-entity-structure" name="Entity Structure Diagram">
+    </diagram>
+    <diagram id="jsd-network" name="Network Diagram">
+    </diagram>
+  </group>
+  <group name="BPMN">
+    <diagram id="bpmn-collaboration" name="BPMN Collaboration Diagram">
+    </diagram>
+    <diagram id="bpmn-conversation" name="BPMN Conversation Diagram">
+    </diagram>
+    <diagram id="bpmn-choreography" name="BPMN Choreography Diagram">
+    </diagram>
+  </group>
+  <group name="SysML">
+    <diagram id="sysml-activity" name="SysML Activity Diagram">
+    </diagram>
+    <diagram id="sysml-block-definition" name="SysML Block Definition Diagram">
+    </diagram>
+    <diagram id="sysml-internal-block" name="SysML Internal Block Diagram">
+    </diagram>
+    <diagram id="sysml-package" name="SysML Package Diagram">
+    </diagram>
+    <diagram id="sysml-parametric" name="SysML Parametric Diagram">
+    </diagram>
+    <diagram id="sysml-requirement" name="SysML Requirement Diagram">
+    </diagram>
+    <diagram id="sysml-sequence" name="SysML Sequence Diagram">
+    </diagram>
+    <diagram id="sysml-state-machine" name="SysML State Machine Diagram">
+    </diagram>
+    <diagram id="sysml-use-case" name="SysML Use Case Diagram">
+    </diagram>    
+  </group>
+  <group name="Archimate">
+    <diagram id="archimate" name="Archimate Diagram">
+    </diagram>
+  </group>
+  <group name="EntityRelationship">
+    <diagram id="entity-relationship" name="Entity-Relationship Diagram">
+    </diagram>
+    <diagram id="chen-entity-relationship" name="Chen Entity Relationship Diagram">
+    </diagram>
+    <diagram id="entity-relationship-idef1x" name="IDEF1X Entity Relationship Diagram">
+    </diagram>
+  </group>
+</diagrams>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="Java" description="" version="1.0" prefix="Java" language="Java">
+  <type name="boolean" description="" tid="boolean">
+  </type>
+  <type name="byte" description="" tid="u-integer8">
+  </type>  
+  <type name="char" description="" tid="char">
+  </type>
+  <type name="short" description="" tid="s-integer16">
+  </type>  
+  <type name="int" description="" tid="s-integer32">
+  </type>  
+  <type name="long" description="" tid="s-integer64">
+  </type>  
+  <type name="float" description="" tid="s-real32">
+  </type>
+  <type name="double" description="" tid="s-real64">
+  </type>  
+  <type name="Date" description="" tid="datetime">
+  </type>
+  <type name="object" description="" tid="object">
+  </type>
+  <type name="String" description="" tid="string">
+  </type>
+</types>

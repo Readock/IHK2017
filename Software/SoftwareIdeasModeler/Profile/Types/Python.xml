@@ -1,0 +1,22 @@
+﻿<types name="Python" description="Built-in types of Python programming language" prefix="Python" version="1.0"  language="Python">
+    <type id="Python.object" name="object" description="Objects are Python’s abstraction for data. All data in a Python program is represented by objects or by relations between objects." />
+    <type id="Python.None" name="None" description="This type has a single value. There is a single object with this value. It is used to signify the absence of a value in many situations, e.g., it is returned from functions that don’t explicitly return anything. Its truth value is false." />
+    <type id="Python.NotImplemented" name="NotImplemented" description="This type has a single value. There is a single object with this value. Numeric methods and rich comparison methods may return this value if they do not implement the operation for the operands provided. " />
+    <type id="Python.Ellipsis" name="Ellipsis" description="This type has a single value. There is a single object with this value. It is used to indicate the presence of the ... syntax in a slice." />
+    <type id="Python.bool" name="bool" description="Boolean type. These represent the truth values False and True." />
+    <type id="Python.int" name="int" description="Plain integers. These represent numbers in the range -2147483648 through 2147483647." />
+    <type id="Python.float" name="float" description="Floating point numbers. These represent machine-level double precision floating point numbers." />
+    <type id="Python.long" name="long" description="Long integers. These represent numbers in an unlimited range, subject to available (virtual) memory only." />
+    <type id="Python.complex" name="complex" description="Complex numbers. These represent complex numbers as a pair of machine-level double precision floating point numbers." />
+    <type id="Python.str" name="str" description="ASCII strings. The items of a string are characters. There is no separate character type; a character is represented by a string of one item. " />
+    <type id="Python.unicode" name="unicode" description="Unicode strings. These represented by a Unicode object of one item and can hold either a 16-bit or 32-bit value representing a Unicode ordinal." />
+    <type id="Python.list" name="list" description="The items of a list are arbitrary Python objects. Lists are formed by placing a comma-separated list of expressions in square brackets." />
+    <type id="Python.tuple" name="tuple" description="The items of a tuple are arbitrary Python objects. Tuples of two or more items are formed by comma-separated lists of expressions." />
+    <type id="Python.bytearray" name="bytearray" description="A bytearray object is a mutable array." />
+    <type id="Python.buffer" name="buffer" description="The buffer object will be a slice from the beginning of object." />
+    <type id="Python.xrange" name="xrange" description="The xrange type is an immutable sequence which is commonly used for looping." />
+    <type id="Python.set" name="set" description="A set object is an unordered mutable collection of distinct hashable objects." />
+    <type id="Python.frozenset" name="frozenset" description="A frozenset object is an unordered imutable collection of distinct hashable objects." />
+    <type id="Python.dict" name="dict" description="A mapping object maps hashable values to arbitrary objects. These represent finite sets of objects indexed by nearly arbitrary values." />
+    <type id="Python.file" name="file" description="A file object represents an open file." />
+</types>

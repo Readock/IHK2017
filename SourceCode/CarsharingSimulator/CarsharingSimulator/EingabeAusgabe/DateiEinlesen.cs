@@ -52,10 +52,10 @@ namespace EingabeAusgabe {
             // m als Zahl einlesen (bei falschem Format Exception)
             // https://regex101.com/r/Ydgiso/1
             if (!Regex.IsMatch(zeilen.First(), @"^[0-9]*$"))
-                throw new IHKException($"m=\"{zeilen.First()}\" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)");
+                throw new IHKException($"m=\"{zeilen.First()}\" hat das falsche Format (sollte eine positive Ganzzahl  groesser 0 sein)");
             int m = int.Parse(zeilen.First());
             if (m < 1)
-                throw new IHKException($"m=\"{zeilen.First()}\" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)");
+                throw new IHKException($"m=\"{zeilen.First()}\" hat das falsche Format (sollte eine positive Ganzzahl  groesser 0 sein)");
             // Die Zeile mit m entfernen
             zeilen.RemoveAt(0);
             if (zeilen.Count != m*m*2)
@@ -81,7 +81,7 @@ namespace EingabeAusgabe {
         private Polynom GetPolynom(string str) {
             // Ueberprueft ob 5 Fließkommazahlen vorliegen
             // https://regex101.com/r/4cAArX/4
-            if (!Regex.IsMatch(str, @"^([+-]?[0-9]*\.?[0-9]* +){4}[+-]?[0-9]*\.?[0-9]*$"))
+            if (!Regex.IsMatch(str, @"^([+-]?[0-9]+\.?[0-9]* +){4}[+-]?[0-9]+\.?[0-9]* *$"))
                 throw new IHKException($"Die Angabe des Polynoms \"{str}\" liegt im falschen Format vor");
             // erzeugen eines neuen Polynoms
             var numbers = str.Replace("  "," ").Split(' ').

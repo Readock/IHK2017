@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="TypeScript" description="" version="1.0" prefix="TS" language="TypeScript">
+  <type name="boolean" description="" tid="boolean">
+  </type>
+  <type name="number" description="" tid="number" tids="u-integer8,s-integer8,s-integer16,u-integer16,s-integer32,u-integer32,s-integer64,u-integer64,s-real32,s-real64,s-decimal128">
+  </type>
+  <type name="any" description="" tid="object" nullable="true">
+  </type>
+  <type name="string" description="" tid="string" tids="char" nullable="true">
+  </type>
+</types>

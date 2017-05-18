@@ -1,0 +1,120 @@
+.TH "Verarbeitung.Aenderung" 3 "Thu May 18 2017" "CarsharingSimulator" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Verarbeitung.Aenderung \- KLasse welche eine \fBAenderung\fP in der Bedarfsfunktion darstellt  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAenderung\fP (\fBPolynom\fP polynom, bool isNachfrage, int wert, double zeitpunkt, int posX, int posY)"
+.br
+.RI "Konstruktor "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "Erzeugt einen string fuer die \fBAenderung\fP im Format '{Aktion} in Q_{position} zu t={zeitpunkt}' "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual \fBPolynom\fP \fBPolynom\fP\fC [get, set]\fP"
+.br
+.RI "\fBPolynom\fP zu welchem die \fBAenderung\fP auftritt "
+.ti -1c
+.RI "virtual bool \fBIsNachfrage\fP\fC [get, set]\fP"
+.br
+.RI "Gibt an ob es ich um eine Nachfrage oder Angebotsaenderung handelt "
+.ti -1c
+.RI "virtual int \fBWert\fP\fC [get, set]\fP"
+.br
+.RI "Funktionswert des Polynoms zum Zeitpunkt der \fBAenderung\fP "
+.ti -1c
+.RI "virtual double \fBZeitpunkt\fP\fC [get, set]\fP"
+.br
+.RI "Zeitunkt zu dem die \fBAenderung\fP auftritt "
+.ti -1c
+.RI "virtual int \fBPosX\fP\fC [get]\fP"
+.br
+.RI "X Position der \fBAenderung\fP "
+.ti -1c
+.RI "virtual int \fBPosY\fP\fC [get]\fP"
+.br
+.RI "Y Position der \fBAenderung\fP "
+.in -1c
+.SH "Detailed Description"
+.PP 
+KLasse welche eine \fBAenderung\fP in der Bedarfsfunktion darstellt 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Verarbeitung\&.Aenderung\&.Aenderung (\fBPolynom\fP polynom, bool isNachfrage, int wert, double zeitpunkt, int posX, int posY)"
+
+.PP
+Konstruktor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpolynom\fP Funktion
+.br
+\fIisNachfrage\fP Typ der Funktion
+.br
+\fIwert\fP Funktionswert
+.br
+\fIzeitpunkt\fP Zeitpunkt
+.br
+\fIposX\fP X Position
+.br
+\fIposY\fP Y Position
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override string Verarbeitung\&.Aenderung\&.ToString ()"
+
+.PP
+Erzeugt einen string fuer die \fBAenderung\fP im Format '{Aktion} in Q_{position} zu t={zeitpunkt}' 
+.PP
+\fBReturns:\fP
+.RS 4
+String
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual bool Verarbeitung\&.Aenderung\&.IsNachfrage\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Gibt an ob es ich um eine Nachfrage oder Angebotsaenderung handelt 
+.SS "virtual \fBPolynom\fP Verarbeitung\&.Aenderung\&.Polynom\fC [get]\fP, \fC [set]\fP"
+
+.PP
+\fBPolynom\fP zu welchem die \fBAenderung\fP auftritt 
+.SS "virtual int Verarbeitung\&.Aenderung\&.PosX\fC [get]\fP"
+
+.PP
+X Position der \fBAenderung\fP 
+.SS "virtual int Verarbeitung\&.Aenderung\&.PosY\fC [get]\fP"
+
+.PP
+Y Position der \fBAenderung\fP 
+.SS "virtual int Verarbeitung\&.Aenderung\&.Wert\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Funktionswert des Polynoms zum Zeitpunkt der \fBAenderung\fP 
+.SS "virtual double Verarbeitung\&.Aenderung\&.Zeitpunkt\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Zeitunkt zu dem die \fBAenderung\fP auftritt 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CarsharingSimulator from the source code\&.

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="expires" content="now" />
+		<meta http-equiv="pragma" content="no-cache" />
+    <meta name="description" content="" />
+		<meta name="keywords" content="" />
+    <meta itemprop="image" content="" />      
+    <title><%==SIM:Project.Name==%></title>
+    <link rel="stylesheet" type="text/css" href="resources/default.css" />        
+  </head>
+  <body>
+    <h1><%==SIM:Project.Name==%></h1>
+    <div class="author">
+      <%==SIM:Project.Author==%>
+    </div>
+    <p class="project-description">
+      <%==SIM:Project.Description==%>
+    </p>
+    
+    <div class="project-content">
+      <%==SIM:ForEach:Project.Models==%>
+        <div class="model-group">    
+        <h2><%==SIM:Model.Name==%></h2>
+
+        <div class="folders">
+            <%==SIM:ForEach:Model.Folders.Take(4)==%>
+            <div class="folder">
+                <a class="thumb" href="pages/<%==SIM:NestedFolder.UniqueUrl==%>">
+                    &nbsp;
+                </a>
+                <a class="name" href="pages/<%==SIM:NestedFolder.UniqueUrl==%>">
+                    <%==SIM:Folder.Name==%>
+                </a>
+            </div>
+            <%==SIM:EndFor==%>
+        </div>
+        
+        <div class="diagrams">
+          <%==SIM:ForEach:Model.Diagrams.Take(4)==%>
+          <div class="diagram">
+            <a class="thumb" href="pages/<%==SIM:Diagram.UniqueUrl==%>">
+                <img src="images/<%==SIM:Diagram.Uid==%>th.png" alt="<%==SIM:Diagram.Name==%>" />
+            </a>
+            <a class="name" href="pages/<%==SIM:Diagram.UniqueUrl==%>">
+                <%==SIM:Diagram.Name==%>
+            </a>
+          </div>
+          <%==SIM:EndFor==%>
+        </div>
+        
+        <div class="footer">
+          <a href="pages/<%==SIM:Model.UniqueUrl==%>">More &gt;</a>
+        </div>
+      </div>
+      <%==SIM:EndFor==%>
+    </div>    
+  </body>
+</html>

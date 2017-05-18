@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+  <Forms />
+  <Sides>
+    <Side Type="Right" IsMain="True" Size="300">
+      <Containers>
+        <Container>
+          <Bounds>4,34,300,731</Bounds>
+          <Places>
+            <Place>
+              <Bounds>0,0,300,591</Bounds>
+              <State>Normal</State>
+              <Panels>
+                <Panel ID="Project" Mode="Full" IsPinned="False" />
+              </Panels>
+            </Place>
+            <Place>
+              <Bounds>0,591,300,140</Bounds>
+              <State>Normal</State>
+              <Panels>
+                <Panel ID="Preview" Mode="Full" IsPinned="True" />
+              </Panels>
+            </Place>
+          </Places>
+        </Container>
+      </Containers>
+    </Side>
+    <Side Type="Left" IsMain="False" Size="0">
+      <Containers />
+    </Side>
+  </Sides>
+</Layout>

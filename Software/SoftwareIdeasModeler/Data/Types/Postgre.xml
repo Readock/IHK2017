@@ -1,0 +1,39 @@
+﻿<types name="Postgre" description="Built-in general-purpose data types of PostgreSQL server" prefix="Postgre" version="1.0"  language="Postgre">
+  <type id="Postgre.int8" name="int8" description="Signed eight-byte integer - bigint." />
+  <type id="Postgre.serial8" name="serial8" description="Autoincrementing eight-byte integer - bigserial." />
+  <type id="Postgre.bit" name="bit" description="Fixed-length bit string - bit [ (n) ]." />
+  <type id="Postgre.varbit" name="varbit" description="Variable-length bit string - bit varying [ (n) ]." />
+  <type id="Postgre.bool" name="bool" description="Logical Boolean (true/false) - boolean." />
+  <type id="Postgre.box" name="box" description="Rectangular box on a plane." />
+  <type id="Postgre.bytea" name="bytea" description="Binary data ('byte array')." />
+  <type id="Postgre.varchar" name="varchar" description="Variable-length character string - character varying [ (n) ]." />
+  <type id="Postgre.char" name="char" description="Fixed-length character string - character [ (n) ]." />
+  <type id="Postgre.cidr" name="cidr" description="IPv4 or IPv6 network address." />
+  <type id="Postgre.circle" name="circle" description="Circle on a plane." />
+  <type id="Postgre.date" name="date" description="Calendar date (year, month, day)." />
+  <type id="Postgre.float8" name="float8" description="Double precision floating-point number (8 bytes) - double precision." />
+  <type id="Postgre.inet" name="inet" description="IPv4 or IPv6 host address." />
+  <type id="Postgre.int" name="int" description="Signed four-byte integer - integer." />
+  <type id="Postgre.interval" name="interval" description="Time span - interval [ fields ] [ (p) ]." />
+  <type id="Postgre.line" name="line" description="Infinite line on a plane." />
+  <type id="Postgre.lseg" name="lseg" description="Line segment on a plane." />
+  <type id="Postgre.macaddr" name="macaddr" description="MAC (Media Access Control) address." />
+  <type id="Postgre.money" name="money" description="Currency amount." />
+  <type id="Postgre.decimal" name="decimal" description="Exact numeric of selectable precision - numeric [ (p, s) ]." />
+  <type id="Postgre.path" name="path" description="Geometric path on a plane." />
+  <type id="Postgre.point" name="point" description="Geometric point on a plane." />
+  <type id="Postgre.polygon" name="polygon" description="Closed geometric path on a plane." />
+  <type id="Postgre.float4" name="float4" description="Single precision floating-point number (4 bytes) - real." />
+  <type id="Postgre.int2" name="int2" description="Signed two-byte integer - smallint." />
+  <type id="Postgre.serial4" name="serial4" description="Autoincrementing four-byte integer - serial." />
+  <type id="Postgre.text" name="text" description="Variable-length character string." />
+  <type id="Postgre.time" name="time" description="Time of day (no time zone) - time [ (p) ] [ without time zone ]." />
+  <type id="Postgre.timetz" name="timetz" description="Time of day, including time zone - time [ (p) ] with time zone." />
+  <type id="Postgre.timestamp" name="timestamp" description="Date and time (no time zone) - timestamp [ (p) ] [ without time zone ]." />
+  <type id="Postgre.timestamptz" name="timestamptz" description="Date and time, including time zone - timestamp [ (p) ] with time zone." />
+  <type id="Postgre.tsquery" name="tsquery" description="Text search query." />
+  <type id="Postgre.tsvector" name="tsvector" description="Text search document." />
+  <type id="Postgre.txid_snapshot" name="txid_snapshot" description="User-level transaction ID snapshot." />
+  <type id="Postgre.uuid" name="uuid" description="Universally unique identifier." />
+  <type id="Postgre.xml" name="xml" description="XML data." />
+</types>

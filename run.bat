@@ -8,7 +8,7 @@ echo ==================================
 set cnt=0
 for %%A in (Input/*.in) do set /a cnt+=1
 
-if not %cnt% == 0 echo %cnt% file(s) found & echo.
+if not %cnt% == 0 echo Es wurden %cnt% Eingabedateien gefunden & echo Starte um %time% & echo.
 if %cnt% == 0 (
 	echo.
 	echo Es sind keine Eingabe Dateien im Verzeichnis "Input" ! 
@@ -29,9 +29,9 @@ echo.					>> ErrorLog.txt
 for %%f IN (Input/*.in) DO (
 	echo "%%f" wird ausgefuehrt ...
 	echo Fehlermeldungen zu "%%f" >> ErrorLog.txt
-	C:\Users\Readock\Documents\Git\IHK2017\SourceCode\CarsharingSimulator\CarsharingSimulator\bin\Debug\CarsharingSimulator.exe Input/%%f Output/%%~nf.out >> ErrorLog.txt
+	C:\Users\Readock\Documents\Git\IHK2017\SourceCode\CarsharingSimulator\CarsharingSimulator\bin\Debug\CarsharingSimulator.exe Input/%%f Output/%%~nf.out 0.0001 >> ErrorLog.txt
 	echo. >> ErrorLog.txt
-	echo Programm wurde beendet
+	echo Programm wurde beendet um %time%
 	echo.
 )
 

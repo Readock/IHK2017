@@ -1,0 +1,15 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Default</name>
+    <description></description>
+    <type>SourceCode</type>
+  </meta>
+  <files defaultName="{Name}.xsd">    
+    <file name="Schema.xsd" outputName="{Diagram.Name}.xsd" type="Diagram">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+    </file>    
+  </files>
+</sim-template>

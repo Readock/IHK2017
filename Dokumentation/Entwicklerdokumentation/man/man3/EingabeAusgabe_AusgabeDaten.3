@@ -1,0 +1,94 @@
+.TH "EingabeAusgabe.AusgabeDaten" 3 "Thu May 18 2017" "CarsharingSimulator" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+EingabeAusgabe.AusgabeDaten \- Klasse welche Informationen zur berrechneten Lösung der Simulation haelt  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAusgabeDaten\fP (\fBEingabeDaten\fP inputData)"
+.br
+.RI "Konstruktor "
+.ti -1c
+.RI "virtual string \fBGeneriereText\fP ()"
+.br
+.RI "Generiert einen Text der z\&. B\&. in eine Ausgabe Datei geschreiben werden kann "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual \fBEingabeDaten\fP \fBInputData\fP\fC [get, set]\fP"
+.br
+.RI "Eingabedaten auf die sich die Ergebnisse beziehen "
+.ti -1c
+.RI "virtual List< string > \fBSimulationsverlauf\fP\fC [get, set]\fP"
+.br
+.RI "Verlauf der Simulation im Format '{Aktion} in Q_{position} zu t={zeitpunkt}' "
+.ti -1c
+.RI "virtual int [,] \fBEndzustand\fP\fC [get, set]\fP"
+.br
+.RI "Der berrechnete Endzustand der Simulation "
+.ti -1c
+.RI "virtual int [,] \fBMaximalbedarf\fP\fC [get, set]\fP"
+.br
+.RI "Der maximale Bedarf der waerend der simulation auftritt "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Klasse welche Informationen zur berrechneten Lösung der Simulation haelt 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "EingabeAusgabe\&.AusgabeDaten\&.AusgabeDaten (\fBEingabeDaten\fP inputData)"
+
+.PP
+Konstruktor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIinputData\fP Daten
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual string EingabeAusgabe\&.AusgabeDaten\&.GeneriereText ()\fC [virtual]\fP"
+
+.PP
+Generiert einen Text der z\&. B\&. in eine Ausgabe Datei geschreiben werden kann 
+.PP
+\fBReturns:\fP
+.RS 4
+Text als string
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual int [,] EingabeAusgabe\&.AusgabeDaten\&.Endzustand\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Der berrechnete Endzustand der Simulation 
+.SS "virtual \fBEingabeDaten\fP EingabeAusgabe\&.AusgabeDaten\&.InputData\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Eingabedaten auf die sich die Ergebnisse beziehen 
+.SS "virtual int [,] EingabeAusgabe\&.AusgabeDaten\&.Maximalbedarf\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Der maximale Bedarf der waerend der simulation auftritt 
+.SS "virtual List<string> EingabeAusgabe\&.AusgabeDaten\&.Simulationsverlauf\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Verlauf der Simulation im Format '{Aktion} in Q_{position} zu t={zeitpunkt}' 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CarsharingSimulator from the source code\&.

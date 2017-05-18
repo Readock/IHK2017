@@ -1,0 +1,56 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Default</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>CSharp</language>
+  </meta>
+  <files defaultName="{Name}.cs">
+    <file name="Class.cs" outputName="{Element.Name}.cs" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" condition="without" />
+        <stereotype name="enum" condition="without" />
+        <stereotype name="enumeration" condition="without" />
+        <stereotype name="struct" condition="without" />
+        <stereotype name="structure" condition="without" />
+        <stereotype name="*" />
+      </stereotypes>
+      <types>
+        <type name="class" />
+      </types>
+    </file>
+    <file name="Enum.cs" outputName="{Element.Name}.cs" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="enum" />
+        <stereotype name="enumeration" />
+      </stereotypes>
+    </file>
+    <file name="Interface.cs" outputName="{Element.Name}.cs" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+    </file>
+    <file name="Structure.cs" outputName="{Element.Name}.cs" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="struct" />
+        <stereotype name="structure" />
+      </stereotypes>
+    </file>
+  </files>
+</sim-template>

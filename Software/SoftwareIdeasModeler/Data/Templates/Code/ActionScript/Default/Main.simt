@@ -1,0 +1,44 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Default</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>ActionScript</language>
+  </meta>
+  <files defaultName="{Name}.as">
+    <file name="Class.as" outputName="{Element.Name}.as" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" condition="without" />
+        <stereotype name="enum" condition="without" />
+        <stereotype name="enumeration" condition="without" />
+        <stereotype name="*" />
+      </stereotypes>
+      <types>
+        <type name="class" />
+      </types>
+    </file>
+    <file name="Enum.as" outputName="{Element.Name}.as" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="enum" />
+        <stereotype name="enumeration" />
+      </stereotypes>
+    </file>
+    <file name="Interface.as" outputName="{Element.Name}.as" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+    </file>    
+  </files>
+</sim-template>

@@ -1,0 +1,22 @@
+<%==SIM:CompactOn==%><?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified"><%==SIM:ForEach:Element.DocumentationLines==%><!--<%==SIM:DocumentationLine==%>--><%==SIM:EndFor==%>    
+<%==SIM:If:Equals(Element.ElementType,"erd-entity")==%>    <xs:complexType name="<%==SIM:Element.Name==%>">
+        <xs:sequence><%==SIM:ForEach:Element.AllAttributes==%><%==SIM:ForEach:Attribute.DocumentationLines==%><!--<%==SIM:DocumentationLine==%>--><%==SIM:EndFor==%>
+            <xs:element name="<%==SIM:Attribute.Name==%>" <%==SIM:If:Equals(Attribute.Type,"CHAR")==%>type="xs:string"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"VARCHAR")==%>type="xs:string"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"CLOB")==%>type="xs:string"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"INTEGER")==%>type="xs:int"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"SMALLINT")==%>type="xs:short"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"BIGINT")==%>type="xs:long"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"DECIMAL")==%>type="xs:decimal"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"NUMERIC")==%>type="xs:decimal"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"BOOLEAN")==%>type="xs:boolean"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"BOOL")==%>type="xs:boolean"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"BLOB")==%>type="xs:hexBinary"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"REAL")==%>type="xs:float"/><%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"DOUBLE")==%>type="xs:double"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"DATE")==%>type="xs:date"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"TIME")==%>type="xs:time"<%==SIM:EndIf==%>
+<%==SIM:If:Equals(Attribute.Type,"TIMESTAMP")==%>type="xs:dateTime"<%==SIM:EndIf==%> <%==SIM:If:Attribute.HasTypeLength==%>maxLength="<%==SIM:Attribute.TypeLength==%>"<%==SIM:EndIf==%> <%==SIM:If:Attribute.IsNullable==%>nillable="true"<%==SIM:EndIf==%>/><%==SIM:EndFor==%><%==SIM:EndIf==%><%==SIM:CompactOff==%>        </xs:sequence>
+  </xs:complexType>
+</xs:schema>

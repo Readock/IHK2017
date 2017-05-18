@@ -1,0 +1,28 @@
+<sim-template version="1.0">
+  <meta>
+    <name>NHibernate</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>CSharp</language>
+  </meta>
+  <files defaultName="{Name}.cs">
+    <file name="Class.cs" outputName="{Element.Name}.cs" type="AbstractElement">
+        <settings>
+          <setting name="DefaultType" value="Object"></setting>
+          <setting name="NameAdjustment" value="CamelCase"></setting>
+        </settings>
+        <types>
+            <type name="erd-entity" />
+        </types>
+    </file>
+    <file name="ClassMap.cs" outputName="{Element.Name}Map.cs" type="AbstractElement">
+        <settings>
+          <setting name="DefaultType" value="Object"></setting>
+          <setting name="NameAdjustment" value="CamelCase"></setting>
+        </settings>
+        <types>
+            <type name="erd-entity" />
+        </types>
+    </file>
+  </files>
+</sim-template>

@@ -1,0 +1,5363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can translate new nodes from end of the English language file and append it here.-->
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<metadata name="languageId">
+		<value>zh-cn</value>
+	</metadata>
+	<metadata name="languageName">
+		<value>Simplified Chinese</value>
+	</metadata>
+	<metadata name="languageLocalName">
+		<value>Simplified Chinese</value>
+	</metadata>
+	<metadata name="author">
+		<value>Zen liu</value>
+	</metadata>
+	<metadata name="creationDate">
+		<value>2012-03-14</value>
+	</metadata>
+	<metadata name="info">
+		<value />
+	</metadata>
+	<data name="Global.Strings.SimProject" xml:space="preserve">
+   <value>SIM 项目</value>
+ </data>
+	<data name="Global.Strings.AllFiles" xml:space="preserve">
+   <value>全部文件</value>
+ </data>
+	<data name="Global.Strings.Version" xml:space="preserve">
+   <value>版本</value>
+ </data>
+	<data name="Global.Strings.ReadOnly" xml:space="preserve">
+   <value>只读</value>
+ </data>
+	<data name="Global.Messages.ItemCannotBeAddedToDiagram" xml:space="preserve">
+   <value>该图示中不能添加此项.</value>
+ </data>
+	<data name="Global.Messages.SaveBeforeExist" xml:space="preserve">
+   <value>是否保存对 (' &lt;filename&gt;')的更改?</value>
+ </data>
+	<data name="Global.Messages.NewVersionFound" xml:space="preserve">
+   <value>发现Software Ideas Modeler新版本： (' &lt;version&gt;') . 是否跳转到下载页面下载最新版本?</value>
+ </data>
+	<data name="Global.Messages.UptodateVersion" xml:space="preserve">
+   <value>Software Ideas Modeler (' &lt;version&gt;') 已经是最新版本.</value>
+ </data>
+	<data name="Global.Messages.ProjectFileNotFound" xml:space="preserve">
+   <value>项目文件： '&lt;?&gt;' 未找到.可能已经删除或移动.</value>
+ </data>
+	<data name="Global.Messages.NewStyleWarning" xml:space="preserve">
+   <value>是否取消对当前样式设置的所有改动？</value>
+ </data>
+	<data name="Global.Messages.StyleTypeExists" xml:space="preserve">
+   <value>尝试添加的样式已存在</value>
+ </data>
+	<data name="Global.Messages.RenumberingWarning" xml:space="preserve">
+   <value>一些内容没有被重新编号.带有原编号的列表必须是空的.</value>
+ </data>
+	<data name="Global.Messages.DeleteStyle" xml:space="preserve">
+   <value>确定删除样式： '&lt;?&gt;'？</value>
+ </data>
+	<data name="Global.Messages.StyleClassNameExists" xml:space="preserve">
+   <value>该样式名称已存在.</value>
+ </data>
+	<data name="Global.Messages.NotAllowedStyleClassName" xml:space="preserve">
+   <value> '&lt;?&gt;' 不允许作为样式名称</value>
+ </data>
+	<data name="Global.Messages.SavingError" xml:space="preserve">
+   <value>文件无法保存，请确认该文件未被其他程序占用.</value>
+ </data>
+	<data name="Global.Messages.DeleteTask" xml:space="preserve">
+   <value>确定要删除工作 '&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.DeleteToDo" xml:space="preserve">
+   <value>确定要删除待办事项 '&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.DeletePerson" xml:space="preserve">
+   <value>确定要删除 '&lt;?&gt;'成员?</value>
+ </data>
+	<data name="Global.Messages.DeleteStereotype" xml:space="preserve">
+   <value>确定要删除模版 '&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.NoOutputLanguageSelected" xml:space="preserve">
+   <value>无法生成源码.没有选择输出语言.</value>
+ </data>
+	<data name="Global.Messages.NoOutputDirectorySelected" xml:space="preserve">
+   <value>无法生成源码.没有选择输出文件夹.</value>
+ </data>
+	<data name="Global.Messages.EmptyConnectionString" xml:space="preserve">
+   <value>从数据库载入资料表定义失败.没有设置连接字串.</value>
+ </data>
+	<data name="Global.Messages.CannotLoadTables" xml:space="preserve">
+   <value>无法从数据库载入资料表定义. \n\n &lt;?&gt;</value>
+ </data>
+	<data name="Global.Messages.RegisteredCopy" xml:space="preserve">
+   <value>Software Ideas Modeler 已经注册，可以用于商业用途，感谢您的支持！</value>
+ </data>
+	<data name="Global.Messages.NewerVersionWarning" xml:space="preserve">
+   <value>项目文件由新版Software Ideas Modeler保存，可能无法正确加载. 确定继续加载该文件?</value>
+ </data>
+	<data name="Global.Messages.ClearRecentProjectList" xml:space="preserve">
+   <value>确定要清空最近开启文件列表？</value>
+ </data>
+	<data name="Global.Messages.InflateContainer" xml:space="preserve">
+   <value>确定扩大容器来放置所有元素？</value>
+ </data>
+	<data name="Global.Messages.WrongOutputDirectory" xml:space="preserve">
+   <value>选择的输出目录 '&lt;?&gt;' does 不存在或无法写入.</value>
+ </data>
+	<data name="Global.Messages.InstallUpdate" xml:space="preserve">
+   <value>是否安装更新? 更新需要几秒钟时间。</value>
+ </data>
+	<data name="Global.Messages.FileOpenAsReadOnly" xml:space="preserve">
+   <value>项目文件已经被打开，将用只读模式打开</value>
+ </data>
+	<data name="Global.Messages.UnauthorizedWriteAccess" xml:space="preserve">
+   <value>文件无法写入，请检查是否有该权限.</value>
+ </data>
+	<data name="Global.Messages.CloseItemPropertiesDialog" xml:space="preserve">
+   <value>确定要关闭该对话框? 所有改变均会被取消.</value>
+ </data>
+	<data name="Global.DiagramNames.UmlClassDiagram" xml:space="preserve">
+   <value>类图(class)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlUseCaseDiagram" xml:space="preserve">
+   <value>用例图(UseCase)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlSequenceDiagram" xml:space="preserve">
+   <value>时序图(Sequence)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlActivityDiagram" xml:space="preserve">
+   <value>活动图(Activity)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlStateMachineDiagram" xml:space="preserve">
+   <value>状态图(StateMachine)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlDeploymentDiagram" xml:space="preserve">
+   <value>部署图(Deployment)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlProfileDiagram" xml:space="preserve">
+   <value>概要图(Profile)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlObjectDiagram" xml:space="preserve">
+   <value>对象图(Object)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlPackageDiagram" xml:space="preserve">
+   <value>包图(Package)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlCommunicationDiagram" xml:space="preserve">
+   <value>通信图(Communication)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlCompositeStructureDiagram" xml:space="preserve">
+   <value>复活结构图(Composite Structure)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlComponentDiagram" xml:space="preserve">
+   <value>组件图(Component)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlInteractionOverviewDiagram" xml:space="preserve">
+   <value>互动概图(Interaction Overview)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlTimingDiagram" xml:space="preserve">
+   <value>时间图(Timing)</value>
+ </data>
+	<data name="Global.DiagramNames.UmlMixedDiagram" xml:space="preserve">
+   <value>混合图(Mixed)</value>
+ </data>
+	<data name="Global.DiagramNames.DataFlowDiagram" xml:space="preserve">
+   <value>数据流图(Data Flow)</value>
+ </data>
+	<data name="Global.DiagramNames.EntityRelationshipDiagram" xml:space="preserve">
+   <value>实体关系图(EntityRelationship)</value>
+ </data>
+	<data name="Global.DiagramNames.RequirementDiagram" xml:space="preserve">
+   <value>需求图(Requirement)</value>
+ </data>
+	<data name="Global.DiagramNames.UserInterfaceDiagram" xml:space="preserve">
+   <value>用户界面(UI)</value>
+ </data>
+	<data name="Global.DiagramNames.CrcCardDiagram" xml:space="preserve">
+   <value>CRC卡图(CRC Card)</value>
+ </data>
+	<data name="Global.DiagramNames.FlowchartDiagram" xml:space="preserve">
+   <value>流程图(Flowchart)</value>
+ </data>
+	<data name="Global.DiagramNames.RobustnessDiagram" xml:space="preserve">
+   <value>鲁棒图(Robustness)</value>
+ </data>
+	<data name="Global.Buttons.Ok" xml:space="preserve">
+   <value>好(&amp;O)</value>
+ </data>
+	<data name="Global.Buttons.Cancel" xml:space="preserve">
+   <value>取消(&amp;C)</value>
+ </data>
+	<data name="Global.Buttons.Yes" xml:space="preserve">
+   <value>是(&amp;Y)</value>
+ </data>
+	<data name="Global.Buttons.No" xml:space="preserve">
+   <value>否(&amp;N)</value>
+ </data>
+	<data name="Global.Buttons.Add" xml:space="preserve">
+   <value>新增(&amp;A)</value>
+ </data>
+	<data name="Global.Buttons.Edit" xml:space="preserve">
+   <value>编辑(&amp;E)</value>
+ </data>
+	<data name="Global.Buttons.Remove" xml:space="preserve">
+   <value>移除(&amp;R)</value>
+ </data>
+	<data name="Global.Buttons.SelectAll" xml:space="preserve">
+   <value>全选(&amp;S)</value>
+ </data>
+	<data name="Global.Buttons.SelectNone" xml:space="preserve">
+   <value>无(&amp;N)</value>
+ </data>
+	<data name="Global.Buttons.SelectInvert" xml:space="preserve">
+   <value>反选(&amp;I)</value>
+ </data>
+	<data name="Global.Buttons.MoreColors" xml:space="preserve">
+   <value>更多颜色...</value>
+ </data>
+	<data name="Global.Buttons.Previous" xml:space="preserve">
+   <value>&lt;前一步(&amp;P)</value>
+ </data>
+	<data name="Global.Buttons.Next" xml:space="preserve">
+   <value>下一步(&amp;N) &gt;</value>
+ </data>
+	<data name="Global.Buttons.Import" xml:space="preserve">
+   <value>导入(&amp;I)</value>
+ </data>
+	<data name="Global.Buttons.Delete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="Global.Buttons.Save" xml:space="preserve">
+   <value>保存(&amp;S)</value>
+ </data>
+	<data name="MainForm.General.RegisteredCopy" xml:space="preserve">
+   <value>注册版本</value>
+ </data>
+	<data name="MainForm.General.OnlyForNonCommercialUse" xml:space="preserve">
+   <value>非商业用途使用</value>
+ </data>
+	<data name="MainForm.StandardBar.Find" xml:space="preserve">
+   <value>搜索:</value>
+ </data>
+	<data name="MainForm.LayoutBar.AutoLayoutCascade" xml:space="preserve">
+   <value>重叠布局</value>
+ </data>
+	<data name="MainForm.LayoutBar.AutoLayoutRectangle" xml:space="preserve">
+   <value>矩形布局</value>
+ </data>
+	<data name="MainForm.LayoutBar.AutoLayoutCircle" xml:space="preserve">
+   <value>圆形布局</value>
+ </data>
+	<data name="MainForm.LayoutBar.AutoLayoutRows" xml:space="preserve">
+   <value>多栏布局</value>
+ </data>
+	<data name="MainForm.LayoutBar.AutoLayoutSmart" xml:space="preserve">
+   <value>智能布局</value>
+ </data>
+	<data name="MainForm.Menu.File" xml:space="preserve">
+   <value>文件(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.New" xml:space="preserve">
+   <value>新建(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.Open" xml:space="preserve">
+   <value>打开(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.Save" xml:space="preserve">
+   <value>保存(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.SaveAs" xml:space="preserve">
+   <value>保存为(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.CloseProject" xml:space="preserve">
+   <value>关闭项目(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.Print" xml:space="preserve">
+   <value>打印(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.PrintPreview" xml:space="preserve">
+   <value>打印预览(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.PrintSetup" xml:space="preserve">
+   <value>打印设置(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.Export" xml:space="preserve">
+   <value>导出(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.ExportToImage" xml:space="preserve">
+   <value>导出图片(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.ExportToPDF" xml:space="preserve">
+   <value>导出(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.ExportToXMI" xml:space="preserve">
+   <value>导出XMI(&amp;X)</value>
+ </data>
+	<data name="MainForm.Menu.Import" xml:space="preserve">
+   <value>导入(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.ImportFromXMI" xml:space="preserve">
+   <value>导入XMI(&amp;X)</value>
+ </data>
+	<data name="MainForm.Menu.RecentProjects" xml:space="preserve">
+   <value>最近项目(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.Exit" xml:space="preserve">
+   <value>退出(&amp;X)</value>
+ </data>
+	<data name="MainForm.Menu.Edit" xml:space="preserve">
+   <value>编辑(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.Undo" xml:space="preserve">
+   <value>撤销(&amp;U)</value>
+ </data>
+	<data name="MainForm.Menu.Redo" xml:space="preserve">
+   <value>重做(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.Cut" xml:space="preserve">
+   <value>剪切(&amp;u)</value>
+ </data>
+	<data name="MainForm.Menu.Copy" xml:space="preserve">
+   <value>复制(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.Paste" xml:space="preserve">
+   <value>粘贴(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.Delete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.DeleteWithRelations" xml:space="preserve">
+   <value>删除关联项(&amp;l)</value>
+ </data>
+	<data name="MainForm.Menu.SelectAll" xml:space="preserve">
+   <value>全选(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.SelectAllOfSameType" xml:space="preserve">
+   <value>选择全部相同类型(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.InvertSelection" xml:space="preserve">
+   <value>反选(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.Find" xml:space="preserve">
+   <value>查找(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.View" xml:space="preserve">
+   <value>视图(&amp;V)</value>
+ </data>
+	<data name="MainForm.Menu.StandardBar" xml:space="preserve">
+   <value>常用工具条(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.StatusBar" xml:space="preserve">
+   <value>状态栏(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.LayoutBar" xml:space="preserve">
+   <value>布局工具条(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.Toolbox" xml:space="preserve">
+   <value>工具箱(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.SideBar" xml:space="preserve">
+   <value>侧边栏(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.DiagramPreview" xml:space="preserve">
+   <value>预览(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.StartPage" xml:space="preserve">
+   <value>起始页(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.ElementBrowser" xml:space="preserve">
+   <value>元素浏览(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.ShowMultipleUsageOfElement" xml:space="preserve">
+   <value>显示重复使用元素(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.ShowAssociatedDiagrams" xml:space="preserve">
+   <value>显示指定图示(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.Grid" xml:space="preserve">
+   <value>网格(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.SnapToGrid" xml:space="preserve">
+   <value>对齐网格(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.RenderingQuality" xml:space="preserve">
+   <value>渲染质量(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.RenderingQualityDraft" xml:space="preserve">
+   <value>草图(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.RenderingQualityNormal" xml:space="preserve">
+   <value>普通(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.RenderingQualityBest" xml:space="preserve">
+   <value>最好(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.FullScreen" xml:space="preserve">
+   <value>全屏(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.Arrange" xml:space="preserve">
+   <value>布局(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.AutoLayout" xml:space="preserve">
+   <value>自动布局(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.RouteRelation" xml:space="preserve">
+   <value>按关系布局(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.CircleLayout" xml:space="preserve">
+   <value>环形布局(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.RowLayout" xml:space="preserve">
+   <value>列布局(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.SmartLayout" xml:space="preserve">
+   <value>智能布局(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.CascadeLayout" xml:space="preserve">
+   <value>层叠布局(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.AutoSize" xml:space="preserve">
+   <value>自动大小(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.Alignment" xml:space="preserve">
+   <value>对齐(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.MakeSame" xml:space="preserve">
+   <value>设定相同(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.Order" xml:space="preserve">
+   <value>排序(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.Move" xml:space="preserve">
+   <value>移动(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.Size" xml:space="preserve">
+   <value>大小(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.HorizontalSpacing" xml:space="preserve">
+   <value>水平间距(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.VerticalSpacing" xml:space="preserve">
+   <value>垂直间距(&amp;V)</value>
+ </data>
+	<data name="MainForm.Menu.SetLocationAndSize" xml:space="preserve">
+   <value>设置位置和大小(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.LockItems" xml:space="preserve">
+   <value>冻结(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.GroupItems" xml:space="preserve">
+   <value>组合(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.UngroupItems" xml:space="preserve">
+   <value>取消组合(&amp;U)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentLeft" xml:space="preserve">
+   <value>左侧(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentRight" xml:space="preserve">
+   <value>右侧(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentTop" xml:space="preserve">
+   <value>顶部(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentBottom" xml:space="preserve">
+   <value>底部(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentCenterHorizontally" xml:space="preserve">
+   <value>水平居中(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentCenterVertically" xml:space="preserve">
+   <value>垂直居中(&amp;V)</value>
+ </data>
+	<data name="MainForm.Menu.AlignmentToGrid" xml:space="preserve">
+   <value>对齐网格(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.MakeSameWidth" xml:space="preserve">
+   <value>宽度(&amp;W)</value>
+ </data>
+	<data name="MainForm.Menu.MakeSameHeight" xml:space="preserve">
+   <value>高度(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.MakeSameBoth" xml:space="preserve">
+   <value>高和宽(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.OrderBringToFront" xml:space="preserve">
+   <value>移到顶层(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.OrderBringToBack" xml:space="preserve">
+   <value>移到底层(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.OrderForwardOne" xml:space="preserve">
+   <value>前移一层(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.OrderBackOne" xml:space="preserve">
+   <value>后移一层(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.MoveCustom" xml:space="preserve">
+   <value>自定义(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.MoveLeft" xml:space="preserve">
+   <value>左移(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.MoveRight" xml:space="preserve">
+   <value>右移(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.MoveUp" xml:space="preserve">
+   <value>上移(&amp;U)</value>
+ </data>
+	<data name="MainForm.Menu.MoveDown" xml:space="preserve">
+   <value>下移(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.SizeCustom" xml:space="preserve">
+   <value>自定义(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.SizeInflate" xml:space="preserve">
+   <value>比例扩大(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.SizeDeflate" xml:space="preserve">
+   <value>比例缩小(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.SizeWider" xml:space="preserve">
+   <value>增加宽度(&amp;W)</value>
+ </data>
+	<data name="MainForm.Menu.SizeNarrower" xml:space="preserve">
+   <value>减少宽度(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.SizeHigher" xml:space="preserve">
+   <value>增加高度(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.SizeLower" xml:space="preserve">
+   <value>减少高度(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.Project" xml:space="preserve">
+   <value>项目(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.AddModel" xml:space="preserve">
+   <value>添加模型(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.AddDiagram" xml:space="preserve">
+   <value>添加图示(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.AddExistingDiagram" xml:space="preserve">
+   <value>添加已有图示(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.Properties" xml:space="preserve">
+   <value>项目属性(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.ModelProperties" xml:space="preserve">
+   <value>模型属性(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.StyleSet" xml:space="preserve">
+   <value>样式(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.LoadStyleSet" xml:space="preserve">
+   <value>加载(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.SaveStyleSet" xml:space="preserve">
+   <value>保存(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.EditStyleSet" xml:space="preserve">
+   <value>编辑(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.RemoveAllCustomStyles" xml:space="preserve">
+   <value>移除自定义样式(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.Tasks" xml:space="preserve">
+   <value>任务(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.Persons" xml:space="preserve">
+   <value>人员(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.Diagram" xml:space="preserve">
+   <value>图示(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.AddLayer" xml:space="preserve">
+   <value>添加图层(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.Layers" xml:space="preserve">
+   <value>图层(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.ConvertDiagram" xml:space="preserve">
+   <value>转换为(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.ConvertToERDDiagram" xml:space="preserve">
+   <value>实体关系图(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.ConvertToClassDiagram" xml:space="preserve">
+   <value>类图(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.DiagramProperties" xml:space="preserve">
+   <value>图示属性(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.PrintDiagram" xml:space="preserve">
+   <value>打印(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.ExportDiagram" xml:space="preserve">
+   <value>导出(&amp;x)</value>
+ </data>
+	<data name="MainForm.Menu.ExportDiagramToImage" xml:space="preserve">
+   <value>图像(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.ExportDiagramToPDF" xml:space="preserve">
+   <value>PDF文档(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.CopyToClipboardAsImage" xml:space="preserve">
+   <value>复制为位图(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.CopyToClipboardAsMetafile" xml:space="preserve">
+   <value>复制为Metafile(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.LayersMerge" xml:space="preserve">
+   <value>合并(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.LayersShowAll" xml:space="preserve">
+   <value>显示全部(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.LayersHide" xml:space="preserve">
+   <value>隐藏(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.LayersDelete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.Filter" xml:space="preserve">
+   <value>筛选(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.ShowAllElements" xml:space="preserve">
+   <value>显示全部元素(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.HideComments" xml:space="preserve">
+   <value>隐藏注释(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.HideRelations" xml:space="preserve">
+   <value>隐藏关系(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.HideCollaborations" xml:space="preserve">
+   <value>隐藏协作(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.Element" xml:space="preserve">
+   <value>元素(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.Add" xml:space="preserve">
+   <value>添加(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.Stereotype" xml:space="preserve">
+   <value>图型(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.Attribute" xml:space="preserve">
+   <value>属性(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.Operation" xml:space="preserve">
+   <value>操作(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.TemplateParameter" xml:space="preserve">
+   <value>参数模版(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowID" xml:space="preserve">
+   <value>显示ID(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowParentName" xml:space="preserve">
+   <value>显示父名称(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowStereotypes" xml:space="preserve">
+   <value>显示图型(stereotype)(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowAttributes" xml:space="preserve">
+   <value>显示属性(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowOperations" xml:space="preserve">
+   <value>显示操作(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowTaggedValues" xml:space="preserve">
+   <value>显示标记值(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowTemplateParameters" xml:space="preserve">
+   <value>显示模版参数(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowOperationParameters" xml:space="preserve">
+   <value>显示操作参数(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowExtensionPoints" xml:space="preserve">
+   <value>显示扩展点(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowRelationshipTexts" xml:space="preserve">
+   <value>显示关系文字(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowNullability" xml:space="preserve">
+   <value>显示可否为空(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.ElementShowVisibility" xml:space="preserve">
+   <value>显示可见性(&amp;V)</value>
+ </data>
+	<data name="MainForm.Menu.ElementModifiers" xml:space="preserve">
+   <value>显示修饰符(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.ElementAbstractModifier" xml:space="preserve">
+   <value>&amp;Abstract</value>
+ </data>
+	<data name="MainForm.Menu.ElementPublicModifier" xml:space="preserve">
+   <value>&amp;Public</value>
+ </data>
+	<data name="MainForm.Menu.ElementPackageModifier" xml:space="preserve">
+   <value>Packa&amp;ge</value>
+ </data>
+	<data name="MainForm.Menu.ElementProtectedModifier" xml:space="preserve">
+   <value>P&amp;rotected</value>
+ </data>
+	<data name="MainForm.Menu.ElementPrivateModifier" xml:space="preserve">
+   <value>Pr&amp;ivate</value>
+ </data>
+	<data name="MainForm.Menu.ElementPresentation" xml:space="preserve">
+   <value>元素描述(&amp;e)</value>
+ </data>
+	<data name="MainForm.Menu.DefaultPresentation" xml:space="preserve">
+   <value>默认(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.CustomPresentation" xml:space="preserve">
+   <value>自定义(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.ElementStyle" xml:space="preserve">
+   <value>样式(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.ElementProperties" xml:space="preserve">
+   <value>属性(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.ElementDocumentation" xml:space="preserve">
+   <value>文档(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.ElementTaggedValues" xml:space="preserve">
+   <value>标记值(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.Tools" xml:space="preserve">
+   <value>工具(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.GenerateDocumentation" xml:space="preserve">
+   <value>生成文档(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.GenerateSourceCode" xml:space="preserve">
+   <value>生成源码(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.Lists" xml:space="preserve">
+   <value>列表(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.StereotypesList" xml:space="preserve">
+   <value>图型(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.TypesList" xml:space="preserve">
+   <value>类型(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.ElementNames" xml:space="preserve">
+   <value>元素名称和ID(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.ReverseEngineering" xml:space="preserve">
+   <value>逆向工程(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.NetReverseEngineering" xml:space="preserve">
+   <value>.NET Framework(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.DatabaseReverseEngineering" xml:space="preserve">
+   <value>数据库(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.RenumberElementIDs" xml:space="preserve">
+   <value>重排元素ID(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.ImportDatabaseModel" xml:space="preserve">
+   <value>导入数据库模型(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.ImportObjectModel" xml:space="preserve">
+   <value>导入对象模型(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.Languages" xml:space="preserve">
+   <value>语言(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.Options" xml:space="preserve">
+   <value>选项(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.Windows" xml:space="preserve">
+   <value>窗口(&amp;W)</value>
+ </data>
+	<data name="MainForm.Menu.Cascade" xml:space="preserve">
+   <value>层叠排列(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.TileVertical" xml:space="preserve">
+   <value>垂直平铺(&amp;V)</value>
+ </data>
+	<data name="MainForm.Menu.TileHorizontal" xml:space="preserve">
+   <value>水平平铺(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.ArrangeIcons" xml:space="preserve">
+   <value>图标排列(&amp;I)</value>
+ </data>
+	<data name="MainForm.Menu.CloseAll" xml:space="preserve">
+   <value>全部关闭(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.Help" xml:space="preserve">
+   <value>帮助(&amp;H)</value>
+ </data>
+	<data name="MainForm.Menu.OnlineHelp" xml:space="preserve">
+   <value>在线帮助(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.Donate" xml:space="preserve">
+   <value>捐助(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.ActivateForCommercialUse" xml:space="preserve">
+   <value>激活商用版本(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.WhatsNew" xml:space="preserve">
+   <value>更新介绍(&amp;N)</value>
+ </data>
+	<data name="MainForm.Menu.CheckForUpdates" xml:space="preserve">
+   <value>检查更新(&amp;U)</value>
+ </data>
+	<data name="MainForm.Menu.SendRequest" xml:space="preserve">
+   <value>提出需求(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.About" xml:space="preserve">
+   <value>关于Software Ideas Modeler...(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.WebSite" xml:space="preserve">
+   <value>官方网站(&amp;W)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.AddModel" xml:space="preserve">
+   <value>添加模型(&amp;M)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.AddDiagram" xml:space="preserve">
+   <value>添加图示(&amp;D)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.NewDiagram" xml:space="preserve">
+   <value>新图示(&amp;N)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.MoveToModel" xml:space="preserve">
+   <value>移动到模型(&amp;E)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.Rename" xml:space="preserve">
+   <value>重命名(&amp;R)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.Delete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.DeleteFromProject" xml:space="preserve">
+   <value>移除工程(&amp;P)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlClassDiagram" xml:space="preserve">
+   <value>类图(&amp;C)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlUseCaseDiagram" xml:space="preserve">
+   <value>用例图(&amp;U)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlSequenceDiagram" xml:space="preserve">
+   <value>时序图(&amp;S)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlActivityDiagram" xml:space="preserve">
+   <value>活动图(&amp;A)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlStateMachineDiagram" xml:space="preserve">
+   <value>状态图(&amp;S)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlDeploymentDiagram" xml:space="preserve">
+   <value>部署图(&amp;D)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlProfileDiagram" xml:space="preserve">
+   <value>概要图(&amp;P)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlObjectDiagram" xml:space="preserve">
+   <value>对象图(&amp;O)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlPackageDiagram" xml:space="preserve">
+   <value>包图(&amp;G)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlCommunicationDiagram" xml:space="preserve">
+   <value>通信图(&amp;M)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlCompositeStructureDiagram" xml:space="preserve">
+   <value>复合结构图(&amp;R)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlComponentDiagram" xml:space="preserve">
+   <value>组件图(&amp;N)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlInteractionOverviewDiagram" xml:space="preserve">
+   <value>互动概图(&amp;I)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlMixedDiagram" xml:space="preserve">
+   <value>混合图(&amp;X)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.DataFlowDiagram" xml:space="preserve">
+   <value>数据流图(&amp;F)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.EntityRelationshipDiagram" xml:space="preserve">
+   <value>实体关系图(&amp;R)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.RequirementDiagram" xml:space="preserve">
+   <value>需求图(&amp;Q)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UserInterface" xml:space="preserve">
+   <value>用户界面(&amp;U)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.CrcCardDiagram" xml:space="preserve">
+   <value>CRC卡图(&amp;R)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.FlowchartDiagram" xml:space="preserve">
+   <value>流程图(&amp;F)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.RobustnessDiagram" xml:space="preserve">
+   <value>鲁棒图(&amp;R)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.UmlTimingDiagram" xml:space="preserve">
+   <value>时间图(&amp;T)</value>
+ </data>
+	<data name="MainForm.ProjectTreeViews.HierarchicalView" xml:space="preserve">
+   <value>阶段视图</value>
+ </data>
+	<data name="MainForm.ProjectTreeViews.AllEntitiesView" xml:space="preserve">
+   <value>所有实体</value>
+ </data>
+	<data name="MainForm.ProjectTreeViews.DiagramTypesView" xml:space="preserve">
+   <value>图示类型</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlClassDiagram" xml:space="preserve">
+   <value>类图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlUseCaseDiagram" xml:space="preserve">
+   <value>用例图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlSequenceDiagram" xml:space="preserve">
+   <value>时序图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlActivityDiagram" xml:space="preserve">
+   <value>活动图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlStateMachineDiagram" xml:space="preserve">
+   <value>状态图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlDeploymentDiagram" xml:space="preserve">
+   <value>部署图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlProfileDiagram" xml:space="preserve">
+   <value>概要图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlObjectDiagram" xml:space="preserve">
+   <value>对象图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlPackageDiagram" xml:space="preserve">
+   <value>包图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlCommunicationDiagram" xml:space="preserve">
+   <value>通信图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlCompositeStructureDiagram" xml:space="preserve">
+   <value>符合结构图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlComponentDiagram" xml:space="preserve">
+   <value>组件图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlInteractionOverviewDiagram" xml:space="preserve">
+   <value>互动概图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlMixedDiagram" xml:space="preserve">
+   <value>混合图示</value>
+ </data>
+	<data name="MainForm.Toolbox.DataFlowDiagram" xml:space="preserve">
+   <value>数据流图示</value>
+ </data>
+	<data name="MainForm.Toolbox.EntityRelationshipDiagram" xml:space="preserve">
+   <value>实体关系图</value>
+ </data>
+	<data name="MainForm.Toolbox.RequirementDiagram" xml:space="preserve">
+   <value>需求图</value>
+ </data>
+	<data name="MainForm.Toolbox.UserInterfaceDiagram" xml:space="preserve">
+   <value>用户界面</value>
+ </data>
+	<data name="MainForm.Toolbox.CrcCardDiagram" xml:space="preserve">
+   <value>CRC卡图</value>
+ </data>
+	<data name="MainForm.Toolbox.FlowchartDiagram" xml:space="preserve">
+   <value>流程图</value>
+ </data>
+	<data name="MainForm.Toolbox.RobustnessDiagram" xml:space="preserve">
+   <value>鲁棒图</value>
+ </data>
+	<data name="MainForm.Toolbox.UmlTimingDiagram" xml:space="preserve">
+   <value>时间图</value>
+ </data>
+	<data name="MainForm.Toolbox.Common" xml:space="preserve">
+   <value>普通</value>
+ </data>
+	<data name="MainForm.Toolbox.Drawing" xml:space="preserve">
+   <value>绘图</value>
+ </data>
+	<data name="MainForm.Toolbox.Selection" xml:space="preserve">
+   <value>选择</value>
+ </data>
+	<data name="MainForm.Toolbox.Comment" xml:space="preserve">
+   <value>注释</value>
+ </data>
+	<data name="MainForm.Toolbox.Comment Connector" xml:space="preserve">
+   <value>注释连接工具</value>
+ </data>
+	<data name="MainForm.Toolbox.Constraint" xml:space="preserve">
+   <value>约束</value>
+ </data>
+	<data name="MainForm.Toolbox.Diagram Description" xml:space="preserve">
+   <value>图示描述</value>
+ </data>
+	<data name="MainForm.Toolbox.Line" xml:space="preserve">
+   <value>线</value>
+ </data>
+	<data name="MainForm.Toolbox.Rectangle" xml:space="preserve">
+   <value>矩形</value>
+ </data>
+	<data name="MainForm.Toolbox.Ellipse" xml:space="preserve">
+   <value>椭圆</value>
+ </data>
+	<data name="MainForm.Toolbox.Polygon" xml:space="preserve">
+   <value>多边形</value>
+ </data>
+	<data name="MainForm.Toolbox.Text" xml:space="preserve">
+   <value>文本</value>
+ </data>
+	<data name="MainForm.Toolbox.Left Arrow" xml:space="preserve">
+   <value>左箭头</value>
+ </data>
+	<data name="MainForm.Toolbox.Right Arrow" xml:space="preserve">
+   <value>右箭头</value>
+ </data>
+	<data name="MainForm.Toolbox.Up Arrow" xml:space="preserve">
+   <value>上箭头</value>
+ </data>
+	<data name="MainForm.Toolbox.Down Arrow" xml:space="preserve">
+   <value>下箭头</value>
+ </data>
+	<data name="MainForm.Toolbox.Package" xml:space="preserve">
+   <value>包(Package)</value>
+ </data>
+	<data name="MainForm.Toolbox.Class" xml:space="preserve">
+   <value>类(Class)</value>
+ </data>
+	<data name="MainForm.Toolbox.Table" xml:space="preserve">
+   <value>表(Table)</value>
+ </data>
+	<data name="MainForm.Toolbox.Structure" xml:space="preserve">
+   <value>结构(Structure)</value>
+ </data>
+	<data name="MainForm.Toolbox.Signal" xml:space="preserve">
+   <value>信号(Signal)</value>
+ </data>
+	<data name="MainForm.Toolbox.Enumeration" xml:space="preserve">
+   <value>枚举(Enumeration)</value>
+ </data>
+	<data name="MainForm.Toolbox.Interface" xml:space="preserve">
+   <value>接口(Interface)</value>
+ </data>
+	<data name="MainForm.Toolbox.Realization" xml:space="preserve">
+   <value>实现(Realization)</value>
+ </data>
+	<data name="MainForm.Toolbox.Association" xml:space="preserve">
+   <value>关联(Association)</value>
+ </data>
+	<data name="MainForm.Toolbox.Unidir. Association" xml:space="preserve">
+   <value>单向关联(Unidir)</value>
+ </data>
+	<data name="MainForm.Toolbox.Bidir. Association" xml:space="preserve">
+   <value>双向关联(Bidir)</value>
+ </data>
+	<data name="MainForm.Toolbox.N-ary Association" xml:space="preserve">
+   <value>多维关联(N-ary)</value>
+ </data>
+	<data name="MainForm.Toolbox.Composition" xml:space="preserve">
+   <value>组合(Composition)</value>
+ </data>
+	<data name="MainForm.Toolbox.Aggregation" xml:space="preserve">
+   <value>聚合(Aggregation)</value>
+ </data>
+	<data name="MainForm.Toolbox.Generalization" xml:space="preserve">
+   <value>泛化(Generalization)</value>
+ </data>
+	<data name="MainForm.Toolbox.Dependency" xml:space="preserve">
+   <value>依赖(Dependency)</value>
+ </data>
+	<data name="MainForm.Toolbox.Containment" xml:space="preserve">
+   <value>包容(Containment)</value>
+ </data>
+	<data name="MainForm.Toolbox.Usage" xml:space="preserve">
+   <value>用法(Usage)</value>
+ </data>
+	<data name="MainForm.Toolbox.Access" xml:space="preserve">
+   <value>访问(Access)</value>
+ </data>
+	<data name="MainForm.Toolbox.Refine" xml:space="preserve">
+   <value>优化(Refine)</value>
+ </data>
+	<data name="MainForm.Toolbox.Actor" xml:space="preserve">
+   <value>参与者(Actor)</value>
+ </data>
+	<data name="MainForm.Toolbox.Use Case" xml:space="preserve">
+   <value>用例(Use Case)</value>
+ </data>
+	<data name="MainForm.Toolbox.Collaboration" xml:space="preserve">
+   <value>协作(Collaboration)</value>
+ </data>
+	<data name="MainForm.Toolbox.Include" xml:space="preserve">
+   <value>包含(Include)</value>
+ </data>
+	<data name="MainForm.Toolbox.Extend" xml:space="preserve">
+   <value>扩展(Extend)</value>
+ </data>
+	<data name="MainForm.Toolbox.System Boundary" xml:space="preserve">
+   <value>系统边界(System Boundary)</value>
+ </data>
+	<data name="MainForm.Toolbox.Lifeline" xml:space="preserve">
+   <value>生命线(Lifeline)</value>
+ </data>
+	<data name="MainForm.Toolbox.Interaction Operand" xml:space="preserve">
+   <value>互动操作(Interaction Operand)</value>
+ </data>
+	<data name="MainForm.Toolbox.Activation Bar" xml:space="preserve">
+   <value>启动棒(Activation Bar)</value>
+ </data>
+	<data name="MainForm.Toolbox.Fragment" xml:space="preserve">
+   <value>片段(Fragment)</value>
+ </data>
+	<data name="MainForm.Toolbox.Frame" xml:space="preserve">
+   <value>框架(Frame)</value>
+ </data>
+	<data name="MainForm.Toolbox.Interaction" xml:space="preserve">
+   <value>互动(Interaction)</value>
+ </data>
+	<data name="MainForm.Toolbox.Interaction Use" xml:space="preserve">
+   <value>互动使用(Interaction Use)</value>
+ </data>
+	<data name="MainForm.Toolbox.Call Action" xml:space="preserve">
+   <value>呼叫(Call)</value>
+ </data>
+	<data name="MainForm.Toolbox.Return Action" xml:space="preserve">
+   <value>返回(Return)</value>
+ </data>
+	<data name="MainForm.Toolbox.Create Action" xml:space="preserve">
+   <value>产生(Create)</value>
+ </data>
+	<data name="MainForm.Toolbox.Send Action" xml:space="preserve">
+   <value>发送(Send)</value>
+ </data>
+	<data name="MainForm.Toolbox.Destroy Action" xml:space="preserve">
+   <value>销毁(Destroy)</value>
+ </data>
+	<data name="MainForm.Toolbox.Opt Fragment" xml:space="preserve">
+   <value>Opt 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Alt Fragment" xml:space="preserve">
+   <value>Alt 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Loop Fragment" xml:space="preserve">
+   <value>Loop 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Ref Fragment" xml:space="preserve">
+   <value>Ref 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Sd Fragment" xml:space="preserve">
+   <value>Sd 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Par Fragment" xml:space="preserve">
+   <value>Par 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Neg Fragment" xml:space="preserve">
+   <value>Neg 片段</value>
+ </data>
+	<data name="MainForm.Toolbox.Self Message" xml:space="preserve">
+   <value>自身消息(Self Msg)</value>
+ </data>
+	<data name="MainForm.Toolbox.Recursive Message" xml:space="preserve">
+   <value>递归(Recursive Msg)</value>
+ </data>
+	<data name="MainForm.Toolbox.Concurrent" xml:space="preserve">
+   <value>同步(Concurrent)</value>
+ </data>
+	<data name="MainForm.Toolbox.Duration Message" xml:space="preserve">
+   <value>持续(Duration Msg)</value>
+ </data>
+	<data name="MainForm.Toolbox.Lost Message" xml:space="preserve">
+   <value>丢失(Lost Msg)</value>
+ </data>
+	<data name="MainForm.Toolbox.Found Message" xml:space="preserve">
+   <value>寻回(Found Msg)</value>
+ </data>
+	<data name="MainForm.Toolbox.State Invariant" xml:space="preserve">
+   <value>状态不变(State Invariant)</value>
+ </data>
+	<data name="MainForm.Toolbox.Duration Constraint" xml:space="preserve">
+   <value>持续限制(Duration Constraint)</value>
+ </data>
+	<data name="MainForm.Toolbox.Coregion" xml:space="preserve">
+   <value>共同区域(Coregion)</value>
+ </data>
+	<data name="MainForm.Toolbox.Message" xml:space="preserve">
+   <value>消息(Msg)</value>
+ </data>
+	<data name="MainForm.Toolbox.Swimlane" xml:space="preserve">
+   <value>泳道(Swimlane)</value>
+ </data>
+	<data name="MainForm.Toolbox.Activity" xml:space="preserve">
+   <value>动作(Activity)</value>
+ </data>
+	<data name="MainForm.Toolbox.Object" xml:space="preserve">
+   <value>对象(Object)</value>
+ </data>
+	<data name="MainForm.Toolbox.Initial State" xml:space="preserve">
+   <value>起始状态(Initial State)</value>
+ </data>
+	<data name="MainForm.Toolbox.Final State" xml:space="preserve">
+   <value>终止状态(Final State)</value>
+ </data>
+	<data name="MainForm.Toolbox.State" xml:space="preserve">
+   <value>状态(State)</value>
+ </data>
+	<data name="MainForm.Toolbox.Composite State" xml:space="preserve">
+   <value>组合状态(Composite State)</value>
+ </data>
+	<data name="MainForm.Toolbox.Fork/Join" xml:space="preserve">
+   <value>分散/汇集</value>
+ </data>
+	<data name="MainForm.Toolbox.Decision" xml:space="preserve">
+   <value>决策(Decision)</value>
+ </data>
+	<data name="MainForm.Toolbox.Transition" xml:space="preserve">
+   <value>转折(Transition)</value>
+ </data>
+	<data name="MainForm.Toolbox.Signal Receipt" xml:space="preserve">
+   <value>接收信号</value>
+ </data>
+	<data name="MainForm.Toolbox.Signal Send" xml:space="preserve">
+   <value>发送信号</value>
+ </data>
+	<data name="MainForm.Toolbox.Deep History" xml:space="preserve">
+   <value>深层历史</value>
+ </data>
+	<data name="MainForm.Toolbox.Shallow History" xml:space="preserve">
+   <value>浅层历史</value>
+ </data>
+	<data name="MainForm.Toolbox.Terminate Node" xml:space="preserve">
+   <value>终止节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Entry Point" xml:space="preserve">
+   <value>进入点</value>
+ </data>
+	<data name="MainForm.Toolbox.Exit Point" xml:space="preserve">
+   <value>退出点</value>
+ </data>
+	<data name="MainForm.Toolbox.Initial Node" xml:space="preserve">
+   <value>初始节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Activity Final Node" xml:space="preserve">
+   <value>动作终止节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Flow Node" xml:space="preserve">
+   <value>流程节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Activity Parameter Node" xml:space="preserve">
+   <value>活动参数节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Action" xml:space="preserve">
+   <value>动作(Action)</value>
+ </data>
+	<data name="MainForm.Toolbox.Pin" xml:space="preserve">
+   <value>脚点(pin)</value>
+ </data>
+	<data name="MainForm.Toolbox.Accept Time Event Action" xml:space="preserve">
+   <value>时间事件(AcceptTimeEventAction)</value>
+ </data>
+	<data name="MainForm.Toolbox.Interruptible Activity Region" xml:space="preserve">
+   <value>可中断区</value>
+ </data>
+	<data name="MainForm.Toolbox.Expansion Region" xml:space="preserve">
+   <value>扩展区</value>
+ </data>
+	<data name="MainForm.Toolbox.Expansion Node" xml:space="preserve">
+   <value>扩展节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Exception Handler" xml:space="preserve">
+   <value>异常处理程序</value>
+ </data>
+	<data name="MainForm.Toolbox.Node" xml:space="preserve">
+   <value>节点</value>
+ </data>
+	<data name="MainForm.Toolbox.Component" xml:space="preserve">
+   <value>组件(Component)</value>
+ </data>
+	<data name="MainForm.Toolbox.Artifact" xml:space="preserve">
+   <value>产品(Artifact)</value>
+ </data>
+	<data name="MainForm.Toolbox.Deploy" xml:space="preserve">
+   <value>部署(Deploy)</value>
+ </data>
+	<data name="MainForm.Toolbox.Manifest" xml:space="preserve">
+   <value>显示(清单)</value>
+ </data>
+	<data name="MainForm.Toolbox.Import" xml:space="preserve">
+   <value>导入(Import)</value>
+ </data>
+	<data name="MainForm.Toolbox.Merge" xml:space="preserve">
+   <value>合并(Merge)</value>
+ </data>
+	<data name="MainForm.Toolbox.Use" xml:space="preserve">
+   <value>使用(Use)</value>
+ </data>
+	<data name="MainForm.Toolbox.Profile" xml:space="preserve">
+   <value>图元(Profile)</value>
+ </data>
+	<data name="MainForm.Toolbox.Stereotype" xml:space="preserve">
+   <value>图型(Stereotype)</value>
+ </data>
+	<data name="MainForm.Toolbox.Meta Class" xml:space="preserve">
+   <value>元类(Meta Class)</value>
+ </data>
+	<data name="MainForm.Toolbox.Apply" xml:space="preserve">
+   <value>应用(Apply)</value>
+ </data>
+	<data name="MainForm.Toolbox.Boundary" xml:space="preserve">
+   <value>边界(Boundary)</value>
+ </data>
+	<data name="MainForm.Toolbox.Control" xml:space="preserve">
+   <value>控制(Control)</value>
+ </data>
+	<data name="MainForm.Toolbox.Entity" xml:space="preserve">
+   <value>实体(Entity)</value>
+ </data>
+	<data name="MainForm.Toolbox.Relation" xml:space="preserve">
+   <value>关联(Relation)</value>
+ </data>
+	<data name="MainForm.Toolbox.1 to 1" xml:space="preserve">
+   <value>1 至 1</value>
+ </data>
+	<data name="MainForm.Toolbox.1 to 0..1" xml:space="preserve">
+   <value>1 至 0..1</value>
+ </data>
+	<data name="MainForm.Toolbox.1 to 1..n" xml:space="preserve">
+   <value>1 至 1..n</value>
+ </data>
+	<data name="MainForm.Toolbox.1 to 0..n" xml:space="preserve">
+   <value>1 至 0..n</value>
+ </data>
+	<data name="MainForm.Toolbox.0..n to 0..n" xml:space="preserve">
+   <value>0..n 至 0..n</value>
+ </data>
+	<data name="MainForm.Toolbox.1..n to 1..n" xml:space="preserve">
+   <value>1..n 至 1..n</value>
+ </data>
+	<data name="MainForm.Toolbox.Data Store" xml:space="preserve">
+   <value>数据库(Data Store)</value>
+ </data>
+	<data name="MainForm.Toolbox.Process" xml:space="preserve">
+   <value>进程(Process)</value>
+ </data>
+	<data name="MainForm.Toolbox.Gate" xml:space="preserve">
+   <value>出入口(Gate)</value>
+ </data>
+	<data name="MainForm.Toolbox.External" xml:space="preserve">
+   <value>外部(External)</value>
+ </data>
+	<data name="MainForm.Toolbox.Data Flow" xml:space="preserve">
+   <value>数据流(Data Flow)</value>
+ </data>
+	<data name="MainForm.Toolbox.Requirement" xml:space="preserve">
+   <value>需求(Requirement)</value>
+ </data>
+	<data name="MainForm.Toolbox.Model" xml:space="preserve">
+   <value>模型(Model)</value>
+ </data>
+	<data name="MainForm.Toolbox.Test Case" xml:space="preserve">
+   <value>测试案例(Test Case)</value>
+ </data>
+	<data name="MainForm.Toolbox.Port" xml:space="preserve">
+   <value>埠(Port)</value>
+ </data>
+	<data name="MainForm.Toolbox.Part" xml:space="preserve">
+   <value>部分(Part)</value>
+ </data>
+	<data name="MainForm.Toolbox.Required Interface" xml:space="preserve">
+   <value>需求接口(Required  Interface)</value>
+ </data>
+	<data name="MainForm.Toolbox.Window" xml:space="preserve">
+   <value>窗口</value>
+ </data>
+	<data name="MainForm.Toolbox.Label" xml:space="preserve">
+   <value>标签</value>
+ </data>
+	<data name="MainForm.Toolbox.Button" xml:space="preserve">
+   <value>按钮</value>
+ </data>
+	<data name="MainForm.Toolbox.Check Box" xml:space="preserve">
+   <value>复选框</value>
+ </data>
+	<data name="MainForm.Toolbox.Radio Button" xml:space="preserve">
+   <value>单选框</value>
+ </data>
+	<data name="MainForm.Toolbox.Text Box" xml:space="preserve">
+   <value>文本框</value>
+ </data>
+	<data name="MainForm.Toolbox.Scrollbar" xml:space="preserve">
+   <value>滚动条</value>
+ </data>
+	<data name="MainForm.Toolbox.List Box" xml:space="preserve">
+   <value>列表框</value>
+ </data>
+	<data name="MainForm.Toolbox.Combo Box" xml:space="preserve">
+   <value>组合框</value>
+ </data>
+	<data name="MainForm.Toolbox.Progress Bar" xml:space="preserve">
+   <value>进度条</value>
+ </data>
+	<data name="MainForm.Toolbox.Grid" xml:space="preserve">
+   <value>网格</value>
+ </data>
+	<data name="MainForm.Toolbox.Flow" xml:space="preserve">
+   <value>流</value>
+ </data>
+	<data name="MainForm.Toolbox.Data" xml:space="preserve">
+   <value>数据</value>
+ </data>
+	<data name="MainForm.Toolbox.Direct Data" xml:space="preserve">
+   <value>直接数据</value>
+ </data>
+	<data name="MainForm.Toolbox.Document" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="MainForm.Toolbox.Internal Storage" xml:space="preserve">
+   <value>内部存储</value>
+ </data>
+	<data name="MainForm.Toolbox.Predefined Process" xml:space="preserve">
+   <value>预订过程</value>
+ </data>
+	<data name="MainForm.Toolbox.Start End Symbol" xml:space="preserve">
+   <value>起始符号</value>
+ </data>
+	<data name="MainForm.Toolbox.Stored Data" xml:space="preserve">
+   <value>已存储数据</value>
+ </data>
+	<data name="MainForm.Toolbox.User Input" xml:space="preserve">
+   <value>用户输入</value>
+ </data>
+	<data name="MainForm.Toolbox.CRC Card" xml:space="preserve">
+   <value>CRC卡</value>
+ </data>
+	<data name="MainForm.SideBars.Project" xml:space="preserve">
+   <value>项目</value>
+ </data>
+	<data name="MainForm.SideBars.FastEditor" xml:space="preserve">
+   <value>快速编辑器</value>
+ </data>
+	<data name="MainForm.SideBars.Styles" xml:space="preserve">
+   <value>样式</value>
+ </data>
+	<data name="MainForm.SideBars.ItemProperties" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="MainForm.SideBars.Generation" xml:space="preserve">
+   <value>生成</value>
+ </data>
+	<data name="MainForm.SideBars.Documentation" xml:space="preserve">
+   <value>文件</value>
+ </data>
+	<data name="MainForm.SideBars.Layers" xml:space="preserve">
+   <value>图层</value>
+ </data>
+	<data name="MainForm.SideBars.Preview" xml:space="preserve">
+   <value>预览</value>
+ </data>
+	<data name="MainForm.SideBars.ToDo" xml:space="preserve">
+   <value>TO-DO</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.ShowEntities" xml:space="preserve">
+   <value>显示实体</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.ShowRelations" xml:space="preserve">
+   <value>显示关系</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.ShowComments" xml:space="preserve">
+   <value>显示注释</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.ShowGroups" xml:space="preserve">
+   <value>显示分组</value>
+ </data>
+	<data name="MainForm.GenerationTabPanel.Generate" xml:space="preserve">
+   <value>生成(&amp;G)</value>
+ </data>
+	<data name="MainForm.GenerationTabPanel.GenerateFrom" xml:space="preserve">
+   <value>生成表</value>
+ </data>
+	<data name="MainForm.GenerationTabPanel.WholeDiagram" xml:space="preserve">
+   <value>整个图示(&amp;D)</value>
+ </data>
+	<data name="MainForm.GenerationTabPanel.SelectedElements" xml:space="preserve">
+   <value>选中元素(&amp;E)</value>
+ </data>
+	<data name="MainForm.ItemEditorTabPanel.ItemDefinition" xml:space="preserve">
+   <value>项目定义(&amp;I)</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.Apply" xml:space="preserve">
+   <value>应用(&amp;A)</value>
+ </data>
+	<data name="MainForm.Properties.ShowDialog" xml:space="preserve">
+   <value>显示对话框</value>
+ </data>
+	<data name="MainForm.Properties.ID" xml:space="preserve">
+   <value>ID:</value>
+ </data>
+	<data name="MainForm.Properties.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="MainForm.Properties.Visibility" xml:space="preserve">
+   <value>可见性:</value>
+ </data>
+	<data name="MainForm.Properties.X" xml:space="preserve">
+   <value>X:</value>
+ </data>
+	<data name="MainForm.Properties.Y" xml:space="preserve">
+   <value>Y:</value>
+ </data>
+	<data name="MainForm.Properties.Width" xml:space="preserve">
+   <value>宽度:</value>
+ </data>
+	<data name="MainForm.Properties.Height" xml:space="preserve">
+   <value>高度:</value>
+ </data>
+	<data name="EditorForm.Form.FilterWarning" xml:space="preserve">
+   <value>筛选器激活,一些元素已被隐藏.</value>
+ </data>
+	<data name="EditorForm.Form.RemoveFilter" xml:space="preserve">
+   <value>移除筛选(&amp;R)</value>
+ </data>
+	<data name="Elements.DiagramDescription.Authors" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="Elements.DiagramDescription.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="Elements.DiagramDescription.DiagramName" xml:space="preserve">
+   <value>图示名称:</value>
+ </data>
+	<data name="Elements.DiagramDescription.Version" xml:space="preserve">
+   <value>版本:</value>
+ </data>
+	<data name="Elements.DiagramDescription.LastChangeDate" xml:space="preserve">
+   <value>修改日期:</value>
+ </data>
+	<data name="Elements.DiagramDescription.ModelName" xml:space="preserve">
+   <value>模型:</value>
+ </data>
+	<data name="Elements.DiagramDescription.ProjectName" xml:space="preserve">
+   <value>项目:</value>
+ </data>
+	<data name="LayerControl.Control.ContextRename" xml:space="preserve">
+   <value>重命名(&amp;R)</value>
+ </data>
+	<data name="LayerControl.Control.ContextDelete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="LayerControl.Control.ContextShowHide" xml:space="preserve">
+   <value>显示/隐藏(&amp;S)</value>
+ </data>
+	<data name="LayerControl.Control.ContextMoveUp" xml:space="preserve">
+   <value>上移(&amp;U)</value>
+ </data>
+	<data name="LayerControl.Control.ContextMoveDown" xml:space="preserve">
+   <value>下移(&amp;D)</value>
+ </data>
+	<data name="ContextBar.Control.AddAttribute" xml:space="preserve">
+   <value>添加属性</value>
+ </data>
+	<data name="ContextBar.Control.AddOperation" xml:space="preserve">
+   <value>添加操作</value>
+ </data>
+	<data name="ContextBar.Control.AddSubClass" xml:space="preserve">
+   <value>添加子类</value>
+ </data>
+	<data name="ContextBar.Control.AddSuperClass" xml:space="preserve">
+   <value>添加父类</value>
+ </data>
+	<data name="ContextBar.Control.AddUseCase" xml:space="preserve">
+   <value>添加用例</value>
+ </data>
+	<data name="ContextBar.Control.AddSwimlane" xml:space="preserve">
+   <value>添加泳道</value>
+ </data>
+	<data name="ContextBar.Control.AddInterface" xml:space="preserve">
+   <value>添加接口</value>
+ </data>
+	<data name="ContextBar.Control.AddState" xml:space="preserve">
+   <value>添加状态</value>
+ </data>
+	<data name="ContextBar.Control.AddValueLifeline" xml:space="preserve">
+   <value>添加数值生命线</value>
+ </data>
+	<data name="ContextBar.Control.AddStateLifeline" xml:space="preserve">
+   <value>添加状态生命线</value>
+ </data>
+	<data name="ContextBar.Control.ConvertToValueLifeline" xml:space="preserve">
+   <value>转换为数值生命线</value>
+ </data>
+	<data name="ContextBar.Control.ConvertToStateLifeline" xml:space="preserve">
+   <value>转换为状态生命线</value>
+ </data>
+	<data name="ContextBar.Control.Extend" xml:space="preserve">
+   <value>扩展(Extend)</value>
+ </data>
+	<data name="ContextBar.Control.Include" xml:space="preserve">
+   <value>包含(Include)</value>
+ </data>
+	<data name="ContextBar.Control.AddComment" xml:space="preserve">
+   <value>添加注释</value>
+ </data>
+	<data name="ContextBar.Control.AddSequenceExpression" xml:space="preserve">
+   <value>添加序列表达式</value>
+ </data>
+	<data name="ContextBar.Control.AddCollaborator" xml:space="preserve">
+   <value>添加合作者</value>
+ </data>
+	<data name="ContextBar.Control.AddResponsibility" xml:space="preserve">
+   <value>添加职能</value>
+ </data>
+	<data name="ContextBar.Control.AddAssociationClass" xml:space="preserve">
+   <value>添加关联类</value>
+ </data>
+	<data name="NewDiagramForm.Form.Title" xml:space="preserve">
+   <value>新图示</value>
+ </data>
+	<data name="NewDiagramForm.Form.SelectItemLabel" xml:space="preserve">
+   <value>选择要添加的图示类型:</value>
+ </data>
+	<data name="NewDiagramForm.Form.NameLabel" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="NewDiagramForm.Form.OK" xml:space="preserve">
+   <value>好(&amp;O)</value>
+ </data>
+	<data name="NewDiagramForm.Form.Cancel" xml:space="preserve">
+   <value>取消(&amp;C)</value>
+ </data>
+	<data name="NewDiagramForm.Diagrams.UMLDiagrams" xml:space="preserve">
+   <value>UML 图示</value>
+ </data>
+	<data name="NewDiagramForm.Diagrams.DatabaseModeling" xml:space="preserve">
+   <value>数据库建模</value>
+ </data>
+	<data name="NewDiagramForm.Diagrams.Requirements" xml:space="preserve">
+   <value>需求分析</value>
+ </data>
+	<data name="NewDiagramForm.Diagrams.Others" xml:space="preserve">
+   <value>其他</value>
+ </data>
+	<data name="AboutForm.Form.Title" xml:space="preserve">
+   <value>关于Software Ideas Modeler</value>
+ </data>
+	<data name="AboutForm.Form.AboutTab" xml:space="preserve">
+   <value>关于</value>
+ </data>
+	<data name="AboutForm.Form.WhatsNewTab" xml:space="preserve">
+   <value>更新内容</value>
+ </data>
+	<data name="AboutForm.Form.Author" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="AboutForm.Form.Version" xml:space="preserve">
+   <value>版本:</value>
+ </data>
+	<data name="AboutForm.Form.Description" xml:space="preserve">
+   <value>Software Ideas Modeler是用UML图示进行软件建模的工具。</value>
+ </data>
+	<data name="AboutForm.Form.Close" xml:space="preserve">
+   <value>关闭(&amp;C)</value>
+ </data>
+	<data name="AboutForm.Form.Donation" xml:space="preserve">
+   <value>假如您喜欢这个软件, 点击"捐助"按钮并捐助任意金额来帮助它的开发。</value>
+ </data>
+	<data name="StartPageForm.Form.Title" xml:space="preserve">
+   <value>起始页</value>
+ </data>
+	<data name="StartPageForm.Form.StartWith" xml:space="preserve">
+   <value>开始建立图示...</value>
+ </data>
+	<data name="StartPageForm.Form.RecentProjects" xml:space="preserve">
+   <value>近期项目</value>
+ </data>
+	<data name="StartPageForm.Form.OpenProject" xml:space="preserve">
+   <value>打开项目...</value>
+ </data>
+	<data name="StartPageForm.Form.NewProject" xml:space="preserve">
+   <value>创建新项目...</value>
+ </data>
+	<data name="StartPageForm.Form.Buy" xml:space="preserve">
+   <value>购买</value>
+ </data>
+	<data name="ModelOverviewForm.Form.Title" xml:space="preserve">
+   <value>模型一览</value>
+ </data>
+	<data name="DiagramThumbnailsPanel.Control.Open" xml:space="preserve">
+   <value>打开(&amp;O)</value>
+ </data>
+	<data name="DiagramThumbnailsPanel.Control.Close" xml:space="preserve">
+   <value>关闭(&amp;C)</value>
+ </data>
+	<data name="DiagramThumbnailsPanel.Control.DeleteDiagram" xml:space="preserve">
+   <value>删除图示(&amp;D)</value>
+ </data>
+	<data name="ClassifierForm.Form.Title" xml:space="preserve">
+   <value>类元</value>
+ </data>
+	<data name="ClassifierForm.Form.Classifiers" xml:space="preserve">
+   <value>类元:</value>
+ </data>
+	<data name="CommunicationMessageForm.Form.Title" xml:space="preserve">
+   <value>消息</value>
+ </data>
+	<data name="CommunicationMessageForm.Form.SequenceNumber" xml:space="preserve">
+   <value>序号:</value>
+ </data>
+	<data name="CommunicationMessageForm.Form.Message" xml:space="preserve">
+   <value>消息:</value>
+ </data>
+	<data name="CommunicationMessageForm.Form.Direction" xml:space="preserve">
+   <value>方向:</value>
+ </data>
+	<data name="CommunicationMessageForm.Form.NormalDirection" xml:space="preserve">
+   <value>普通</value>
+ </data>
+	<data name="CommunicationMessageForm.Form.ReverseDirection" xml:space="preserve">
+   <value>反向</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Title" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Class" xml:space="preserve">
+   <value>类</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Relationship" xml:space="preserve">
+   <value>关系</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Style" xml:space="preserve">
+   <value>样式</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Documentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.TaggedValues" xml:space="preserve">
+   <value>标记值</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.ErdEntity" xml:space="preserve">
+   <value>实体</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.ErdRelation" xml:space="preserve">
+   <value>关系</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlState" xml:space="preserve">
+   <value>状态</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlFragment" xml:space="preserve">
+   <value>片段</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlFrame" xml:space="preserve">
+   <value>框架</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlInteraction" xml:space="preserve">
+   <value>交互</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlObject" xml:space="preserve">
+   <value>对象</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlLifeline" xml:space="preserve">
+   <value>生命线</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlInteractionOperand" xml:space="preserve">
+   <value>交互操作</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlCommunicationLifeline" xml:space="preserve">
+   <value>生命线</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlCommunicationMessage" xml:space="preserve">
+   <value>消息</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlTransition" xml:space="preserve">
+   <value>转换</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlExtend" xml:space="preserve">
+   <value>扩展</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.UmlSwimlane" xml:space="preserve">
+   <value>泳道</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.SequenceMessage" xml:space="preserve">
+   <value>消息</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.TemplateParameters" xml:space="preserve">
+   <value>模版参数</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.TimingTickMarkValues" xml:space="preserve">
+   <value>勾选值</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.TimingStates" xml:space="preserve">
+   <value>状态</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.TimingEvents" xml:space="preserve">
+   <value>事件</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.CrcCardHeader" xml:space="preserve">
+   <value>头</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.CrcCard" xml:space="preserve">
+   <value>职能</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.OK" xml:space="preserve">
+   <value>好(&amp;O)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Cancel" xml:space="preserve">
+   <value>取消(&amp;C)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.ID" xml:space="preserve">
+   <value>ID:</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Stereotypes" xml:space="preserve">
+   <value>图型(Stereotype)(&amp;S)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.AppliedStereotypes" xml:space="preserve">
+   <value>已应用图型(&amp;A)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.AvailableStereotypes" xml:space="preserve">
+   <value>可用图型(&amp;V)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Add" xml:space="preserve">
+   <value>&lt;增加(&amp;A)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.AddCustom" xml:space="preserve">
+   <value>&lt;增加自定义(&amp;C)</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Remove" xml:space="preserve">
+   <value>移除(&amp;R)&gt;</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Modifiers" xml:space="preserve">
+   <value>修饰符</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.AbstractModifier" xml:space="preserve">
+   <value>&amp;Abstract</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.StaticModifier" xml:space="preserve">
+   <value>&amp;Static</value>
+ </data>
+	<data name="Style.Control.DefaultStyle" xml:space="preserve">
+   <value>默认样式</value>
+ </data>
+	<data name="Style.Control.StyleByClass" xml:space="preserve">
+   <value>类样式</value>
+ </data>
+	<data name="Style.Control.CustomStyle" xml:space="preserve">
+   <value>自定义样式</value>
+ </data>
+	<data name="Style.Control.BorderColor" xml:space="preserve">
+   <value>边框颜色:</value>
+ </data>
+	<data name="Style.Control.BackgroundType" xml:space="preserve">
+   <value>背景类型:</value>
+ </data>
+	<data name="Style.Control.BackgroundColor" xml:space="preserve">
+   <value>背景颜色:</value>
+ </data>
+	<data name="Style.Control.BackgroundColor2" xml:space="preserve">
+   <value>背景颜色 2:</value>
+ </data>
+	<data name="Style.Control.TextColor" xml:space="preserve">
+   <value>文本颜色:</value>
+ </data>
+	<data name="Style.Control.TextFont" xml:space="preserve">
+   <value>文本字体:</value>
+ </data>
+	<data name="Style.Control.BorderWidth" xml:space="preserve">
+   <value>边框宽度:</value>
+ </data>
+	<data name="Style.Control.Gloss" xml:space="preserve">
+   <value>发光</value>
+ </data>
+	<data name="Style.Control.Gloss3D" xml:space="preserve">
+   <value>3D发光效果</value>
+ </data>
+	<data name="Style.Control.Shadow" xml:space="preserve">
+   <value>阴影:</value>
+ </data>
+	<data name="Style.Control.ShadowOffsetX" xml:space="preserve">
+   <value>偏移 X:</value>
+ </data>
+	<data name="Style.Control.ShadowOffsetY" xml:space="preserve">
+   <value>偏移 Y:</value>
+ </data>
+	<data name="Style.Control.ShadowRadius" xml:space="preserve">
+   <value>半径:</value>
+ </data>
+	<data name="Style.Control.ShadowColor" xml:space="preserve">
+   <value>颜色:</value>
+ </data>
+	<data name="Style.Control.NameFont" xml:space="preserve">
+   <value>名称字体:</value>
+ </data>
+	<data name="Style.Control.NameColor" xml:space="preserve">
+   <value>名称颜色:</value>
+ </data>
+	<data name="Style.Control.StereotypeColor" xml:space="preserve">
+   <value>图型颜色:</value>
+ </data>
+	<data name="Style.Control.StereotypeFont" xml:space="preserve">
+   <value>图型字体:</value>
+ </data>
+	<data name="Style.Control.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="Style.Control.Stereotype" xml:space="preserve">
+   <value>图型(Stereotype)</value>
+ </data>
+	<data name="Style.Control.Text" xml:space="preserve">
+   <value>文本</value>
+ </data>
+	<data name="Style.Control.Effects" xml:space="preserve">
+   <value>效果</value>
+ </data>
+	<data name="Style.Control.Font" xml:space="preserve">
+   <value>字体:</value>
+ </data>
+	<data name="Style.Control.Color" xml:space="preserve">
+   <value>颜色:</value>
+ </data>
+	<data name="Style.Control.Alignment" xml:space="preserve">
+   <value>对齐:</value>
+ </data>
+	<data name="Documentation.Control.FontSize" xml:space="preserve">
+   <value>字号:</value>
+ </data>
+	<data name="ErdRelationDefinition.Control.RelationType" xml:space="preserve">
+   <value>关系类型:</value>
+ </data>
+	<data name="ErdRelationDefinition.Control.StartMultiplicity" xml:space="preserve">
+   <value>开始多样性:</value>
+ </data>
+	<data name="ErdRelationDefinition.Control.StartRole" xml:space="preserve">
+   <value>起始角色:</value>
+ </data>
+	<data name="ErdRelationDefinition.Control.EndMultiplicity" xml:space="preserve">
+   <value>结束多样性:</value>
+ </data>
+	<data name="ErdRelationDefinition.Control.EndRole" xml:space="preserve">
+   <value>结束角色:</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.Add" xml:space="preserve">
+   <value>添加</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.Edit" xml:space="preserve">
+   <value>编辑</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.Remove" xml:space="preserve">
+   <value>移除</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.Attributes" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.NameColumn" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.TypeColumn" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.TypeSizeColumn" xml:space="preserve">
+   <value>类型值</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.NullableColumn" xml:space="preserve">
+   <value>可否为空</value>
+ </data>
+	<data name="ErdEntityDefinition.Control.DescriptionColumn" xml:space="preserve">
+   <value>描述</value>
+ </data>
+	<data name="MessageDefinition.Control.Message" xml:space="preserve">
+   <value>消息:</value>
+ </data>
+	<data name="MessageDefinition.Control.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="MessageDefinition.Control.Asynchronous" xml:space="preserve">
+   <value>异步</value>
+ </data>
+	<data name="MessageDefinition.Control.Call" xml:space="preserve">
+   <value>调用</value>
+ </data>
+	<data name="MessageDefinition.Control.Create" xml:space="preserve">
+   <value>创建</value>
+ </data>
+	<data name="MessageDefinition.Control.Destroy" xml:space="preserve">
+   <value>销毁</value>
+ </data>
+	<data name="MessageDefinition.Control.Return" xml:space="preserve">
+   <value>返回</value>
+ </data>
+	<data name="MessageDefinition.Control.Send" xml:space="preserve">
+   <value>发送</value>
+ </data>
+	<data name="MessageDefinition.Control.Terminate" xml:space="preserve">
+   <value>终止</value>
+ </data>
+	<data name="CommentDefinition.Control.Comment" xml:space="preserve">
+   <value>注释:</value>
+ </data>
+	<data name="LifelineDefinition.Control.Classifier" xml:space="preserve">
+   <value>类元(Classifier):</value>
+ </data>
+	<data name="LifelineDefinition.Control.Active" xml:space="preserve">
+   <value>激活</value>
+ </data>
+	<data name="LifelineDefinition.Control.MultiObject" xml:space="preserve">
+   <value>多对象</value>
+ </data>
+	<data name="CommunicationLifelineDefinition.Control.Classifier" xml:space="preserve">
+   <value>类元(Classifier):</value>
+ </data>
+	<data name="CommunicationMessageDefinition.Control.Add" xml:space="preserve">
+   <value>增加(&amp;A)</value>
+ </data>
+	<data name="CommunicationMessageDefinition.Control.Edit" xml:space="preserve">
+   <value>编辑(&amp;E)</value>
+ </data>
+	<data name="CommunicationMessageDefinition.Control.Remove" xml:space="preserve">
+   <value>移除(&amp;R)</value>
+ </data>
+	<data name="FragmentDefinition.Control.InteractionOperator" xml:space="preserve">
+   <value>交互操作:</value>
+ </data>
+	<data name="FragmentDefinition.Control.Add" xml:space="preserve">
+   <value>增加(&amp;A)</value>
+ </data>
+	<data name="FragmentDefinition.Control.Edit" xml:space="preserve">
+   <value>编辑(&amp;E)</value>
+ </data>
+	<data name="FragmentDefinition.Control.Remove" xml:space="preserve">
+   <value>移除(&amp;R)</value>
+ </data>
+	<data name="FrameDefinition.Control.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="InteractionDefinition.Control.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="InteractionOperandDefinition.Control.GuardCondition" xml:space="preserve">
+   <value>触发条件:</value>
+ </data>
+	<data name="ObjectDefinition.Control.Classifier" xml:space="preserve">
+   <value>类元(Classifier):</value>
+ </data>
+	<data name="ObjectDefinition.Control.Values" xml:space="preserve">
+   <value>值</value>
+ </data>
+	<data name="ObjectDefinition.Control.Value" xml:space="preserve">
+   <value>值</value>
+ </data>
+	<data name="ObjectDefinition.Control.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="AddObjectAttributeForm.Form.Title" xml:space="preserve">
+   <value>添加属性</value>
+ </data>
+	<data name="AddObjectAttributeForm.Form.Attributes" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="CrcCardHeaderDefinition.Control.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="CrcCardHeaderDefinition.Control.Superclass" xml:space="preserve">
+   <value>父类:</value>
+ </data>
+	<data name="CrcCardHeaderDefinition.Control.Subclasses" xml:space="preserve">
+   <value>子类:</value>
+ </data>
+	<data name="CrcCardHeaderDefinition.Control.Subclass" xml:space="preserve">
+   <value>子类</value>
+ </data>
+	<data name="CrcCardDefinition.Control.Responsibilities" xml:space="preserve">
+   <value>职能</value>
+ </data>
+	<data name="CrcCardDefinition.Control.Responsibility" xml:space="preserve">
+   <value>职能</value>
+ </data>
+	<data name="CrcCardDefinition.Control.Collaborators" xml:space="preserve">
+   <value>协作者</value>
+ </data>
+	<data name="CrcCardDefinition.Control.Collaborator" xml:space="preserve">
+   <value>协作者</value>
+ </data>
+	<data name="StateDefinition.Control.StateGroup" xml:space="preserve">
+   <value>状态</value>
+ </data>
+	<data name="StateDefinition.Control.StateInvariant" xml:space="preserve">
+   <value>状态不变:</value>
+ </data>
+	<data name="StateDefinition.Control.StandardActions" xml:space="preserve">
+   <value>标准动作</value>
+ </data>
+	<data name="StateDefinition.Control.Entry" xml:space="preserve">
+   <value>入口:</value>
+ </data>
+	<data name="StateDefinition.Control.Do" xml:space="preserve">
+   <value>执行:</value>
+ </data>
+	<data name="StateDefinition.Control.Exit" xml:space="preserve">
+   <value>退出:</value>
+ </data>
+	<data name="StateDefinition.Control.CustomActions" xml:space="preserve">
+   <value>自定义动作</value>
+ </data>
+	<data name="StateDefinition.Control.ActionName" xml:space="preserve">
+   <value>动作名称</value>
+ </data>
+	<data name="StateDefinition.Control.Behavior" xml:space="preserve">
+   <value>行为</value>
+ </data>
+	<data name="StateDefinition.Control.Add" xml:space="preserve">
+   <value>增加(&amp;A)</value>
+ </data>
+	<data name="StateDefinition.Control.Remove" xml:space="preserve">
+   <value>移除(&amp;R)</value>
+ </data>
+	<data name="TransitionDefinition.Control.PreCondition" xml:space="preserve">
+   <value>前置条件:</value>
+ </data>
+	<data name="TransitionDefinition.Control.Operation" xml:space="preserve">
+   <value>操作:</value>
+ </data>
+	<data name="TransitionDefinition.Control.PostCondition" xml:space="preserve">
+   <value>后置条件:</value>
+ </data>
+	<data name="TemplateParamsDefinitionForm.Control.NameColumn" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="TemplateParamsDefinitionForm.Control.KindColumn" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="TemplateParamsDefinitionForm.Control.DefaultValueColumn" xml:space="preserve">
+   <value>默认值</value>
+ </data>
+	<data name="ErdAttributeForm.Form.Title" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="ErdAttributeForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ErdAttributeForm.Form.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="ErdAttributeForm.Form.TypeSize" xml:space="preserve">
+   <value>类型值:</value>
+ </data>
+	<data name="ErdAttributeForm.Form.PrimaryKey" xml:space="preserve">
+   <value>主键</value>
+ </data>
+	<data name="ErdAttributeForm.Form.ForeignKey" xml:space="preserve">
+   <value>外键</value>
+ </data>
+	<data name="ErdAttributeForm.Form.Nullable" xml:space="preserve">
+   <value>可否为空</value>
+ </data>
+	<data name="ErdAttributeForm.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="ErdAttributeForm.Form.OK" xml:space="preserve">
+   <value>好(&amp;O)</value>
+ </data>
+	<data name="ErdAttributeForm.Form.Cancel" xml:space="preserve">
+   <value>取消(&amp;C)</value>
+ </data>
+	<data name="StereotypeForm.Form.Title" xml:space="preserve">
+   <value>图型(Stereotype)</value>
+ </data>
+	<data name="StereotypeForm.Form.OK" xml:space="preserve">
+   <value>好(&amp;O)</value>
+ </data>
+	<data name="StereotypeForm.Form.Cancel" xml:space="preserve">
+   <value>取消(&amp;C)</value>
+ </data>
+	<data name="StereotypeForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.Title" xml:space="preserve">
+   <value>类定义</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.Name" xml:space="preserve">
+   <value>名称(&amp;N):</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.Attributes" xml:space="preserve">
+   <value>属性(&amp;A):</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.Operations" xml:space="preserve">
+   <value>操作(&amp;O):</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.OK" xml:space="preserve">
+   <value>好(&amp;O)</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.Cancel" xml:space="preserve">
+   <value>取消(&amp;C)</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.NameColumn" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.TypeColumn" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.VisibilityColumn" xml:space="preserve">
+   <value>可见性</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.DefaultValueColumn" xml:space="preserve">
+   <value>默认值</value>
+ </data>
+	<data name="ClassDefinitionForm.Form.ParametersColumn" xml:space="preserve">
+   <value>参数</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.RelationType" xml:space="preserve">
+   <value>关系类型:</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.Multiplicity" xml:space="preserve">
+   <value>多态性:</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.RoleName" xml:space="preserve">
+   <value>角色:</value>
+ </data>
+	<data name="ExtendDefinitionControl.Control.ExtensionPoint" xml:space="preserve">
+   <value>扩展点:</value>
+ </data>
+	<data name="SwimlaneDefinitionControl.Control.Orientation" xml:space="preserve">
+   <value>方向</value>
+ </data>
+	<data name="SwimlaneDefinitionControl.Control.VerticalOrientation" xml:space="preserve">
+   <value>垂直</value>
+ </data>
+	<data name="SwimlaneDefinitionControl.Control.HorizontalOrientation" xml:space="preserve">
+   <value>水平</value>
+ </data>
+	<data name="DiagramControl.Menu.AssignNewDiagram" xml:space="preserve">
+   <value>添加新图示(&amp;N)</value>
+ </data>
+	<data name="DiagramControl.Menu.AssignExistingDiagram" xml:space="preserve">
+   <value>添加已有图示(&amp;X)</value>
+ </data>
+	<data name="DiagramControl.Menu.Documentation" xml:space="preserve">
+   <value>文档(&amp;D)</value>
+ </data>
+	<data name="DiagramControl.Menu.Properties" xml:space="preserve">
+   <value>属性(&amp;P)</value>
+ </data>
+	<data name="DiagramControl.Menu.AddPoint" xml:space="preserve">
+   <value>添加点(&amp;A)</value>
+ </data>
+	<data name="DiagramControl.Menu.LockStartPoint" xml:space="preserve">
+   <value>锁定起点(&amp;S)</value>
+ </data>
+	<data name="DiagramControl.Menu.LockEndPoint" xml:space="preserve">
+   <value>锁定终点(&amp;E)</value>
+ </data>
+	<data name="DiagramControl.Menu.LineStyle" xml:space="preserve">
+   <value>线条样式(&amp;Y)</value>
+ </data>
+	<data name="DiagramControl.Menu.ObliqueLineStyle" xml:space="preserve">
+   <value>倾斜(&amp;O)</value>
+ </data>
+	<data name="DiagramControl.Menu.StraightLineStyle" xml:space="preserve">
+   <value>直线(&amp;S)</value>
+ </data>
+	<data name="DiagramControl.Menu.RectangularLineStyle" xml:space="preserve">
+   <value>矩形(&amp;R)</value>
+ </data>
+	<data name="DiagramControl.Menu.CurveLineStyle" xml:space="preserve">
+   <value>曲线(&amp;C)</value>
+ </data>
+	<data name="DiagramControl.Menu.ExportDiagram" xml:space="preserve">
+   <value>导出图示(&amp;X)</value>
+ </data>
+	<data name="DiagramControl.Menu.ShowGrid" xml:space="preserve">
+   <value>显示网格(&amp;W)</value>
+ </data>
+	<data name="DiagramControl.Menu.SnapToGrid" xml:space="preserve">
+   <value>对齐网格(&amp;G)</value>
+ </data>
+	<data name="DiagramControl.Menu.DeleteFromDiagram" xml:space="preserve">
+   <value>从图示删除(&amp;D)</value>
+ </data>
+	<data name="DiagramControl.Menu.DeleteFromProject" xml:space="preserve">
+   <value>从项目删除(&amp;J)</value>
+ </data>
+	<data name="DiagramControl.Menu.RelationDeleteFromDiagram" xml:space="preserve">
+   <value>从图示删除(&amp;D)</value>
+ </data>
+	<data name="DiagramControl.Menu.RelationDeleteFromProject" xml:space="preserve">
+   <value>从项目删除(&amp;J)</value>
+ </data>
+	<data name="DiagramControl.Menu.RelationProperties" xml:space="preserve">
+   <value>属性(&amp;P)</value>
+ </data>
+	<data name="DiagramControl.Menu.Reverse" xml:space="preserve">
+   <value>反向(&amp;R)</value>
+ </data>
+	<data name="DiagramControl.Menu.RemoveField" xml:space="preserve">
+   <value>移除(&amp;R) '{@1}'</value>
+ </data>
+	<data name="DiagramControl.Menu.ChangeType" xml:space="preserve">
+   <value>改变类型(&amp;T)</value>
+ </data>
+	<data name="DiagramControl.Menu.Visibility" xml:space="preserve">
+   <value>可见性(&amp;V)</value>
+ </data>
+	<data name="DiagramControl.Menu.Public" xml:space="preserve">
+   <value>&amp;Public</value>
+ </data>
+	<data name="DiagramControl.Menu.Package" xml:space="preserve">
+   <value>P&amp;ackage</value>
+ </data>
+	<data name="DiagramControl.Menu.Protected" xml:space="preserve">
+   <value>P&amp;rotected</value>
+ </data>
+	<data name="DiagramControl.Menu.Private" xml:space="preserve">
+   <value>Pr&amp;ivate</value>
+ </data>
+	<data name="DiagramControl.Menu.Rename" xml:space="preserve">
+   <value>重命名(&amp;N)</value>
+ </data>
+	<data name="DiagramControl.Menu.MoveUp" xml:space="preserve">
+   <value>上移(&amp;U)</value>
+ </data>
+	<data name="DiagramControl.Menu.MoveDown" xml:space="preserve">
+   <value>下移(&amp;D)</value>
+ </data>
+	<data name="DiagramControl.Menu.Group" xml:space="preserve">
+   <value>组合(&amp;G)</value>
+ </data>
+	<data name="DiagramControl.Menu.Ungroup" xml:space="preserve">
+   <value>取消组合(&amp;U)</value>
+ </data>
+	<data name="StyleSetEditorForm.Form.Title" xml:space="preserve">
+   <value>样式编辑器</value>
+ </data>
+	<data name="StyleSetEditorForm.Form.StyleSetName" xml:space="preserve">
+   <value>样式名称:</value>
+ </data>
+	<data name="StyleSetEditorForm.Form.DefaultStyle" xml:space="preserve">
+   <value>默认样式</value>
+ </data>
+	<data name="StyleSetEditorForm.Form.New" xml:space="preserve">
+   <value>新建</value>
+ </data>
+	<data name="StyleSetEditorForm.Form.Open" xml:space="preserve">
+   <value>打开</value>
+ </data>
+	<data name="StyleSetEditorForm.Form.Save" xml:space="preserve">
+   <value>保存</value>
+ </data>
+	<data name="NewStyleForm.Form.Title" xml:space="preserve">
+   <value>新建样式</value>
+ </data>
+	<data name="NewStyleForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="NewStyleForm.Form.ForSpecificElement" xml:space="preserve">
+   <value>用于特点元素</value>
+ </data>
+	<data name="NewStyleForm.Form.StyleClassName" xml:space="preserve">
+   <value>样式类名称:</value>
+ </data>
+	<data name="NewStyleForm.Form.ElementType" xml:space="preserve">
+   <value>元素类型:</value>
+ </data>
+	<data name="NewStyleForm.Form.Stereotype" xml:space="preserve">
+   <value>图型:</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.Title" xml:space="preserve">
+   <value>重排元素ID中...</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.Options" xml:space="preserve">
+   <value>选项</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.OriginalNumbering" xml:space="preserve">
+   <value>原始编号</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.NewNumbering" xml:space="preserve">
+   <value>新建编号</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.StartNumberingFrom" xml:space="preserve">
+   <value>起始编号:</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.OrderByAlphabet" xml:space="preserve">
+   <value>按字母顺序</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.SameWithoutGaps" xml:space="preserve">
+   <value>移除间隙</value>
+ </data>
+	<data name="IDsRenumberingForm.Form.Clear" xml:space="preserve">
+   <value>清除</value>
+ </data>
+	<data name="OptionsForm.Form.Title" xml:space="preserve">
+   <value>选项</value>
+ </data>
+	<data name="OptionsForm.Form.GeneralTab" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="OptionsForm.Form.DiagramEditorTab" xml:space="preserve">
+   <value>图示编辑器</value>
+ </data>
+	<data name="OptionsForm.Form.Language" xml:space="preserve">
+   <value>语言</value>
+ </data>
+	<data name="OptionsForm.Form.ShowStartPage" xml:space="preserve">
+   <value>显示起始页</value>
+ </data>
+	<data name="OptionsForm.Form.RecentFiles" xml:space="preserve">
+   <value>近期项目</value>
+ </data>
+	<data name="OptionsForm.Form.ClearRecentProjects" xml:space="preserve">
+   <value>清除近期项目列表(&amp;C)</value>
+ </data>
+	<data name="OptionsForm.Form.ItemsInMenu" xml:space="preserve">
+   <value>项目显示在菜单</value>
+ </data>
+	<data name="OptionsForm.Form.ItemsInStartPage" xml:space="preserve">
+   <value>项目显示在起始页</value>
+ </data>
+	<data name="OptionsForm.Form.Toolbars" xml:space="preserve">
+   <value>工具条</value>
+ </data>
+	<data name="OptionsForm.Form.StandardBar" xml:space="preserve">
+   <value>标准</value>
+ </data>
+	<data name="OptionsForm.Form.SideBar" xml:space="preserve">
+   <value>侧边栏</value>
+ </data>
+	<data name="OptionsForm.Form.LayoutBar" xml:space="preserve">
+   <value>布局</value>
+ </data>
+	<data name="OptionsForm.Form.StatusBar" xml:space="preserve">
+   <value>状态栏</value>
+ </data>
+	<data name="OptionsForm.Form.Toolbox" xml:space="preserve">
+   <value>工具箱</value>
+ </data>
+	<data name="OptionsForm.Form.ShortcutKeys" xml:space="preserve">
+   <value>快捷键</value>
+ </data>
+	<data name="OptionsForm.Form.DontUseCtrlAltShortcutKeys" xml:space="preserve">
+   <value>不使用带有CTRL和ALT的快捷键</value>
+ </data>
+	<data name="OptionsForm.Form.DiagramEditorGeneral" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="OptionsForm.Form.Design" xml:space="preserve">
+   <value>设计界面</value>
+ </data>
+	<data name="OptionsForm.Form.DiagramEditorBackgroundColor" xml:space="preserve">
+   <value>背景颜色:</value>
+ </data>
+	<data name="OptionsForm.Form.DiagramEditorBackgroundColor2" xml:space="preserve">
+   <value>背景颜色 2:</value>
+ </data>
+	<data name="OptionsForm.Form.AutoScrolling" xml:space="preserve">
+   <value>自动卷动</value>
+ </data>
+	<data name="OptionsForm.Form.Grid" xml:space="preserve">
+   <value>网格设置</value>
+ </data>
+	<data name="OptionsForm.Form.SnapToGrid" xml:space="preserve">
+   <value>对齐网格</value>
+ </data>
+	<data name="OptionsForm.Form.ShowGrid" xml:space="preserve">
+   <value>显示网格</value>
+ </data>
+	<data name="OptionsForm.Form.GridVerticalSpacing" xml:space="preserve">
+   <value>垂直间隙:</value>
+ </data>
+	<data name="OptionsForm.Form.GridHorizontalSpacing" xml:space="preserve">
+   <value>水平间隙:</value>
+ </data>
+	<data name="OptionsForm.Form.RelationsAlwaysOnTop" xml:space="preserve">
+   <value>关系顶层显示</value>
+ </data>
+	<data name="OptionsForm.Form.ProjectTree" xml:space="preserve">
+   <value>项目树</value>
+ </data>
+	<data name="OptionsForm.Form.ProjectTreeInitialState" xml:space="preserve">
+   <value>初始状态</value>
+ </data>
+	<data name="OptionsForm.Form.FullyExpanded" xml:space="preserve">
+   <value>全部展开</value>
+ </data>
+	<data name="OptionsForm.Form.ExpandedProject" xml:space="preserve">
+   <value>展开项目</value>
+ </data>
+	<data name="OptionsForm.Form.ExpandedModels" xml:space="preserve">
+   <value>展开模型</value>
+ </data>
+	<data name="OptionsForm.Form.Collapsed" xml:space="preserve">
+   <value>全部折叠</value>
+ </data>
+	<data name="OptionsForm.Form.DefaultSettingsForElements" xml:space="preserve">
+   <value>元素默认设置</value>
+ </data>
+	<data name="OptionsForm.Form.DefaultAttributeVisibility" xml:space="preserve">
+   <value>属性可见性:</value>
+ </data>
+	<data name="OptionsForm.Form.DefaultOperationVisibility" xml:space="preserve">
+   <value>操作可见性:</value>
+ </data>
+	<data name="OptionsForm.Form.DefaultShowNullability" xml:space="preserve">
+   <value>显示是否可为空</value>
+ </data>
+	<data name="OptionsForm.Form.UpdateTab" xml:space="preserve">
+   <value>更新设置</value>
+ </data>
+	<data name="OptionsForm.Form.UpdateGroup" xml:space="preserve">
+   <value>更新设置</value>
+ </data>
+	<data name="OptionsForm.Form.TurnOffUpdate" xml:space="preserve">
+   <value>关闭更新</value>
+ </data>
+	<data name="OptionsForm.Form.NotifyNewVersion" xml:space="preserve">
+   <value>提示新版本</value>
+ </data>
+	<data name="OptionsForm.Form.DownloadSetup" xml:space="preserve">
+   <value>自动下载新版本并安装(仅限Windows)</value>
+ </data>
+	<data name="OptionsForm.Form.FastAutoUpdate" xml:space="preserve">
+   <value>快速更新:下载并更新改变的模块</value>
+ </data>
+	<data name="StyleEditorForm.Form.Title" xml:space="preserve">
+   <value>样式编辑器</value>
+ </data>
+	<data name="StyleEditorForm.Form.NewStyle" xml:space="preserve">
+   <value>新建样式</value>
+ </data>
+	<data name="StyleEditorForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ProjectPropertiesForm.Form.Title" xml:space="preserve">
+   <value>项目属性</value>
+ </data>
+	<data name="ProjectPropertiesForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ProjectPropertiesForm.Form.Authors" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="ProjectPropertiesForm.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="ProjectPropertiesForm.Form.AddNewDiagram" xml:space="preserve">
+   <value>添加新图示...</value>
+ </data>
+	<data name="ProjectPropertiesForm.Form.Properties" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Title" xml:space="preserve">
+   <value>图示属性</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Authors" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Version" xml:space="preserve">
+   <value>版本:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Created" xml:space="preserve">
+   <value>已创建:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.LastChange" xml:space="preserve">
+   <value>最后修改:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.CustomNamespace" xml:space="preserve">
+   <value>自定义命名空间:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Documentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="TaggedValueEditorForm.Form.Title" xml:space="preserve">
+   <value>标记值</value>
+ </data>
+	<data name="TaggedValueEditorForm.Form.TagName" xml:space="preserve">
+   <value>标记名称:</value>
+ </data>
+	<data name="TaggedValueEditorForm.Form.TaggedValue" xml:space="preserve">
+   <value>值:</value>
+ </data>
+	<data name="CustomMoveForm.Form.Title" xml:space="preserve">
+   <value>自定义移动</value>
+ </data>
+	<data name="CustomMoveForm.Form.Right" xml:space="preserve">
+   <value>向右:</value>
+ </data>
+	<data name="CustomMoveForm.Form.Down" xml:space="preserve">
+   <value>向下:</value>
+ </data>
+	<data name="CustomMoveForm.Form.Left" xml:space="preserve">
+   <value>向左:</value>
+ </data>
+	<data name="CustomMoveForm.Form.Up" xml:space="preserve">
+   <value>向上:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Title" xml:space="preserve">
+   <value>自定义大小</value>
+ </data>
+	<data name="CustomSizeForm.Form.General" xml:space="preserve">
+   <value>比例缩放</value>
+ </data>
+	<data name="CustomSizeForm.Form.Sides" xml:space="preserve">
+   <value>边缘</value>
+ </data>
+	<data name="CustomSizeForm.Form.WidthHeight" xml:space="preserve">
+   <value>宽/高</value>
+ </data>
+	<data name="CustomSizeForm.Form.Inflate" xml:space="preserve">
+   <value>比例扩大:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Deflate" xml:space="preserve">
+   <value>比例缩小:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Left" xml:space="preserve">
+   <value>左:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Right" xml:space="preserve">
+   <value>右:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Top" xml:space="preserve">
+   <value>上:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Bottom" xml:space="preserve">
+   <value>下:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Width" xml:space="preserve">
+   <value>宽度:</value>
+ </data>
+	<data name="CustomSizeForm.Form.Height" xml:space="preserve">
+   <value>高度:</value>
+ </data>
+	<data name="TaggedValueControl.Control.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="TaggedValueControl.Control.Value" xml:space="preserve">
+   <value>值</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Title" xml:space="preserve">
+   <value>操作编辑器</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Parameters" xml:space="preserve">
+   <value>参数</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Type" xml:space="preserve">
+   <value>返回类型:</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Visibility" xml:space="preserve">
+   <value>可见性:</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Modifiers" xml:space="preserve">
+   <value>修饰符</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Abstract" xml:space="preserve">
+   <value>Abstract</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Virtual" xml:space="preserve">
+   <value>Virtual</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Static" xml:space="preserve">
+   <value>Static</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.NameColumn" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.TypeColumn" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Title" xml:space="preserve">
+   <value>属性编辑器</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Visibility" xml:space="preserve">
+   <value>可见性:</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.DefaultValue" xml:space="preserve">
+   <value>默认值:</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Modifiers" xml:space="preserve">
+   <value>修饰符</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Abstract" xml:space="preserve">
+   <value>Abstract</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Virtual" xml:space="preserve">
+   <value>Virtual</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Static" xml:space="preserve">
+   <value>Static</value>
+ </data>
+	<data name="FindForm.Form.Title" xml:space="preserve">
+   <value>查找</value>
+ </data>
+	<data name="FindForm.Form.Find" xml:space="preserve">
+   <value>查找下一个(&amp;F)</value>
+ </data>
+	<data name="FindForm.Form.FindWhat" xml:space="preserve">
+   <value>查找目标:</value>
+ </data>
+	<data name="ToDoControl.Control.AddToDo" xml:space="preserve">
+   <value>添加TO-DO</value>
+ </data>
+	<data name="ToDoControl.Control.EditToDo" xml:space="preserve">
+   <value>编辑TO-DO</value>
+ </data>
+	<data name="ToDoControl.Control.DeleteToDo" xml:space="preserve">
+   <value>删除TO-DO</value>
+ </data>
+	<data name="ToDoControl.Control.Completed" xml:space="preserve">
+   <value>完成</value>
+ </data>
+	<data name="ToDoControl.Control.Priority" xml:space="preserve">
+   <value>优先</value>
+ </data>
+	<data name="ToDoControl.Control.ToDoText" xml:space="preserve">
+   <value>TO-DO</value>
+ </data>
+	<data name="ToDoControl.Control.EndDate" xml:space="preserve">
+   <value>结束日期</value>
+ </data>
+	<data name="ToDoControl.Control.Created" xml:space="preserve">
+   <value>已创建</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Title" xml:space="preserve">
+   <value>导出设置</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.ExportContent" xml:space="preserve">
+   <value>导出内容</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Size" xml:space="preserve">
+   <value>大小</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Background" xml:space="preserve">
+   <value>背景</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.ExportOnlyActiveLayer" xml:space="preserve">
+   <value>导出激活层</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.ExportHiddenLayers" xml:space="preserve">
+   <value>导出隐藏层</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Width" xml:space="preserve">
+   <value>宽</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Height" xml:space="preserve">
+   <value>高</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Transparent" xml:space="preserve">
+   <value>透明</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Color1" xml:space="preserve">
+   <value>颜色 1:</value>
+ </data>
+	<data name="ImageExportSettingForm.Form.Color2" xml:space="preserve">
+   <value>颜色 2:</value>
+ </data>
+	<data name="TaskEditorForm.Form.Title" xml:space="preserve">
+   <value>任务</value>
+ </data>
+	<data name="TaskEditorForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="TaskEditorForm.Form.ID" xml:space="preserve">
+   <value>ID:</value>
+ </data>
+	<data name="TaskEditorForm.Form.StartDate" xml:space="preserve">
+   <value>起始日期:</value>
+ </data>
+	<data name="TaskEditorForm.Form.EndDate" xml:space="preserve">
+   <value>结束日期:</value>
+ </data>
+	<data name="TaskEditorForm.Form.Priority" xml:space="preserve">
+   <value>优先:</value>
+ </data>
+	<data name="TaskEditorForm.Form.Phase" xml:space="preserve">
+   <value>阶段:</value>
+ </data>
+	<data name="TaskEditorForm.Form.Progress" xml:space="preserve">
+   <value>进度:</value>
+ </data>
+	<data name="TaskEditorForm.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="TaskEditorForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="TaskEditorForm.Form.Persons" xml:space="preserve">
+   <value>人员</value>
+ </data>
+	<data name="TaskEditorForm.Form.Lowest" xml:space="preserve">
+   <value>最低</value>
+ </data>
+	<data name="TaskEditorForm.Form.Low" xml:space="preserve">
+   <value>低</value>
+ </data>
+	<data name="TaskEditorForm.Form.Normal" xml:space="preserve">
+   <value>普通</value>
+ </data>
+	<data name="TaskEditorForm.Form.Hight" xml:space="preserve">
+   <value>高</value>
+ </data>
+	<data name="TaskEditorForm.Form.Highest" xml:space="preserve">
+   <value>最高</value>
+ </data>
+	<data name="XmiImportResultForm.Form.Title" xml:space="preserve">
+   <value>XMI导入结果</value>
+ </data>
+	<data name="XmiImportResultForm.Form.CreateDiagrams" xml:space="preserve">
+   <value>创建图示</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.Title" xml:space="preserve">
+   <value>数据库选择</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.DataSource" xml:space="preserve">
+   <value>数据源:</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.ServerName" xml:space="preserve">
+   <value>服务器名称:</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.Authentication" xml:space="preserve">
+   <value>权限认证</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.AuthenticationType" xml:space="preserve">
+   <value>权限认证类型:</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.UserName" xml:space="preserve">
+   <value>用户名称:</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.Password" xml:space="preserve">
+   <value>密码:</value>
+ </data>
+	<data name="DatabaseSelectionForm.Form.DatabaseName" xml:space="preserve">
+   <value>数据库名称:</value>
+ </data>
+	<data name="DatabaseImportForm.Form.Title" xml:space="preserve">
+   <value>导入数据库</value>
+ </data>
+	<data name="DatabaseImportForm.Form.ConnectionString" xml:space="preserve">
+   <value>连接字串:</value>
+ </data>
+	<data name="DatabaseImportForm.Form.LoadTables" xml:space="preserve">
+   <value>加载数据表</value>
+ </data>
+	<data name="DatabaseImportForm.Form.Tables" xml:space="preserve">
+   <value>数据表</value>
+ </data>
+	<data name="ObjectModelImportForm.Form.Title" xml:space="preserve">
+   <value>导入对象模型</value>
+ </data>
+	<data name="ObjectModelImportForm.Form.Assemblies" xml:space="preserve">
+   <value>程序集</value>
+ </data>
+	<data name="ObjectModelImportForm.Form.Namespaces" xml:space="preserve">
+   <value>命名空间/包</value>
+ </data>
+	<data name="DiagramElementsSelectionForm.Form.Title" xml:space="preserve">
+   <value>图示元素</value>
+ </data>
+	<data name="SourceCodeGenerationSettingsForm.Form.Title" xml:space="preserve">
+   <value>源码生成</value>
+ </data>
+	<data name="SourceCodeGenerationSettingsForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="SourceCodeGenerationSettingsForm.Form.Imports" xml:space="preserve">
+   <value>导入</value>
+ </data>
+	<data name="SourceCodeGenerationSettingsForm.Form.Language" xml:space="preserve">
+   <value>语言:</value>
+ </data>
+	<data name="SourceCodeGenerationSettingsForm.Form.OutputDirectory" xml:space="preserve">
+   <value>输出目录</value>
+ </data>
+	<data name="SourceCodeGenerationSettingsForm.Form.Generate" xml:space="preserve">
+   <value>生成</value>
+ </data>
+	<data name="RelationInsertForm.Form.Title" xml:space="preserve">
+   <value>新建关系</value>
+ </data>
+	<data name="RelationInsertForm.Form.FromElement" xml:space="preserve">
+   <value>从元素</value>
+ </data>
+	<data name="RelationInsertForm.Form.ToElement" xml:space="preserve">
+   <value>到元素</value>
+ </data>
+	<data name="DefaultNamesForm.Form.Title" xml:space="preserve">
+   <value>默认名称和ID</value>
+ </data>
+	<data name="DefaultNamesForm.Form.DiagramType" xml:space="preserve">
+   <value>图示类型:</value>
+ </data>
+	<data name="DefaultNamesForm.Form.ElementType" xml:space="preserve">
+   <value>元素类型</value>
+ </data>
+	<data name="DefaultNamesForm.Form.DefaultName" xml:space="preserve">
+   <value>默认名称:</value>
+ </data>
+	<data name="DefaultNamesForm.Form.DefaultID" xml:space="preserve">
+   <value>默认ID:</value>
+ </data>
+	<data name="TypesForm.Form.Title" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="TypesForm.Form.NewTypeSet" xml:space="preserve">
+   <value>新建类型设置(&amp;N)</value>
+ </data>
+	<data name="TypesForm.Form.ImportTypeSet" xml:space="preserve">
+   <value>导入类型设置(&amp;I)</value>
+ </data>
+	<data name="TypesForm.Form.TypeSets" xml:space="preserve">
+   <value>类型设置</value>
+ </data>
+	<data name="TypesForm.Form.CustomTypes" xml:space="preserve">
+   <value>自定义类型</value>
+ </data>
+	<data name="TypeSetEditorControl.Control.TypeDefinition" xml:space="preserve">
+   <value>类型定义</value>
+ </data>
+	<data name="TypeSetEditorControl.Control.ID" xml:space="preserve">
+   <value>ID:</value>
+ </data>
+	<data name="TypeSetEditorControl.Control.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="TypeSetEditorControl.Control.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="TypeSetEditorForm.Form.Title" xml:space="preserve">
+   <value>类型设置编辑器</value>
+ </data>
+	<data name="StereotypesForm.Form.Title" xml:space="preserve">
+   <value>图型</value>
+ </data>
+	<data name="StereotypesForm.Form.ElementType" xml:space="preserve">
+   <value>元素类型:</value>
+ </data>
+	<data name="StereotypesForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="StereotypesForm.Form.AppliesTo" xml:space="preserve">
+   <value>应用到</value>
+ </data>
+	<data name="StereotypesForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="StereotypesForm.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="NewTypeSetForm.Form.Title" xml:space="preserve">
+   <value>新建类型设置</value>
+ </data>
+	<data name="NewTypeSetForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Title" xml:space="preserve">
+   <value>TO Do</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Lowest" xml:space="preserve">
+   <value>最低</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Low" xml:space="preserve">
+   <value>低</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Normal" xml:space="preserve">
+   <value>普通</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Hight" xml:space="preserve">
+   <value>高</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Highest" xml:space="preserve">
+   <value>最高</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Text" xml:space="preserve">
+   <value>任务:</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Priority" xml:space="preserve">
+   <value>优先:</value>
+ </data>
+	<data name="ToDoEditorForm.Form.EndDate" xml:space="preserve">
+   <value>结束日期:</value>
+ </data>
+	<data name="ToDoEditorForm.Form.Completed" xml:space="preserve">
+   <value>完成</value>
+ </data>
+	<data name="TaskManagementForm.Form.Title" xml:space="preserve">
+   <value>任务管理</value>
+ </data>
+	<data name="TaskManagementForm.Form.ID" xml:space="preserve">
+   <value>ID</value>
+ </data>
+	<data name="TaskManagementForm.Form.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="TaskManagementForm.Form.Priority" xml:space="preserve">
+   <value>优先</value>
+ </data>
+	<data name="TaskManagementForm.Form.Progress" xml:space="preserve">
+   <value>进度</value>
+ </data>
+	<data name="TaskManagementForm.Form.StartDate" xml:space="preserve">
+   <value>起始日期</value>
+ </data>
+	<data name="TaskManagementForm.Form.EndDate" xml:space="preserve">
+   <value>结束日期</value>
+ </data>
+	<data name="TaskManagementForm.Form.Persons" xml:space="preserve">
+   <value>人员</value>
+ </data>
+	<data name="TaskManagementForm.Form.AddTask" xml:space="preserve">
+   <value>添加任务</value>
+ </data>
+	<data name="TaskManagementForm.Form.EditTask" xml:space="preserve">
+   <value>编辑任务</value>
+ </data>
+	<data name="TaskManagementForm.Form.DeleteTask" xml:space="preserve">
+   <value>删除任务</value>
+ </data>
+	<data name="TaskManagementForm.Form.AssignPerson" xml:space="preserve">
+   <value>分配人员</value>
+ </data>
+	<data name="PersonsForm.Form.Title" xml:space="preserve">
+   <value>人员</value>
+ </data>
+	<data name="PersonsForm.Form.FirstName" xml:space="preserve">
+   <value>姓</value>
+ </data>
+	<data name="PersonsForm.Form.LastName" xml:space="preserve">
+   <value>名</value>
+ </data>
+	<data name="PersonsForm.Form.Role" xml:space="preserve">
+   <value>角色</value>
+ </data>
+	<data name="PersonsForm.Form.EMail" xml:space="preserve">
+   <value>E-mail</value>
+ </data>
+	<data name="PersonsForm.Form.PhoneNumber" xml:space="preserve">
+   <value>电话号</value>
+ </data>
+	<data name="PersonsForm.Form.AddPerson" xml:space="preserve">
+   <value>添加人员</value>
+ </data>
+	<data name="PersonsForm.Form.EditPerson" xml:space="preserve">
+   <value>编辑人员</value>
+ </data>
+	<data name="PersonsForm.Form.DeletePerson" xml:space="preserve">
+   <value>删除人员</value>
+ </data>
+	<data name="PersonEditorForm.Form.Title" xml:space="preserve">
+   <value>人员</value>
+ </data>
+	<data name="PersonEditorForm.Form.FirstName" xml:space="preserve">
+   <value>姓:</value>
+ </data>
+	<data name="PersonEditorForm.Form.LastName" xml:space="preserve">
+   <value>名:</value>
+ </data>
+	<data name="PersonEditorForm.Form.Role" xml:space="preserve">
+   <value>角色:</value>
+ </data>
+	<data name="PersonEditorForm.Form.EMail" xml:space="preserve">
+   <value>E-mail:</value>
+ </data>
+	<data name="PersonEditorForm.Form.PhoneNumber" xml:space="preserve">
+   <value>电话号:</value>
+ </data>
+	<data name="PersonEditorForm.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.Title" xml:space="preserve">
+   <value>模型属性</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.Documentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.CustomNamespace" xml:space="preserve">
+   <value>自定义命名空间:</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Title" xml:space="preserve">
+   <value>生成文档</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.General" xml:space="preserve">
+   <value>一般</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Format" xml:space="preserve">
+   <value>格式</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.HTML" xml:space="preserve">
+   <value>HTML</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.RTF" xml:space="preserve">
+   <value>RTF</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.PDF" xml:space="preserve">
+   <value>PDF</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Texts" xml:space="preserve">
+   <value>文本</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.DocumentTitle" xml:space="preserve">
+   <value>文档标题</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.DocumentSubtitle" xml:space="preserve">
+   <value>文档副标题:</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Company" xml:space="preserve">
+   <value>公司:</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Authors" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.OutputFile" xml:space="preserve">
+   <value>输出文件:</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Generate" xml:space="preserve">
+   <value>生成</value>
+ </data>
+	<data name="TimingEvents.Control.State" xml:space="preserve">
+   <value>状态</value>
+ </data>
+	<data name="TimingEvents.Control.Duration" xml:space="preserve">
+   <value>时间</value>
+ </data>
+	<data name="TimingEvents.Control.Stimulus" xml:space="preserve">
+   <value>激发</value>
+ </data>
+	<data name="TimingEvents.Control.DurationConstraint" xml:space="preserve">
+   <value>时间约束</value>
+ </data>
+	<data name="TimingTickMarkValues.Control.Position" xml:space="preserve">
+   <value>位置</value>
+ </data>
+	<data name="TimingTickMarkValues.Control.Label" xml:space="preserve">
+   <value>标签</value>
+ </data>
+	<data name="TimingStatesControl.Control.State" xml:space="preserve">
+   <value>状态</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Title" xml:space="preserve">
+   <value>元素浏览器</value>
+ </data>
+	<data name="ElementBrowserForm.Form.OpenDiagram" xml:space="preserve">
+   <value>打开图示</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Rename" xml:space="preserve">
+   <value>重命名</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Delete" xml:space="preserve">
+   <value>删除</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Properties" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="ElementBrowserForm.Form.ID" xml:space="preserve">
+   <value>ID</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Type" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="ActivationForm.Form.Title" xml:space="preserve">
+   <value>激活</value>
+ </data>
+	<data name="ActivationForm.Form.Text" xml:space="preserve">
+   <value>假如需要出于商业目的使用Software Ideas Modeler,您需要购买授权.</value>
+ </data>
+	<data name="ActivationForm.Form.Step1" xml:space="preserve">
+   <value>步骤 1:</value>
+ </data>
+	<data name="ActivationForm.Form.Step2" xml:space="preserve">
+   <value>步骤 2:</value>
+ </data>
+	<data name="ActivationForm.Form.Step3" xml:space="preserve">
+   <value>步骤 3:</value>
+ </data>
+	<data name="ActivationForm.Form.Step4" xml:space="preserve">
+   <value>步骤 4:</value>
+ </data>
+	<data name="ActivationForm.Form.Step1Text" xml:space="preserve">
+   <value>购买授权</value>
+ </data>
+	<data name="ActivationForm.Form.Step2Text" xml:space="preserve">
+   <value>等待授权文件发送到你的邮箱(2-3个工作日内)</value>
+ </data>
+	<data name="ActivationForm.Form.Step3Text" xml:space="preserve">
+   <value>保存收到的授权文件到你的硬盘上.</value>
+ </data>
+	<data name="ActivationForm.Form.Step4Text" xml:space="preserve">
+   <value>点击导入授权文件,切换到授权文件所在文件夹并选择,点击激活按钮.</value>
+ </data>
+	<data name="ActivationForm.Form.LicenseFile" xml:space="preserve">
+   <value>授权文件:</value>
+ </data>
+	<data name="ActivationForm.Form.InsertLicenseFile" xml:space="preserve">
+   <value>导入授权文件(&amp;I)</value>
+ </data>
+	<data name="ActivationForm.Form.Activate" xml:space="preserve">
+   <value>激活</value>
+ </data>
+	<data name="ActivationForm.Form.Close" xml:space="preserve">
+   <value>关闭</value>
+ </data>
+	<data name="ActivationForm.Form.ActivationMessage" xml:space="preserve">
+   <value>激活成功. 该Software Ideas Modeler拷贝现在可以用于商业用途.</value>
+ </data>
+	<data name="ActivationForm.Form.WrongActivationCodeMessage" xml:space="preserve">
+   <value>激活码错误.</value>
+ </data>
+	<data name="BatchExportForm.Form.Title" xml:space="preserve">
+   <value>批量导出</value>
+ </data>
+	<data name="BatchExportForm.Form.Exporting" xml:space="preserve">
+   <value>导出...</value>
+ </data>
+	<data name="BatchExportForm.Form.Format" xml:space="preserve">
+   <value>格式</value>
+ </data>
+	<data name="BatchExportForm.Form.ImageFormat" xml:space="preserve">
+   <value>图片格式:</value>
+ </data>
+	<data name="BatchExportForm.Form.Output" xml:space="preserve">
+   <value>输出</value>
+ </data>
+	<data name="BatchExportForm.Form.Content" xml:space="preserve">
+   <value>内容</value>
+ </data>
+	<data name="BatchExportForm.Form.Diagrams" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="BatchExportForm.Form.Files" xml:space="preserve">
+   <value>文件</value>
+ </data>
+	<data name="BatchExportForm.Form.FileNames" xml:space="preserve">
+   <value>文件名称:</value>
+ </data>
+	<data name="BatchExportForm.Form.DiagramName" xml:space="preserve">
+   <value>图示名称:</value>
+ </data>
+	<data name="BatchExportForm.Form.Custom" xml:space="preserve">
+   <value>自定义:</value>
+ </data>
+	<data name="BatchExportForm.Form.OutputDirectory" xml:space="preserve">
+   <value>输出目录</value>
+ </data>
+	<data name="BatchExportForm.Form.ExportContent" xml:space="preserve">
+   <value>导出内容</value>
+ </data>
+	<data name="BatchExportForm.Form.Size" xml:space="preserve">
+   <value>大小</value>
+ </data>
+	<data name="BatchExportForm.Form.Background" xml:space="preserve">
+   <value>背景</value>
+ </data>
+	<data name="BatchExportForm.Form.ExportOnlyActiveLayer" xml:space="preserve">
+   <value>导出激活层</value>
+ </data>
+	<data name="BatchExportForm.Form.ExportHiddenLayers" xml:space="preserve">
+   <value>导出隐藏层</value>
+ </data>
+	<data name="BatchExportForm.Form.Absolute" xml:space="preserve">
+   <value>绝对</value>
+ </data>
+	<data name="BatchExportForm.Form.Relative" xml:space="preserve">
+   <value>相对</value>
+ </data>
+	<data name="BatchExportForm.Form.Width" xml:space="preserve">
+   <value>宽度:</value>
+ </data>
+	<data name="BatchExportForm.Form.Height" xml:space="preserve">
+   <value>高度:</value>
+ </data>
+	<data name="BatchExportForm.Form.Transparent" xml:space="preserve">
+   <value>透明</value>
+ </data>
+	<data name="BatchExportForm.Form.Color1" xml:space="preserve">
+   <value>颜色 1:</value>
+ </data>
+	<data name="BatchExportForm.Form.Color2" xml:space="preserve">
+   <value>颜色 2:</value>
+ </data>
+	<data name="PrintForm.Form.Title" xml:space="preserve">
+   <value>打印</value>
+ </data>
+	<data name="PrintForm.Form.Print" xml:space="preserve">
+   <value>打印</value>
+ </data>
+	<data name="PrintForm.Form.PageSetup" xml:space="preserve">
+   <value>页面设置</value>
+ </data>
+	<data name="PrintForm.Form.Preview" xml:space="preserve">
+   <value>预览</value>
+ </data>
+	<data name="PrintForm.Form.Diagrams" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="PrintForm.Form.Settings" xml:space="preserve">
+   <value>设置</value>
+ </data>
+	<data name="PrintForm.Form.Zoom" xml:space="preserve">
+   <value>缩放:</value>
+ </data>
+	<data name="PrintForm.Form.PreviousPage" xml:space="preserve">
+   <value>上一页</value>
+ </data>
+	<data name="PrintForm.Form.NextPage" xml:space="preserve">
+   <value>下一页</value>
+ </data>
+	<data name="PrintForm.Form.RefreshPreview" xml:space="preserve">
+   <value>刷新预览</value>
+ </data>
+	<data name="PrintForm.Form.PagesPerDiagram" xml:space="preserve">
+   <value>页面/图示</value>
+ </data>
+	<data name="PrintForm.Form.SinglePage" xml:space="preserve">
+   <value>单页</value>
+ </data>
+	<data name="PrintForm.Form.MultiplePages" xml:space="preserve">
+   <value>多页</value>
+ </data>
+	<data name="PrintForm.Form.Horizontal" xml:space="preserve">
+   <value>水平:</value>
+ </data>
+	<data name="PrintForm.Form.Vertical" xml:space="preserve">
+   <value>垂直:</value>
+ </data>
+	<data name="DiagramsForm.Form.Title" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="DonateBuyForm.Form.Title" xml:space="preserve">
+   <value>Software Ideas Modeler</value>
+ </data>
+	<data name="DonateBuyForm.Form.HeadingText" xml:space="preserve">
+   <value>感谢使用Software Ideas Modeler!</value>
+ </data>
+	<data name="DonateBuyForm.Form.MainText" xml:space="preserve">
+   <value>假如您喜欢这个软件并希望支持它的开发,您可以选择:</value>
+ </data>
+	<data name="DonateBuyForm.Form.Buy" xml:space="preserve">
+   <value>购买一份(商业用途使用)</value>
+ </data>
+	<data name="DonateBuyForm.Form.BuyText1" xml:space="preserve">
+   <value>Software Ideas Modeler在激活后方能合法用于商业用途。 你可以选择该项获得一个激活密钥。</value>
+ </data>
+	<data name="DonateBuyForm.Form.BuyText2" xml:space="preserve">
+   <value>购买后您的Bug报告和需求将获得优先处理。这个对话框不会再在程序退出时显示。</value>
+ </data>
+	<data name="DonateBuyForm.Form.Donate" xml:space="preserve">
+   <value>捐助</value>
+ </data>
+	<data name="DonateBuyForm.Form.DonateText1" xml:space="preserve">
+   <value>如果您是非商业用户，您可以免费使用本软件。 当然你可以选择给本软件进行任意数额的捐助以支持它的开发。</value>
+ </data>
+	<data name="DonateBuyForm.Form.DonateText2" xml:space="preserve">
+   <value>捐助后您将名列官方网站捐助名单上 (假如您不希望出现在名单上，请通知开发者)。</value>
+ </data>
+	<data name="DonateBuyForm.Form.MaybeLater" xml:space="preserve">
+   <value>稍候</value>
+ </data>
+	<data name="DonateBuyForm.Form.MaybeLaterText" xml:space="preserve">
+   <value>即使你没有能力在经济上支持本软件开发，你也可以通过其他方式来支持本软件： 在Facebook上成为本软件的支持者；在你的网站上添加本软件的链接；在你的博客上写关于本软件的文章或者仅仅是向你的朋友谈起本软件……</value>
+ </data>
+	<data name="DonationForm.Form.Title" xml:space="preserve">
+   <value>捐助中心</value>
+ </data>
+	<data name="DonationForm.Form.DonateNow" xml:space="preserve">
+   <value>现在捐助(&amp;D)</value>
+ </data>
+	<data name="DonationForm.Form.ConfirmKey" xml:space="preserve">
+   <value>验证密钥(&amp;C)</value>
+ </data>
+	<data name="DonationForm.Form.WhyToDonateTitle" xml:space="preserve">
+   <value>为什么捐助?</value>
+ </data>
+	<data name="DonationForm.Form.WhyToDonateText1" xml:space="preserve">
+   <value>Software Ideas Modeler专业版是可用于非商业用途的免费软件（包括教学使用，非营利组织使用）。但是，也许您希望在经济上支援该软件的开发。捐助该软件者将成为该软件的官方支援人，同时得到比其他用户更多的优势：</value>
+ </data>
+	<data name="DonationForm.Form.WhyToDonateText2" xml:space="preserve">
+   <value>1. 可以使用自动更新功能.</value>
+ </data>
+	<data name="DonationForm.Form.WhyToDonateText3" xml:space="preserve">
+   <value>2. 您的提出的需求和Bug,将会比别的用户得到更优先处理.</value>
+ </data>
+	<data name="DonationForm.Form.HowToDonateTitle" xml:space="preserve">
+   <value>怎么捐助?</value>
+ </data>
+	<data name="DonationForm.Form.HowToDonateText" xml:space="preserve">
+   <value>点击"现在捐助"按钮后将会跳转到捐助页面。欢迎任何金额的捐助(几美元/欧元)。</value>
+ </data>
+	<data name="DonationForm.Form.IHaveDonatedTitle" xml:space="preserve">
+   <value>我已经捐助...</value>
+ </data>
+	<data name="DonationForm.Form.IHaveDonatedText" xml:space="preserve">
+   <value>两个工作日内(一般会更快),您的E-mail会收到我们发送给您的捐助激活密钥.</value>
+ </data>
+	<data name="DonationForm.Form.DonorKey" xml:space="preserve">
+   <value>捐助密钥:</value>
+ </data>
+	<data name="DonationForm.Form.ConfirmInfo" xml:space="preserve">
+   <value>激活捐助密钥并获取官方赞助人的优先权。</value>
+ </data>
+	<data name="DonationForm.Form.OfficialSupporter" xml:space="preserve">
+   <value>捐助密钥有效。您现在是该项目的官方赞助人，感谢您的支持!</value>
+ </data>
+	<data name="DonationForm.Form.WrongDonorKey" xml:space="preserve">
+   <value>捐助密钥错误。</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Title" xml:space="preserve">
+   <value>试用期到期</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.MainText" xml:space="preserve">
+   <value>30天试用期到期。现在，如果您想继续使用该软件，必须购买激活密钥来激活该软件。激活密钥售价仅€69 /$ 89。</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Benefits" xml:space="preserve">
+   <value>购买后将具备以下优势:</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Benefit1" xml:space="preserve">
+   <value>购买提示窗口移除</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Benefit2" xml:space="preserve">
+   <value>自动更新</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Benefit3" xml:space="preserve">
+   <value>功能需求和Bug报告表</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Benefit4" xml:space="preserve">
+   <value>您的Bug报告和需求将被优先处理</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.ActivationKey" xml:space="preserve">
+   <value>激活 键:</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Activate" xml:space="preserve">
+   <value>激活(&amp;A)</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Buy" xml:space="preserve">
+   <value>购买(&amp;B)</value>
+ </data>
+	<data name="EvaluationExpiredForm.Form.Close" xml:space="preserve">
+   <value>关闭(&amp;C)</value>
+ </data>
+	<data name="UseConfirmationForm.Form.Title" xml:space="preserve">
+   <value>使用确认</value>
+ </data>
+	<data name="UseConfirmationForm.Form.MainText" xml:space="preserve">
+   <value>您使用Software Ideas Modeler的用途?</value>
+ </data>
+	<data name="UseConfirmationForm.Form.CommercialUse" xml:space="preserve">
+   <value>公司 -商用</value>
+ </data>
+	<data name="UseConfirmationForm.Form.CommercialUseDescription" xml:space="preserve">
+   <value>任何商业项目中使用。</value>
+ </data>
+	<data name="UseConfirmationForm.Form.NonCommercialUse" xml:space="preserve">
+   <value>个人-非商用</value>
+ </data>
+	<data name="UseConfirmationForm.Form.NonCommercialUseDescription" xml:space="preserve">
+   <value>教学目的和非营利组织。</value>
+ </data>
+	<data name="UseConfirmationForm.Form.ConfirmCheckBox" xml:space="preserve">
+   <value>我特此确认本人已如实完整填写此表格*</value>
+ </data>
+	<data name="UseConfirmationForm.Form.ConfirmNote" xml:space="preserve">
+   <value>* 错误激活信息将认为是对授权协议的未被行为!</value>
+ </data>
+	<data name="UseConfirmationForm.Form.Confirm" xml:space="preserve">
+   <value>确认（&amp;M)</value>
+ </data>
+	<data name="UseConfirmationForm.Form.Close" xml:space="preserve">
+   <value>关闭(&amp;C)</value>
+ </data>
+	<data name="SendRequestForm.Form.Title" xml:space="preserve">
+   <value>发送需求</value>
+ </data>
+	<data name="SendRequestForm.Form.Send" xml:space="preserve">
+   <value>发送(&amp;S)</value>
+ </data>
+	<data name="SendRequestForm.Form.Close" xml:space="preserve">
+   <value>关闭(&amp;C)</value>
+ </data>
+	<data name="Global.Messages.ProjectFileNotFound.title" xml:space="preserve">
+   <value>项目文件未找到</value>
+ </data>
+	<data name="Global.Messages.NewStyleWarning.title" xml:space="preserve">
+   <value>新建样式设置</value>
+ </data>
+	<data name="Global.Messages.StyleTypeExists.title" xml:space="preserve">
+   <value>已有样式类型</value>
+ </data>
+	<data name="Global.Messages.RenumberingWarning.title" xml:space="preserve">
+   <value>重排中，，，</value>
+ </data>
+	<data name="Global.Messages.DeleteStyle.title" xml:space="preserve">
+   <value>删除样式</value>
+ </data>
+	<data name="Global.Messages.StyleClassNameExists.title" xml:space="preserve">
+   <value>已有样式类名称</value>
+ </data>
+	<data name="Global.Messages.NotAllowedStyleClassName.title" xml:space="preserve">
+   <value>错误名称</value>
+ </data>
+	<data name="Global.Messages.SavingError.title" xml:space="preserve">
+   <value>保存出错</value>
+ </data>
+	<data name="Global.Messages.DeleteTask.title" xml:space="preserve">
+   <value>删除任务</value>
+ </data>
+	<data name="Global.Messages.DeleteToDo.title" xml:space="preserve">
+   <value>删除To Do</value>
+ </data>
+	<data name="Global.Messages.DeletePerson.title" xml:space="preserve">
+   <value>删除人员</value>
+ </data>
+	<data name="Global.Messages.DeleteStereotype.title" xml:space="preserve">
+   <value>删除图型(Stereotype)</value>
+ </data>
+	<data name="Global.Messages.NoOutputLanguageSelected.title" xml:space="preserve">
+   <value>源码生成</value>
+ </data>
+	<data name="Global.Messages.NoOutputDirectorySelected.title" xml:space="preserve">
+   <value>源码生成</value>
+ </data>
+	<data name="Global.Messages.EmptyConnectionString.title" xml:space="preserve">
+   <value>导入数据库</value>
+ </data>
+	<data name="Global.Messages.CannotLoadTables.title" xml:space="preserve">
+   <value>导入数据库</value>
+ </data>
+	<data name="Global.Messages.RegisteredCopy.title" xml:space="preserve">
+   <value>注册版本</value>
+ </data>
+	<data name="Global.Messages.NewerVersionWarning.title" xml:space="preserve">
+   <value>新建er Project 文件</value>
+ </data>
+	<data name="Global.Messages.ClearRecentProjectList.title" xml:space="preserve">
+   <value>清除 近期项目列表</value>
+ </data>
+	<data name="Global.Messages.InflateContainer.title" xml:space="preserve">
+   <value>比例扩大容器</value>
+ </data>
+	<data name="Global.Messages.WrongOutputDirectory.title" xml:space="preserve">
+   <value>错误输出目录</value>
+ </data>
+	<data name="Global.Messages.InstallUpdate.title" xml:space="preserve">
+   <value>安装更新</value>
+ </data>
+	<data name="Global.Messages.FileOpenAsReadOnly.title" xml:space="preserve">
+   <value>项目 Loading</value>
+ </data>
+	<data name="Global.Messages.UnauthorizedWriteAccess.title" xml:space="preserve">
+   <value>没有文件写权限</value>
+ </data>
+	<data name="Global.Messages.CloseItemPropertiesDialog.title" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="MainForm.StandardBar.New.tooltip" xml:space="preserve">
+   <value>新建</value>
+ </data>
+	<data name="MainForm.StandardBar.Open.tooltip" xml:space="preserve">
+   <value>打开</value>
+ </data>
+	<data name="MainForm.StandardBar.Save.tooltip" xml:space="preserve">
+   <value>保存</value>
+ </data>
+	<data name="MainForm.StandardBar.Undo.tooltip" xml:space="preserve">
+   <value>撤销</value>
+ </data>
+	<data name="MainForm.StandardBar.Redo.tooltip" xml:space="preserve">
+   <value>重做</value>
+ </data>
+	<data name="MainForm.StandardBar.Cut.tooltip" xml:space="preserve">
+   <value>剪切</value>
+ </data>
+	<data name="MainForm.StandardBar.Copy.tooltip" xml:space="preserve">
+   <value>复制</value>
+ </data>
+	<data name="MainForm.StandardBar.Paste.tooltip" xml:space="preserve">
+   <value>粘贴</value>
+ </data>
+	<data name="MainForm.StandardBar.Print.tooltip" xml:space="preserve">
+   <value>打印</value>
+ </data>
+	<data name="MainForm.StandardBar.PrintPreview.tooltip" xml:space="preserve">
+   <value>打印预览</value>
+ </data>
+	<data name="MainForm.StandardBar.ShowGrid.tooltip" xml:space="preserve">
+   <value>显示网格</value>
+ </data>
+	<data name="MainForm.StandardBar.ShowAdvancedInfo.tooltip" xml:space="preserve">
+   <value>显示更多信息</value>
+ </data>
+	<data name="MainForm.LayoutBar.BackOne.tooltip" xml:space="preserve">
+   <value>后移</value>
+ </data>
+	<data name="MainForm.LayoutBar.ForwardOne.tooltip" xml:space="preserve">
+   <value>前移</value>
+ </data>
+	<data name="MainForm.LayoutBar.SendToBack.tooltip" xml:space="preserve">
+   <value>移到最后</value>
+ </data>
+	<data name="MainForm.LayoutBar.BringToFront.tooltip" xml:space="preserve">
+   <value>移到最前</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.NewModel.tooltip" xml:space="preserve">
+   <value>新建模型</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.NewDiagram.tooltip" xml:space="preserve">
+   <value>新图示</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.ExpandAll.tooltip" xml:space="preserve">
+   <value>全部展开</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.CollapseAll.tooltip" xml:space="preserve">
+   <value>全部折叠</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.Refresh.tooltip" xml:space="preserve">
+   <value>刷新</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlClassDiagram.tooltip" xml:space="preserve">
+   <value>类图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlUseCaseDiagram.tooltip" xml:space="preserve">
+   <value>用例图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlSequenceDiagram.tooltip" xml:space="preserve">
+   <value>时序图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlActivityDiagram.tooltip" xml:space="preserve">
+   <value>活动图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlStateMachineDiagram.tooltip" xml:space="preserve">
+   <value>状态图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlDeploymentDiagram.tooltip" xml:space="preserve">
+   <value>部署图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlCompositeStructureDiagram.tooltip" xml:space="preserve">
+   <value>符合结构图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlComponentDiagram.tooltip" xml:space="preserve">
+   <value>组件图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlInteractionOverviewDiagram.tooltip" xml:space="preserve">
+   <value>互动概图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlTimingDiagram.tooltip" xml:space="preserve">
+   <value>时间图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlProfileDiagram.tooltip" xml:space="preserve">
+   <value>概要图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlObjectDiagram.tooltip" xml:space="preserve">
+   <value>对象图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlPackageDiagram.tooltip" xml:space="preserve">
+   <value>包图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UmlCommunicationDiagram.tooltip" xml:space="preserve">
+   <value>通信图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.EntityRelationshipDiagram.tooltip" xml:space="preserve">
+   <value>实体关系图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.RequirementDiagram.tooltip" xml:space="preserve">
+   <value>需求图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.UserInterface.tooltip" xml:space="preserve">
+   <value>用户界面</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.CrcCardDiagram.tooltip" xml:space="preserve">
+   <value>CRC卡图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.FlowchartDiagram.tooltip" xml:space="preserve">
+   <value>流程图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.RobustnessDiagram.tooltip" xml:space="preserve">
+   <value>鲁棒图</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.Filter.tooltip" xml:space="preserve">
+   <value>筛选</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.NewStyleSet.tooltip" xml:space="preserve">
+   <value>新建样式设置</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.OpenStyleSet.tooltip" xml:space="preserve">
+   <value>打开样式设置</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.SaveStyleSet.tooltip" xml:space="preserve">
+   <value>保存样式设置</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.AddStyle.tooltip" xml:space="preserve">
+   <value>添加样式</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.SetStyleAsDefault.tooltip" xml:space="preserve">
+   <value>设置为默认样式</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.EditStyle.tooltip" xml:space="preserve">
+   <value>编辑样式</value>
+ </data>
+	<data name="MainForm.StylesTabPanel.DeleteStyle.tooltip" xml:space="preserve">
+   <value>删除样式</value>
+ </data>
+	<data name="LayerControl.Control.AddLayer.tooltip" xml:space="preserve">
+   <value>添加新图层</value>
+ </data>
+	<data name="LayerControl.Control.DeleteLayer.tooltip" xml:space="preserve">
+   <value>删除图层</value>
+ </data>
+	<data name="LayerControl.Control.ShowHideLayer.tooltip" xml:space="preserve">
+   <value>显示/隐藏图层</value>
+ </data>
+	<data name="LayerControl.Control.MergeAllLayers.tooltip" xml:space="preserve">
+   <value>合并全部图层</value>
+ </data>
+	<data name="LayerControl.Control.MoveUp.tooltip" xml:space="preserve">
+   <value>上移</value>
+ </data>
+	<data name="LayerControl.Control.MoveDown.tooltip" xml:space="preserve">
+   <value>下移</value>
+ </data>
+	<data name="Documentation.Control.Bold.tooltip" xml:space="preserve">
+   <value>加粗</value>
+ </data>
+	<data name="Documentation.Control.Italic.tooltip" xml:space="preserve">
+   <value>倾斜</value>
+ </data>
+	<data name="Documentation.Control.Underline.tooltip" xml:space="preserve">
+   <value>下划线</value>
+ </data>
+	<data name="Documentation.Control.Strikethrough.tooltip" xml:space="preserve">
+   <value>删除线</value>
+ </data>
+	<data name="SourceCodeLanguage.Form.Title" xml:space="preserve">
+   <value>语言</value>
+ </data>
+	<data name="SourceCodeLanguage.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="SourceCodeLanguage.Form.ID" xml:space="preserve">
+   <value>ID:</value>
+ </data>
+	<data name="SourceCodeLanguage.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.Title" xml:space="preserve">
+   <value>源码模版编辑器</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.Commands" xml:space="preserve">  
+   <value>命令</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.Template" xml:space="preserve">
+   <value>模版</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.SourceCode" xml:space="preserve">
+   <value>源码</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.Settings" xml:space="preserve">
+   <value>设置</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.Preview" xml:space="preserve">
+   <value>预览</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.TemplateType" xml:space="preserve">  
+   <value>模版类型:</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.OutputName" xml:space="preserve">
+   <value>输出名称:</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.NameAdjustment" xml:space="preserve">
+   <value>名称校准:</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.DefaultType" xml:space="preserve">
+   <value>默认类型:</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.Filter" xml:space="preserve">
+   <value>筛选:</value>
+ </data>
+	<data name="SourceCodeTemplateEditor.Form.SetFilter" xml:space="preserve">
+   <value>设置</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Title" xml:space="preserve">
+   <value>源码模版管理</value>    
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Language" xml:space="preserve">
+   <value>语言:</value>    
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.AddLanguage" xml:space="preserve">
+   <value>添加语言</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.EditLanguage" xml:space="preserve">
+   <value>编辑语言</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.DeleteLanguage" xml:space="preserve">
+   <value>删除语言</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Templates" xml:space="preserve">
+   <value>模版</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Add" xml:space="preserve">
+   <value>添加</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Duplicate" xml:space="preserve">
+   <value>创建副本</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Delete" xml:space="preserve">
+   <value>删除</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Settings" xml:space="preserve">
+   <value>设置</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Save" xml:space="preserve">
+   <value>保存</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Author" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Description" xml:space="preserve">
+   <value>描述:</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Files" xml:space="preserve">
+   <value>文件</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.AddFile" xml:space="preserve">
+   <value>添加文件</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.EditFile" xml:space="preserve">
+   <value>编辑文件</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.DeleteFile" xml:space="preserve">
+   <value>删除文件</value>
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.Preview" xml:space="preserve">
+   <value>预览</value>        
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.NewTemplateFile" xml:space="preserve">
+   <value>新建模版文件</value>    
+ </data>
+	<data name="SourceCodeTemplateManagement.Form.TemplateFileName" xml:space="preserve">
+   <value>文件名称:</value>    
+ </data>
+	<data name="SourceCodeTemplate.Form.Title" xml:space="preserve">
+   <value>源码模版</value>    
+ </data>
+	<data name="SourceCodeTemplate.Form.Name" xml:space="preserve">
+   <value>名称:</value>    
+ </data>
+	<data name="SourceCodeTemplate.Form.ID" xml:space="preserve">
+   <value>ID:</value>    
+ </data>
+	<data name="SourceCodeTemplate.Form.Author" xml:space="preserve">
+   <value>作者:</value>    
+ </data>
+	<data name="SourceCodeTemplate.Form.Description" xml:space="preserve">
+   <value>描述:</value>    
+ </data>
+	<data name="Glossary.Form.Title" xml:space="preserve">
+   <value>术语</value>
+ </data>
+	<data name="Glossary.Form.Add" xml:space="preserve">
+   <value>添加</value>
+ </data>
+	<data name="Glossary.Form.Remove" xml:space="preserve">
+   <value>移除</value>
+ </data>
+	<data name="Glossary.Form.TermGroup" xml:space="preserve">
+   <value>条目组</value>
+ </data>
+	<data name="Glossary.Form.Term" xml:space="preserve">
+   <value>条目:</value>
+ </data>
+	<data name="Glossary.Form.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="Glossary.Form.Meaning" xml:space="preserve">
+   <value>含义:</value>
+ </data>
+	<data name="DocumentationTemplate.Form.Title" xml:space="preserve">
+   <value>文档模版</value>
+ </data>
+	<data name="DocumentationTemplate.Form.Add" xml:space="preserve">
+   <value>添加</value>
+ </data>
+	<data name="DocumentationTemplate.Form.Delete" xml:space="preserve">
+   <value>删除</value>
+ </data>
+	<data name="DocumentationTemplate.Form.Save" xml:space="preserve">
+   <value>保存</value>
+ </data>
+	<data name="DocumentationTemplate.Form.SaveAs" xml:space="preserve">
+   <value>保存为...</value>
+ </data>
+	<data name="DocumentationTemplate.Form.Project" xml:space="preserve">
+   <value>项目</value>
+ </data>
+	<data name="DocumentationTemplate.Form.Global" xml:space="preserve">
+   <value>全局</value>
+ </data>
+	<data name="Documentation.Form.Title" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="Documentation.Form.Add" xml:space="preserve">
+   <value>添加</value>
+ </data>
+	<data name="Documentation.Form.Delete" xml:space="preserve">
+   <value>删除</value>
+ </data>
+	<data name="Documentation.Form.Generate" xml:space="preserve">
+   <value>生成</value>
+ </data>
+	<data name="Documentation.Form.Update" xml:space="preserve">
+   <value>更新</value>
+ </data>
+	<data name="Documentation.Form.Export" xml:space="preserve">
+   <value>导出</value>
+ </data>
+	<data name="Documentation.Form.AddNewTemplate" xml:space="preserve">
+   <value>添加新模版</value>
+ </data>
+	<data name="Documentation.Form.ExportToRtf" xml:space="preserve">
+   <value>导出到RTF</value>
+ </data>
+	<data name="Documentation.Form.ExportToPdf" xml:space="preserve">
+   <value>导出到PDF</value>
+ </data>
+	<data name="Documentation.Form.ExportToTxt" xml:space="preserve">
+   <value>导出到TXT</value>
+ </data>
+	<data name="Documentation.Form.ExportToHtml" xml:space="preserve">
+   <value>导出到HTML</value>
+ </data>
+	<data name="Documentation.Form.ExportToOdt" xml:space="preserve">
+   <value>导出到ODT</value>
+ </data>
+	<data name="GraphicsEditor.Form.Title" xml:space="preserve">
+   <value>图形编辑器</value>
+ </data>
+	<data name="GraphicsEditor.Form.SaveAndClose" xml:space="preserve">
+   <value>保存并关闭</value>
+ </data>
+	<data name="GraphicsEditor.Form.Undo" xml:space="preserve">
+   <value>撤销</value>
+ </data>
+	<data name="GraphicsEditor.Form.Redo" xml:space="preserve">
+   <value>重做</value>
+ </data>
+	<data name="GraphicsEditor.Form.ConvertToPath" xml:space="preserve">
+   <value>转换为路径</value>                                 
+ </data>
+	<data name="GraphicsEditor.Form.Combine" xml:space="preserve">
+   <value>联合</value>
+ </data>
+	<data name="GraphicsEditor.Form.Group" xml:space="preserve">  
+   <value>组合</value>
+ </data>
+	<data name="GraphicsEditor.Form.Ungroup" xml:space="preserve">
+   <value>取消组合</value>
+ </data>
+	<data name="GraphicsEditor.Form.BringToFront" xml:space="preserve">
+   <value>移到最前</value>
+ </data>
+	<data name="GraphicsEditor.Form.SendToBack" xml:space="preserve">
+   <value>移到最后</value>
+ </data>
+	<data name="GraphicsEditor.Form.ForwardOne" xml:space="preserve">
+   <value>前移</value>
+ </data>
+	<data name="GraphicsEditor.Form.BackOne" xml:space="preserve">
+   <value>后移</value>
+ </data>
+	<data name="GraphicsEditor.Form.Properties" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="GraphicsEditor.Form.X" xml:space="preserve">
+   <value>X:</value>
+ </data>
+	<data name="GraphicsEditor.Form.Y" xml:space="preserve">
+   <value>Y:</value>
+ </data>
+	<data name="GraphicsEditor.Form.Width" xml:space="preserve">
+   <value>宽度:</value>
+ </data>
+	<data name="GraphicsEditor.Form.Height" xml:space="preserve">
+   <value>高度:</value>
+ </data>
+	<data name="GraphicsEditor.Form.AutoWidth" xml:space="preserve">
+   <value>自动宽度</value>
+ </data>
+	<data name="GraphicsEditor.Form.AutoHeight" xml:space="preserve">
+   <value>自动高度</value>
+ </data>
+	<data name="GraphicsEditor.Form.SystemStyle" xml:space="preserve">
+   <value>系统样式</value>
+ </data>
+	<data name="GraphicsEditor.Form.BackgroundColor" xml:space="preserve">
+   <value>背景颜色:</value>
+ </data>
+	<data name="GraphicsEditor.Form.BorderColor" xml:space="preserve">
+   <value>边框颜色:</value>
+ </data>
+	<data name="GraphicsEditor.Form.BorderWidth" xml:space="preserve">
+   <value>边框宽度:</value>
+ </data>
+	<data name="GraphicsEditor.Form.Transparency" xml:space="preserve">
+   <value>透明度:</value>
+ </data>
+	<data name="GraphicsEditor.Control.Delete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="GraphicsEditor.Control.DeletePoints" xml:space="preserve">
+   <value>删除点(&amp;P)</value>
+ </data>
+	<data name="FilterDefinition.Form.Title" xml:space="preserve">
+   <value>筛选定义</value>
+ </data>
+	<data name="FilterDefinition.Form.FilterSettings" xml:space="preserve">
+   <value>筛选设置</value>
+ </data>
+	<data name="FilterDefinition.Form.FilterName" xml:space="preserve">
+   <value>筛选名称:</value>
+ </data>
+	<data name="FilterDefinition.Form.FilterType" xml:space="preserve">
+   <value>筛选类型:</value>
+ </data>
+	<data name="FilterDefinition.Form.ProjectFilter" xml:space="preserve">
+   <value>项目</value>
+ </data>
+	<data name="FilterDefinition.Form.GlobalFilter" xml:space="preserve">
+   <value>全局</value>
+ </data>
+	<data name="FilterDefinition.Form.FilterDefinition" xml:space="preserve">
+   <value>筛选定义</value>
+ </data>
+	<data name="FilterDefinition.Form.AddNegative" xml:space="preserve">
+   <value>&lt; 否</value>
+ </data>
+	<data name="FilterDefinition.Form.AddCustom" xml:space="preserve">
+   <value>&lt; 自定义</value>
+ </data>
+	<data name="FilterDefinition.Form.AddCombination" xml:space="preserve">
+   <value>加入组(&amp;A)</value>
+ </data>
+	<data name="FilterDefinition.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="Global.Messages.DeleteTemplate" xml:space="preserve">
+   <value>确定要删除模版'&lt;?&gt;'?</value>    
+ </data>
+	<data name="Global.Messages.DeleteTemplate.title" xml:space="preserve">
+   <value>删除模版</value>    
+ </data>
+	<data name="Global.Messages.DeleteTemplateFile" xml:space="preserve">
+   <value>确定要删除模版文件'&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.DeleteTemplateFile.title" xml:space="preserve">
+   <value>删除系统内置文件</value>
+ </data>
+	<data name="Global.Messages.SystemLanguageCannotBeDeleted" xml:space="preserve">
+   <value>系统内置语言不能删除.</value>
+ </data>
+	<data name="Global.Messages.SystemLanguageCannotBeDeleted.title" xml:space="preserve">
+   <value>系统内置语言</value>
+ </data>
+	<data name="Global.Messages.SystemTemplateCannotBeEdited" xml:space="preserve">
+   <value>系统内置模版不能编辑.</value>
+ </data>
+	<data name="Global.Messages.SystemTemplateCannotBeDeleted" xml:space="preserve">
+   <value>系统内置模版不能删除.</value>
+ </data>
+	<data name="Global.Messages.DeleteCodeLanguage" xml:space="preserve">
+   <value>确定要删除语言'&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.DeleteGlossaryItem" xml:space="preserve">
+   <value>确定删除术语条目'&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.DeleteGlossaryItem.title" xml:space="preserve">
+   <value>删除术语条目</value>
+ </data>
+	<data name="AddCombination.Form.Title" xml:space="preserve">
+   <value>添加组合</value>
+ </data>
+	<data name="AddCombination.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="AddCombination.Form.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="AddCombination.Form.Stereotype" xml:space="preserve">
+   <value>图型:</value>
+ </data>
+	<data name="AddCombination.Form.Collaboration" xml:space="preserve">
+   <value>协作:</value>
+ </data>
+	<data name="CustomFilterValue.Form.Title" xml:space="preserve">
+   <value>自定义筛选值:</value>
+ </data>
+	<data name="CustomFilterValue.Form.Value" xml:space="preserve">
+   <value>值:</value>
+ </data>
+	<data name="CustomFilterValue.Form.NegativeFilter" xml:space="preserve">
+   <value>排除</value>
+ </data>
+	<data name="NewAlias.Form.Title" xml:space="preserve">
+   <value>新建别名组</value>
+ </data>
+	<data name="NewAlias.Form.AliasGroupName" xml:space="preserve">
+   <value>别名组名称:</value>
+ </data>
+	<data name="CustomDiagramSize.Form.Title" xml:space="preserve">
+   <value>自定义图示大小</value>
+ </data>
+	<data name="CustomDiagramSize.Form.Width" xml:space="preserve">
+   <value>宽度:</value>
+ </data>
+	<data name="CustomDiagramSize.Form.Height" xml:space="preserve">
+   <value>高度:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.Style" xml:space="preserve">
+   <value>样式</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.BackgroundType" xml:space="preserve">
+   <value>背景类型:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.BackgroundColor1" xml:space="preserve">
+   <value>背景颜色 1:</value>
+ </data>
+	<data name="DiagramPropertiesForm.Form.BackgroundColor2" xml:space="preserve">
+   <value>背景颜色 2:</value>
+ </data>
+	<data name="Graphics.Form.Title" xml:space="preserve">
+   <value>图形</value>
+ </data>
+	<data name="Graphics.Form.Add" xml:space="preserve">
+   <value>添加</value>
+ </data>
+	<data name="Graphics.Form.Edit" xml:space="preserve">
+   <value>编辑</value>
+ </data>
+	<data name="Graphics.Form.Delete" xml:space="preserve">
+   <value>删除</value>
+ </data>
+	<data name="SourceCodeImport.Form.Title" xml:space="preserve">
+   <value>源码导入</value>
+ </data>
+	<data name="SourceCodeImport.Form.Language" xml:space="preserve">
+   <value>语言:</value>
+ </data>
+	<data name="SourceCodeImport.Form.AddProject" xml:space="preserve">
+   <value>添加项目(&amp;P)</value>
+ </data>
+	<data name="SourceCodeImport.Form.AddFiles" xml:space="preserve">
+   <value>添加文件(&amp;F)</value>
+ </data>
+	<data name="SourceCodeImport.Form.AddDirectory" xml:space="preserve">
+   <value>添加目录(&amp;D)</value>
+ </data>
+	<data name="Global.Messages.DeleteGraphic" xml:space="preserve">
+   <value>确定要删除'&lt;?&gt;'?</value>
+ </data>
+	<data name="Global.Messages.DeleteGraphic.title" xml:space="preserve">
+   <value>删除图形</value>
+ </data>
+	<data name="Comparison.Form.Title" xml:space="preserve">
+   <value>对比</value>
+ </data>
+	<data name="Comparison.Form.Left" xml:space="preserve">
+   <value>向左</value>
+ </data>
+	<data name="Comparison.Form.Right" xml:space="preserve">
+   <value>向右</value>
+ </data>
+	<data name="Comparison.Form.Path" xml:space="preserve">
+   <value>路径:</value>
+ </data>
+	<data name="Comparison.Form.Save" xml:space="preserve">
+   <value>保存</value>
+ </data>
+	<data name="Comparison.Form.CopyToRight" xml:space="preserve">
+   <value>复制到右侧</value>
+ </data>
+	<data name="Comparison.Form.CopyToLeft" xml:space="preserve">
+   <value>复制到左侧</value>
+ </data>
+	<data name="Comparison.Form.Summary" xml:space="preserve">
+   <value>摘要</value>
+ </data>
+	<data name="Comparison.Form.Identical" xml:space="preserve">
+   <value>相同</value>
+ </data>
+	<data name="Comparison.Form.Different" xml:space="preserve">
+   <value>不同</value>
+ </data>
+	<data name="Comparison.Form.OnlyLeft" xml:space="preserve">
+   <value>仅左侧</value>
+ </data>
+	<data name="Comparison.Form.OnlyRight" xml:space="preserve">
+   <value>仅右侧</value>
+ </data>
+	<data name="Comparison.Form.IdenticalResult" xml:space="preserve">
+   <value>相同</value>
+ </data>
+	<data name="Comparison.Form.DifferentResult" xml:space="preserve">
+   <value>不同</value>
+ </data>
+	<data name="Comparison.Form.OnlyLeftResult" xml:space="preserve">
+   <value>仅左侧</value>
+ </data>
+	<data name="Comparison.Form.OnlyRightResult" xml:space="preserve">
+   <value>仅右侧</value>
+ </data>
+	<data name="Comparison.Form.UnknownResult" xml:space="preserve">
+   <value>未知</value>
+ </data>
+	<data name="Comparison.Form.Total" xml:space="preserve">
+   <value>总计</value>
+ </data>
+	<data name="Comparison.Form.Models" xml:space="preserve">
+   <value>模型</value>
+ </data>
+	<data name="Comparison.Form.Diagrams" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="Comparison.Form.Elements" xml:space="preserve">
+   <value>元素</value>
+ </data>
+	<data name="ComparisonChoice.Form.Title" xml:space="preserve">
+   <value>对比选择</value>
+ </data>
+	<data name="ComparisonChoice.Form.Left" xml:space="preserve">
+   <value>向左</value>
+ </data>
+	<data name="ComparisonChoice.Form.Right" xml:space="preserve">
+   <value>向右</value>
+ </data>
+	<data name="ComparisonChoice.Form.CurrentOpenProject" xml:space="preserve">
+   <value>当前打开项目</value>
+ </data>
+	<data name="ComparisonChoice.Form.OtherProject" xml:space="preserve">
+   <value>其他项目:</value>
+ </data>
+	<data name="ComparisonChoice.Form.ComparisonMethod" xml:space="preserve">
+   <value>对比方式:</value>
+ </data>
+	<data name="ComparisonChoice.Form.Exact" xml:space="preserve">
+   <value>精确(&amp;E)</value>
+ </data>
+	<data name="ComparisonChoice.Form.ByName" xml:space="preserve">
+   <value>按名称(&amp;N)</value>
+ </data>
+	<data name="ComparisonChoice.Form.ByCustomID" xml:space="preserve">
+   <value>按自定义ID(&amp;I)</value>
+ </data>
+	<data name="ContextBar.Control.ChangeBackgroundColor" xml:space="preserve">
+   <value>改变背景颜色</value>
+ </data>
+	<data name="ContextBar.Control.ChangeBackgroundColor2" xml:space="preserve">
+   <value>改变第二背景颜色</value>
+ </data>
+	<data name="ContextBar.Control.ChangeBorderColor" xml:space="preserve">
+   <value>改变边框颜色</value>
+ </data>
+	<data name="ContextBar.Control.ChangeBorderWidth" xml:space="preserve">
+   <value>改变边框宽度</value>
+ </data>
+	<data name="MainForm.Menu.Rulers" xml:space="preserve">
+   <value>标尺(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.SideBars" xml:space="preserve">
+   <value>侧边栏(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.ProjectSideBar" xml:space="preserve">
+   <value>项目(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.FastEditorSideBar" xml:space="preserve">
+   <value>快速编辑器(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.GenerationSideBar" xml:space="preserve">
+   <value>生成(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.DocumentationSideBar" xml:space="preserve">
+   <value>文档(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.ParserSideBar" xml:space="preserve">
+   <value>源码解析(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.CooperationSideBar" xml:space="preserve">
+   <value>工作团队(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.GraphicsSideBar" xml:space="preserve">
+   <value>图形(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.StylesSideBar" xml:space="preserve">
+   <value>样式(&amp;Y)</value>
+ </data>
+	<data name="MainForm.Menu.PropertiesSideBar" xml:space="preserve">
+   <value>属性(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.LayersSideBar" xml:space="preserve">
+   <value>图层(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.ToDoSideBar" xml:space="preserve">
+   <value>&amp;TO-DO</value>
+ </data>
+	<data name="MainForm.Menu.GraphicsList" xml:space="preserve">
+   <value>图形表(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.Templates" xml:space="preserve">
+   <value>模版(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.SourceCodeTemplates" xml:space="preserve">
+   <value>源码(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.DocumentationTemplates" xml:space="preserve">
+   <value>文档(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.SourceCodeEngineering" xml:space="preserve">
+   <value>源码(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.Comparison" xml:space="preserve">
+   <value>对比(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.Aliases" xml:space="preserve">
+   <value>别名(&amp;A)</value>
+ </data>
+	<data name="MainForm.Menu.CreateNewAliasGroup" xml:space="preserve">
+   <value>创建新别名组(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.DefaultAliases" xml:space="preserve">
+   <value>默认别名(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.Documentation" xml:space="preserve">
+   <value>文档(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.Glossary" xml:space="preserve">
+   <value>术语(&amp;G)</value>
+ </data>
+	<data name="MainForm.Menu.CreateNewFilter" xml:space="preserve">
+   <value>创建新筛选(&amp;F)</value>
+ </data>
+	<data name="MainForm.Menu.DiagramBounds" xml:space="preserve">
+   <value>边界(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.AutoExpandInAllDirections" xml:space="preserve">
+   <value>全方向自动扩增(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.AutoExpandRightDown" xml:space="preserve">
+   <value>向右下自动扩增(&amp;O)</value>
+ </data>
+	<data name="MainForm.Menu.ShowBorders" xml:space="preserve">
+   <value>显示边框(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.CustomDiagramSize" xml:space="preserve">
+   <value>自定义大小(&amp;C)</value>
+ </data>
+	<data name="MainForm.SideBars.Cooperation" xml:space="preserve">
+   <value>团队</value>
+ </data>
+	<data name="MainForm.SideBars.SideBarParser" xml:space="preserve">
+   <value>源码解析</value>
+ </data>
+	<data name="MainForm.SideBars.Graphics" xml:space="preserve">
+   <value>图形</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.Sort" xml:space="preserve">
+   <value>排序</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.CustomSort" xml:space="preserve">
+   <value>自定义排序(&amp;C)</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.SortByName" xml:space="preserve">
+   <value>按名称(名称(&amp;N)</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.SortByCreationDate" xml:space="preserve">
+   <value>按创建日期(&amp;D)</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.SortByType" xml:space="preserve">
+   <value>按类型(&amp;T)</value>
+ </data>
+	<data name="SourceCodeDefinition.Control.Add" xml:space="preserve">
+   <value>增加(&amp;A)</value>
+ </data>
+	<data name="SourceCodeDefinition.Control.Remove" xml:space="preserve">
+   <value>移除(&amp;R)</value>
+ </data>
+	<data name="SourceCodeDefinition.Control.Language" xml:space="preserve">
+   <value>语言:</value>
+ </data>
+	<data name="AssociatedDiagrams.Control.Add" xml:space="preserve">
+   <value>增加(&amp;A)</value>
+ </data>
+	<data name="AssociatedDiagrams.Control.Remove" xml:space="preserve">
+   <value>移除(&amp;R)</value>
+ </data>
+	<data name="CooperationPropertiesPanel.Control.Creator" xml:space="preserve">
+   <value>创建者:</value>
+ </data>
+	<data name="CooperationPropertiesPanel.Control.Participants" xml:space="preserve">
+   <value>参与者:</value>
+ </data>
+	<data name="CooperationPropertiesPanel.Control.Comments" xml:space="preserve">
+   <value>注释:</value>
+ </data>
+	<data name="CommentPanel.Control.AddComment" xml:space="preserve">
+   <value>添加注释</value>
+ </data>
+	<data name="CommentPanel.Control.DeleteComment" xml:space="preserve">
+   <value>删除注释</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Properties" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.ChoreographyTask" xml:space="preserve">
+   <value>编排任务</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.SourceCode" xml:space="preserve">
+   <value>源码</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.Cooperation" xml:space="preserve">
+   <value>团队</value>
+ </data>
+	<data name="ItemPropertiesForm.Form.AssociatedDiagrams" xml:space="preserve">
+   <value>关联图示</value>
+ </data>
+	<data name="CooperationSideBar.Control.AddPerson" xml:space="preserve">
+   <value>添加人员</value>
+ </data>
+	<data name="CooperationSideBar.Control.DeletePerson" xml:space="preserve">
+   <value>删除人员</value>
+ </data>
+	<data name="MainForm.GenerationTabPanel.Language" xml:space="preserve">
+   <value>语言:</value>
+ </data>
+	<data name="MainForm.GenerationTabPanel.Template" xml:space="preserve">
+   <value>模版:</value>
+ </data>
+	<data name="Global.Messages.SaveDocumentationTemplate" xml:space="preserve">
+   <value>是否保存对文档的修改?</value>
+ </data>
+	<data name="Global.Messages.SaveDocumentationTemplate.title" xml:space="preserve">
+   <value>文档模版</value>
+ </data>
+	<data name="Global.Messages.SourceCodeTemplateCloseConfirm" xml:space="preserve">
+   <value>确定要关闭该窗口?所有改动均会取消.</value>
+ </data>
+	<data name="OptionsForm.Form.UserProfileTab" xml:space="preserve">
+   <value>用户信息</value>
+ </data>
+	<data name="OptionsForm.Form.PersonalDataGroup" xml:space="preserve">
+   <value>个人信息</value>
+ </data>
+	<data name="OptionsForm.Form.FirstName" xml:space="preserve">
+   <value>姓:</value>
+ </data>
+	<data name="OptionsForm.Form.LastName" xml:space="preserve">
+   <value>名:</value>
+ </data>
+	<data name="OptionsForm.Form.Initials" xml:space="preserve">
+   <value>名字缩写:</value>
+ </data>
+	<data name="OptionsForm.Form.Email" xml:space="preserve">
+   <value>E-mail:</value>
+ </data>
+	<data name="OptionsForm.Form.MenuTab" xml:space="preserve">
+   <value>菜单</value>
+ </data>
+	<data name="MenuSettings.Control.ShortcutKeys" xml:space="preserve">
+   <value>快捷键</value>
+ </data>
+	<data name="MenuSettings.Control.Control" xml:space="preserve">
+   <value>&amp;Control</value>
+ </data>
+	<data name="MenuSettings.Control.Shift" xml:space="preserve">
+   <value>&amp;Shift</value>
+ </data>
+	<data name="MenuSettings.Control.Alt" xml:space="preserve">
+   <value>&amp;Alt</value>
+ </data>
+	<data name="MenuSettings.Control.Key" xml:space="preserve">
+   <value>键:</value>
+ </data>
+	<data name="MenuSettings.Control.Default" xml:space="preserve">
+   <value>默认(&amp;D)</value>
+ </data>
+	<data name="ElementBrowserForm.Form.Repositories" xml:space="preserve">
+   <value>库:</value>
+ </data>
+	<data name="ElementBrowserForm.Form.ProjectRepository" xml:space="preserve">
+   <value>项目库</value>
+ </data>
+	<data name="ElementBrowserForm.Form.ModelRepositories" xml:space="preserve">
+   <value>模型库</value>
+ </data>
+	<data name="ElementBrowserForm.Form.DiagramRepositories" xml:space="preserve">
+   <value>图示库</value>
+ </data>
+	<data name="RelationsPanel.Control.RelatedElements" xml:space="preserve">
+   <value>相关元素</value>
+ </data>
+	<data name="RelationsPanel.Control.UsedOnDiagrams" xml:space="preserve">
+   <value>用于的图示</value>
+ </data>
+	<data name="RelationsPanel.Control.AssociatedDiagrams" xml:space="preserve">
+   <value>关联图示</value>
+ </data>
+	<data name="RelationsPanel.Control.Thumbnails" xml:space="preserve">
+   <value>缩略图</value>
+ </data>
+	<data name="RelationsPanel.Control.List" xml:space="preserve">
+   <value>列表</value>
+ </data>
+	<data name="RelationsPanel.Control.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="RelationsPanel.Control.ID" xml:space="preserve">
+   <value>ID</value>
+ </data>
+	<data name="RelationsPanel.Control.Type" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="MainForm.Menu.ClearThisList" xml:space="preserve">
+   <value>清除当前列表(&amp;C)</value>
+ </data>
+	<data name="CodeEditor.Control.Undo" xml:space="preserve">
+   <value>撤销(&amp;U)</value>
+ </data>
+	<data name="CodeEditor.Control.Redo" xml:space="preserve">
+   <value>重做(&amp;R)</value>
+ </data>
+	<data name="CodeEditor.Control.Cut" xml:space="preserve">
+   <value>剪切(&amp;T)</value>
+ </data>
+	<data name="CodeEditor.Control.Copy" xml:space="preserve">
+   <value>复制(&amp;C)</value>
+ </data>
+	<data name="CodeEditor.Control.Paste" xml:space="preserve">
+   <value>粘贴(&amp;P)</value>
+ </data>
+	<data name="CodeEditor.Control.Delete" xml:space="preserve">
+   <value>删除(&amp;D)</value>
+ </data>
+	<data name="CodeEditor.Control.SelectAll" xml:space="preserve">
+   <value>全选(&amp;A)</value>
+ </data>
+	<data name="CodeEditor.Control.ShowLineNumbers" xml:space="preserve">
+   <value>显示行号(&amp;L)</value>
+ </data>
+	<data name="SideBarParser.Control.SourceCode" xml:space="preserve">
+   <value>源码</value>
+ </data>
+	<data name="SideBarParser.Control.Parse" xml:space="preserve">
+   <value>解析(&amp;P)</value>
+ </data>
+	<data name="SideBarParser.Control.Results" xml:space="preserve">
+   <value>结果</value>
+ </data>
+	<data name="SideBarParser.Control.Insert" xml:space="preserve">
+   <value>插入(&amp;I)</value>
+ </data>
+	<data name="DocumentEditor.Control.Insert" xml:space="preserve">
+   <value>插入</value>
+ </data>
+	<data name="DocumentEditor.Control.Image" xml:space="preserve">
+   <value>图像</value>
+ </data>
+	<data name="DocumentEditor.Control.Table" xml:space="preserve">
+   <value>表格</value>
+ </data>
+	<data name="DocumentEditor.Control.Document" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="DocumentEditor.Control.Project" xml:space="preserve">
+   <value>项目</value>
+ </data>
+	<data name="DocumentEditor.Control.Model" xml:space="preserve">
+   <value>模型</value>
+ </data>
+	<data name="DocumentEditor.Control.Diagram" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="DocumentEditor.Control.Element" xml:space="preserve">
+   <value>元素</value>
+ </data>
+	<data name="DocumentEditor.Control.Class" xml:space="preserve">
+   <value>类</value>
+ </data>
+	<data name="DocumentEditor.Control.AddRow" xml:space="preserve">
+   <value>添加行</value>
+ </data>
+	<data name="DocumentEditor.Control.AddColumn" xml:space="preserve">
+   <value>添加列</value>
+ </data>
+	<data name="DocumentEditor.Control.RemoveRow" xml:space="preserve">
+   <value>移除行</value>
+ </data>
+	<data name="DocumentEditor.Control.RemoveColumn" xml:space="preserve">
+   <value>移除列</value>
+ </data>
+	<data name="DocumentEditor.Control.Page" xml:space="preserve">
+   <value>页面</value>
+ </data>
+	<data name="DocumentEditor.Control.Bold" xml:space="preserve">
+   <value>加粗</value>
+ </data>
+	<data name="DocumentEditor.Control.Italic" xml:space="preserve">
+   <value>斜体</value>
+ </data>
+	<data name="DocumentEditor.Control.Underline" xml:space="preserve">
+   <value>下划线</value>
+ </data>
+	<data name="DocumentEditor.Control.Strikeout" xml:space="preserve">
+   <value>删除线</value>
+ </data>
+	<data name="DocumentEditor.Control.Color" xml:space="preserve">
+   <value>颜色</value>
+ </data>
+	<data name="DocumentEditor.Control.LeftAlignment" xml:space="preserve">
+   <value>左对齐</value>
+ </data>
+	<data name="DocumentEditor.Control.CenterAlignment" xml:space="preserve">
+   <value>居中对齐</value>
+ </data>
+	<data name="DocumentEditor.Control.RightAlignment" xml:space="preserve">
+   <value>右对齐</value>
+ </data>
+	<data name="DocumentEditor.Control.JustifiedAlignment" xml:space="preserve">
+   <value>两端对齐</value>
+ </data>
+	<data name="GraphicsEditor.Form.SaveNewGraphicDialog.Title" xml:space="preserve">
+   <value>保存新图形</value>
+ </data>
+	<data name="GraphicsEditor.Form.SaveNewGraphicDialog.Message" xml:space="preserve">
+   <value>图形名称:</value>
+ </data>
+	<data name="DiagramControl.Menu.MoveToLayer" xml:space="preserve">
+   <value>移到图层（&amp;O)</value>
+ </data>
+	<data name="DiagramControl.Menu.VisualStyle" xml:space="preserve">
+   <value>视觉样式(&amp;V)</value>
+ </data>
+	<data name="DiagramControl.Menu.DefaultVisualStyle" xml:space="preserve">
+   <value>默认(&amp;D)</value>
+ </data>
+	<data name="DiagramControl.Menu.StereotypeVisualStyle" xml:space="preserve">
+   <value>图型(&amp;S)</value>
+ </data>
+	<data name="DiagramControl.Menu.StereotypeIconVisualStyle" xml:space="preserve">
+   <value>图型图标(&amp;I)</value>
+ </data>
+	<data name="DiagramControl.Menu.CustomVisualStyle" xml:space="preserve">
+   <value>自定义(&amp;C)</value>
+ </data>
+	<data name="DiagramControl.Menu.DiagramProperties" xml:space="preserve">
+   <value>图示(&amp;D)属性</value>
+ </data>
+	<data name="Global.Buttons.DontShowAgain" xml:space="preserve">
+   <value>不再显示该对话框(&amp;D)</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Documentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.SourceCodeBody" xml:space="preserve">
+   <value>代码</value>
+ </data>
+	<data name="UmlOperationEditorForm.Form.Language" xml:space="preserve">
+   <value>语言:</value>
+ </data>
+	<data name="DocumentEditor.Control.PageNumber" xml:space="preserve">
+   <value>页面号</value>
+ </data>
+	<data name="DocumentEditor.Control.TotalNumberOfPages" xml:space="preserve">
+   <value>总计页数</value>
+ </data>
+	<data name="DocumentEditor.Control.TableOfContents" xml:space="preserve">
+   <value>目录</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectAuthors" xml:space="preserve">
+   <value>作者</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectDescription" xml:space="preserve">
+   <value>描述</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectCreationDate" xml:space="preserve">
+   <value>创建日期</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectModels" xml:space="preserve">
+   <value>模型</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectDiagrams" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectElements" xml:space="preserve">
+   <value>元素</value>
+ </data>
+	<data name="DocumentEditor.Control.ProjectAllElements" xml:space="preserve">
+   <value>所有元素</value>
+ </data>
+	<data name="DocumentEditor.Control.Glossary" xml:space="preserve">
+   <value>术语</value>
+ </data>
+	<data name="DocumentEditor.Control.Terms" xml:space="preserve">
+   <value>条款s</value>
+ </data>
+	<data name="DocumentEditor.Control.TermName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.TermMeaning" xml:space="preserve">
+   <value>含义</value>
+ </data>
+	<data name="DocumentEditor.Control.ModelName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.ModelNamespace" xml:space="preserve">
+   <value>命名空间</value>
+ </data>
+	<data name="DocumentEditor.Control.ModelDescription" xml:space="preserve">
+   <value>描述</value>
+ </data>
+	<data name="DocumentEditor.Control.ModelModels" xml:space="preserve">
+   <value>模型</value>
+ </data>
+	<data name="DocumentEditor.Control.ModelDiagrams" xml:space="preserve">
+   <value>图示</value>
+ </data>
+	<data name="DocumentEditor.Control.ModelElements" xml:space="preserve">
+   <value>元素</value>
+ </data>
+	<data name="DocumentEditor.Control.DiagramName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.DiagramDescription" xml:space="preserve">
+   <value>描述</value>
+ </data>
+	<data name="DocumentEditor.Control.DiagramImage" xml:space="preserve">
+   <value>图示- 图像</value>
+ </data>
+	<data name="DocumentEditor.Control.DiagramElements" xml:space="preserve">
+   <value>元素</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementID" xml:space="preserve">
+   <value>ID</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementDocumentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementTaggedValues" xml:space="preserve">
+   <value>标记值</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementStereotypes" xml:space="preserve">
+   <value>图型</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementImage" xml:space="preserve">
+   <value>元素 - 图像</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementRelatedElements" xml:space="preserve">
+   <value>相关 元素</value>
+ </data>
+	<data name="DocumentEditor.Control.Attributes" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="DocumentEditor.Control.Operations" xml:space="preserve">
+   <value>操作</value>
+ </data>
+	<data name="DocumentEditor.Control.SubClasses" xml:space="preserve">
+   <value>子类</value>
+ </data>
+	<data name="DocumentEditor.Control.SuperClasses" xml:space="preserve">
+   <value>父类</value>
+ </data>
+	<data name="DocumentationTemplate.Form.AddTemplate.Text" xml:space="preserve">
+   <value>模版名称:</value>
+ </data>
+	<data name="DocumentationTemplate.Form.AddTemplate.Title" xml:space="preserve">
+   <value>添加模版</value>
+ </data>
+	<data name="Global.Messages.DocumentationTemplateFileExists" xml:space="preserve">
+   <value>模版文件名已存在</value>
+ </data>
+	<data name="Global.Messages.DocumentationTemplateFileExists.title" xml:space="preserve">
+   <value>已有该名称的模版文件</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Template" xml:space="preserve">
+   <value>模版</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.TemplateLabel" xml:space="preserve">
+   <value>模版:</value>
+ </data>
+	<data name="DocumentationGenerationForm.Form.Output" xml:space="preserve">
+   <value>输出</value>
+ </data>
+	<data name="ExpandableToolbar.Control.CollapseExpand" xml:space="preserve">
+   <value>折叠/展开(&amp;C)</value>
+ </data>
+	<data name="ExpandableToolbar.Control.ShowIcons" xml:space="preserve">
+   <value>显示图标(&amp;I)</value>
+ </data>
+	<data name="ExpandableToolbar.Control.ShowIconsAndNames" xml:space="preserve">
+   <value>显示图标和名称(&amp;N)</value>
+ </data>
+	<data name="ExpandableToolbar.Control.ShowShortcutKeys" xml:space="preserve">
+   <value>显示快捷键(&amp;K)</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Common" xml:space="preserve">
+   <value>普通</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Selection" xml:space="preserve">
+   <value>选择</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Polyline" xml:space="preserve">
+   <value>折线</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Line" xml:space="preserve">
+   <value>线</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Polygon" xml:space="preserve">
+   <value>多边形</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Rectangle" xml:space="preserve">
+   <value>矩形</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Ellipse" xml:space="preserve">
+   <value>椭圆</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Text" xml:space="preserve">
+   <value>文本</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.ArtText" xml:space="preserve">
+   <value>艺术字</value>    
+ </data>
+	<data name="GraphicsEditor.Toolbox.Fields" xml:space="preserve">
+   <value>字段</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Name" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Stereotypes" xml:space="preserve">
+   <value>图型</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.TaggedValues" xml:space="preserve">
+   <value>标记值</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Attributes" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.Operations" xml:space="preserve">
+   <value>操作</value>
+ </data>
+	<data name="GraphicsEditor.Toolbox.TemplateParameters" xml:space="preserve">
+   <value>模版参数</value>
+ </data>
+	<data name="MainForm.Menu.ShowCreatorsAndParticipants" xml:space="preserve">
+   <value>显示创建者和参与者(&amp;C)</value>
+ </data>
+	<data name="Global.DiagramNames.HierarchicalTaskAnalysisDiagram" xml:space="preserve">
+   <value>阶段任务分析图</value>
+ </data>
+	<data name="Global.DiagramNames.EntityStructureDiagram" xml:space="preserve">
+   <value>实体结构图(EntityStructure)</value>
+ </data>
+	<data name="Global.DiagramNames.NetworkDiagram" xml:space="preserve">
+   <value>JSD网络图(NetWork)</value>
+ </data>
+	<data name="Global.DiagramNames.BpmnCollaborationDiagram" xml:space="preserve">
+   <value>BPMN协作图</value>
+ </data>
+	<data name="Global.DiagramNames.BpmnConversationDiagram" xml:space="preserve">
+   <value>BPMN交互图</value>
+ </data>
+	<data name="Global.DiagramNames.BpmnChoreographyDiagram" xml:space="preserve">
+   <value>BPMN编排图</value>
+ </data>
+	<data name="Global.DiagramNames.EntityLifeHistoryDiagram" xml:space="preserve">
+   <value>实体生存历史</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.HierarchicalTaskAnalysisDiagram" xml:space="preserve">
+   <value>阶段任务分析(&amp;H)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.EntityStructureDiagram" xml:space="preserve">
+   <value>JSD实体结构图(&amp;E)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.NetworkDiagram" xml:space="preserve">
+   <value>JSD网络图(&amp;N)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.Bpmn" xml:space="preserve">
+   <value>BPMN图示(&amp;B)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.Jsd" xml:space="preserve">
+   <value>JSD图示(&amp;J)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.Other" xml:space="preserve">
+   <value>其他(&amp;O)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.BpmnCollaborationDiagram" xml:space="preserve">
+   <value>BPMN协作图(&amp;C)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.BpmnConversationDiagram" xml:space="preserve">
+   <value>BPMN交互图(&amp;O)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.BpmnChoreographyDiagram" xml:space="preserve">
+   <value>BPMN编排图(&amp;H)</value>
+ </data>
+	<data name="MainForm.ProjectCMenu.EntityLifeHistoryDiagram" xml:space="preserve">
+   <value>实体生存历史(&amp;E)</value>
+ </data>
+	<data name="MainForm.Toolbox.HierarchicalTaskAnalysisDiagram" xml:space="preserve">
+   <value>阶段任务分析</value>
+ </data>
+	<data name="MainForm.Toolbox.EntityStructureDiagram" xml:space="preserve">
+   <value>实体结构图示</value>
+ </data>
+	<data name="MainForm.Toolbox.NetworkDiagram" xml:space="preserve">
+   <value>网络图示</value>
+ </data>
+	<data name="MainForm.Toolbox.BpmnCollaborationDiagram" xml:space="preserve">
+   <value>BPMN 协作图(Collaboration)</value>
+ </data>
+	<data name="MainForm.Toolbox.BpmnConversationDiagram" xml:space="preserve">
+   <value>BPMN 交互图(Conversation)</value>
+ </data>
+	<data name="MainForm.Toolbox.BpmnChoreographyDiagram" xml:space="preserve">
+   <value>BPMN 编排图(Choreography)</value>
+ </data>
+	<data name="MainForm.Toolbox.EntityLifeHistoryDiagram" xml:space="preserve">
+   <value>实体生存历史</value>
+ </data>
+	<data name="ExistingDiagrams.Form.Title" xml:space="preserve">
+   <value>已有图示</value>
+ </data>
+	<data name="ElementPicker.Form.Title" xml:space="preserve">
+   <value>元素选择器</value>
+ </data>
+	<data name="DiagramPicker.Form.Title" xml:space="preserve">
+   <value>图示选择器</value>
+ </data>
+	<data name="Documentation.Form.AddDocument.Title" xml:space="preserve">
+   <value>添加文件</value>
+ </data>
+	<data name="Documentation.Form.AddDocument.Text" xml:space="preserve">
+   <value>文档名称:</value>
+ </data>
+	<data name="DocumentEditor.Control.DiagramDocumentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementTaggedValue" xml:space="preserve">
+   <value>标记值</value>
+ </data>
+	<data name="DocumentEditor.Control.ElementStereotype" xml:space="preserve">
+   <value>图型(Stereotype)</value>
+ </data>
+	<data name="DocumentEditor.Control.Attribute" xml:space="preserve">
+   <value>属性</value>
+ </data>
+	<data name="DocumentEditor.Control.AttributeName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.AttributeType" xml:space="preserve">
+   <value>类型</value>
+ </data>
+	<data name="DocumentEditor.Control.Operation" xml:space="preserve">
+   <value>操作</value>
+ </data>
+	<data name="DocumentEditor.Control.OperationName" xml:space="preserve">
+   <value>名称</value>
+ </data>
+	<data name="DocumentEditor.Control.OperationReturnType" xml:space="preserve">
+   <value>返回类型</value>
+ </data>
+	<data name="DocumentEditor.Control.OperationParameters" xml:space="preserve">
+   <value>参数</value>
+ </data>
+	<data name="DocumentEditor.Control.OperationParameterName" xml:space="preserve">
+   <value>参数名</value>
+ </data>
+	<data name="DocumentEditor.Control.OperationParameterType" xml:space="preserve">
+   <value>参数类型</value>    
+ </data>
+	<data name="ExistingModels.Form.Title" xml:space="preserve">
+   <value>已有模型</value>
+ </data>
+	<data name="LicenseInfo.Form.Title" xml:space="preserve">
+   <value>授权信息</value>
+ </data>
+	<data name="LicenseInfo.Form.SoftwareEdition" xml:space="preserve">
+   <value>软件版本:</value>
+ </data>
+	<data name="LicenseInfo.Form.Name" xml:space="preserve">
+   <value>名称:</value>
+ </data>
+	<data name="LicenseInfo.Form.Email" xml:space="preserve">
+   <value>E-mail:</value>
+ </data>
+	<data name="LicenseInfo.Form.ValidFrom" xml:space="preserve">
+   <value>有效期起始:</value>
+ </data>
+	<data name="LicenseInfo.Form.ValidTo" xml:space="preserve">
+   <value>结束:</value>
+ </data>
+	<data name="LicenseInfo.Form.LicenseCount" xml:space="preserve">
+   <value>许可数量:</value>
+ </data>
+	<data name="LicenseInfo.Form.Change" xml:space="preserve">
+   <value>改变授权(&amp;L)</value>
+ </data>
+	<data name="DocumentEditor.Control.CustomCommand.Title" xml:space="preserve">
+   <value>自定义命令</value>    
+ </data>
+	<data name="DocumentEditor.Control.CustomCommand.Text" xml:space="preserve">
+   <value>命令:</value>    
+ </data>
+	<data name="SourceCodeDefinition.Control.NewLanguage.Title" xml:space="preserve">
+   <value>新建语言</value>    
+ </data>
+	<data name="SourceCodeDefinition.Control.NewLanguage.Text" xml:space="preserve">
+   <value>名称:</value>    
+ </data>
+	<data name="Page.Form.Title" xml:space="preserve">
+   <value>页面</value>    
+ </data>
+	<data name="Page.Form.Size" xml:space="preserve">
+   <value>大小</value>    
+ </data>
+	<data name="Page.Form.Width" xml:space="preserve">
+   <value>宽度:</value>    
+ </data>
+	<data name="Page.Form.Height" xml:space="preserve">
+   <value>高度:</value>    
+ </data>
+	<data name="Page.Form.Margins" xml:space="preserve">
+   <value>边距</value>    
+ </data>
+	<data name="Page.Form.Left" xml:space="preserve">
+   <value>向左:</value>    
+ </data>
+	<data name="Page.Form.Right" xml:space="preserve">
+   <value>向右:</value>    
+ </data>
+	<data name="Page.Form.Top" xml:space="preserve">
+   <value>顶部:</value>    
+ </data>
+	<data name="Page.Form.Bottom" xml:space="preserve">
+   <value>底部:</value>    
+ </data>
+	<data name="DocumentEditor.Control.CustomCommand" xml:space="preserve">
+   <value>自定义命令(&amp;C)</value>
+ </data>
+	<data name="Page.Form.HeaderAndFooter" xml:space="preserve">
+   <value>页头和页脚(&amp;H)</value>
+ </data>
+	<data name="Page.Form.HeaderHeight" xml:space="preserve">
+   <value>页头高度(&amp;H):</value>
+ </data>
+	<data name="Page.Form.FooterHeight" xml:space="preserve">
+   <value>页脚高度(&amp;F):</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.Navigable" xml:space="preserve">
+   <value>Navigable:</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.Type" xml:space="preserve">
+   <value>类型:</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.Visibility" xml:space="preserve">
+   <value>可见性:</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.StartRoleGroup" xml:space="preserve">
+   <value>起始角色</value>
+ </data>
+	<data name="RelationDefinitionControl.Control.EndRoleGroup" xml:space="preserve">
+   <value>结束角色</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.Authors" xml:space="preserve">
+   <value>作者:</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.Version" xml:space="preserve">
+   <value>版本:</value>
+ </data>
+	<data name="ModelPropertiesForm.Form.Created" xml:space="preserve">
+   <value>创建日期:</value>
+ </data>
+	<data name="MainForm.Menu.ShowLicenseInfo" xml:space="preserve">
+   <value>授权信息(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.ChangeEdition" xml:space="preserve">
+   <value>切换版本(&amp;C)</value>
+ </data>
+	<data name="MainForm.Form.ItemsSelected" xml:space="preserve">
+   <value>选中项</value>
+ </data>
+	<data name="DocumentEditor.Control.HeadingNumber" xml:space="preserve">
+   <value>标题号码</value>
+ </data>
+	<data name="DocumentEditor.Control.Text" xml:space="preserve">
+   <value>文本</value>
+ </data>
+	<data name="DocumentEditor.Control.Heading1" xml:space="preserve">
+   <value>标题 1</value>
+ </data>
+	<data name="DocumentEditor.Control.Heading2" xml:space="preserve">
+   <value>标题 2</value>
+ </data>
+	<data name="DocumentEditor.Control.Heading3" xml:space="preserve">
+   <value>标题 3</value>
+ </data>
+	<data name="DocumentEditor.Control.Heading4" xml:space="preserve">
+   <value>标题 4</value>
+ </data>
+	<data name="DocumentEditor.Control.Heading5" xml:space="preserve">
+   <value>标题 5</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Multiplicity" xml:space="preserve">
+   <value>多态性:</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Ordering" xml:space="preserve">
+   <value>顺序:</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Default" xml:space="preserve">
+   <value>默认(未排序)</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Unordered" xml:space="preserve">
+   <value>未排序</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Ordered" xml:space="preserve">
+   <value>有序</value>
+ </data>
+	<data name="UmlAttributeEditorForm.Form.Documentation" xml:space="preserve">
+   <value>文档</value>
+ </data>
+	<data name="SideBarParser.Control.Language" xml:space="preserve">
+   <value>语言:</value>
+ </data>
+	<data name="MainForm.Menu.MultiplePages" xml:space="preserve">
+   <value>多页(&amp;M)</value>
+ </data>
+	<data name="EditionChoice.Form.Title" xml:space="preserve">
+   <value>Software Ideas Modeler - 版本选择</value>
+ </data>
+	<data name="EditionChoice.Form.ProfessionalInfo1" xml:space="preserve">
+   <value>非商业用途免费使用</value>
+ </data>
+	<data name="EditionChoice.Form.ProfessionalInfo2" xml:space="preserve">
+   <value>可绘制全部图示类型</value>
+ </data>
+	<data name="EditionChoice.Form.ProfessionalInfo3" xml:space="preserve">
+   <value>逆向工程,，源码生成，技术文档等。</value>
+ </data>
+	<data name="EditionChoice.Form.UltimateInfo1" xml:space="preserve">
+   <value>别名，团队，项目比较</value>
+ </data>
+	<data name="EditionChoice.Form.UltimateInfo2" xml:space="preserve">
+   <value>自定义模版编辑器</value>
+ </data>
+	<data name="EditionChoice.Form.UltimateInfo3" xml:space="preserve">
+   <value>自定义图形编辑器</value>
+ </data>
+	<data name="EditionChoice.Form.BuyProfessional" xml:space="preserve">
+   <value>购买商用版本</value>
+ </data>
+	<data name="EditionChoice.Form.BuyUltimate" xml:space="preserve">
+   <value>购买</value>
+ </data>
+	<data name="EditionChoice.Form.ChooseProfessional" xml:space="preserve">
+   <value>选择专业版(&amp;P)</value>
+ </data>
+	<data name="EditionChoice.Form.ChooseUltimate" xml:space="preserve">
+   <value>选择终极版(&amp;U)</value>
+ </data>
+	<data name="EditionChoice.Form.ClickToProfessional" xml:space="preserve">
+   <value>点击这里开始使用专业版:</value>
+ </data>
+	<data name="EditionChoice.Form.ClickToUltimate" xml:space="preserve">
+   <value>点击这里开始使用终极版:</value>
+ </data>
+	<data name="Evaluation.Form.Title" xml:space="preserve">
+   <value>Software Ideas Modeler - 试用版</value>
+ </data>
+	<data name="Evaluation.Form.EvaluationPeriod" xml:space="preserve">
+   <value>试用期</value>
+ </data>
+	<data name="Evaluation.Form.DaysLeft" xml:space="preserve">
+   <value>剩余天数</value>
+ </data>
+	<data name="Evaluation.Form.Description" xml:space="preserve">
+   <value>假如您决定购买Software Ideas Modeler，请点击“购买”按钮。您的付款将用于支持本软件的开发，带给您更多的新功能。</value>
+ </data>
+	<data name="Evaluation.Form.Buy" xml:space="preserve">
+   <value>购买(&amp;B)</value>
+ </data>
+	<data name="Evaluation.Form.Activate" xml:space="preserve">
+   <value>激活(&amp;A)</value>
+ </data>
+	<data name="Evaluation.Form.Continue" xml:space="preserve">
+   <value>继续(&amp;C)</value>
+ </data>
+	<data name="Evaluation.Form.Close" xml:space="preserve">
+   <value>关闭(&amp;C)</value>
+ </data>
+	<data name="Evaluation.Form.ChangeEdition" xml:space="preserve">
+   <value>改变版本(&amp;E)</value>
+ </data>
+	<data name="Evaluation.Form.Website" xml:space="preserve">
+   <value>网站:</value>
+ </data>
+	<data name="Evaluation.Form.Email" xml:space="preserve">
+   <value>E-mail:</value>
+ </data>
+	<data name="Evaluation.Form.EvaluationExpired" xml:space="preserve">
+   <value>软件试用期到期。</value>
+ </data>
+	<data name="Global.Messages.ChangeEditionRestartProgram" xml:space="preserve">
+   <value>是否重启程序以应用更新内容？</value>
+ </data>
+	<data name="Global.Messages.ChangeEditionRestartProgram.title" xml:space="preserve">
+   <value>改变版本</value>
+ </data>
+	<data name="Global.Strings.Unregistered" xml:space="preserve">
+   <value>未注册版本</value>
+ </data>
+	<data name="Global.Strings.LicensedTo" xml:space="preserve">
+   <value>授权给:</value>
+ </data>
+	<data name="Paste.Form.Title" xml:space="preserve">
+   <value>粘贴</value>
+ </data>
+	<data name="Paste.Form.PasteCopy" xml:space="preserve">
+   <value>粘贴为副本(&amp;C)</value>
+ </data>
+	<data name="Paste.Form.PasteNewInstance" xml:space="preserve">
+   <value>粘贴为新实例元素(&amp;I)</value>
+ </data>
+	<data name="ContextBar.Control.SwitchOrientation" xml:space="preserve">
+   <value>切换方向</value>
+ </data>
+	<data name="ContextBar.Control.AddInteractionOperand" xml:space="preserve">
+   <value>添加交互操作</value>
+ </data>
+	<data name="MainForm.Menu.DiagramCopy" xml:space="preserve">
+   <value>复制(&amp;Y)</value>
+ </data>
+	<data name="MainForm.Menu.CopyAsBitmap" xml:space="preserve">
+   <value>复制为位图(&amp;B)</value>
+ </data>
+	<data name="MainForm.Menu.CopyAsMetafile" xml:space="preserve">
+   <value>复制为MetaFiel(&amp;M)</value>
+ </data>
+	<data name="MainForm.Menu.ShowPaper" xml:space="preserve">
+   <value>显示页面(&amp;P)</value>
+ </data>
+	<data name="MainForm.Menu.Distribute" xml:space="preserve">
+   <value>分发(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeDialog" xml:space="preserve">
+   <value>分发(&amp;D)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeHorizontalSameSpaces" xml:space="preserve">
+   <value>水平等间距(&amp;S)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeHorizontalLeft" xml:space="preserve">
+   <value>水平靠左(&amp;L)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeHorizontalCenter" xml:space="preserve">
+   <value>水平居中(&amp;C)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeHorizontalRight" xml:space="preserve">
+   <value>水平靠右(&amp;R)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeVerticalSameSpaces" xml:space="preserve">
+   <value>垂直等间距(&amp;V)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeVerticalTop" xml:space="preserve">
+   <value>垂直顶部(&amp;T)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeVerticalCenter" xml:space="preserve">
+   <value>水平居中(&amp;E)</value>
+ </data>
+	<data name="MainForm.Menu.DistributeVerticalBottom" xml:space="preserve">
+   <value>垂直底部(&amp;B)</value>
+ </data>
+	<data name="Distribute.Form.Title" xml:space="preserve">
+   <value>分发(&amp;D)</value>
+ </data>
+	<data name="Distribute.Form.HorizontalSameSpaces" xml:space="preserve">
+   <value>水平等间距(&amp;S)</value>
+ </data>
+	<data name="Distribute.Form.HorizontalLeft" xml:space="preserve">
+   <value>水靠左(&amp;L)</value>
+ </data>
+	<data name="Distribute.Form.HorizontalCenter" xml:space="preserve">
+   <value>水平居中(&amp;C)</value>
+ </data>
+	<data name="Distribute.Form.HorizontalRight" xml:space="preserve">
+   <value>水平靠右(&amp;R)</value>
+ </data>
+	<data name="Distribute.Form.VerticalSameSpaces" xml:space="preserve">
+   <value>垂直等间距(&amp;V)</value>
+ </data>
+	<data name="Distribute.Form.VerticalTop" xml:space="preserve">
+   <value>垂直顶部(&amp;T)</value>
+ </data>
+	<data name="Distribute.Form.VerticalCenter" xml:space="preserve">
+   <value>水平居中(&amp;E)</value>
+ </data>
+	<data name="Distribute.Form.VerticalBottom" xml:space="preserve">
+   <value>垂直底部(&amp;B)</value>
+ </data>
+	<data name="MainForm.ProjectTabPanel.Filter" xml:space="preserve">
+		<value>筛选</value>
+	</data>
+</root>

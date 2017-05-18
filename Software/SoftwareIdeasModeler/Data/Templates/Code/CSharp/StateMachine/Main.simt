@@ -1,0 +1,31 @@
+<sim-template version="1.0">
+  <meta>
+    <name>StateMachine</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>CSharp</language>
+  </meta>
+  <files defaultName="{Name}.cs">
+    <file name="State.cs" outputName="{Element.Name}.cs" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <types>
+        <type name="state" />
+      </types>
+    </file>
+    <file name="BaseState.cs" outputName="{Diagram.Name}_BaseState.cs" type="Diagram">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+    </file>
+    <file name="Context.cs" outputName="{Diagram.Name}_Context.cs" type="Diagram">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+    </file>
+  </files>
+</sim-template>

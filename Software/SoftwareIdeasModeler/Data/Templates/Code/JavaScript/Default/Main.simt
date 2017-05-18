@@ -1,0 +1,16 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Default</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>JavaScript</language>
+  </meta>
+  <files defaultName="{Name}.js">    
+    <file name="Classes.js" outputName="{Diagram.Name}.js" type="Diagram">
+      <settings>
+        <setting name="DefaultType" value="Object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>            
+    </file>  
+  </files>  
+</sim-template>

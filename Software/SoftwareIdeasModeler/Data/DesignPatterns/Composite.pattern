@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<design-pattern name="Composite" catalog-name="Design Patterns">
+  <description>The composite pattern describes that a group of objects are to be treated in the same way as a single instance of an object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.</description>
+  <roles>
+    <role name="Component" default-name="Component" minimal-occurance="1" maximal-occurance="1" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di990992659401094591" cid="C008" type="class" name="Component" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/31/2013 16:35:00">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Calibri" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o1a74ec4eef9244649f2b64bafc9cb20c428" name="operation" type="" type-id="" visibility="public" abstract="true" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di990992659401094591" iid="583a2a5c662d4017afcd5841cd953e3c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:35:00" order-index="0" type="entity">
+          <layout ax="380" ay="90" awidth="140" aheight="160" x="380" y="90" width="0" height="0" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+    <role name="Leaf" default-name="Leaf" minimal-occurance="1" maximal-occurance="100" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di612914147155866103" cid="C009" type="class" name="Leaf" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:35:03">
+            <stereotypes />
+            <tagged-values />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="odf8b95aaca11492b8e39cd597d9a9603170" name="operation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di612914147155866103" iid="9e8cf2dcd96247b5ad672e108bf09027" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:35:03" order-index="1" type="entity">
+          <layout ax="240" ay="360" awidth="140" aheight="160" x="240" y="360" width="0" height="160" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+    <role name="Composite" default-name="Composite" minimal-occurance="1" maximal-occurance="100" editable="true">
+      <description />
+      <items>
+        <model>
+          <item id="di187730732303056181" cid="C010" type="class" name="Composite" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:35:06">
+            <stereotypes />
+            <tagged-values />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o3a4cc665fcd54ed5a9df5c3f096689be335" name="operation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o622f0f249f174766a18668fedb8c532a213" name="add" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o83e27b6c380644b19e9f79d4753975ab136" name="remove" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="obf57610b767543e1b7b7387362433f75550" name="getChild" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </model>
+        <item id="di187730732303056181" iid="0b8f6031d5ec4d709ab9a084be19c58d" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:35:06" order-index="2" type="entity">
+          <layout ax="540" ay="360" awidth="140" aheight="160" x="540" y="360" width="0" height="160" angle="0" />
+          <class />
+        </item>
+      </items>
+    </role>
+  </roles>
+  <additional-items>
+    <model>
+      <item id="di199505826725312215" cid="REL002" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:35:28">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+        <relation from="di990992659401094591" to="di187730732303056181">
+          <start-role id="" name="child" multiplicity="0..*" navigability="" association-type="association" visibility="private" />
+          <end-role id="" name="parent" multiplicity="1" navigability="" association-type="aggregation" visibility="private" />
+        </relation>
+      </item>
+      <item id="di353814144624120234" cid="GNR004" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:35:59">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+      </item>
+      <item id="di623246706204409075" cid="GNR005" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd1f4b1282a824ccb8192b4bfa53e49dc" creation-date="03/31/2013 16:36:05">
+        <stereotypes />
+        <tagged-values />
+        <associated-diagrams />
+        <owned-items />
+        <style class="default" />
+      </item>
+    </model>
+    <item id="di199505826725312215" iid="fa02000ebe3d4be0a4c7358c27205369" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:35:28" order-index="3" type="relation">
+      <layout line-style="oblique" lock-start-point="false" lock-end-point="true" name-position="10,-10" x1="520" y1="170" x2="680" y2="430" start-border-pos="0.375" end-border-pos="0.359375">
+        <points>
+          <point x="520" y="170" />
+          <point x="760" y="170" />
+          <point x="760" y="430" />
+          <point x="680" y="430" />
+        </points>
+      </layout>
+      <relation from="di990992659401094591" from-iid="583a2a5c662d4017afcd5841cd953e3c" to="di187730732303056181" to-iid="0b8f6031d5ec4d709ab9a084be19c58d" />
+      <role-positions start-role="22.12331,21.43733" end-role="40,20" start-multiplicity="25,-15" end-multiplicity="40,-20" />
+    </item>
+    <item id="di353814144624120234" iid="37d4d12b8ab849848fb894dc67bbbf15" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:35:59" order-index="4" type="relation">
+      <layout line-style="oblique" lock-start-point="true" lock-end-point="true" name-position="10,-10" x1="310" y1="360" x2="460" y2="250" start-border-pos="0.125" end-border-pos="0.607142857142857">
+        <points>
+          <point x="310" y="360" />
+          <point x="310" y="300" />
+          <point x="460" y="300" />
+          <point x="460" y="250" />
+        </points>
+      </layout>
+      <relation from="di612914147155866103" from-iid="9e8cf2dcd96247b5ad672e108bf09027" to="di990992659401094591" to-iid="583a2a5c662d4017afcd5841cd953e3c" />
+    </item>
+    <item id="di623246706204409075" iid="6892e5c8231643bb8ed439547ca871bb" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/31/2013 16:36:05" order-index="5" type="relation">
+      <layout line-style="oblique" lock-start-point="true" lock-end-point="true" name-position="10,-10" x1="610" y1="360" x2="460" y2="250" start-border-pos="0.125" end-border-pos="0.607142857142857">
+        <points>
+          <point x="610" y="360" />
+          <point x="610" y="300" />
+          <point x="460" y="300" />
+          <point x="460" y="250" />
+        </points>
+      </layout>
+      <relation from="di187730732303056181" from-iid="0b8f6031d5ec4d709ab9a084be19c58d" to="di990992659401094591" to-iid="583a2a5c662d4017afcd5841cd953e3c" />
+    </item>
+  </additional-items>
+</design-pattern>

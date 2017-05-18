@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="C++" description="" version="1.0" prefix="Cpp" language="Cpp">
+  <type name="bool" description="" tid="boolean">
+  </type>  
+  <type name="char" description="" tid="char">
+  </type>
+  <type name="short int" description="" tid="s-integer16">
+  </type>
+  <type name="unsigned short int" description="" tid="u-integer16">
+  </type>
+  <type name="int" description="" tid="s-integer32">
+  </type>
+  <type name="unsigned int" description="" tid="u-integer32">
+  </type>
+  <type name="long int" description="" tid="s-integer64">
+  </type>
+  <type name="unsigned long int" description="" tid="u-integer64">
+  </type>
+  <type name="float" description="" tid="s-real32">
+  </type>
+  <type name="double" description="" tid="s-real64">
+  </type>
+  <type name="string" description="" tid="string">
+  </type>
+</types>

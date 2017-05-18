@@ -110,9 +110,9 @@ namespace Verarbeitung {
             liste.Sort((a, b) => {
                 int compare = a.Zeitpunkt.CompareTo(b.Zeitpunkt);
                 if (compare == 0 && a.IsNachfrage && !b.IsNachfrage)
-                    compare = -1; // Nachfrage hat vorrang wenn gleiche zeit
+                    compare = 1; // Nachfrage hat vorrang wenn gleiche zeit
                 if (compare == 0 && b.IsNachfrage && !a.IsNachfrage)
-                    compare = 1;
+                    compare = -1;
                 return compare;
             });
             // Erzeuge AusgabeDaten

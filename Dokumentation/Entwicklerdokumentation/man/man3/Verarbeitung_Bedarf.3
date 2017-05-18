@@ -1,0 +1,138 @@
+.TH "Verarbeitung.Bedarf" 3 "Thu May 18 2017" "CarsharingSimulator" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Verarbeitung.Bedarf \- Bedarfsfunktion welche den \fBBedarf\fP an Autos auf eine Position beschreibt  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBedarf\fP (\fBPolynom\fP angebot, \fBPolynom\fP nachfrage, int posX, int posY, double genauigkeit)"
+.br
+.RI "Konstruktor "
+.ti -1c
+.RI "virtual int \fBBeraechneMaxBedarf\fP ()"
+.br
+.RI "Ermittelt den Maximalen \fBBedarf\fP im verlaufe der Zeit "
+.ti -1c
+.RI "virtual int \fBGet\fP (double x)"
+.br
+.RI "Ermittelt den Funktionswert der Bedarfsfunktion zum Zeitpunkt x "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual List< \fBAenderung\fP > \fBDaten\fP\fC [get]\fP"
+.br
+.RI "Aenderungen also zu welchen Zeiten ein Auto zurueckgegeben oder nachgefragt wird "
+.ti -1c
+.RI "virtual \fBPolynom\fP \fBAngebot\fP\fC [get]\fP"
+.br
+.RI "Die Angebotsfunktion in form eines Polynoms "
+.ti -1c
+.RI "virtual \fBPolynom\fP \fBNachfrage\fP\fC [get]\fP"
+.br
+.RI "Die Nachfragesfunktion in form eines Polynoms "
+.ti -1c
+.RI "virtual double \fBGenauigkeit\fP\fC [get]\fP"
+.br
+.RI "Die Genauigkeit mit der die Zeitpunkte der Aenderungen bestimmt werden sollen "
+.ti -1c
+.RI "virtual int \fBPosX\fP\fC [get]\fP"
+.br
+.RI "X Position des Bedarfs "
+.ti -1c
+.RI "virtual int \fBPosY\fP\fC [get]\fP"
+.br
+.RI "Y Position des Bedarfs "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Bedarfsfunktion welche den \fBBedarf\fP an Autos auf eine Position beschreibt 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Verarbeitung\&.Bedarf\&.Bedarf (\fBPolynom\fP angebot, \fBPolynom\fP nachfrage, int posX, int posY, double genauigkeit)"
+
+.PP
+Konstruktor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIangebot\fP Angebotsfunktion
+.br
+\fInachfrage\fP Nachfragefunktion
+.br
+\fIposX\fP X Position
+.br
+\fIposY\fP Y Position
+.br
+\fIgenauigkeit\fP Genauigkeit
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual int Verarbeitung\&.Bedarf\&.BeraechneMaxBedarf ()\fC [virtual]\fP"
+
+.PP
+Ermittelt den Maximalen \fBBedarf\fP im verlaufe der Zeit 
+.PP
+\fBReturns:\fP
+.RS 4
+Maximaler \fBBedarf\fP
+.RE
+.PP
+
+.SS "virtual int Verarbeitung\&.Bedarf\&.Get (double x)\fC [virtual]\fP"
+
+.PP
+Ermittelt den Funktionswert der Bedarfsfunktion zum Zeitpunkt x 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP Zeitpunkt
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Funktionswert
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual \fBPolynom\fP Verarbeitung\&.Bedarf\&.Angebot\fC [get]\fP"
+
+.PP
+Die Angebotsfunktion in form eines Polynoms 
+.SS "virtual List<\fBAenderung\fP> Verarbeitung\&.Bedarf\&.Daten\fC [get]\fP"
+
+.PP
+Aenderungen also zu welchen Zeiten ein Auto zurueckgegeben oder nachgefragt wird 
+.SS "virtual double Verarbeitung\&.Bedarf\&.Genauigkeit\fC [get]\fP"
+
+.PP
+Die Genauigkeit mit der die Zeitpunkte der Aenderungen bestimmt werden sollen 
+.SS "virtual \fBPolynom\fP Verarbeitung\&.Bedarf\&.Nachfrage\fC [get]\fP"
+
+.PP
+Die Nachfragesfunktion in form eines Polynoms 
+.SS "virtual int Verarbeitung\&.Bedarf\&.PosX\fC [get]\fP"
+
+.PP
+X Position des Bedarfs 
+.SS "virtual int Verarbeitung\&.Bedarf\&.PosY\fC [get]\fP"
+
+.PP
+Y Position des Bedarfs 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CarsharingSimulator from the source code\&.

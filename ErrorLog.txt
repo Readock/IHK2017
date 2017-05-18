@@ -1,11 +1,10 @@
 ================= 	
 ErrorLog			
 =================	
-17.05.2017 - 16:21:48,99 	
+18.05.2017 - 12:37:16,26 	
 					
-Fehlermeldungen zu "EigenerTestfall-1.in" 
- 
-Fehlermeldungen zu "EigenerTestfall-2.in" 
+Fehlermeldungen zu "Fehlerfall-FalscheAnzahlPolynome.in" 
+ERROR: Es sind nicht genuegend Polynome angegeben worden (2 erwartet und 4 gegeben)
  
 Fehlermeldungen zu "Fehlerfall-GleitkommazahlM.in" 
 ERROR: m="1.5" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
@@ -13,26 +12,26 @@ ERROR: m="1.5" hat das falsche Format (sollte eine positive Ganzezahl groesser 0
 Fehlermeldungen zu "Fehlerfall-LeereDatei.in" 
 ERROR: Die Eingabedatei ist leer
  
-Fehlermeldungen zu "Fehlerfall-M=0.in" 
-ERROR: m="0" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
+Fehlermeldungen zu "Fehlerfall-MKeineZahl.in" 
+ERROR: m="dsa" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
  
-Fehlermeldungen zu "Fehlerfall-NegativesM.in" 
+Fehlermeldungen zu "Fehlerfall-MKleiner1.in" 
 ERROR: m="-1" hat das falsche Format (sollte eine positive Ganzezahl groesser 0 sein)
  
 Fehlermeldungen zu "Fehlerfall-PolynomFalschesFormat.in" 
-ERROR: Die Angabe des Polynoms "0.2    0.5 0 0  0.22  " liegt im falschen Format vor
- 
-Fehlermeldungen zu "Fehlerfall-ZuVilePolynome.in" 
-ERROR: Es sind nicht genuegend Polynome angegeben worden (2 erwartet und 4 gegeben)
- 
-Fehlermeldungen zu "Fehlerfall-ZuWenigPolynome.in" 
-ERROR: Es sind nicht genuegend Polynome angegeben worden (18 erwartet und 2 gegeben)
+ERROR: Die Angabe des Polynoms "0.02 0.05 0 0" liegt im falschen Format vor
  
 Fehlermeldungen zu "IHKBeispiel-1.in" 
  
 Fehlermeldungen zu "IHKBeispiel-2.in" 
  
-Fehlermeldungen zu "Sonderfall-GrosseZahlen1.in" 
+Fehlermeldungen zu "Normalfall-VersetzteGeraden.in" 
+ 
+Fehlermeldungen zu "Sonderfall-Grenzen.in" 
+ 
+Fehlermeldungen zu "Sonderfall-IdentischePolynome.in" 
+ 
+Fehlermeldungen zu "Sonderfall-LangeZahlen.in" 
  
 Fehlermeldungen zu "Sonderfall-LeerZeilen.in" 
  

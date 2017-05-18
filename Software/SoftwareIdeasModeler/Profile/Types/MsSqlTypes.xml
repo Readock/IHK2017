@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="MSSQL" description="" version="1.0" prefix="MsSql" language="MsSql">
+  <type name="bit" description="" tid="boolean">
+  </type>
+  <type name="tinyint" description="" tid="u-integer8">
+  </type>
+  <type name="smallint" description="" tid="s-integer16">
+  </type>
+  <type name="int" description="" tid="s-integer32">
+  </type>
+  <type name="bigint" description="" tid="s-integer64">
+  </type>
+  <type name="real" description="" tid="s-real32">
+  </type>
+  <type name="float" description="" tid="s-real64">
+  </type>
+  <type name="decimal" description="" tid="s-decimal128" default-size="16,4">
+  </type>
+  <type name="datetime" description="" tid="datetime">
+  </type>
+  <type name="binary" description="" tid="binary" default-size="MAX">
+  </type>
+  <type name="varchar" description="" tid="string" default-size="MAX">
+  </type>
+  <type name="char" description="" tid="string" default-size="10">
+  </type>
+  <type name="nvarchar" description="" tid="string" default-size="MAX">
+  </type>
+  <type name="nchar" description="" tid="string" default-size="10">
+  </type>
+  <type name="text" description="" tid="string">
+  </type>
+</types>

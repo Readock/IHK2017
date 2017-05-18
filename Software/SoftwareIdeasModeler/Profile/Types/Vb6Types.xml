@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="Visual Basic 6" description="" version="1.0" prefix="Vb6" language="Vb6">
+  <type name="Boolean" description="" tid="boolean">
+  </type>
+  <type name="Byte" description="" tid="u-integer8">
+  </type>  
+  <type name="Char" description="" tid="char">
+  </type>
+  <type name="Integer" description="" tid="s-integer16">
+  </type>  
+  <type name="Long" description="" tid="s-integer32">
+  </type>  
+  <type name="Single" description="" tid="s-real32">
+  </type>
+  <type name="Double" description="" tid="s-real64">
+  </type>
+  <type name="Currency" description="">
+  </type>
+  <type name="Date" description="" tid="datetime">
+  </type>
+  <type name="Variant" description="" tid="object">
+  </type>
+  <type name="String" description="" tid="string">
+  </type>
+</types>

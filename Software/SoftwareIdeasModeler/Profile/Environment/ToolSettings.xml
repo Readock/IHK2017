@@ -1,0 +1,53 @@
+﻿<tool-settings>
+  <tool name="Selection">
+    <selection-tool-settings selection-type="Intersection" ignore-labels="false" select-fields="true" />
+  </tool>
+  <tool name="Uml.Class">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="SmartConnector">
+    <path-tool-settings direction="DefaultDirection" />
+  </tool>
+  <tool name="Uml.Association">
+    <path-tool-settings direction="DefaultDirection" />
+  </tool>
+  <tool name="Uml.InitialNode">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.Activity">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.Decision">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.Action">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.ActivityFinalNode">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.ActorLifeline">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.Lifeline">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.FrameSd">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.FragmentLoop">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.DestroyOccurrence">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Uml.ExecutionOccurrence">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="Comment">
+    <shape-tool-settings size-type="Predefined" default-size="0,0" />
+  </tool>
+  <tool name="CommentConnector">
+    <path-tool-settings direction="DefaultDirection" />
+  </tool>
+</tool-settings>

@@ -1,0 +1,1985 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element id="action" name="Action">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="call-behavior-action" name="Call Behavior Action">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="activation-bar" name="Execution Occurrence">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="activity" name="Activity">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="activity-final-node" name="Activity Final Node">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="actor" name="Actor">
+    <diagrams>
+      <diagram name="uml-usecase" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="boundary" name="Boundary">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="class" name="Class">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-object" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-profile" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="enumeration" name="Enumeration">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="sysml-block-definition" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="collaboration" name="Collaboration">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-usecase" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="comment" name="Comment">
+    <diagrams />      
+  </element>
+
+  <element id="comment-connector" name="Comment Connector">
+    <diagrams />      
+  </element>
+
+  <element id="communication-lifeline" name="Lifeline">
+    <diagrams>
+      <diagram name="uml-communication" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="communication-message" name="Message">
+    <diagrams>
+      <diagram name="uml-communication" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="component" name="Component">
+    <diagrams>
+      <diagram name="uml-deployment" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="artifact" name="Artifact">
+    <diagrams>
+      <diagram name="uml-deployment" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="composite-state" name="Composite State">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="constraint" name="Constraint">
+    <diagrams>
+      <diagram name="" />
+    </diagrams>
+  </element>
+
+  <element id="containment" name="Containment">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-object" />      
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="uml-control" name="Control">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="decision" name="Decision">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="merge" name="Merge">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="dependency" name="Dependency">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-profile" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="destroy" name="Destruction Occurrence">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="uml-entity" name="Entity">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="entry-point" name="Entry Point">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="exit-point" name="Exit Point">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="extend" name="Entend">
+    <diagrams>
+      <diagram name="uml-usecase" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="final-state" name="Final State">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="flow-final" name="Flow Final">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="fork-join" name="Fork/Join">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="fragment" name="Fragment">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="generalization" name="Generalization">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-usecase" />
+      <diagram name="uml-object" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="history" name="History">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="include" name="Include">
+    <diagrams>
+      <diagram name="uml-usecase" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="initial-node" name="Initial Node">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="initial-state" name="Initial State">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="interaction-operand" name="Interaction Operand">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="uml-interface" name="Provided Interface End">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-component" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="interruptible-activity-region" name="Interruptible Activity Region">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="lifeline" name="Lifeline">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="uml-n-ary-association" name="N-ary Association">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="node" name="Node">
+    <diagrams>
+      <diagram name="uml-deployment" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="object" name="Object">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-object" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="package" name="Package">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-class" />
+      <diagram name="uml-communication" />
+      <diagram name="uml-component" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-deployment" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-deployment" />
+      <diagram name="uml-object" />
+      <diagram name="uml-package" />
+      <diagram name="uml-profile" />
+      <diagram name="uml-sequence" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-timing" />
+      <diagram name="uml-usecase" />
+      <diagram name="uml-mixed" />
+      <diagram name="sysml-activity" />
+      <diagram name="sysml-block-definition" />      
+      <diagram name="sysml-internal-block" />
+      <diagram name="sysml-package" />
+      <diagram name="sysml-parametric" />
+      <diagram name="sysml-requirement" />
+      <diagram name="sysml-sequence" />
+      <diagram name="sysml-state-machine" />
+      <diagram name="sysml-use-case" />
+    </diagrams>
+  </element>
+
+  <element id="part" name="Part">
+    <diagrams>
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="port" name="Port">
+    <diagrams>
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="realization" name="Realization">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="relationship" name="Association">
+    <diagrams>
+      <diagram name="uml-class" />
+      <diagram name="uml-usecase" />
+      <diagram name="uml-deployment" />
+      <diagram name="uml-object" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="uml-required-interface" name="Required Interface">
+    <diagrams>
+      <diagram name="uml-component" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="sequence-action" name="Message">
+    <diagrams>
+      <diagram name="uml-sequence" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="accept-time-event-action" name="Accept Time Event Action">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="use-case" name="Use Case">
+    <diagrams>
+      <diagram name="uml-usecase" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="general-transition" name="Transition">
+    <diagrams>      
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="transition" name="Protocol Transition">
+    <diagrams>      
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="control-flow" name="Control Flow">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="object-flow" name="Object Flow">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="junction" name="Junction">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="timing-frame" name="Timing Frame">
+    <diagrams>
+      <diagram name="uml-timing" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="terminate-node" name="Terminate Node">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="system-boundary" name="System Boundary">
+    <diagrams>
+      <diagram name="uml-usecase" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="swimlane" name="Swimlane">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="state-region" name="State Region">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="state" name="State">
+    <diagrams>
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="signal-sending" name="Signal Send">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="signal-receipt" name="Signal Receipt">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="erd-entity" name="Entity">
+    <diagrams>
+      <diagram name="entity-relationship"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="erd-relationship" name="Relationship">
+    <diagrams>
+      <diagram name="entity-relationship"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="crc-card" name="CRC Card">
+    <diagrams>
+      <diagram name="crc-cards"></diagram>
+    </diagrams>
+  </element>  
+
+  <element id="uml-gate" name="Gate">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="activity-parameter-node" name="Activity Parameter Node">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="activity-region" name="Activity Region">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="association-class-link" name="Association Class Link">
+    <diagrams>
+      <diagram name="uml-class"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="conditional-node" name="Conditional Node">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="connector" name="Connector">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="duration-constraint" name="Duration Constraint">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>  
+
+  <element id="duration-message" name="Duration Message">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="exception-handler" name="Exception Handler">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="expansion-node" name="Expansion Node">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="expansion-region" name="Expansion Region">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="found-message" name="Found Message">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="frame" name="Frame">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="interaction" name="Interaction">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-interaction-overview"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="interaction-use" name="Interaction Use">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="join" name="Join">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="fork" name="Fork">
+    <diagrams>
+      <diagram name="uml-activity" />
+      <diagram name="uml-statechart" />
+      <diagram name="uml-interaction-overview" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="loop-node" name="Loop Node">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="lost-message" name="Lost Message">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="pin" name="Pin">
+    <diagrams>
+      <diagram name="uml-activity"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="sequence-concurrent" name="Concurrent">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="sequence-coregion" name="Coregion">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+  
+  <element id="state-invariant" name="State Invariant">
+    <diagrams>
+      <diagram name="uml-sequence"></diagram>
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="shape" name="Shape">
+    <diagrams>      
+    </diagrams>
+  </element>
+
+  <element id="text" name="Text">
+    <diagrams>      
+    </diagrams>
+  </element>
+
+  <element id="formatted-text" name="Formatted Text">
+    <diagrams>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-association" name="Association">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+  
+  <element id="bpmn-call-activity" name="Call Activity">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-conversation" name="Conversation">
+    <diagrams>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-sub-conversation" name="Sub-Conversation">
+    <diagrams>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-call-choreography" name="Call Choreography">
+    <diagrams>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-call-conversation" name="Call Conversation">
+    <diagrams>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-conditional-flow" name="Conditional Flow">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-conversation-link" name="Conversation Link">
+    <diagrams>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-association" name="Data Association">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-state" name="Data State">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-input" name="Data Input">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-object" name="Data Object">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-object-reference" name="Data Object Reference">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-output" name="Data Output">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-store" name="Data Store">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-data-store-reference" name="Data Store Reference">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-default-flow" name="Default Flow">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-event" name="Event">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-boundary-event" name="Event">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-sub-process" name="Sub Process">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-forked-conversation-link" name="Forked Conversation Link">
+    <diagrams>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-gateway" name="Gateway">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-group" name="Group">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-choreography-sub-process" name="Choreography Sub Process">
+    <diagrams>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+  
+  <element id="bpmn-participant" name="Participant">
+    <diagrams>
+      <diagram name="bpmn-choreography"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+  
+  <element id="bpmn-choreography-task" name="Choreography Task">
+    <diagrams>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-message" name="Message">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-message-flow" name="Message Flow">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-message-connector" name="Message Connector">
+    <diagrams>      
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-pool" name="Pool">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-sequence-flow" name="Sequence Flow">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-task" name="Task">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-transaction" name="Transaction">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-text-annotation" name="Text Annotation">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-action" name="Action">
+    <diagrams>
+      <diagram name="jsd-entity-structure"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-connection-end" name="Connection End">
+    <diagrams>
+      <diagram name="jsd-network"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-connection-start" name="Connection Start">
+    <diagrams>
+      <diagram name="jsd-network"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-connector" name="Connector">
+    <diagrams>
+      <diagram name="jsd-entity-structure"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-controlled-data-stream" name="Controlled Data Stream">
+    <diagrams>
+      <diagram name="jsd-network"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-data-stream" name="Data Stream">
+    <diagrams>
+      <diagram name="jsd-network"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-entity" name="Entity">
+    <diagrams>
+      <diagram name="jsd-entity-structure"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="jsd-process" name="Process">
+    <diagrams>
+      <diagram name="jsd-network"></diagram>
+    </diagrams>
+  </element>
+  
+  <element id="bpmn-operation" name="Operation">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-resource" name="Resource">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+  
+  <element id="bpmn-signal" name="Signal">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-error" name="Error">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="bpmn-escalation" name="Escalation">
+    <diagrams>
+      <diagram name="bpmn-collaboration"></diagram>
+      <diagram name="bpmn-conversation"></diagram>
+      <diagram name="bpmn-choreography"></diagram>
+    </diagrams>
+  </element>
+    
+  <element id="jsd-state-vector" name="State Vector">
+    <diagrams>
+      <diagram name="jsd-network"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="elh-connector" name="Connector">
+    <diagrams>
+      <diagram name="ssadm-entity-life-history"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="elh-event" name="Event">
+    <diagrams>
+      <diagram name="ssadm-entity-life-history"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="elh-entity" name="Entity">
+    <diagrams>
+      <diagram name="ssadm-entity-life-history"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="hta-plan" name="Plan">
+    <diagrams>
+      <diagram name="hierarchical-task-analysis"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="hta-task" name="Task">
+    <diagrams>
+      <diagram name="hierarchical-task-analysis"></diagram>
+    </diagrams>
+  </element>
+
+  <element id="dfd-data-flow" name="Data Flow">
+    <diagrams>
+      <diagram name="data-flow" />
+    </diagrams>
+  </element>
+
+  <element id="dfd-data-store" name="Data Store">
+    <diagrams>
+      <diagram name="data-flow" />
+    </diagrams>
+  </element>
+
+  <element id="dfd-external" name="External">
+    <diagrams>
+      <diagram name="data-flow" />
+    </diagrams>
+  </element>
+
+  <element id="dfd-gate" name="Gate">
+    <diagrams>
+      <diagram name="data-flow" />
+    </diagrams>
+  </element>
+
+  <element id="dfd-process" name="Process">
+    <diagrams>
+      <diagram name="data-flow" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-data" name="Data">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-decision" name="Decision">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-direct-data" name="Direct Data">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-document" name="Document">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-flow" name="Flow">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-internal-storage" name="Internal Storage">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-predefined-process" name="Predefined Process">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+  
+  <element id="flowchart-process" name="Process">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-start-end" name="Start End">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-stored-data" name="Stored Data">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-user-input" name="User Input">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-extract" name="Extract">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-merge" name="Merge">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-or-junction" name="Or Junction">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-summing-junction" name="Summing Junction">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-delay" name="Delay">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-user-operation" name="User Operation">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-preparation" name="Preparation">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-display" name="Display">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-sort" name="Sort">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-collate" name="Collate">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-database" name="Database">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-multi-document" name="Multi-Document">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-alternate-process" name="Alternate Process">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-transfer" name="Transfer">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="flowchart-off-page" name="Off-Page Connector">
+    <diagrams>
+      <diagram name="flowchart" />
+    </diagrams>
+  </element>
+
+  <element id="venn-circle" name="Venn Circle">
+    <diagrams>
+      <diagram name="venn" />
+    </diagrams>
+  </element>
+  
+  <element id="venn-label" name="Venn Label">
+    <diagrams>
+      <diagram name="venn" />
+    </diagrams>    
+  </element>  
+
+  <element id="concurrency-eventflag" name="Event Flag">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-hardware-boundary" name="Hardware Boundary">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-mailbox" name="Mail Box">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-mutex" name="Mutex">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-pool" name="Pool">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-queue" name="Queue">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-semaphore" name="Semaphore">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-task" name="Task">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+  <element id="concurrency-timer" name="Timer">
+    <diagrams>
+      <diagram name="concurrency" />
+    </diagrams>
+  </element>
+
+  <element id="erd-chen-attribute" name="Attribute">
+    <diagrams>
+      <diagram name="chen-entity-relationship" />
+    </diagrams>
+  </element>
+  <element id="erd-chen-attribute-connector" name="Attribute Connector">
+    <diagrams>
+      <diagram name="chen-entity-relationship" />
+    </diagrams>
+  </element>
+  <element id="erd-chen-entity" name="Entity">
+    <diagrams>
+      <diagram name="chen-entity-relationship" />
+    </diagrams>
+  </element>
+  <element id="erd-chen-participation" name="Participation">
+    <diagrams>
+      <diagram name="chen-entity-relationship" />
+    </diagrams>
+  </element>
+  <element id="erd-chen-relationship" name="Relationship">
+    <diagrams>
+      <diagram name="chen-entity-relationship" />
+    </diagrams>
+  </element>  
+
+  <element id="matrix" name="Matrix">
+    <diagrams>
+      <diagram name="matrix" />
+    </diagrams>
+  </element>
+
+  <element id="mind-map-edge" name="Mind Map Edge">
+    <diagrams>
+      <diagram name="mind-map" />
+    </diagrams>
+  </element>
+  <element id="mind-map-node" name="Mind Map Node">
+    <diagrams>
+      <diagram name="mind-map" />
+    </diagrams>
+  </element>
+  <element id="mind-map-start" name="Mind Map Start">
+    <diagrams>
+      <diagram name="mind-map" />
+    </diagrams>
+  </element>
+
+  <element id="requirement" name="Requirement">
+    <diagrams>
+      <diagram name="requirements" />
+    </diagrams>
+  </element>
+
+  <element id="sysml-block" name="Block">
+    <diagrams>
+      <diagram name="sysml-block-definition" />
+      <diagram name="sysml-requirement" />
+    </diagrams>
+  </element>
+  <element id="sysml-constraint-block" name="Constraint Block">
+    <diagrams>
+      <diagram name="sysml-block-definition" />
+    </diagrams>
+  </element>
+  <element id="sysml-unit" name="Unit">
+    <diagrams>
+      <diagram name="sysml-block-definition" />
+    </diagrams>
+  </element>
+  <element id="sysml-quantity-kind" name="Quantity Kind">
+    <diagrams>
+      <diagram name="sysml-block-definition" />
+    </diagrams>
+  </element>
+  <element id="sysml-connector" name="Connector">
+    <diagrams>
+      <diagram name="sysml-internal-block" />
+      <diagram name="sysml-parametric" />
+    </diagrams>
+  </element>
+  <element id="sysml-constraint-property" name="Constraint Property">
+    <diagrams>
+      <diagram name="sysml-internal-block" />
+      <diagram name="sysml-parametric" />
+    </diagrams>
+  </element>
+  <element id="sysml-value-type" name="Value Type">
+    <diagrams>
+      <diagram name="sysml-block-definition" />
+    </diagrams>
+  </element>
+  <element id="sysml-flow-port" name="Flow Port">
+    <diagrams>
+      <diagram name="sysml-block-definition" />
+      <diagram name="sysml-internal-block" />
+      <diagram name="sysml-parametric" />
+    </diagrams>
+  </element>
+  <element id="sysml-property" name="Property">
+    <diagrams>
+      <diagram name="sysml-internal-block" />
+      <diagram name="sysml-parametric" />
+    </diagrams>
+  </element>
+  <element id="sysml-requirement" name="Requirement">
+    <diagrams>
+      <diagram name="sysml-requirement" />
+    </diagrams>
+  </element>
+  <element id="sysml-test-case" name="Test Case">
+    <diagrams>
+      <diagram name="sysml-requirement" />
+    </diagrams>
+  </element>
+
+
+  <element id="ui-area" name="Area">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-button" name="Button">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-combo-box" name="Combo Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-field-list" name="Field List">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-grid" name="Grid">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-group-box" name="Group Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-check-box" name="Check Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-label" name="Label">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-list-box" name="List Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>  
+  <element id="ui-on-off" name="On Off Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-numeric-box" name="Numeric Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-menu" name="Menu">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-progress-bar" name="Progress Bar">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-radio-button" name="Radio Button">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-scroll-bar" name="Scroll Bar">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-panel" name="Panel">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-paragraph" name="Paragraph">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-tab-control" name="Tab Control">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-text-box" name="Text Box">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-toolbar" name="Toolbar">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-track-bar" name="Track Bar">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-tree" name="Tree">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+  <element id="ui-window" name="Window">
+    <diagrams>
+      <diagram name="user-interface" />
+    </diagrams>
+  </element>
+
+  <element id="uml-provided-interface-connector" name="Provided Interface Connector">
+    <diagrams>
+      <diagram name="uml-component" />
+      <diagram name="uml-mixed" />
+      <diagram name="uml-composite-structure" />
+    </diagrams>
+  </element>
+  <element id="uml-required-interface-connector" name="Required Interface Connector">
+    <diagrams>
+      <diagram name="uml-component" />
+      <diagram name="uml-mixed" />
+      <diagram name="uml-composite-structure" />
+    </diagrams>
+  </element>
+  <element id="uml-required-interface-end" name="Required Interface End">
+    <diagrams>
+      <diagram name="uml-component" />
+      <diagram name="uml-composite-structure" />
+      <diagram name="uml-mixed" />
+    </diagrams>
+  </element>
+
+  <element id="arch-junction" name="Junction">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-meaning" name="Meaning">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-gap" name="Gap">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-location" name="Location">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-plateau" name="Plateau">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-work-package" name="Work Package">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-assessment" name="Assessment">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-constraint" name="Constraint">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-driver" name="Driver">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-goal" name="Goal">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-principle" name="Principle">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-requirement" name="Requirement">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-stakeholder" name="Stakeholder">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-actor" name="Actor">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-collaboration" name="Collaboration">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-communication-path" name="Communication Path">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-component" name="Component">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-device" name="Device">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-interface" name="Interface">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-network" name="Network">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-node" name="Node">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-role" name="Role">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-system-software" name="System Software">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-artifact" name="Artifact">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-event" name="Event">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-function" name="Function">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-interaction" name="Interaction">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-object" name="Object">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-process" name="Process">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-product" name="Product">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-representation" name="Representation">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-service" name="Service">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-value" name="Value">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+
+  <element id="arch-access" name="Access">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-aggregation" name="Aggregation">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-assignment" name="Assignment">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-association" name="Association">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-composition" name="Composition">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-flow" name="Flow">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-realization" name="Realization">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-specialization" name="Specialization">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-triggering" name="Triggering">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-used-by" name="Used By">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+  <element id="arch-deliverable" name="Deliverable">
+    <diagrams>
+      <diagram name="archimate" />
+    </diagrams>
+  </element>
+
+
+  <element id="idef1x-category-discriminator" name="Category Discriminator">
+    <diagrams>
+      <diagram name="entity-relationship-idef1x" />
+    </diagrams>
+  </element>
+  <element id="idef1x-entity" name="Entity">
+    <diagrams>
+      <diagram name="entity-relationship-idef1x" />
+    </diagrams>
+  </element>
+  <element id="idef1x-relationship" name="Relationship">
+    <diagrams>
+      <diagram name="entity-relationship-idef1x" />
+    </diagrams>
+  </element>
+  <element id="idef1x-connector" name="Category Connector">
+    <diagrams>
+      <diagram name="entity-relationship-idef1x" />
+    </diagrams>
+  </element>
+
+
+  <element id="attribute" name="Attribute">    
+  </element>
+  <element id="operation" name="Operation">
+  </element>
+  <element id="constraint-field" name="Constraint">
+  </element>
+  <element id="erd-entity-attribute" name="Attribute">
+  </element>
+  <element id="erd-entity-index" name="Index">
+  </element>
+  <element id="enumeration-item" name="Enumeration Item">
+  </element>
+
+  <element id="bt-connector" name="Connector">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-event" name="Event">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-guard" name="Guard">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-selection" name="Selection">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-empty-node" name="Empty Node">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-external-input-event" name="External Input Event">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-external-output-event" name="External Output Event">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-internal-input-event" name="Internal Input Event">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-internal-output-event" name="Internal Output Event">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-state-realization" name="State Realization">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+  <element id="bt-system-state-realization" name="System State Realization">
+    <diagrams>
+      <diagram name="behavior-tree" />
+    </diagrams>
+  </element>
+
+
+  <element id="structure-condition" name="Condition">
+    <diagrams>
+      <diagram name="structure-chart" />
+    </diagrams>
+  </element>
+  <element id="structure-control-couple" name="Control Couple">
+    <diagrams>
+      <diagram name="structure-chart" />
+    </diagrams>
+  </element>
+  <element id="structure-control-module" name="Control Module">
+    <diagrams>
+      <diagram name="structure-chart" />
+    </diagrams>
+  </element>
+  <element id="structure-data-couple" name="Data Couple">
+    <diagrams>
+      <diagram name="structure-chart" />
+    </diagrams>
+  </element>
+  <element id="structure-library-module" name="Library Module">
+    <diagrams>
+      <diagram name="structure-chart" />
+    </diagrams>
+  </element>
+  <element id="structure-loop" name="Loop">
+    <diagrams>
+      <diagram name="structure-chart" />
+    </diagrams>
+  </element>
+
+
+  <element id="grafcet-and" name="And">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-or" name="Or">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-regular-step" name="Regular Step">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-initial-step" name="Initial Step">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-enclosing-step" name="Enclosing Step">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-macro-step" name="Macro Step">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-task-step" name="Task Step">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-action" name="Action">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-action-connector" name="Action Connector">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+  <element id="grafcet-transition" name="Transition">
+    <diagrams>
+      <diagram name="grafcet" />
+    </diagrams>
+  </element>
+
+  <element id="roadmap-container" name="Roadmap">
+    <diagrams>
+      <diagram name="roadmap" />
+    </diagrams>
+  </element>
+  <element id="roadmap-partition" name="Roadmap Partition">
+    <diagrams>
+      <diagram name="roadmap" />
+    </diagrams>
+  </element>
+  <element id="roadmap-label" name="Roadmap Label">
+    <diagrams>
+      <diagram name="roadmap" />
+    </diagrams>
+  </element>
+  <element id="roadmap-milestone" name="Roadmap Milestone">
+    <diagrams>
+      <diagram name="roadmap" />
+    </diagrams>
+  </element>
+  
+  <element id="user-story" name="User Story">
+    <diagrams>
+      <diagram name="user-story-map" />
+    </diagrams>
+  </element>
+  <element id="sprint" name="Sprint">
+    <diagrams>
+      <diagram name="user-story-map" />
+    </diagrams>
+  </element>
+  
+</elements>

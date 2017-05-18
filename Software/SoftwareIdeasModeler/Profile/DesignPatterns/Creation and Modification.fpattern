@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<field-pattern name="Creation and Modification" catalog-name="">
+  <description />
+  <fields>
+    <field type="attribute">
+      <attribute id="a566fe31192a34bfeb935edfa935daa80274" name="CreationDate" type="DateTime" type-id="Uml.DateTime" visibility="private" abstract="false" virtual="false" />
+    </field>
+    <field type="attribute">
+      <attribute id="a6eb61a8c2129443894a671a81f20ffc4216" name="CreatorID" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" />
+    </field>
+    <field type="attribute">
+      <attribute id="a940d550f69d544098fc3a5688f66d475374" name="ModificationDate" type="DateTime" type-id="Uml.DateTime" visibility="private" abstract="false" virtual="false" />
+    </field>
+    <field type="attribute">
+      <attribute id="a2e3523fc443c41bca04314bac9b8b27188" name="ModifierID" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" />
+    </field>
+  </fields>
+</field-pattern>

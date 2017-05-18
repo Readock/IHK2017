@@ -1,0 +1,117 @@
+<%==SIM:ExplicitWhitespacesOn==%>
+<%==SIM:AutoIndentOn==%>
+<?xml version="1.0" encoding="UTF-8"?><%==SIM:Line==%>
+    
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+<%==SIM:ForEach:Diagram.TaggedValues("xsd:Namespace:","start")==%>
+<%==SIM:If:Eq(TaggedValue.Name,"xsd:Namespace:")==%>
+xmlns="<%==SIM:TaggedValue.Value==%>" 
+<%==SIM:Else==%>
+xmlns:<%==SIM:Substring(TaggedValue.Name,14)==%>="<%==SIM:TaggedValue.Value==%>" 
+<%==SIM:EndIf==%>
+<%==SIM:EndFor==%>
+
+<%==SIM:If:Diagram.HasTaggedValue(xsd:TargetNamespace)==%>
+targetNamespace="<%==SIM:Diagram.GetTaggedValue(xsd:TargetNamespace)==%>" 
+<%==SIM:EndIf==%>
+elementFormDefault="<%==SIM:Coalesce(ToLower(Diagram.GetTaggedValue(xsd:ElementFormDefault)), "qualified")==%>" 
+attributeFormDefault="<%==SIM:Coalesce(ToLower(Diagram.GetTaggedValue(xsd:AttributeFormDefault)), "unqualified")==%>">
+  <%==SIM:StartBlock==%><%==SIM:Line==%>
+    
+  <%==SIM:ForEach:Diagram.Elements(Element).OrderByName==%>
+    <%==SIM:If:Element.OfType(class)==%>   
+      <%==SIM:ForEach:Element.DocumentationLines==%>
+        <!--<%==SIM:DocumentationLine==%>--><%==SIM:Line==%>
+      <%==SIM:EndFor==%>
+        
+      <%==SIM:If:Element.HasStereotype(import)==%>
+        <xs:import namespace="<%==SIM:Element.GetAttribute("namespace").DefaultValue==%>" schemaLocation="<%==SIM:Element.GetAttribute("schemaLocation").DefaultValue==%>" />
+        <%==SIM:Line==%>
+      <%==SIM:EndIf==%>
+    <%==SIM:EndIf==%>
+  <%==SIM:EndFor==%>
+    
+
+  <%==SIM:ForEach:Diagram.Elements(Element).OrderByName==%>                
+    <%==SIM:If:Element.OfType(class)==%>   
+      <%==SIM:ForEach:Element.DocumentationLines==%>
+        <!--<%==SIM:DocumentationLine==%>--><%==SIM:Line==%>
+      <%==SIM:EndFor==%>
+      
+      <%==SIM:If:Element.HasStereotype(element)==%>
+        <xs:element name="<%==SIM:Element.Name==%>" type="<%==SIM:Element.GetTaggedValue(xsd:Type)==%>" <%==SIM:If:Element.HasTaggedValue(xsd:MinOccurs)==%>minOccurs="<%==SIM:Element.GetTaggedValue(xsd:MinOccurs)==%>"<%==SIM:EndIf==%> <%==SIM:If:Element.HasTaggedValue(xsd:MaxOccurs)==%>maxOccurs="<%==SIM:Element.GetTaggedValue(xsd:MaxOccurs)==%>"<%==SIM:EndIf==%> <%==SIM:If:Element.HasTaggedValue(xsd:SubstitutionGroup)==%>substitutionGroup="<%==SIM:Element.GetTaggedValue(xsd:SubstitutionGroup)==%>"<%==SIM:EndIf==%>/>
+        <%==SIM:Line==%>
+      <%==SIM:EndIf==%>
+
+      <%==SIM:IfNot:Or(Element.HasStereotype(element),Element.HasStereotype(import))==%>
+        <xs:complexType name="<%==SIM:Element.Name==%>">
+          <%==SIM:StartBlock==%><%==SIM:Line==%>
+
+          <%==SIM:If:Element.HasSuperClass==%>
+            <xs:extension base="<%==SIM:Element.SuperClass.Name==%>">
+            <%==SIM:StartBlock==%><%==SIM:Line==%>
+          <%==SIM:EndIf==%>
+            
+            <%==SIM:Set:FirstSeq=0==%>            
+            <%==SIM:ForEach:Element.AllAttributes==%>
+              <%==SIM:If:Attribute.HasStereotype(element)==%>
+                <%==SIM:If:Eq(FirstSeq,0)==%>
+                  <xs:sequence>
+                    <%==SIM:StartBlock==%><%==SIM:Line==%>
+                <%==SIM:EndIf==%>
+                <%==SIM:Set:FirstSeq=1==%>
+
+                <%==SIM:ForEach:Attribute.DocumentationLines==%>
+                  <!--<%==SIM:DocumentationLine==%>--><%==SIM:Line==%>
+                <%==SIM:EndFor==%>
+            
+                <%==SIM:If:And(Attribute.OriginalType.HasClassifier,Attribute.OriginalType.Classifier.HasStereotype(element))==%>
+                  <xs:element ref="<%==SIM:Attribute.OriginalType.Classifier.Name==%>" /><%==SIM:Line==%>
+                <%==SIM:Else==%>
+                  <xs:element name="<%==SIM:Attribute.Name==%>" type="<%==SIM:Attribute.Type==%>" /><%==SIM:Line==%>
+                <%==SIM:EndIf==%>
+              <%==SIM:EndIf==%>
+            <%==SIM:EndFor==%>
+            <%==SIM:If:Eq(FirstSeq,1)==%>
+              <%==SIM:EndBlock==%><%==SIM:Line==%>
+              </xs:sequence><%==SIM:Line==%>
+            <%==SIM:EndIf==%>
+
+            <%==SIM:ForEach:Element.AllAttributes==%>
+              <%==SIM:IfNot:Attribute.HasStereotype(element)==%>
+                <%==SIM:ForEach:Attribute.DocumentationLines==%>
+                  <!--<%==SIM:DocumentationLine==%>--><%==SIM:Line==%>
+                <%==SIM:EndFor==%>
+              
+                <xs:attribute name="<%==SIM:Attribute.Name==%>" type="<%==SIM:Attribute.Type==%>" <%==SIM:If:Attribute.HasDefaultValue==%>default="<%==SIM:Attribute.DefaultValue==%>"<%==SIM:EndIf==%> <%==SIM:If:Attribute.HasTaggedValue(xsd:Use)==%>use="<%==SIM:Attribute.GetTaggedValue(xsd:Use)==%>"<%==SIM:EndIf==%> /><%==SIM:Line==%>
+              <%==SIM:EndIf==%>
+            <%==SIM:EndFor==%>
+            
+            <%==SIM:If:Element.HasSuperClass==%>
+              <%==SIM:EndBlock==%><%==SIM:Line==%>
+              </xs:extension><%==SIM:Line==%>
+            <%==SIM:EndIf==%>
+
+            <%==SIM:EndBlock==%><%==SIM:Line==%>
+        </xs:complexType><%==SIM:Line==%>
+      <%==SIM:EndIf==%>
+      
+    <%==SIM:EndIf==%>
+    <%==SIM:If:Element.OfType(enumeration)==%>   
+      <xs:simpleType name=""<%==SIM:Element.Name==%>">      
+          <%==SIM:StartBlock==%><%==SIM:Line==%>
+            <xsd:restriction base="xsd:string">
+              <%==SIM:StartBlock==%><%==SIM:Line==%>
+                <%==SIM:ForEach:Element.Attributes==%>
+                  <xsd:enumeration value="<%==SIM:Attribute.Name==%>" /><%==SIM:Line==%>
+                <%==SIM:EndFor==%>
+                <%==SIM:EndBlock==%><%==SIM:Line==%>
+              </xsd:restriction>
+            <%==SIM:EndBlock==%><%==SIM:Line==%>
+       </xsd:simpleType><%==SIM:Line==%>
+    <%==SIM:EndIf==%>
+      
+  <%==SIM:EndFor==%>
+
+  <%==SIM:EndBlock==%><%==SIM:Line==%>
+</xs:schema>

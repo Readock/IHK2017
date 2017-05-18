@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <%==SIM:ForEach:Element.DocumentationLines==%><!--<%==SIM:DocumentationLine==%>-->
+    <%==SIM:EndFor==%>    
+    <xs:complexType name="<%==SIM:Element.Name==%>">
+        <%==SIM:If:Element.HasSuperClass==%><xs:extension base="<%==SIM:Element.SuperClass.Name==%>"><%==SIM:EndIf==%>
+        <xs:sequence>            
+<%==SIM:ForEach:Element.AllAttributes==%>
+        <%==SIM:ForEach:Attribute.DocumentationLines==%><!--<%==SIM:DocumentationLine==%>-->
+        <%==SIM:EndFor==%><xs:element name="<%==SIM:Attribute.Name==%>" type="<%==SIM:Attribute.Type==%>" />
+<%==SIM:EndFor==%>
+        </xs:sequence>
+        <%==SIM:If:Element.HasSuperClass==%></xs:extension><%==SIM:EndIf==%>
+  </xs:complexType>
+<%==SIM:EndFor==%>
+</xs:schema>

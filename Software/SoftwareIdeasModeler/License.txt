@@ -1,0 +1,71 @@
+End User License Agreement for Software Ideas Modeler 10.x
+=========================================================
+
+Please read the following document carefully before using 
+Software Ideas Modeler (the "SOFTWARE"). If you disagree with any part 
+of the following text, you are not allowed to use this software and you 
+MUST delete it immediately.
+
+Terms and Conditions
+By downloading, installing, using, transmitting, distributing or copying 
+the software, you agree to the terms of this agreement (including the software 
+license and disclaimer of warranty) with Dušan Rodina the owner of all rights 
+in respect of this software.
+
+Except where otherwise noted, author and holder of the copyright of all 
+of the documentation and the software included in the Software Ideas Modeler 
+is Dušan Rodina. The licensor and as such issuer of the license and bearer 
+of the worldwide exclusive usage rights including the rights to reproduce,
+distribute and make the software available to the public in any form is 
+Dušan Rodina, Šancová 3/A, 811 04 Bratislava, Slovakia.
+
+Copyright (C) 2009-2017 Dušan Rodina. All rights reserved.
+
+There are three editions of the software: 
+-	Standard Edition 
+-	Professional Edition 
+-	Ultimate Edition
+
+The software is distributed as try before you buy. This means that anyone may
+use the software during a trial period of a maximum of 30 days at no charge.
+
+Standard Edition of the SOFTWARE is freeware for non-commercial use only. 
+ONLY NON-COMMERCIAL USERS (schools, non-profit organizations, individual 
+home users) may use the Standard edition of the SOFTWARE without charge also 
+after the trial period. 
+NON-COMMERCIAL USERS may use the Professional 
+and Ultimate edition of the SOFTWARE for free only during a trial period of 
+30 days. If the user wants to use the software after this trial period, 
+a license key must be purchased. The purchased license key specifies who is 
+allowed to use the SOFTWARE or how many users are allowed to use SOFTWARE 
+within an organization (institution, company or school), the license key 
+specifies also the edition(s) of the SOFTWARE, which can be used.
+
+COMMERCIAL USERS* may use any edition of the SOFTWARE for free only during 
+a trial period of 30 days. If the user wants to use the software after 
+this trial period, a license key must be purchased. The purchased license 
+key specifies who is allowed to use the SOFTWARE or how many users are 
+allowed to use SOFTWARE within an organization (institution, company 
+or school), the license key specifies also the edition(s) of the SOFTWARE, 
+which can be used.
+
+* Commercial use is considered any use in any phase of the project that has 
+financial profit or has financial profit as its goal. It is also any use 
+in corporate sector.
+
+You may not remove any proprietary notices, labels, trademarks on the Software 
+or documentation. You may not modify, de-compile, disassemble or reverse 
+engineer the Software.
+
+No warranties
+Software Ideas Modeler software is provided "as-is". No warranty of any kind 
+is expressed or implied. In no event shall the author be held liable for any 
+damages arising from the use of this SOFTWARE. You use the SOFTWARE at your 
+own risk. Neither the author, the licensor nor the agents of the licensor will
+be liable for data loss, damages, loss of profits or any other kind of loss 
+while using or misusing this software.
+
+
+Dušan Rodina
+http://www.softwareideas.net/
+softwareideas@softwareideas.net

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+  <Forms />
+  <Sides>
+    <Side Type="Right" IsMain="True" Size="300">
+      <Containers>
+        <Container>
+          <Bounds>4,34,295,572</Bounds>
+          <Places>
+            <Place>
+              <Bounds>0,0,293,286</Bounds>
+              <RelativeHeight>0.5</RelativeHeight>
+              <State>Normal</State>
+              <Panels>
+                <Panel ID="Project" Mode="Full" IsPinned="False" />
+              </Panels>
+            </Place>
+            <Place>
+              <Bounds>0,286,293,286</Bounds>
+              <RelativeHeight>0.5</RelativeHeight>
+              <State>Normal</State>
+              <Panels>
+                <Panel ID="Preview" Mode="Full" IsPinned="True" />
+              </Panels>
+            </Place>
+          </Places>
+        </Container>
+      </Containers>
+      <AutoHiddenPanels />
+    </Side>
+    <Side Type="Left" IsMain="False" Size="1">
+      <Containers />
+      <AutoHiddenPanels />
+    </Side>
+  </Sides>
+</Layout>

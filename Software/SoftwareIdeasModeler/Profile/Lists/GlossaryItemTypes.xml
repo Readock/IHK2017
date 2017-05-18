@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossaryItemTypes>
+  <type name="General" />
+  <type name="Requirements" />
+  <type name="Analysis" />
+  <type name="Design" />
+  <type name="Database" />
+  <type name="Implementation" />
+  <type name="Testing" />
+  <type name="Deployment" />
+</glossaryItemTypes>

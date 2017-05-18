@@ -1,0 +1,8 @@
+﻿<sim-style-set version="1.0" name="Blue Accent">
+  <default-style>
+    <style-definition shadow-type="flat" shadow-size="12,12" shadow-visible="true" shadow-color="#800080FF" shadow-radius="4" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FF0080FF" glow-radius="5" cap-size="1" name-color="#FF002B55" name-font="Tahoma;11.25;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;10;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF002B55" text-font="Tahoma;9.75;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF002B55" tagged-value-font="Tahoma;9.75;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF002B55" stereotype-font="Tahoma;9.75;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+      <background type="forward-diagonal" color="#FFFFFFFF" color2="#FF80BFFF" />
+      <border color="#FF006AD5" width="2" dash-style="solid" />
+    </style-definition>
+  </default-style>
+</sim-style-set>

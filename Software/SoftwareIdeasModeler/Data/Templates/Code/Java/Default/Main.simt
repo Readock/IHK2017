@@ -1,0 +1,44 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Default</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>Java</language>
+  </meta>
+  <files defaultName="{Name}.java">
+    <file name="Class.java" outputName="{Element.Name}.java" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" condition="without" />
+        <stereotype name="enum" condition="without" />
+        <stereotype name="enumeration" condition="without" />
+        <stereotype name="*" />
+      </stereotypes>
+      <types>
+        <type name="class" />
+      </types>
+    </file>
+    <file name="Enum.java" outputName="{Element.Name}.java" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="enum" />
+        <stereotype name="enumeration" />
+      </stereotypes>
+    </file>
+    <file name="Interface.java" outputName="{Element.Name}.java" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+    </file>
+  </files>
+</sim-template>

@@ -1,0 +1,19 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Default</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>VB6</language>
+  </meta>
+  <files defaultName="{Name}.cls">
+    <file name="Class.cls" outputName="{Element.Name}.cls" type="AbstractElement">
+        <settings>
+          <setting name="DefaultType" value="Object"></setting>
+          <setting name="NameAdjustment" value="CamelCase"></setting>
+        </settings>
+        <types>
+          <type name="class" />
+        </types>
+    </file>
+  </files>
+</sim-template>

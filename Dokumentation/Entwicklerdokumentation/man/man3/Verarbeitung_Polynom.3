@@ -1,0 +1,90 @@
+.TH "Verarbeitung.Polynom" 3 "Thu May 18 2017" "CarsharingSimulator" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Verarbeitung.Polynom \- Klasse welche ein \fBPolynom\fP Repraesentiert  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPolynom\fP (double[] vorfaktoren)"
+.br
+.RI "Konstruktor "
+.ti -1c
+.RI "virtual double \fBGet\fP (double x)"
+.br
+.RI "Ermittelt den Funktionswert des Polynoms zum Zeitpunkt X "
+.ti -1c
+.RI "virtual \fBPolynom\fP \fBGetIntegration\fP ()"
+.br
+.RI "Ermittelt die Integration des Polynoms "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "double [] \fBVorfaktoren\fP\fC [get, set]\fP"
+.br
+.RI "Vorfaktoren des Polynoms (z\&. B\&. {0,1,5} bedeutet x+5x^2) "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Klasse welche ein \fBPolynom\fP Repraesentiert 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Verarbeitung\&.Polynom\&.Polynom (double [] vorfaktoren)"
+
+.PP
+Konstruktor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvorfaktoren\fP Vorfaktoren des Polynoms
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual double Verarbeitung\&.Polynom\&.Get (double x)\fC [virtual]\fP"
+
+.PP
+Ermittelt den Funktionswert des Polynoms zum Zeitpunkt X 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP Zeitpunkt
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Funktionswert
+.RE
+.PP
+
+.SS "virtual \fBPolynom\fP Verarbeitung\&.Polynom\&.GetIntegration ()\fC [virtual]\fP"
+
+.PP
+Ermittelt die Integration des Polynoms 
+.PP
+\fBReturns:\fP
+.RS 4
+Integration
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "double [] Verarbeitung\&.Polynom\&.Vorfaktoren\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Vorfaktoren des Polynoms (z\&. B\&. {0,1,5} bedeutet x+5x^2) 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CarsharingSimulator from the source code\&.

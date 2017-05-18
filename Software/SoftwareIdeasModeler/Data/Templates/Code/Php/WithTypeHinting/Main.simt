@@ -1,0 +1,50 @@
+<sim-template version="1.0">
+  <meta>
+    <name>With Type Hinting</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>Php</language>
+  </meta>
+  <files defaultName="{Name}.php">
+    <file name="Class.php" outputName="{Element.Name}.php" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>        
+        <stereotype name="enum" condition="without" />
+        <stereotype name="enumeration" condition="without" />
+        <stereotype name="interface" condition="without" />
+        <stereotype name="*" />
+      </stereotypes>
+    </file>
+    <file name="Enum.php" outputName="{Element.Name}.php" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="enum" />
+        <stereotype name="enumeration" />
+      </stereotypes>
+    </file>
+    <file name="Interface.php" outputName="{Element.Name}.php" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="Object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+    </file>
+    <file name="Interface.php" outputName="{Element.Name}.php" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <types>
+        <type name="uml-interface" />
+      </types>
+    </file>
+  </files>
+</sim-template>

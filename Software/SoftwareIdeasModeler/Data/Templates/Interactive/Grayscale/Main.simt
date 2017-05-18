@@ -1,0 +1,54 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Grayscale</name>
+    <description></description>
+    <type>InteractiveDocumentation</type>
+    <language>CSharp</language>
+  </meta>
+  <files>
+    <file name="index.html" outputName="index.html" type="Project">
+      <settings>
+        <setting name="NameAdjustment" value="None"></setting>
+        <setting name="FileNameAdjustment" value="Hyphen"></setting>
+      </settings>
+    </file>
+    <file name="model.html" outputName="{Model.Name}_{Model.Uid}.html" type="Model">
+      <settings>        
+        <setting name="NameAdjustment" value="None"></setting>
+        <setting name="FileNameAdjustment" value="Hyphen"></setting>
+      </settings>      
+    </file>
+    <file name="diagram.html" outputName="{Diagram.Name}_{Diagram.Uid}.html" type="Diagram">
+      <settings>        
+        <setting name="NameAdjustment" value="None"></setting>
+        <setting name="FileNameAdjustment" value="Hyphen"></setting>
+      </settings>      
+    </file>
+    <file name="element.html" outputName="{Element.Name}_{Element.Uid}.html" type="Element">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="None"></setting>
+        <setting name="FileNameAdjustment" value="Hyphen"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="*" />
+      </stereotypes>
+      <types>
+        <type name="class" condition="without" />
+      </types>
+    </file>
+    <file name="class.html" outputName="{Element.Name}_{Element.Uid}.html" type="Element">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="None"></setting>
+        <setting name="FileNameAdjustment" value="Hyphen"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="*" />
+      </stereotypes>
+      <types>
+        <type name="class" />
+      </types>
+    </file>
+  </files>  
+</sim-template>

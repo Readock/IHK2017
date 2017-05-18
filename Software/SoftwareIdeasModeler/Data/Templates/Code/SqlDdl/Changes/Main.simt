@@ -1,0 +1,32 @@
+<sim-template version="1.0">
+  <meta>
+    <name>SQL DDL - Changes</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>MsSql</language>
+  </meta>
+  <files defaultName="{Name}.sql">
+    <file name="Table.sql" outputName="{Element.Name}.sql" type="AbstractElement">
+        <settings>
+          <setting name="DefaultType" value="Object"></setting>
+          <setting name="NameAdjustment" value="CamelCase"></setting>
+        </settings>
+        <types>
+          <type name="idef1x-entity" />
+          <type name="erd-entity" />
+          <type name="class" />
+        </types>
+    </file>
+    <file name="References.sql" outputName="{Element.Name}_ref.sql" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="Object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <types>
+        <type name="idef1x-entity" />
+        <type name="erd-entity" />
+        <type name="class" />
+      </types>
+    </file>
+  </files>
+</sim-template>

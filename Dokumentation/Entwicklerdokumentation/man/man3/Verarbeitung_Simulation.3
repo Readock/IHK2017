@@ -1,0 +1,118 @@
+.TH "Verarbeitung.Simulation" 3 "Thu May 18 2017" "CarsharingSimulator" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Verarbeitung.Simulation \- Klasse welche die \fBSimulation\fP ausfuert  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSimulation\fP (\fBEingabeDaten\fP daten, double genauigkeit)"
+.br
+.RI "Konstruktor "
+.ti -1c
+.RI "virtual int [,] \fBBerechneEndzustand\fP ()"
+.br
+.RI "Ermittelt den Endzustand der \fBSimulation\fP "
+.ti -1c
+.RI "virtual int [,] \fBBerechneMaxBedarf\fP ()"
+.br
+.RI "Ermittelt den Maximalen \fBBedarf\fP fuer alle Positionen "
+.ti -1c
+.RI "virtual \fBAusgabeDaten\fP \fBGeneriereAusgabe\fP ()"
+.br
+.RI "Generiert AusgabeDaten der \fBSimulation\fP "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual \fBEingabeDaten\fP \fBEingabeDaten\fP\fC [get]\fP"
+.br
+.RI "Eingabe Daten "
+.ti -1c
+.RI "virtual \fBBedarf\fP [,] \fBBedarf\fP\fC [get]\fP"
+.br
+.RI "Die Bedarfsfunktionen fuer alle Positionen "
+.ti -1c
+.RI "virtual double \fBGenauigkeit\fP\fC [get]\fP"
+.br
+.RI "Die Genauigkeit mit der simuliert wird "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Klasse welche die \fBSimulation\fP ausfuert 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Verarbeitung\&.Simulation\&.Simulation (\fBEingabeDaten\fP daten, double genauigkeit)"
+
+.PP
+Konstruktor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdaten\fP Daten
+.br
+\fIgenauigkeit\fP Genauigkeit
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual int [,] Verarbeitung\&.Simulation\&.BerechneEndzustand ()\fC [virtual]\fP"
+
+.PP
+Ermittelt den Endzustand der \fBSimulation\fP 
+.PP
+\fBReturns:\fP
+.RS 4
+Endzustand
+.RE
+.PP
+
+.SS "virtual int [,] Verarbeitung\&.Simulation\&.BerechneMaxBedarf ()\fC [virtual]\fP"
+
+.PP
+Ermittelt den Maximalen \fBBedarf\fP fuer alle Positionen 
+.PP
+\fBReturns:\fP
+.RS 4
+Maximaler \fBBedarf\fP
+.RE
+.PP
+
+.SS "virtual \fBAusgabeDaten\fP Verarbeitung\&.Simulation\&.GeneriereAusgabe ()\fC [virtual]\fP"
+
+.PP
+Generiert AusgabeDaten der \fBSimulation\fP 
+.PP
+\fBReturns:\fP
+.RS 4
+AusgabeDaten
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual \fBBedarf\fP [,] Verarbeitung\&.Simulation\&.Bedarf\fC [get]\fP"
+
+.PP
+Die Bedarfsfunktionen fuer alle Positionen 
+.SS "virtual \fBEingabeDaten\fP Verarbeitung\&.Simulation\&.EingabeDaten\fC [get]\fP"
+
+.PP
+Eingabe Daten 
+.SS "virtual double Verarbeitung\&.Simulation\&.Genauigkeit\fC [get]\fP"
+
+.PP
+Die Genauigkeit mit der simuliert wird 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CarsharingSimulator from the source code\&.

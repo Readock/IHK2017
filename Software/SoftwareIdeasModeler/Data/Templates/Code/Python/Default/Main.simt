@@ -1,0 +1,35 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Python</name>
+    <description></description>
+    <type>SourceCode</type>
+    <language>Python</language>
+  </meta>
+  <files defaultName="{Name}.py">
+    <file name="Class.py" outputName="{Element.Name}.py" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="interface" condition="without" />
+        <stereotype name="enum" condition="without" />
+        <stereotype name="enumeration" condition="without" />
+        <stereotype name="*" />
+      </stereotypes>
+      <types>
+        <type name="class" />
+      </types>
+    </file>
+    <file name="Enum.py" outputName="{Element.Name}.py" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="enum" />
+        <stereotype name="enumeration" />
+      </stereotypes>
+    </file>
+  </files>
+</sim-template>

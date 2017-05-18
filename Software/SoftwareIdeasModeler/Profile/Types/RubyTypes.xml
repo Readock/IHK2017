@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="Ruby" description="" version="1.0" prefix="Ruby" language="Ruby">
+  <type name="Array" description="" tid="array">
+  </type>
+  <type name="Hash" description="" tid="hashtable">
+  </type>
+  <type name="Integer" description="" tid="s-integer">
+  </type>  
+  <type name="Float" description="" tid="s-real">
+  </type>    
+  <type name="DateTime" description="" tid="datetime">
+  </type>
+  <type name="Object" description="" tid="object">
+  </type>
+  <type name="String" description="" tid="string">
+  </type>
+</types>

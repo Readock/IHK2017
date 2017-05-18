@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="UML" description="" version="1.0" prefix="Uml" language="Uml">
+  <type name="SmallInteger" description="" tid="s-integer16">
+  </type>
+  <type name="Integer" description="" tid="s-integer32">
+  </type>
+  <type name="BigInteger" description="" tid="s-integer64">
+  </type>
+  <type name="SmallReal" description=""  tid="s-real16">
+  </type>
+  <type name="Real" description=""  tid="s-real32">    
+  </type>
+  <type name="BigReal" description=""  tid="s-real64">
+  </type>
+  <type name="Char" description="" tid="char">
+  </type>
+  <type name="String" description="" tid="string">
+  </type>
+  <type name="Boolean" description="" tid="boolean">
+  </type>
+  <type name="DateTime" description="" tid="datetime">
+  </type>
+  <type name="Object" description="" tid="object">
+  </type>
+</types>
