@@ -31,7 +31,7 @@ for %%f IN (Input/*.in) DO (
 	echo Fehlermeldungen zu "%%f" >> ErrorLog.txt
 	C:\Users\Readock\Documents\Git\IHK2017\SourceCode\CarsharingSimulator\CarsharingSimulator\bin\Debug\CarsharingSimulator.exe Input/%%f Output/%%~nf.out 0.0001 >> ErrorLog.txt
 	echo. >> ErrorLog.txt
-	echo Programm wurde beendet um %time%
+	echo Programm wurde beendet
 	echo.
 )
 

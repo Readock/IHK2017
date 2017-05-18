@@ -1,7 +1,7 @@
 ================= 	
 ErrorLog			
 =================	
-18.05.2017 - 12:43:12,96 	
+18.05.2017 - 16:58:15,64 	
 					
 Fehlermeldungen zu "Fehlerfall-FalscheAnzahlPolynome.in" 
 ERROR: Es sind nicht genuegend Polynome angegeben worden (2 erwartet und 4 gegeben)
@@ -25,6 +25,8 @@ Fehlermeldungen zu "IHKBeispiel-2.in"
 Fehlermeldungen zu "Normalfall-VersetzteGeraden.in" 
  
 Fehlermeldungen zu "Sonderfall-Grenzen.in" 
+ 
+Fehlermeldungen zu "Sonderfall-GroáeStadt.in" 
  
 Fehlermeldungen zu "Sonderfall-IdentischePolynome.in" 
  
