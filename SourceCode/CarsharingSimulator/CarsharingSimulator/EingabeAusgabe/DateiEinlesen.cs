@@ -37,7 +37,7 @@ namespace EingabeAusgabe {
         /// </summary>
         /// <returns>Daten</returns>
         public virtual EingabeDaten Lesen() {
-            // Prüfen ob Dateipfad existiert (ggf. Exception)
+            // Pruefen ob Dateipfad existiert (ggf. Exception)
             if (!File.Exists(Dateipfad))
                 throw new IHKException($"Die Datei \"{Dateipfad}\" Existiert nicht");
             // Alle Zeilen Einlesen
@@ -64,7 +64,7 @@ namespace EingabeAusgabe {
             var data = new EingabeDaten(m) {
                 Kopfzeile = kommentarzeile,
             };
-            // Iteriere über übrige Zeilen
+            // Iteriere ueber uebrige Zeilen
             for (int i = 0; i < m * m; i++) {
                 // Polynome Erzeugen und speichern
                 data.NachfrageVerteilung[i / m,i % m] = GetPolynom(zeilen[i]);

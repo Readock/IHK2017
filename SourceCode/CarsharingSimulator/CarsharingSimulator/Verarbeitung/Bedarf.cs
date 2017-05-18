@@ -114,7 +114,7 @@ namespace Verarbeitung {
             double newA = fm < 0 ? m : a;
             double newB = fm >= 0 ? m : b;
             // Anzahl Iterationen - 1
-            // Rückgabe des Rekrusiven Aufrufs mit neuem a und b
+            // Rueckgabe des Rekrusiven Aufrufs mit neuem a und b
             return Bisektion(newA, newB, polynom, anzahlIterationen - 1);
         }
 
@@ -178,7 +178,7 @@ namespace Verarbeitung {
         /// <param name="x">Zeitpunkt</param>
         /// <returns>Funktionswert</returns>
         public virtual int Get(double x) {
-            // Iteriere über alle Aenderungs Daten wenn Zeitpunkt > x
+            // Iteriere ueber alle Aenderungs Daten wenn Zeitpunkt > x
             return Daten.Sum((item) => {
                 if (item.Zeitpunkt > x)
                     return 0;

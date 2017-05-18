@@ -29,7 +29,7 @@ namespace Program {
             // Pruefen ob die EingabeDatei Existiert (ggf. werfen einer Exception)
             if (!File.Exists(args[0]))
                 throw new IHKException($"Es konnte keine Eingabedatei gefunden werden ({args[0]})");
-            // Die Genauigkeitbestimmen (falls nicht übergeben wird der Standardwert 0.0001 genommen)
+            // Die Genauigkeitbestimmen (falls nicht uebergeben wird der Standardwert 0.0001 genommen)
             double genauigkeit = 0.0001;
             if (args.Count() == 3) {
                 if (!Regex.IsMatch(args[2], @"[0-9]*\.?[0-9]*"))

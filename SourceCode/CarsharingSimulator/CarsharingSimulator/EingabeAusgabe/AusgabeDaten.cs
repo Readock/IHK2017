@@ -10,7 +10,7 @@ namespace EingabeAusgabe {
     using Verarbeitung;
 
     /// <summary>
-    /// Klasse welche Informationen zur berrechneten Lösung der Simulation haelt
+    /// Klasse welche Informationen zur berrechneten Loesung der Simulation haelt
     /// </summary>
     public class AusgabeDaten {
         /// <summary>
@@ -60,10 +60,10 @@ namespace EingabeAusgabe {
         public virtual string GeneriereText() {
             // Entnehme ersten Kommentar aus den EingabeDaten
             var text = InputData.Kopfzeile + Environment.NewLine;
-            // Füge Simulationsverlauf in Textform hinzu
+            // Fuege Simulationsverlauf in Textform hinzu
             foreach (var item in Simulationsverlauf)
                 text += item + Environment.NewLine;
-            // Füge Endzustand und Maximalbedarf in Textform hinzu
+            // Fuege Endzustand und Maximalbedarf in Textform hinzu
             text += "Endzustand des Tages:" + Environment.NewLine;
             for (int i = 0; i < Endzustand.GetLength(1); i++) {
                 for (int j = 0; j < Endzustand.GetLength(0); j++) 
@@ -76,7 +76,7 @@ namespace EingabeAusgabe {
                     text += Maximalbedarf[i, j] + " ";                
                 text += Environment.NewLine;
             }
-            // Gebe den Text Zurück
+            // Gebe den Text Zurueck
             return text;
         }
     }

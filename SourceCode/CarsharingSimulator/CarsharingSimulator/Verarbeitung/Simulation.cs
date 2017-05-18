@@ -69,7 +69,7 @@ namespace Verarbeitung {
         /// <returns>Endzustand</returns>
         public virtual int[,] BerechneEndzustand() {
             var endzustand = new int[EingabeDaten.M, EingabeDaten.M];
-            // Ermittle für jedes Quadrat den Bedarf von 24
+            // Ermittle fuer jedes Quadrat den Bedarf von 24
             for (int y = 0; y < EingabeDaten.M; y++) {
                 for (int x = 0; x < EingabeDaten.M; x++) {
                     // Speichere alle Werte in einem Feld
@@ -85,7 +85,7 @@ namespace Verarbeitung {
         /// <returns>Maximaler Bedarf</returns>
         public virtual int[,] BerechneMaxBedarf() {
             var max = new int[EingabeDaten.M, EingabeDaten.M];
-            // Ermittle für jedes Quadrat den Maximalen Bedarf
+            // Ermittle fuer jedes Quadrat den Maximalen Bedarf
             for (int y = 0; y < EingabeDaten.M; y++) {
                 for (int x = 0; x < EingabeDaten.M; x++) {
                     // Speichere alle Werte in einem Feld
@@ -103,7 +103,7 @@ namespace Verarbeitung {
             var liste = new List<Aenderung>();
             // Iteriere ueber jeden Bedarf
             foreach (var item in Bedarf)
-                // Füge Daten des Bedarfs in Liste ein
+                // Fuege Daten des Bedarfs in Liste ein
                 liste.AddRange(item.Daten);
             // Sortiere Liste der Daten nach Zeitpunkt 
             // (mit beachtung von Nachfrage zuerst wenn zeit identisch)
@@ -120,9 +120,9 @@ namespace Verarbeitung {
             // Erzeuge neue Liste mit Strings aus der Liste mit Daten
             // und setze diese in Ausgabe Daten ein
             daten.Simulationsverlauf = liste.Select(a => a.ToString()).ToList();
-            // Berechne den Endzustand und füge ihn den AusgabeDaten hinzu
+            // Berechne den Endzustand und fuege ihn den AusgabeDaten hinzu
             daten.Endzustand = BerechneEndzustand();
-            // Berechne den Maximalbedarf und füge ihn den AusgabeDaten hinzu
+            // Berechne den Maximalbedarf und fuege ihn den AusgabeDaten hinzu
             daten.Maximalbedarf = BerechneMaxBedarf();
             // Gebe die Ausgabedaten zurueck
             return daten;
