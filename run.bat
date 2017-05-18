@@ -14,6 +14,10 @@ if %cnt% == 0 (
 	echo Es sind keine Eingabe Dateien im Verzeichnis "Input" ! 
 	echo Fuege bitte Eingabe Dateien hinzu und stelle sicher,
 	echo dass diese die Endung "*.in" Besitzen [zB. test.in]
+	echo.
+	echo [Alle in der Dokumentation behandelten Testfaelle befinden
+	echo sich im Verzeichnis Testfaelle und sollten zum Ausfuehren
+	echo in das Verzeichnis "Input" kopiert werden]
 	echo. 
 	goto abort
 )
